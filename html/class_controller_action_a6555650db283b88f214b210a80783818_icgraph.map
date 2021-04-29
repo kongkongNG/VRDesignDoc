@@ -1,0 +1,12 @@
+<map id="ControllerAction.OnControllerAtionStart" name="ControllerAction.OnControllerAtionStart">
+<area shape="rect" id="node1" title="功能开始的事件触发函数" alt="" coords="238,245,402,281"/>
+<area shape="rect" id="node2" href="$class_color_value_picker.html#a77dd6764d7d44a5183d6da9657223936" title=" " alt="" coords="25,5,169,41"/>
+<area shape="rect" id="node3" href="$class_create_by_controller.html#a7b54e19d9642f74c2c6bff60375e029e" title=" " alt="" coords="15,65,180,101"/>
+<area shape="rect" id="node4" href="$class_create_by_controller.html#aa23c5ace0daf9ea414a52a763ead388b" title=" " alt="" coords="15,125,180,161"/>
+<area shape="rect" id="node5" href="$class_create_by_controller.html#a5ccd62eb9c255d80715e79a17f76d9ee" title=" " alt="" coords="15,185,180,221"/>
+<area shape="rect" id="node6" href="$class_c_s_g_action.html#aed106894d2aea303afa18a91ec69f1a0" title=" " alt="" coords="20,245,175,281"/>
+<area shape="rect" id="node7" href="$class_c_s_g_action.html#ac26efaa8fcf28440cbc648e3943a7f13" title=" " alt="" coords="6,305,189,341"/>
+<area shape="rect" id="node8" href="$class_c_s_g_action.html#af3bd8171b2cc5f72487fb8639feeb4b6" title=" " alt="" coords="13,365,182,401"/>
+<area shape="rect" id="node9" href="$class_mesh_edit_action.html#aa6761f81869958909e49a9b1fc19f2cd" title=" " alt="" coords="19,425,175,461"/>
+<area shape="rect" id="node10" href="$class_select_texture.html#a7d7b163eac110101208b91d843958822" title=" " alt="" coords="10,485,185,521"/>
+</map>

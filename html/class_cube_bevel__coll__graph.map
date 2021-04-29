@@ -1,0 +1,6 @@
+<map id="CubeBevel" name="CubeBevel">
+<area shape="rect" id="node1" title=" " alt="" coords="54,365,204,747"/>
+<area shape="rect" id="node2" href="$class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,174,155,255"/>
+<area shape="rect" id="node3" title=" " alt="" coords="125,5,221,75"/>
+<area shape="rect" id="node4" href="$class_cube_edit_edge.html" title=" " alt="" coords="180,126,295,303"/>
+</map>

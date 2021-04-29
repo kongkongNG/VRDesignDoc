@@ -1,0 +1,1423 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>VR Sketch Design: SelectTexture类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">VR Sketch Design
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">VR Project</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.1 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public 类型</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="#pub-static-attribs">静态 Public 属性</a> &#124;
+<a href="#pro-attribs">Protected 属性</a> &#124;
+<a href="#pri-methods">Private 成员函数</a> &#124;
+<a href="#pri-static-methods">静态 Private 成员函数</a> &#124;
+<a href="#pri-attribs">Private 属性</a> &#124;
+<a href="#pri-static-attribs">静态 Private 属性</a> &#124;
+<a href="class_select_texture-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">SelectTexture类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="dynheader">
+类 SelectTexture 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_texture__inherit__graph.png" border="0" usemap="#a_select_texture_inherit__map" alt="Inheritance graph"/></div>
+<map name="a_select_texture_inherit__map" id="a_select_texture_inherit__map">
+<area shape="rect" title=" " alt="" coords="5,254,208,719"/>
+<area shape="rect" href="class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="31,123,181,205"/>
+<area shape="rect" title=" " alt="" coords="59,5,155,75"/>
+</map>
+</div>
+<div class="dynheader">
+SelectTexture 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_texture__coll__graph.png" border="0" usemap="#a_select_texture_coll__map" alt="Collaboration graph"/></div>
+<map name="a_select_texture_coll__map" id="a_select_texture_coll__map">
+<area shape="rect" title=" " alt="" coords="69,269,272,723"/>
+<area shape="rect" href="class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,126,155,207"/>
+<area shape="rect" title=" " alt="" coords="32,5,128,75"/>
+<area shape="rect" title=" " alt="" coords="179,132,223,201"/>
+</map>
+</div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public 类型</h2></td></tr>
+<tr class="memitem:a2c941b4a698a98d07d9dafd456a87783"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#a2c941b4a698a98d07d9dafd456a87783">TouchPadPosition</a> { <br />
+&#160;&#160;<a class="el" href="class_select_texture.html#a2c941b4a698a98d07d9dafd456a87783aa4ffdcf0dc1f31b9acaf295d75b51d00">Top</a>
+, <a class="el" href="class_select_texture.html#a2c941b4a698a98d07d9dafd456a87783a2ad9d63b69c4a10a5cc9cad923133bc4">Bottom</a>
+, <a class="el" href="class_select_texture.html#a2c941b4a698a98d07d9dafd456a87783a945d5e233cf7d6240f6b783b36a374ff">Left</a>
+, <a class="el" href="class_select_texture.html#a2c941b4a698a98d07d9dafd456a87783a92b09c7c48c520c3c55e497875da437c">Right</a>
+, <br />
+&#160;&#160;<a class="el" href="class_select_texture.html#a2c941b4a698a98d07d9dafd456a87783a6adf97f83acf6453d4a6a4b1070f3754">None</a>
+<br />
+ }</td></tr>
+<tr class="separator:a2c941b4a698a98d07d9dafd456a87783"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedae2b9c0b57872f5bdc6ae3a8be3fc3"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#aedae2b9c0b57872f5bdc6ae3a8be3fc3">SwipeDirection</a> { <br />
+&#160;&#160;<a class="el" href="class_select_texture.html#aedae2b9c0b57872f5bdc6ae3a8be3fc3a82f5e1d61bb17726d4796dff8f85b999">SwipeTop</a>
+, <a class="el" href="class_select_texture.html#aedae2b9c0b57872f5bdc6ae3a8be3fc3a7144736ecc1ffee3e393448e019051d7">SwipeBottom</a>
+, <a class="el" href="class_select_texture.html#aedae2b9c0b57872f5bdc6ae3a8be3fc3aed5cb225070ee5b5b99068c1bd3f2159">SwipeLeft</a>
+, <a class="el" href="class_select_texture.html#aedae2b9c0b57872f5bdc6ae3a8be3fc3a2b06e69852d9aff5d7fdbb2696de11a0">SwipeRight</a>
+, <br />
+&#160;&#160;<a class="el" href="class_select_texture.html#aedae2b9c0b57872f5bdc6ae3a8be3fc3a6adf97f83acf6453d4a6a4b1070f3754">None</a>
+<br />
+ }</td></tr>
+<tr class="separator:aedae2b9c0b57872f5bdc6ae3a8be3fc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a7d7b163eac110101208b91d843958822"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#a7d7b163eac110101208b91d843958822">OnSelectTextureButtonClick</a> ()</td></tr>
+<tr class="separator:a7d7b163eac110101208b91d843958822"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:a7019ef9a67a0e4ab1161fa2782557427"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#a7019ef9a67a0e4ab1161fa2782557427">ChangeTexture</a> (GameObject texSelected)</td></tr>
+<tr class="separator:a7019ef9a67a0e4ab1161fa2782557427"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:a6c91be1ee86ef79e59fff9a227812c4b"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#a6c91be1ee86ef79e59fff9a227812c4b">panel</a></td></tr>
+<tr class="separator:a6c91be1ee86ef79e59fff9a227812c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf02d0e743d2145a63f3a560e35b1c8c"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#adf02d0e743d2145a63f3a560e35b1c8c">subUIMenu</a></td></tr>
+<tr class="separator:adf02d0e743d2145a63f3a560e35b1c8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+静态 Public 属性</h2></td></tr>
+<tr class="memitem:a542053b80af21f4f5f96d9cfd81dbd65"><td class="memItemLeft" align="right" valign="top">static Image&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#a542053b80af21f4f5f96d9cfd81dbd65">selectSquare</a></td></tr>
+<tr class="separator:a542053b80af21f4f5f96d9cfd81dbd65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44e68a3399ce8d29dd7aedb53b52ce2b"><td class="memItemLeft" align="right" valign="top">static GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#a44e68a3399ce8d29dd7aedb53b52ce2b">selectedObj</a></td></tr>
+<tr class="separator:a44e68a3399ce8d29dd7aedb53b52ce2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
+Protected 属性</h2></td></tr>
+<tr class="memitem:a4082072cb30d84249021158d2f04f835"><td class="memItemLeft" align="right" valign="top">readonly Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#a4082072cb30d84249021158d2f04f835">touchpadXaxis</a> = new Vector2(1, 0)</td></tr>
+<tr class="separator:a4082072cb30d84249021158d2f04f835"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a575b961d147d579e1e813b9538fba807"><td class="memItemLeft" align="right" valign="top">readonly Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#a575b961d147d579e1e813b9538fba807">touchpadYaxis</a> = new Vector2(0, 1)</td></tr>
+<tr class="separator:a575b961d147d579e1e813b9538fba807"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private 成员函数</h2></td></tr>
+<tr class="memitem:af0d60178eccd1d3697deecdce2a03f95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#af0d60178eccd1d3697deecdce2a03f95">Start</a> ()</td></tr>
+<tr class="separator:af0d60178eccd1d3697deecdce2a03f95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a85f8da8313ee06936c3af53de350ea"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#a4a85f8da8313ee06936c3af53de350ea">OnEnable</a> ()</td></tr>
+<tr class="separator:a4a85f8da8313ee06936c3af53de350ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1804815a1ab409c3ad3f445cca11a42"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#ac1804815a1ab409c3ad3f445cca11a42">OnDisable</a> ()</td></tr>
+<tr class="separator:ac1804815a1ab409c3ad3f445cca11a42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5c375e40d590a4716525972cb52537e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#ac5c375e40d590a4716525972cb52537e">DoTouchpadPressed</a> (object sender, ControllerInteractionEventArgs e)</td></tr>
+<tr class="separator:ac5c375e40d590a4716525972cb52537e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0817d7ce409655a2ca3a30de25b6d98d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_select_texture.html#a2c941b4a698a98d07d9dafd456a87783">TouchPadPosition</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#a0817d7ce409655a2ca3a30de25b6d98d">CalcTouchPosition</a> (float angle)</td></tr>
+<tr class="separator:a0817d7ce409655a2ca3a30de25b6d98d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf9efbecf0fb2646c8a08b5e908c5d84"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#abf9efbecf0fb2646c8a08b5e908c5d84">ChangeGridPage</a> (int newPageIdx)</td></tr>
+<tr class="separator:abf9efbecf0fb2646c8a08b5e908c5d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3ff5d59fe6accfd8adb968421ea79f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#aa3ff5d59fe6accfd8adb968421ea79f2">DoTouchpadTouched</a> (object sender, ControllerInteractionEventArgs e)</td></tr>
+<tr class="separator:aa3ff5d59fe6accfd8adb968421ea79f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe0f49616dd05d37ae78eaefdb2f3ecb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#abe0f49616dd05d37ae78eaefdb2f3ecb">DoTouchpadUntouched</a> (object sender, ControllerInteractionEventArgs e)</td></tr>
+<tr class="separator:abe0f49616dd05d37ae78eaefdb2f3ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a398b06f40750532706628d8045f3b651"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#a398b06f40750532706628d8045f3b651">DoTouchpadAxisChange</a> (object sender, ControllerInteractionEventArgs e)</td></tr>
+<tr class="separator:a398b06f40750532706628d8045f3b651"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f924fbf6808c48845cf461867620e4b"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#a7f924fbf6808c48845cf461867620e4b">CalcNewImageIndex</a> (<a class="el" href="class_select_texture.html#aedae2b9c0b57872f5bdc6ae3a8be3fc3">SwipeDirection</a> swipeDir)</td></tr>
+<tr class="separator:a7f924fbf6808c48845cf461867620e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73db1358103d4708bbf79aac27b41b89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_select_texture.html#aedae2b9c0b57872f5bdc6ae3a8be3fc3">SwipeDirection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#a73db1358103d4708bbf79aac27b41b89">CalculateSwipeAction</a> ()</td></tr>
+<tr class="separator:a73db1358103d4708bbf79aac27b41b89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a155c149e32fcc8180900b6dba5b04855"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#a155c149e32fcc8180900b6dba5b04855">DoTriggerClicked</a> (object sender, ControllerInteractionEventArgs e)</td></tr>
+<tr class="separator:a155c149e32fcc8180900b6dba5b04855"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-methods"></a>
+静态 Private 成员函数</h2></td></tr>
+<tr class="memitem:a477957a51f31d576ea16f9d128c3f18b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#a477957a51f31d576ea16f9d128c3f18b">ChangeImageIdxAndSelectSquare</a> (int newImageIdx)</td></tr>
+<tr class="separator:a477957a51f31d576ea16f9d128c3f18b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private 属性</h2></td></tr>
+<tr class="memitem:af5880724f375e6bd1d02292333fc6918"><td class="memItemLeft" align="right" valign="top">Text&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#af5880724f375e6bd1d02292333fc6918">pageNumText</a></td></tr>
+<tr class="separator:af5880724f375e6bd1d02292333fc6918"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca83709a8de0037a0436e01b4cff4f89"><td class="memItemLeft" align="right" valign="top">GameObject[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#aca83709a8de0037a0436e01b4cff4f89">gridPages</a></td></tr>
+<tr class="separator:aca83709a8de0037a0436e01b4cff4f89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ca226bd664fc9cc10e3a71f62fc0a0f"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#a1ca226bd664fc9cc10e3a71f62fc0a0f">touchStartPosition</a></td></tr>
+<tr class="separator:a1ca226bd664fc9cc10e3a71f62fc0a0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1636e32a7ebbd80e329d2ff08f7e7227"><td class="memItemLeft" align="right" valign="top">Vector2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#a1636e32a7ebbd80e329d2ff08f7e7227">touchEndPosition</a></td></tr>
+<tr class="separator:a1636e32a7ebbd80e329d2ff08f7e7227"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8ee290bddeadba640bfcb0cd81b59d7"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#ac8ee290bddeadba640bfcb0cd81b59d7">touchStartTime</a></td></tr>
+<tr class="separator:ac8ee290bddeadba640bfcb0cd81b59d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+静态 Private 属性</h2></td></tr>
+<tr class="memitem:a99195a2cad889387e131623ea2a06dca"><td class="memItemLeft" align="right" valign="top">static object[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#a99195a2cad889387e131623ea2a06dca">textures</a></td></tr>
+<tr class="separator:a99195a2cad889387e131623ea2a06dca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5190b030c39cab2bc68c3faf65616e7"><td class="memItemLeft" align="right" valign="top">static Image[][]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#ac5190b030c39cab2bc68c3faf65616e7">texImages</a></td></tr>
+<tr class="separator:ac5190b030c39cab2bc68c3faf65616e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b81b1e4a95609c9fd8db929de114978"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#a5b81b1e4a95609c9fd8db929de114978">curPageIdx</a></td></tr>
+<tr class="separator:a5b81b1e4a95609c9fd8db929de114978"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35da4f8c392ce990ad393b811331eb20"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#a35da4f8c392ce990ad393b811331eb20">curImageIdx</a></td></tr>
+<tr class="separator:a35da4f8c392ce990ad393b811331eb20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff737d9614072e92e748828d00cf94cb"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#aff737d9614072e92e748828d00cf94cb">ImageNumPerGridPage</a> = 6</td></tr>
+<tr class="separator:aff737d9614072e92e748828d00cf94cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8172a16a834212c87dbcc562a4402990"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#a8172a16a834212c87dbcc562a4402990">ImageNumPerRow</a> = 3</td></tr>
+<tr class="separator:a8172a16a834212c87dbcc562a4402990"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad64b300ff9cada842ec15ab3d69257ca"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#ad64b300ff9cada842ec15ab3d69257ca">AngleTolerance</a> = 30f</td></tr>
+<tr class="separator:ad64b300ff9cada842ec15ab3d69257ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aafe3be19c39a2daeb7b87ba0247a189b"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#aafe3be19c39a2daeb7b87ba0247a189b">SwipeMinDist</a> = 0.2f</td></tr>
+<tr class="separator:aafe3be19c39a2daeb7b87ba0247a189b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a942d2dff247bb531a018f3e7b7a247e6"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_texture.html#a942d2dff247bb531a018f3e7b7a247e6">SwipeMinDeltaTime</a> = 0.14f</td></tr>
+<tr class="separator:a942d2dff247bb531a018f3e7b7a247e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+额外继承的成员函数</h2></td></tr>
+<tr class="inherit_header pro_methods_class_controller_action"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_controller_action')"><img src="closed.png" alt="-"/>&#160;Protected 成员函数 继承自 <a class="el" href="class_controller_action.html">ControllerAction</a></td></tr>
+<tr class="memitem:a6555650db283b88f214b210a80783818 inherit pro_methods_class_controller_action"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#a6555650db283b88f214b210a80783818">OnControllerAtionStart</a> (EventArgs e)</td></tr>
+<tr class="memdesc:a6555650db283b88f214b210a80783818 inherit pro_methods_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">功能开始的事件触发函数  <a href="class_controller_action.html#a6555650db283b88f214b210a80783818">更多...</a><br /></td></tr>
+<tr class="separator:a6555650db283b88f214b210a80783818 inherit pro_methods_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb0c2fdfd641ce634839e6ce52deddea inherit pro_methods_class_controller_action"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">OnControllerActionEnd</a> (EventArgs e)</td></tr>
+<tr class="memdesc:acb0c2fdfd641ce634839e6ce52deddea inherit pro_methods_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">功能结束的事件触发函数  <a href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">更多...</a><br /></td></tr>
+<tr class="separator:acb0c2fdfd641ce634839e6ce52deddea inherit pro_methods_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header events_class_controller_action"><td colspan="2" onclick="javascript:toggleInherit('events_class_controller_action')"><img src="closed.png" alt="-"/>&#160;事件 继承自 <a class="el" href="class_controller_action.html">ControllerAction</a></td></tr>
+<tr class="memitem:ae44944045c9edca97a20c1b80869e37b inherit events_class_controller_action"><td class="memItemLeft" align="right" valign="top">EventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#ae44944045c9edca97a20c1b80869e37b">ControllerActionStart</a></td></tr>
+<tr class="memdesc:ae44944045c9edca97a20c1b80869e37b inherit events_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">功能启动事件  <a href="class_controller_action.html#ae44944045c9edca97a20c1b80869e37b">更多...</a><br /></td></tr>
+<tr class="separator:ae44944045c9edca97a20c1b80869e37b inherit events_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a335e9ec9715ce53dd2be91e02c3d8ec0 inherit events_class_controller_action"><td class="memItemLeft" align="right" valign="top">EventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#a335e9ec9715ce53dd2be91e02c3d8ec0">ControllerActionEnd</a></td></tr>
+<tr class="memdesc:a335e9ec9715ce53dd2be91e02c3d8ec0 inherit events_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">功能关闭事件  <a href="class_controller_action.html#a335e9ec9715ce53dd2be91e02c3d8ec0">更多...</a><br /></td></tr>
+<tr class="separator:a335e9ec9715ce53dd2be91e02c3d8ec0 inherit events_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock">
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00008">8</a> 行定义.</p>
+</div><h2 class="groupheader">成员枚举类型说明</h2>
+<a id="aedae2b9c0b57872f5bdc6ae3a8be3fc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedae2b9c0b57872f5bdc6ae3a8be3fc3">&#9670;&nbsp;</a></span>SwipeDirection</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_select_texture.html#aedae2b9c0b57872f5bdc6ae3a8be3fc3">SelectTexture.SwipeDirection</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="aedae2b9c0b57872f5bdc6ae3a8be3fc3a82f5e1d61bb17726d4796dff8f85b999"></a>SwipeTop&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aedae2b9c0b57872f5bdc6ae3a8be3fc3a7144736ecc1ffee3e393448e019051d7"></a>SwipeBottom&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aedae2b9c0b57872f5bdc6ae3a8be3fc3aed5cb225070ee5b5b99068c1bd3f2159"></a>SwipeLeft&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aedae2b9c0b57872f5bdc6ae3a8be3fc3a2b06e69852d9aff5d7fdbb2696de11a0"></a>SwipeRight&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="aedae2b9c0b57872f5bdc6ae3a8be3fc3a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00041">41</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a2c941b4a698a98d07d9dafd456a87783"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c941b4a698a98d07d9dafd456a87783">&#9670;&nbsp;</a></span>TouchPadPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="class_select_texture.html#a2c941b4a698a98d07d9dafd456a87783">SelectTexture.TouchPadPosition</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="a2c941b4a698a98d07d9dafd456a87783aa4ffdcf0dc1f31b9acaf295d75b51d00"></a>Top&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2c941b4a698a98d07d9dafd456a87783a2ad9d63b69c4a10a5cc9cad923133bc4"></a>Bottom&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2c941b4a698a98d07d9dafd456a87783a945d5e233cf7d6240f6b783b36a374ff"></a>Left&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2c941b4a698a98d07d9dafd456a87783a92b09c7c48c520c3c55e497875da437c"></a>Right&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a2c941b4a698a98d07d9dafd456a87783a6adf97f83acf6453d4a6a4b1070f3754"></a>None&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00036">36</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="a7f924fbf6808c48845cf461867620e4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f924fbf6808c48845cf461867620e4b">&#9670;&nbsp;</a></span>CalcNewImageIndex()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SelectTexture.CalcNewImageIndex </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="class_select_texture.html#aedae2b9c0b57872f5bdc6ae3a8be3fc3">SwipeDirection</a>&#160;</td>
+          <td class="paramname"><em>swipeDir</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00231">231</a> 行定义.</p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_texture_a7f924fbf6808c48845cf461867620e4b_icgraph.png" border="0" usemap="#aclass_select_texture_a7f924fbf6808c48845cf461867620e4b_icgraph" alt=""/></div>
+<map name="aclass_select_texture_a7f924fbf6808c48845cf461867620e4b_icgraph" id="aclass_select_texture_a7f924fbf6808c48845cf461867620e4b_icgraph">
+<area shape="rect" title=" " alt="" coords="398,23,562,59"/>
+<area shape="rect" href="class_select_texture.html#abe0f49616dd05d37ae78eaefdb2f3ecb" title=" " alt="" coords="195,23,349,59"/>
+<area shape="rect" href="class_select_texture.html#ac1804815a1ab409c3ad3f445cca11a42" title=" " alt="" coords="5,5,147,29"/>
+<area shape="rect" href="class_select_texture.html#a4a85f8da8313ee06936c3af53de350ea" title=" " alt="" coords="7,53,145,77"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a0817d7ce409655a2ca3a30de25b6d98d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0817d7ce409655a2ca3a30de25b6d98d">&#9670;&nbsp;</a></span>CalcTouchPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_select_texture.html#a2c941b4a698a98d07d9dafd456a87783">TouchPadPosition</a> SelectTexture.CalcTouchPosition </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>angle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00166">166</a> 行定义.</p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_texture_a0817d7ce409655a2ca3a30de25b6d98d_icgraph.png" border="0" usemap="#aclass_select_texture_a0817d7ce409655a2ca3a30de25b6d98d_icgraph" alt=""/></div>
+<map name="aclass_select_texture_a0817d7ce409655a2ca3a30de25b6d98d_icgraph" id="aclass_select_texture_a0817d7ce409655a2ca3a30de25b6d98d_icgraph">
+<area shape="rect" title=" " alt="" coords="397,29,576,53"/>
+<area shape="rect" href="class_select_texture.html#ac5c375e40d590a4716525972cb52537e" title=" " alt="" coords="195,23,349,59"/>
+<area shape="rect" href="class_select_texture.html#ac1804815a1ab409c3ad3f445cca11a42" title=" " alt="" coords="5,5,147,29"/>
+<area shape="rect" href="class_select_texture.html#a4a85f8da8313ee06936c3af53de350ea" title=" " alt="" coords="7,53,145,77"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a73db1358103d4708bbf79aac27b41b89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73db1358103d4708bbf79aac27b41b89">&#9670;&nbsp;</a></span>CalculateSwipeAction()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_select_texture.html#aedae2b9c0b57872f5bdc6ae3a8be3fc3">SwipeDirection</a> SelectTexture.CalculateSwipeAction </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00254">254</a> 行定义.</p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_texture_a73db1358103d4708bbf79aac27b41b89_icgraph.png" border="0" usemap="#aclass_select_texture_a73db1358103d4708bbf79aac27b41b89_icgraph" alt=""/></div>
+<map name="aclass_select_texture_a73db1358103d4708bbf79aac27b41b89_icgraph" id="aclass_select_texture_a73db1358103d4708bbf79aac27b41b89_icgraph">
+<area shape="rect" title=" " alt="" coords="397,23,563,59"/>
+<area shape="rect" href="class_select_texture.html#abe0f49616dd05d37ae78eaefdb2f3ecb" title=" " alt="" coords="195,23,349,59"/>
+<area shape="rect" href="class_select_texture.html#ac1804815a1ab409c3ad3f445cca11a42" title=" " alt="" coords="5,5,147,29"/>
+<area shape="rect" href="class_select_texture.html#a4a85f8da8313ee06936c3af53de350ea" title=" " alt="" coords="7,53,145,77"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="abf9efbecf0fb2646c8a08b5e908c5d84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf9efbecf0fb2646c8a08b5e908c5d84">&#9670;&nbsp;</a></span>ChangeGridPage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SelectTexture.ChangeGridPage </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>newPageIdx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00178">178</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_texture_abf9efbecf0fb2646c8a08b5e908c5d84_cgraph.png" border="0" usemap="#aclass_select_texture_abf9efbecf0fb2646c8a08b5e908c5d84_cgraph" alt=""/></div>
+<map name="aclass_select_texture_abf9efbecf0fb2646c8a08b5e908c5d84_cgraph" id="aclass_select_texture_abf9efbecf0fb2646c8a08b5e908c5d84_cgraph">
+<area shape="rect" title=" " alt="" coords="5,11,179,35"/>
+<area shape="rect" href="class_select_texture.html#a477957a51f31d576ea16f9d128c3f18b" title=" " alt="" coords="227,5,387,41"/>
+</map>
+</div>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_texture_abf9efbecf0fb2646c8a08b5e908c5d84_icgraph.png" border="0" usemap="#aclass_select_texture_abf9efbecf0fb2646c8a08b5e908c5d84_icgraph" alt=""/></div>
+<map name="aclass_select_texture_abf9efbecf0fb2646c8a08b5e908c5d84_icgraph" id="aclass_select_texture_abf9efbecf0fb2646c8a08b5e908c5d84_icgraph">
+<area shape="rect" title=" " alt="" coords="397,29,571,53"/>
+<area shape="rect" href="class_select_texture.html#ac5c375e40d590a4716525972cb52537e" title=" " alt="" coords="195,23,349,59"/>
+<area shape="rect" href="class_select_texture.html#ac1804815a1ab409c3ad3f445cca11a42" title=" " alt="" coords="5,5,147,29"/>
+<area shape="rect" href="class_select_texture.html#a4a85f8da8313ee06936c3af53de350ea" title=" " alt="" coords="7,53,145,77"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a477957a51f31d576ea16f9d128c3f18b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a477957a51f31d576ea16f9d128c3f18b">&#9670;&nbsp;</a></span>ChangeImageIdxAndSelectSquare()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void SelectTexture.ChangeImageIdxAndSelectSquare </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>newImageIdx</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00221">221</a> 行定义.</p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_texture_a477957a51f31d576ea16f9d128c3f18b_icgraph.png" border="0" usemap="#aclass_select_texture_a477957a51f31d576ea16f9d128c3f18b_icgraph" alt=""/></div>
+<map name="aclass_select_texture_a477957a51f31d576ea16f9d128c3f18b_icgraph" id="aclass_select_texture_a477957a51f31d576ea16f9d128c3f18b_icgraph">
+<area shape="rect" title=" " alt="" coords="667,65,827,101"/>
+<area shape="rect" href="class_select_texture.html#abf9efbecf0fb2646c8a08b5e908c5d84" title=" " alt="" coords="445,71,619,95"/>
+<area shape="rect" href="class_select_texture.html#a7019ef9a67a0e4ab1161fa2782557427" title=" " alt="" coords="448,124,616,148"/>
+<area shape="rect" href="class_select_texture.html#abe0f49616dd05d37ae78eaefdb2f3ecb" title=" " alt="" coords="233,5,386,41"/>
+<area shape="rect" href="class_select_texture.html#ac5c375e40d590a4716525972cb52537e" title=" " alt="" coords="233,65,386,101"/>
+<area shape="rect" href="class_select_texture.html#ac1804815a1ab409c3ad3f445cca11a42" title=" " alt="" coords="19,16,160,40"/>
+<area shape="rect" href="class_select_texture.html#a4a85f8da8313ee06936c3af53de350ea" title=" " alt="" coords="20,67,159,91"/>
+<area shape="rect" href="class_select_texture_right.html#ae2a1e8f428dec79756a299c11b17fd82" title=" " alt="" coords="221,125,397,161"/>
+<area shape="rect" href="class_select_texture_right.html#a30fec0febedf2daa3b7e69ea5b6a3b2e" title=" " alt="" coords="6,124,173,148"/>
+<area shape="rect" href="class_select_texture_right.html#a18b1e89d967c71e21c50d51e2c3be083" title=" " alt="" coords="7,172,171,196"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7019ef9a67a0e4ab1161fa2782557427"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7019ef9a67a0e4ab1161fa2782557427">&#9670;&nbsp;</a></span>ChangeTexture()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static void SelectTexture.ChangeTexture </td>
+          <td>(</td>
+          <td class="paramtype">GameObject&#160;</td>
+          <td class="paramname"><em>texSelected</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00323">323</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_texture_a7019ef9a67a0e4ab1161fa2782557427_cgraph.png" border="0" usemap="#aclass_select_texture_a7019ef9a67a0e4ab1161fa2782557427_cgraph" alt=""/></div>
+<map name="aclass_select_texture_a7019ef9a67a0e4ab1161fa2782557427_cgraph" id="aclass_select_texture_a7019ef9a67a0e4ab1161fa2782557427_cgraph">
+<area shape="rect" title=" " alt="" coords="5,11,173,35"/>
+<area shape="rect" href="class_select_texture.html#a477957a51f31d576ea16f9d128c3f18b" title=" " alt="" coords="221,5,381,41"/>
+</map>
+</div>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_texture_a7019ef9a67a0e4ab1161fa2782557427_icgraph.png" border="0" usemap="#aclass_select_texture_a7019ef9a67a0e4ab1161fa2782557427_icgraph" alt=""/></div>
+<map name="aclass_select_texture_a7019ef9a67a0e4ab1161fa2782557427_icgraph" id="aclass_select_texture_a7019ef9a67a0e4ab1161fa2782557427_icgraph">
+<area shape="rect" title=" " alt="" coords="445,29,613,53"/>
+<area shape="rect" href="class_select_texture_right.html#ae2a1e8f428dec79756a299c11b17fd82" title=" " alt="" coords="221,23,397,59"/>
+<area shape="rect" href="class_select_texture_right.html#a30fec0febedf2daa3b7e69ea5b6a3b2e" title=" " alt="" coords="6,5,173,29"/>
+<area shape="rect" href="class_select_texture_right.html#a18b1e89d967c71e21c50d51e2c3be083" title=" " alt="" coords="7,53,171,77"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a398b06f40750532706628d8045f3b651"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a398b06f40750532706628d8045f3b651">&#9670;&nbsp;</a></span>DoTouchpadAxisChange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SelectTexture.DoTouchpadAxisChange </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>sender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ControllerInteractionEventArgs&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00216">216</a> 行定义.</p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_texture_a398b06f40750532706628d8045f3b651_icgraph.png" border="0" usemap="#aclass_select_texture_a398b06f40750532706628d8045f3b651_icgraph" alt=""/></div>
+<map name="aclass_select_texture_a398b06f40750532706628d8045f3b651_icgraph" id="aclass_select_texture_a398b06f40750532706628d8045f3b651_icgraph">
+<area shape="rect" title=" " alt="" coords="195,23,349,59"/>
+<area shape="rect" href="class_select_texture.html#ac1804815a1ab409c3ad3f445cca11a42" title=" " alt="" coords="5,5,147,29"/>
+<area shape="rect" href="class_select_texture.html#a4a85f8da8313ee06936c3af53de350ea" title=" " alt="" coords="7,53,145,77"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac5c375e40d590a4716525972cb52537e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5c375e40d590a4716525972cb52537e">&#9670;&nbsp;</a></span>DoTouchpadPressed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SelectTexture.DoTouchpadPressed </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>sender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ControllerInteractionEventArgs&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00142">142</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_texture_ac5c375e40d590a4716525972cb52537e_cgraph.png" border="0" usemap="#aclass_select_texture_ac5c375e40d590a4716525972cb52537e_cgraph" alt=""/></div>
+<map name="aclass_select_texture_ac5c375e40d590a4716525972cb52537e_cgraph" id="aclass_select_texture_ac5c375e40d590a4716525972cb52537e_cgraph">
+<area shape="rect" title=" " alt="" coords="6,23,159,59"/>
+<area shape="rect" href="class_select_texture.html#a0817d7ce409655a2ca3a30de25b6d98d" title=" " alt="" coords="208,5,387,29"/>
+<area shape="rect" href="class_select_texture.html#abf9efbecf0fb2646c8a08b5e908c5d84" title=" " alt="" coords="211,53,384,77"/>
+<area shape="rect" href="class_select_texture.html#a477957a51f31d576ea16f9d128c3f18b" title=" " alt="" coords="435,47,595,83"/>
+</map>
+</div>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_texture_ac5c375e40d590a4716525972cb52537e_icgraph.png" border="0" usemap="#aclass_select_texture_ac5c375e40d590a4716525972cb52537e_icgraph" alt=""/></div>
+<map name="aclass_select_texture_ac5c375e40d590a4716525972cb52537e_icgraph" id="aclass_select_texture_ac5c375e40d590a4716525972cb52537e_icgraph">
+<area shape="rect" title=" " alt="" coords="195,23,349,59"/>
+<area shape="rect" href="class_select_texture.html#ac1804815a1ab409c3ad3f445cca11a42" title=" " alt="" coords="5,5,147,29"/>
+<area shape="rect" href="class_select_texture.html#a4a85f8da8313ee06936c3af53de350ea" title=" " alt="" coords="7,53,145,77"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aa3ff5d59fe6accfd8adb968421ea79f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3ff5d59fe6accfd8adb968421ea79f2">&#9670;&nbsp;</a></span>DoTouchpadTouched()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SelectTexture.DoTouchpadTouched </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>sender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ControllerInteractionEventArgs&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00198">198</a> 行定义.</p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_texture_aa3ff5d59fe6accfd8adb968421ea79f2_icgraph.png" border="0" usemap="#aclass_select_texture_aa3ff5d59fe6accfd8adb968421ea79f2_icgraph" alt=""/></div>
+<map name="aclass_select_texture_aa3ff5d59fe6accfd8adb968421ea79f2_icgraph" id="aclass_select_texture_aa3ff5d59fe6accfd8adb968421ea79f2_icgraph">
+<area shape="rect" title=" " alt="" coords="195,23,349,59"/>
+<area shape="rect" href="class_select_texture.html#ac1804815a1ab409c3ad3f445cca11a42" title=" " alt="" coords="5,5,147,29"/>
+<area shape="rect" href="class_select_texture.html#a4a85f8da8313ee06936c3af53de350ea" title=" " alt="" coords="7,53,145,77"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="abe0f49616dd05d37ae78eaefdb2f3ecb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe0f49616dd05d37ae78eaefdb2f3ecb">&#9670;&nbsp;</a></span>DoTouchpadUntouched()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SelectTexture.DoTouchpadUntouched </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>sender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ControllerInteractionEventArgs&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00204">204</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_texture_abe0f49616dd05d37ae78eaefdb2f3ecb_cgraph.png" border="0" usemap="#aclass_select_texture_abe0f49616dd05d37ae78eaefdb2f3ecb_cgraph" alt=""/></div>
+<map name="aclass_select_texture_abe0f49616dd05d37ae78eaefdb2f3ecb_cgraph" id="aclass_select_texture_abe0f49616dd05d37ae78eaefdb2f3ecb_cgraph">
+<area shape="rect" title=" " alt="" coords="6,65,159,101"/>
+<area shape="rect" href="class_select_texture.html#a7f924fbf6808c48845cf461867620e4b" title=" " alt="" coords="209,5,373,41"/>
+<area shape="rect" href="class_select_texture.html#a73db1358103d4708bbf79aac27b41b89" title=" " alt="" coords="208,65,373,101"/>
+<area shape="rect" href="class_select_texture.html#a477957a51f31d576ea16f9d128c3f18b" title=" " alt="" coords="211,125,371,161"/>
+</map>
+</div>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_texture_abe0f49616dd05d37ae78eaefdb2f3ecb_icgraph.png" border="0" usemap="#aclass_select_texture_abe0f49616dd05d37ae78eaefdb2f3ecb_icgraph" alt=""/></div>
+<map name="aclass_select_texture_abe0f49616dd05d37ae78eaefdb2f3ecb_icgraph" id="aclass_select_texture_abe0f49616dd05d37ae78eaefdb2f3ecb_icgraph">
+<area shape="rect" title=" " alt="" coords="195,23,349,59"/>
+<area shape="rect" href="class_select_texture.html#ac1804815a1ab409c3ad3f445cca11a42" title=" " alt="" coords="5,5,147,29"/>
+<area shape="rect" href="class_select_texture.html#a4a85f8da8313ee06936c3af53de350ea" title=" " alt="" coords="7,53,145,77"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a155c149e32fcc8180900b6dba5b04855"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a155c149e32fcc8180900b6dba5b04855">&#9670;&nbsp;</a></span>DoTriggerClicked()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SelectTexture.DoTriggerClicked </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>sender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ControllerInteractionEventArgs&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00307">307</a> 行定义.</p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_texture_a155c149e32fcc8180900b6dba5b04855_icgraph.png" border="0" usemap="#aclass_select_texture_a155c149e32fcc8180900b6dba5b04855_icgraph" alt=""/></div>
+<map name="aclass_select_texture_a155c149e32fcc8180900b6dba5b04855_icgraph" id="aclass_select_texture_a155c149e32fcc8180900b6dba5b04855_icgraph">
+<area shape="rect" title=" " alt="" coords="195,29,368,53"/>
+<area shape="rect" href="class_select_texture.html#ac1804815a1ab409c3ad3f445cca11a42" title=" " alt="" coords="5,5,147,29"/>
+<area shape="rect" href="class_select_texture.html#a4a85f8da8313ee06936c3af53de350ea" title=" " alt="" coords="7,53,145,77"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ac1804815a1ab409c3ad3f445cca11a42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1804815a1ab409c3ad3f445cca11a42">&#9670;&nbsp;</a></span>OnDisable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SelectTexture.OnDisable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00119">119</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_texture_ac1804815a1ab409c3ad3f445cca11a42_cgraph.png" border="0" usemap="#aclass_select_texture_ac1804815a1ab409c3ad3f445cca11a42_cgraph" alt=""/></div>
+<map name="aclass_select_texture_ac1804815a1ab409c3ad3f445cca11a42_cgraph" id="aclass_select_texture_ac1804815a1ab409c3ad3f445cca11a42_cgraph">
+<area shape="rect" title=" " alt="" coords="5,131,147,155"/>
+<area shape="rect" href="class_select_texture.html#a398b06f40750532706628d8045f3b651" title=" " alt="" coords="205,5,358,41"/>
+<area shape="rect" href="class_select_texture.html#ac5c375e40d590a4716525972cb52537e" title=" " alt="" coords="205,65,358,101"/>
+<area shape="rect" href="class_select_texture.html#aa3ff5d59fe6accfd8adb968421ea79f2" title=" " alt="" coords="205,125,358,161"/>
+<area shape="rect" href="class_select_texture.html#abe0f49616dd05d37ae78eaefdb2f3ecb" title=" " alt="" coords="205,185,358,221"/>
+<area shape="rect" href="class_select_texture.html#a155c149e32fcc8180900b6dba5b04855" title=" " alt="" coords="195,245,368,269"/>
+<area shape="rect" href="class_select_texture.html#a0817d7ce409655a2ca3a30de25b6d98d" title=" " alt="" coords="416,37,595,61"/>
+<area shape="rect" href="class_select_texture.html#abf9efbecf0fb2646c8a08b5e908c5d84" title=" " alt="" coords="419,85,592,109"/>
+<area shape="rect" href="class_select_texture.html#a477957a51f31d576ea16f9d128c3f18b" title=" " alt="" coords="643,105,803,141"/>
+<area shape="rect" href="class_select_texture.html#a7f924fbf6808c48845cf461867620e4b" title=" " alt="" coords="423,185,587,221"/>
+<area shape="rect" href="class_select_texture.html#a73db1358103d4708bbf79aac27b41b89" title=" " alt="" coords="423,245,588,281"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a4a85f8da8313ee06936c3af53de350ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a85f8da8313ee06936c3af53de350ea">&#9670;&nbsp;</a></span>OnEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SelectTexture.OnEnable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00103">103</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_texture_a4a85f8da8313ee06936c3af53de350ea_cgraph.png" border="0" usemap="#aclass_select_texture_a4a85f8da8313ee06936c3af53de350ea_cgraph" alt=""/></div>
+<map name="aclass_select_texture_a4a85f8da8313ee06936c3af53de350ea_cgraph" id="aclass_select_texture_a4a85f8da8313ee06936c3af53de350ea_cgraph">
+<area shape="rect" title=" " alt="" coords="5,131,144,155"/>
+<area shape="rect" href="class_select_texture.html#a398b06f40750532706628d8045f3b651" title=" " alt="" coords="202,5,355,41"/>
+<area shape="rect" href="class_select_texture.html#ac5c375e40d590a4716525972cb52537e" title=" " alt="" coords="202,65,355,101"/>
+<area shape="rect" href="class_select_texture.html#aa3ff5d59fe6accfd8adb968421ea79f2" title=" " alt="" coords="202,125,355,161"/>
+<area shape="rect" href="class_select_texture.html#abe0f49616dd05d37ae78eaefdb2f3ecb" title=" " alt="" coords="202,185,355,221"/>
+<area shape="rect" href="class_select_texture.html#a155c149e32fcc8180900b6dba5b04855" title=" " alt="" coords="192,245,365,269"/>
+<area shape="rect" href="class_select_texture.html#a0817d7ce409655a2ca3a30de25b6d98d" title=" " alt="" coords="413,37,592,61"/>
+<area shape="rect" href="class_select_texture.html#abf9efbecf0fb2646c8a08b5e908c5d84" title=" " alt="" coords="416,85,589,109"/>
+<area shape="rect" href="class_select_texture.html#a477957a51f31d576ea16f9d128c3f18b" title=" " alt="" coords="640,105,800,141"/>
+<area shape="rect" href="class_select_texture.html#a7f924fbf6808c48845cf461867620e4b" title=" " alt="" coords="421,185,585,221"/>
+<area shape="rect" href="class_select_texture.html#a73db1358103d4708bbf79aac27b41b89" title=" " alt="" coords="420,245,585,281"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a7d7b163eac110101208b91d843958822"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d7b163eac110101208b91d843958822">&#9670;&nbsp;</a></span>OnSelectTextureButtonClick()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SelectTexture.OnSelectTextureButtonClick </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00134">134</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_texture_a7d7b163eac110101208b91d843958822_cgraph.png" border="0" usemap="#aclass_select_texture_a7d7b163eac110101208b91d843958822_cgraph" alt=""/></div>
+<map name="aclass_select_texture_a7d7b163eac110101208b91d843958822_cgraph" id="aclass_select_texture_a7d7b163eac110101208b91d843958822_cgraph">
+<area shape="rect" title=" " alt="" coords="6,5,181,41"/>
+<area shape="rect" href="class_controller_action.html#a6555650db283b88f214b210a80783818" title="功能开始的事件触发函数" alt="" coords="230,5,394,41"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="af0d60178eccd1d3697deecdce2a03f95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af0d60178eccd1d3697deecdce2a03f95">&#9670;&nbsp;</a></span>Start()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SelectTexture.Start </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00049">49</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="ad64b300ff9cada842ec15ab3d69257ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad64b300ff9cada842ec15ab3d69257ca">&#9670;&nbsp;</a></span>AngleTolerance</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float SelectTexture.AngleTolerance = 30f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00029">29</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a35da4f8c392ce990ad393b811331eb20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35da4f8c392ce990ad393b811331eb20">&#9670;&nbsp;</a></span>curImageIdx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SelectTexture.curImageIdx</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00020">20</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a5b81b1e4a95609c9fd8db929de114978"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b81b1e4a95609c9fd8db929de114978">&#9670;&nbsp;</a></span>curPageIdx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int SelectTexture.curPageIdx</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00019">19</a> 行定义.</p>
+
+</div>
+</div>
+<a id="aca83709a8de0037a0436e01b4cff4f89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca83709a8de0037a0436e01b4cff4f89">&#9670;&nbsp;</a></span>gridPages</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject [] SelectTexture.gridPages</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00017">17</a> 行定义.</p>
+
+</div>
+</div>
+<a id="aff737d9614072e92e748828d00cf94cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff737d9614072e92e748828d00cf94cb">&#9670;&nbsp;</a></span>ImageNumPerGridPage</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int SelectTexture.ImageNumPerGridPage = 6</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00027">27</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a8172a16a834212c87dbcc562a4402990"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8172a16a834212c87dbcc562a4402990">&#9670;&nbsp;</a></span>ImageNumPerRow</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int SelectTexture.ImageNumPerRow = 3</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00028">28</a> 行定义.</p>
+
+</div>
+</div>
+<a id="af5880724f375e6bd1d02292333fc6918"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5880724f375e6bd1d02292333fc6918">&#9670;&nbsp;</a></span>pageNumText</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Text SelectTexture.pageNumText</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00016">16</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a6c91be1ee86ef79e59fff9a227812c4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c91be1ee86ef79e59fff9a227812c4b">&#9670;&nbsp;</a></span>panel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject SelectTexture.panel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00011">11</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a44e68a3399ce8d29dd7aedb53b52ce2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44e68a3399ce8d29dd7aedb53b52ce2b">&#9670;&nbsp;</a></span>selectedObj</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject SelectTexture.selectedObj</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00014">14</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a542053b80af21f4f5f96d9cfd81dbd65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a542053b80af21f4f5f96d9cfd81dbd65">&#9670;&nbsp;</a></span>selectSquare</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Image SelectTexture.selectSquare</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00013">13</a> 行定义.</p>
+
+</div>
+</div>
+<a id="adf02d0e743d2145a63f3a560e35b1c8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf02d0e743d2145a63f3a560e35b1c8c">&#9670;&nbsp;</a></span>subUIMenu</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject SelectTexture.subUIMenu</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00012">12</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a942d2dff247bb531a018f3e7b7a247e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a942d2dff247bb531a018f3e7b7a247e6">&#9670;&nbsp;</a></span>SwipeMinDeltaTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float SelectTexture.SwipeMinDeltaTime = 0.14f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00032">32</a> 行定义.</p>
+
+</div>
+</div>
+<a id="aafe3be19c39a2daeb7b87ba0247a189b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aafe3be19c39a2daeb7b87ba0247a189b">&#9670;&nbsp;</a></span>SwipeMinDist</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const float SelectTexture.SwipeMinDist = 0.2f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00030">30</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ac5190b030c39cab2bc68c3faf65616e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5190b030c39cab2bc68c3faf65616e7">&#9670;&nbsp;</a></span>texImages</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Image [][] SelectTexture.texImages</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00018">18</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a99195a2cad889387e131623ea2a06dca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99195a2cad889387e131623ea2a06dca">&#9670;&nbsp;</a></span>textures</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">object [] SelectTexture.textures</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00010">10</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a1636e32a7ebbd80e329d2ff08f7e7227"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1636e32a7ebbd80e329d2ff08f7e7227">&#9670;&nbsp;</a></span>touchEndPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector2 SelectTexture.touchEndPosition</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00022">22</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a4082072cb30d84249021158d2f04f835"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4082072cb30d84249021158d2f04f835">&#9670;&nbsp;</a></span>touchpadXaxis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly Vector2 SelectTexture.touchpadXaxis = new Vector2(1, 0)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00033">33</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a575b961d147d579e1e813b9538fba807"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a575b961d147d579e1e813b9538fba807">&#9670;&nbsp;</a></span>touchpadYaxis</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">readonly Vector2 SelectTexture.touchpadYaxis = new Vector2(0, 1)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00034">34</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a1ca226bd664fc9cc10e3a71f62fc0a0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ca226bd664fc9cc10e3a71f62fc0a0f">&#9670;&nbsp;</a></span>touchStartPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector2 SelectTexture.touchStartPosition</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00021">21</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ac8ee290bddeadba640bfcb0cd81b59d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8ee290bddeadba640bfcb0cd81b59d7">&#9670;&nbsp;</a></span>touchStartTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SelectTexture.touchStartTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a> 第 <a class="el" href="_select_texture_8cs_source.html#l00023">23</a> 行定义.</p>
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>Y:/Coding/Unity/VRDesignProject/Assets/Scripts/ControllerActions/<a class="el" href="_select_texture_8cs_source.html">SelectTexture.cs</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

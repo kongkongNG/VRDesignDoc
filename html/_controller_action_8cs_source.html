@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>VR Sketch Design: Y:/Coding/Unity/VRDesignProject/Assets/Scripts/ControllerActions/ControllerAction.cs 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">VR Sketch Design
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">VR Project</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.1 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_b93ca4f67e5c4f3d8967bcc66a8efe61.html">Y:</a></li><li class="navelem"><a class="el" href="dir_657949dcc09204b591ba08b2dd60005a.html">Coding</a></li><li class="navelem"><a class="el" href="dir_9e3bf1a2f1e8bb1f1076cb3a500c0924.html">Unity</a></li><li class="navelem"><a class="el" href="dir_d92c12ce3d70d23921038a5d2ecff28d.html">VRDesignProject</a></li><li class="navelem"><a class="el" href="dir_bbf63476caace77856cc7cbaedc98ba5.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a6ab9145be13875259d1d9e44e1e8835.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_9eb04459ffa80765a164874b47dfec96.html">ControllerActions</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">ControllerAction.cs</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_controller_action_8cs.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">using</span> System.Collections;</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">using</span> System.Collections.Generic;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">using</span> UnityEngine;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">using</span> System;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="class_controller_action.html">    9</a></span>&#160;<span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">class </span><a class="code" href="class_controller_action.html">ControllerAction</a> : MonoBehaviour</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_controller_action.html#ae44944045c9edca97a20c1b80869e37b">   12</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">event</span> EventHandler <a class="code" href="class_controller_action.html#ae44944045c9edca97a20c1b80869e37b">ControllerActionStart</a>;    </div>
+<div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_controller_action.html#a335e9ec9715ce53dd2be91e02c3d8ec0">   13</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">event</span> EventHandler <a class="code" href="class_controller_action.html#a335e9ec9715ce53dd2be91e02c3d8ec0">ControllerActionEnd</a>;      </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_controller_action.html#a6555650db283b88f214b210a80783818">   19</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_controller_action.html#a6555650db283b88f214b210a80783818">OnControllerAtionStart</a>(EventArgs e)</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    {</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        EventHandler handler = <a class="code" href="class_controller_action.html#ae44944045c9edca97a20c1b80869e37b">ControllerActionStart</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">if</span> (handler != <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        {</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            handler(<span class="keyword">this</span>, e);</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        }</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    }</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160; </div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">   32</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">OnControllerActionEnd</a>(EventArgs e)</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;    {</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;        EventHandler handler = <a class="code" href="class_controller_action.html#a335e9ec9715ce53dd2be91e02c3d8ec0">ControllerActionEnd</a>;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        <span class="keywordflow">if</span> (handler != <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        {</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            handler(<span class="keyword">this</span>, e);</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        }</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;}</div>
+<div class="ttc" id="aclass_controller_action_html"><div class="ttname"><a href="class_controller_action.html">ControllerAction</a></div><div class="ttdoc">功能脚本抽象类，定义功能启动和关闭事件，用于统一管理</div><div class="ttdef"><b>Definition:</b> <a href="_controller_action_8cs_source.html#l00009">ControllerAction.cs:10</a></div></div>
+<div class="ttc" id="aclass_controller_action_html_a335e9ec9715ce53dd2be91e02c3d8ec0"><div class="ttname"><a href="class_controller_action.html#a335e9ec9715ce53dd2be91e02c3d8ec0">ControllerAction.ControllerActionEnd</a></div><div class="ttdeci">EventHandler ControllerActionEnd</div><div class="ttdoc">功能关闭事件</div><div class="ttdef"><b>Definition:</b> <a href="_controller_action_8cs_source.html#l00013">ControllerAction.cs:13</a></div></div>
+<div class="ttc" id="aclass_controller_action_html_a6555650db283b88f214b210a80783818"><div class="ttname"><a href="class_controller_action.html#a6555650db283b88f214b210a80783818">ControllerAction.OnControllerAtionStart</a></div><div class="ttdeci">virtual void OnControllerAtionStart(EventArgs e)</div><div class="ttdoc">功能开始的事件触发函数</div><div class="ttdef"><b>Definition:</b> <a href="_controller_action_8cs_source.html#l00019">ControllerAction.cs:19</a></div></div>
+<div class="ttc" id="aclass_controller_action_html_acb0c2fdfd641ce634839e6ce52deddea"><div class="ttname"><a href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">ControllerAction.OnControllerActionEnd</a></div><div class="ttdeci">virtual void OnControllerActionEnd(EventArgs e)</div><div class="ttdoc">功能结束的事件触发函数</div><div class="ttdef"><b>Definition:</b> <a href="_controller_action_8cs_source.html#l00032">ControllerAction.cs:32</a></div></div>
+<div class="ttc" id="aclass_controller_action_html_ae44944045c9edca97a20c1b80869e37b"><div class="ttname"><a href="class_controller_action.html#ae44944045c9edca97a20c1b80869e37b">ControllerAction.ControllerActionStart</a></div><div class="ttdeci">EventHandler ControllerActionStart</div><div class="ttdoc">功能启动事件</div><div class="ttdef"><b>Definition:</b> <a href="_controller_action_8cs_source.html#l00012">ControllerAction.cs:12</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

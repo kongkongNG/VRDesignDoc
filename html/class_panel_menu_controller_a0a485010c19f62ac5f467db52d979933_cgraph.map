@@ -1,0 +1,8 @@
+<map id="PanelMenuController.HideMenuImmediate" name="PanelMenuController.HideMenuImmediate">
+<area shape="rect" id="node1" title="The HideMenuImmediate method is used to immediately hide the menu." alt="" coords="5,23,152,59"/>
+<area shape="rect" id="node2" href="$class_panel_menu_controller.html#a10c3beabee8f61691b11b59273f946a5" title=" " alt="" coords="201,23,381,59"/>
+<area shape="rect" id="node3" href="$class_panel_menu_controller.html#a289ebce78a04bcf83f5a6cedc6542ae9" title="The HideMenu method is used to hide the menu." alt="" coords="433,5,605,29"/>
+<area shape="rect" id="node6" href="$class_panel_menu_controller.html#ab8fd549a3cb569ca4c970d6abfbb33bd" title="The ShowMenu method is used to show the menu." alt="" coords="430,53,607,77"/>
+<area shape="rect" id="node4" href="$class_panel_menu_controller.html#a21e3e5580b4f87d2e4213b54b6334260" title=" " alt="" coords="656,23,797,59"/>
+<area shape="rect" id="node5" href="$class_panel_menu_controller.html#a8f4101f95393f2ad29844619e5de1847" title=" " alt="" coords="845,23,1003,59"/>
+</map>

@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>VR Sketch Design: Y:/Coding/Unity/VRDesignProject/Assets/Scripts/UI/Panel.cs 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">VR Sketch Design
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">VR Project</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.1 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_b93ca4f67e5c4f3d8967bcc66a8efe61.html">Y:</a></li><li class="navelem"><a class="el" href="dir_657949dcc09204b591ba08b2dd60005a.html">Coding</a></li><li class="navelem"><a class="el" href="dir_9e3bf1a2f1e8bb1f1076cb3a500c0924.html">Unity</a></li><li class="navelem"><a class="el" href="dir_d92c12ce3d70d23921038a5d2ecff28d.html">VRDesignProject</a></li><li class="navelem"><a class="el" href="dir_bbf63476caace77856cc7cbaedc98ba5.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a6ab9145be13875259d1d9e44e1e8835.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_a9ea13586de174068c7b23ebe5da8dd2.html">UI</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Panel.cs</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_panel_8cs.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">using</span> System.Collections;</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">using</span> System.Collections.Generic;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">using</span> UnityEngine;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
+<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="class_panel.html">    5</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="class_panel.html">Panel</a> : MonoBehaviour</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="class_panel.html#a127f836b58936a42c5dd3a9c4bd2dcbf">    7</a></span>&#160;    <span class="keyword">private</span> Canvas <a class="code" href="class_panel.html#a127f836b58936a42c5dd3a9c4bd2dcbf">canvas</a> = <span class="keyword">null</span>;</div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="class_panel.html#ac6b04f44da6f57fd80efd5efbd3703c0">    8</a></span>&#160;    <span class="keyword">private</span> <a class="code" href="class_menu_panel_manager.html">MenuPanelManager</a> <a class="code" href="class_panel.html#ac6b04f44da6f57fd80efd5efbd3703c0">manager</a> = <span class="keyword">null</span>;</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_panel.html#ab5ba512ba8a1ba213cbef2573b663cf4">   10</a></span>&#160;    <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code" href="class_panel.html#ab5ba512ba8a1ba213cbef2573b663cf4">Awake</a>()</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    {</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <a class="code" href="class_panel.html#a127f836b58936a42c5dd3a9c4bd2dcbf">canvas</a> = GetComponent&lt;Canvas&gt;();</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    }</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="class_panel.html#a836de50740722241fad8715d5d6bf219">   15</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="class_panel.html#a836de50740722241fad8715d5d6bf219">SetUpManager</a>(<a class="code" href="class_menu_panel_manager.html">MenuPanelManager</a> <a class="code" href="class_panel.html#ac6b04f44da6f57fd80efd5efbd3703c0">manager</a>)</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        this.manager = <a class="code" href="class_panel.html#ac6b04f44da6f57fd80efd5efbd3703c0">manager</a>;</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <a class="code" href="class_panel.html#a29023453cffe158ff6d100c8a9d16d55">Hide</a>();</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    }</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_panel.html#a29023453cffe158ff6d100c8a9d16d55">   21</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="class_panel.html#a29023453cffe158ff6d100c8a9d16d55">Hide</a>()</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    {</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        this.canvas.enabled = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    }</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_panel.html#a61ea3982c985c70ba0cc490bb9b248e3">   26</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="class_panel.html#a61ea3982c985c70ba0cc490bb9b248e3">Show</a>()</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    {</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        this.canvas.enabled = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;    }</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;}</div>
+<div class="ttc" id="aclass_menu_panel_manager_html"><div class="ttname"><a href="class_menu_panel_manager.html">MenuPanelManager</a></div><div class="ttdef"><b>Definition:</b> <a href="_menu_panel_manager_8cs_source.html#l00005">MenuPanelManager.cs:6</a></div></div>
+<div class="ttc" id="aclass_panel_html"><div class="ttname"><a href="class_panel.html">Panel</a></div><div class="ttdef"><b>Definition:</b> <a href="_panel_8cs_source.html#l00005">Panel.cs:6</a></div></div>
+<div class="ttc" id="aclass_panel_html_a127f836b58936a42c5dd3a9c4bd2dcbf"><div class="ttname"><a href="class_panel.html#a127f836b58936a42c5dd3a9c4bd2dcbf">Panel.canvas</a></div><div class="ttdeci">Canvas canvas</div><div class="ttdef"><b>Definition:</b> <a href="_panel_8cs_source.html#l00007">Panel.cs:7</a></div></div>
+<div class="ttc" id="aclass_panel_html_a29023453cffe158ff6d100c8a9d16d55"><div class="ttname"><a href="class_panel.html#a29023453cffe158ff6d100c8a9d16d55">Panel.Hide</a></div><div class="ttdeci">void Hide()</div><div class="ttdef"><b>Definition:</b> <a href="_panel_8cs_source.html#l00021">Panel.cs:21</a></div></div>
+<div class="ttc" id="aclass_panel_html_a61ea3982c985c70ba0cc490bb9b248e3"><div class="ttname"><a href="class_panel.html#a61ea3982c985c70ba0cc490bb9b248e3">Panel.Show</a></div><div class="ttdeci">void Show()</div><div class="ttdef"><b>Definition:</b> <a href="_panel_8cs_source.html#l00026">Panel.cs:26</a></div></div>
+<div class="ttc" id="aclass_panel_html_a836de50740722241fad8715d5d6bf219"><div class="ttname"><a href="class_panel.html#a836de50740722241fad8715d5d6bf219">Panel.SetUpManager</a></div><div class="ttdeci">void SetUpManager(MenuPanelManager manager)</div><div class="ttdef"><b>Definition:</b> <a href="_panel_8cs_source.html#l00015">Panel.cs:15</a></div></div>
+<div class="ttc" id="aclass_panel_html_ab5ba512ba8a1ba213cbef2573b663cf4"><div class="ttname"><a href="class_panel.html#ab5ba512ba8a1ba213cbef2573b663cf4">Panel.Awake</a></div><div class="ttdeci">void Awake()</div><div class="ttdef"><b>Definition:</b> <a href="_panel_8cs_source.html#l00010">Panel.cs:10</a></div></div>
+<div class="ttc" id="aclass_panel_html_ac6b04f44da6f57fd80efd5efbd3703c0"><div class="ttname"><a href="class_panel.html#ac6b04f44da6f57fd80efd5efbd3703c0">Panel.manager</a></div><div class="ttdeci">MenuPanelManager manager</div><div class="ttdef"><b>Definition:</b> <a href="_panel_8cs_source.html#l00008">Panel.cs:8</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

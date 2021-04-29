@@ -1,0 +1,5 @@
+<map id="CSGAction" name="CSGAction">
+<area shape="rect" id="node1" title=" " alt="" coords="5,253,189,419"/>
+<area shape="rect" id="node2" href="$class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="22,123,172,205"/>
+<area shape="rect" id="node3" title=" " alt="" coords="49,5,145,75"/>
+</map>
