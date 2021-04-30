@@ -1,4 +1,4 @@
 <map id="ColorPicker.ChangeHueSaturation" name="ColorPicker.ChangeHueSaturation">
-<area shape="rect" id="node1" title=" " alt="" coords="6,5,191,29"/>
-<area shape="rect" id="node2" href="$class_color_picker.html#a380300a7a54a14c46d75ae81fcbb1b7e" title=" " alt="" coords="240,5,379,29"/>
+<area shape="rect" id="node1" title="根据axis和angle调整Hue和Saturation" alt="" coords="6,5,191,29"/>
+<area shape="rect" id="node2" href="$class_color_picker.html#a380300a7a54a14c46d75ae81fcbb1b7e" title="更新颜色" alt="" coords="240,5,379,29"/>
 </map>

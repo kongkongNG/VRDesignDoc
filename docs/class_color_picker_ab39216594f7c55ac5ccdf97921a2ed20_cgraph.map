@@ -1,0 +1,8 @@
+<map id="ColorPicker.OnDisable" name="ColorPicker.OnDisable">
+<area shape="rect" id="node1" title=" " alt="" coords="6,39,133,63"/>
+<area shape="rect" id="node2" href="$class_color_picker.html#a3c30f1e9b59c992eb9def8cb7d6d8e30" title="手柄Touchpad Axis Changed事件回调函数" alt="" coords="182,5,341,41"/>
+<area shape="rect" id="node5" href="$class_color_picker.html#a51f3b586df45e95a404ad04726e8ebc2" title="手柄Trigger Clicked事件回调函数" alt="" coords="182,65,341,89"/>
+<area shape="rect" id="node3" href="$class_color_picker.html#afd3471da1bf105145548a9cc84d9a4a1" title="根据axis和angle调整Hue和Saturation" alt="" coords="390,11,575,35"/>
+<area shape="rect" id="node4" href="$class_color_picker.html#a380300a7a54a14c46d75ae81fcbb1b7e" title="更新颜色" alt="" coords="624,11,763,35"/>
+<area shape="rect" id="node6" href="$class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea" title="功能结束的事件触发函数" alt="" coords="401,59,565,95"/>
+</map>

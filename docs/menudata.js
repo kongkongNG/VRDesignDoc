@@ -24,6 +24,7 @@
 */
 var menudata={children:[
 {text:"首页",url:"index.html"},
+{text:"相关页面",url:"pages.html"},
 {text:"类",url:"annotated.html",children:[
 {text:"类列表",url:"annotated.html"},
 {text:"类索引",url:"classes.html"},
@@ -96,7 +97,6 @@ var menudata={children:[
 {text:"y",url:"functions_vars.html#index_y"},
 {text:"z",url:"functions_vars.html#index_z"}]},
 {text:"枚举",url:"functions_enum.html"},
-{text:"属性",url:"functions_prop.html"},
 {text:"事件",url:"functions_evnt.html"}]}]},
 {text:"文件",url:"files.html",children:[
 {text:"文件列表",url:"files.html"}]}]}

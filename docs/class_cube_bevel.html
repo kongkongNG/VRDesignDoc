@@ -58,8 +58,8 @@ $(function() {
 <div class="dyncontent">
 <div class="center"><img src="class_cube_bevel__inherit__graph.png" border="0" usemap="#a_cube_bevel_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_cube_bevel_inherit__map" id="a_cube_bevel_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,254,155,647"/>
-<area shape="rect" href="class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,123,155,205"/>
+<area shape="rect" title=" " alt="" coords="5,289,155,682"/>
+<area shape="rect" href="class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,123,155,240"/>
 <area shape="rect" title=" " alt="" coords="32,5,128,75"/>
 </map>
 </div>
@@ -69,7 +69,7 @@ CubeBevel 的协作图:</div>
 <div class="center"><img src="class_cube_bevel__coll__graph.png" border="0" usemap="#a_cube_bevel_coll__map" alt="Collaboration graph"/></div>
 <map name="a_cube_bevel_coll__map" id="a_cube_bevel_coll__map">
 <area shape="rect" title=" " alt="" coords="54,365,204,747"/>
-<area shape="rect" href="class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,174,155,255"/>
+<area shape="rect" href="class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,156,155,273"/>
 <area shape="rect" title=" " alt="" coords="125,5,221,75"/>
 <area shape="rect" href="class_cube_edit_edge.html" title=" " alt="" coords="180,126,295,303"/>
 </map>
@@ -103,6 +103,8 @@ Protected 成员函数</h2></td></tr>
 <tr class="memitem:a6555650db283b88f214b210a80783818 inherit pro_methods_class_controller_action"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#a6555650db283b88f214b210a80783818">OnControllerAtionStart</a> (EventArgs e)</td></tr>
 <tr class="memdesc:a6555650db283b88f214b210a80783818 inherit pro_methods_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">功能开始的事件触发函数  <a href="class_controller_action.html#a6555650db283b88f214b210a80783818">更多...</a><br /></td></tr>
 <tr class="separator:a6555650db283b88f214b210a80783818 inherit pro_methods_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a10a69ea705c34bbce1654efe1dfa43 inherit pro_methods_class_controller_action"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#a0a10a69ea705c34bbce1654efe1dfa43">DoButtonTwoPressed</a> (object sender, ControllerInteractionEventArgs e)</td></tr>
+<tr class="separator:a0a10a69ea705c34bbce1654efe1dfa43 inherit pro_methods_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private 成员函数</h2></td></tr>
@@ -179,6 +181,9 @@ Private 属性</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 额外继承的成员函数</h2></td></tr>
+<tr class="inherit_header pro_attribs_class_controller_action"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_controller_action')"><img src="closed.png" alt="-"/>&#160;Protected 属性 继承自 <a class="el" href="class_controller_action.html">ControllerAction</a></td></tr>
+<tr class="memitem:af0986b059f6087f0232a6079d016ddfc inherit pro_attribs_class_controller_action"><td class="memItemLeft" align="right" valign="top">VRTK_ControllerEvents&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#af0986b059f6087f0232a6079d016ddfc">conEvt</a></td></tr>
+<tr class="separator:af0986b059f6087f0232a6079d016ddfc inherit pro_attribs_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header events_class_controller_action"><td colspan="2" onclick="javascript:toggleInherit('events_class_controller_action')"><img src="closed.png" alt="-"/>&#160;事件 继承自 <a class="el" href="class_controller_action.html">ControllerAction</a></td></tr>
 <tr class="memitem:ae44944045c9edca97a20c1b80869e37b inherit events_class_controller_action"><td class="memItemLeft" align="right" valign="top">EventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#ae44944045c9edca97a20c1b80869e37b">ControllerActionStart</a></td></tr>
 <tr class="memdesc:ae44944045c9edca97a20c1b80869e37b inherit events_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">功能启动事件  <a href="class_controller_action.html#ae44944045c9edca97a20c1b80869e37b">更多...</a><br /></td></tr>
@@ -852,10 +857,12 @@ Private 属性</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>重载 <a class="el" href="class_controller_action.html#ae307971a4af89d4ccb7074bfe643d7d4">ControllerAction</a> .</p>
 
 <p class="definition">在文件 <a class="el" href="_cube_bevel_8cs_source.html">CubeBevel.cs</a> 第 <a class="el" href="_cube_bevel_8cs_source.html#l00067">67</a> 行定义.</p>
 <div class="dynheader">
@@ -889,10 +896,12 @@ Private 属性</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>重载 <a class="el" href="class_controller_action.html#aa49bbe868d24d10ac2d3f0df2c615bc7">ControllerAction</a> .</p>
 
 <p class="definition">在文件 <a class="el" href="_cube_bevel_8cs_source.html">CubeBevel.cs</a> 第 <a class="el" href="_cube_bevel_8cs_source.html#l00048">48</a> 行定义.</p>
 <div class="dynheader">

@@ -1,5 +1,5 @@
 <map id="ColorPicker.DoTouchpadAxisChanged" name="ColorPicker.DoTouchpadAxisChanged">
-<area shape="rect" id="node1" title=" " alt="" coords="6,5,165,41"/>
-<area shape="rect" id="node2" href="$class_color_picker.html#afd3471da1bf105145548a9cc84d9a4a1" title=" " alt="" coords="214,11,399,35"/>
-<area shape="rect" id="node3" href="$class_color_picker.html#a380300a7a54a14c46d75ae81fcbb1b7e" title=" " alt="" coords="448,11,587,35"/>
+<area shape="rect" id="node1" title="手柄Touchpad Axis Changed事件回调函数" alt="" coords="6,5,165,41"/>
+<area shape="rect" id="node2" href="$class_color_picker.html#afd3471da1bf105145548a9cc84d9a4a1" title="根据axis和angle调整Hue和Saturation" alt="" coords="214,11,399,35"/>
+<area shape="rect" id="node3" href="$class_color_picker.html#a380300a7a54a14c46d75ae81fcbb1b7e" title="更新颜色" alt="" coords="448,11,587,35"/>
 </map>

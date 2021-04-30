@@ -1,5 +1,5 @@
 <map id="ControllerActionManager.DoControllerActionEnd" name="ControllerActionManager.DoControllerActionEnd">
-<area shape="rect" id="node1" title=" " alt="" coords="201,35,346,71"/>
-<area shape="rect" id="node2" href="$class_controller_action_manager.html#a7341687114ed809bc54383a32b1f9489" title=" " alt="" coords="6,5,151,41"/>
-<area shape="rect" id="node3" href="$class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title=" " alt="" coords="6,65,151,101"/>
+<area shape="rect" id="node1" title="功能脚本关闭事件回调" alt="" coords="201,35,346,71"/>
+<area shape="rect" id="node2" href="$class_controller_action_manager.html#a7341687114ed809bc54383a32b1f9489" title="销毁管理器时的行为" alt="" coords="6,5,151,41"/>
+<area shape="rect" id="node3" href="$class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title="初始化功能管理器" alt="" coords="6,65,151,101"/>
 </map>

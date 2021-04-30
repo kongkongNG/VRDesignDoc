@@ -1,0 +1,5 @@
+<map id="ControllerActionManager.SetDefaultActionAsCur" name="ControllerActionManager.SetDefaultActionAsCur">
+<area shape="rect" id="node1" title="将默认功能脚本设为当前活跃脚本" alt="" coords="6,35,151,71"/>
+<area shape="rect" id="node2" href="$class_controller_action_manager.html#a6dde35e0f3d632c0dd8a98e3fd6c9701" title="打开物体的可交互属性 @detail 可交互属性包含可抓取、可高亮" alt="" coords="201,5,346,41"/>
+<area shape="rect" id="node3" href="$class_controller_action_manager.html#a57255f7af4467bda1fa6db145f507595" title="将当前的功能打开" alt="" coords="201,65,346,101"/>
+</map>

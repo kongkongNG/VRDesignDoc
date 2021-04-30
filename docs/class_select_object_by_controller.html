@@ -42,7 +42,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-static-attribs">静态 Public 属性</a> &#124;
-<a href="#events">事件</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
 <a href="#pri-methods">Private 成员函数</a> &#124;
 <a href="#pri-attribs">Private 属性</a> &#124;
 <a href="#pri-static-attribs">静态 Private 属性</a> &#124;
@@ -56,8 +56,8 @@ $(function() {
 <div class="dyncontent">
 <div class="center"><img src="class_select_object_by_controller__inherit__graph.png" border="0" usemap="#a_select_object_by_controller_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_select_object_by_controller_inherit__map" id="a_select_object_by_controller_inherit__map">
-<area shape="rect" title=" " alt="" coords="9,253,151,395"/>
-<area shape="rect" href="class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,123,155,205"/>
+<area shape="rect" title=" " alt="" coords="9,288,151,453"/>
+<area shape="rect" href="class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,123,155,240"/>
 <area shape="rect" title=" " alt="" coords="32,5,128,75"/>
 </map>
 </div>
@@ -66,8 +66,8 @@ SelectObjectByController 的协作图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_select_object_by_controller__coll__graph.png" border="0" usemap="#a_select_object_by_controller_coll__map" alt="Collaboration graph"/></div>
 <map name="a_select_object_by_controller_coll__map" id="a_select_object_by_controller_coll__map">
-<area shape="rect" title=" " alt="" coords="9,253,151,395"/>
-<area shape="rect" href="class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,123,155,205"/>
+<area shape="rect" title=" " alt="" coords="9,288,151,453"/>
+<area shape="rect" href="class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,123,155,240"/>
 <area shape="rect" title=" " alt="" coords="32,5,128,75"/>
 </map>
 </div>
@@ -77,32 +77,36 @@ SelectObjectByController 的协作图:</div>
 <tr class="memitem:a1f891591a70ab63513331d88c930f219"><td class="memItemLeft" align="right" valign="top">static GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_object_by_controller.html#a1f891591a70ab63513331d88c930f219">selectedObject</a> = null</td></tr>
 <tr class="separator:a1f891591a70ab63513331d88c930f219"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="events"></a>
-事件</h2></td></tr>
-<tr class="memitem:a87e3669d54eeea5d898baa5651420fcf"><td class="memItemLeft" align="right" valign="top">static EventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_object_by_controller.html#a87e3669d54eeea5d898baa5651420fcf">hasObjectSelected</a></td></tr>
-<tr class="separator:a87e3669d54eeea5d898baa5651420fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5685465be0233bd1e8f2e24d790e538b"><td class="memItemLeft" align="right" valign="top">static EventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_object_by_controller.html#a5685465be0233bd1e8f2e24d790e538b">hasObjectUnSelected</a></td></tr>
-<tr class="separator:a5685465be0233bd1e8f2e24d790e538b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header events_class_controller_action"><td colspan="2" onclick="javascript:toggleInherit('events_class_controller_action')"><img src="closed.png" alt="-"/>&#160;事件 继承自 <a class="el" href="class_controller_action.html">ControllerAction</a></td></tr>
-<tr class="memitem:ae44944045c9edca97a20c1b80869e37b inherit events_class_controller_action"><td class="memItemLeft" align="right" valign="top">EventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#ae44944045c9edca97a20c1b80869e37b">ControllerActionStart</a></td></tr>
-<tr class="memdesc:ae44944045c9edca97a20c1b80869e37b inherit events_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">功能启动事件  <a href="class_controller_action.html#ae44944045c9edca97a20c1b80869e37b">更多...</a><br /></td></tr>
-<tr class="separator:ae44944045c9edca97a20c1b80869e37b inherit events_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a335e9ec9715ce53dd2be91e02c3d8ec0 inherit events_class_controller_action"><td class="memItemLeft" align="right" valign="top">EventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#a335e9ec9715ce53dd2be91e02c3d8ec0">ControllerActionEnd</a></td></tr>
-<tr class="memdesc:a335e9ec9715ce53dd2be91e02c3d8ec0 inherit events_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">功能关闭事件  <a href="class_controller_action.html#a335e9ec9715ce53dd2be91e02c3d8ec0">更多...</a><br /></td></tr>
-<tr class="separator:a335e9ec9715ce53dd2be91e02c3d8ec0 inherit events_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:a29d5ffc91f28ab6c0f8177a68b5050ca"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_object_by_controller.html#a29d5ffc91f28ab6c0f8177a68b5050ca">OnEnable</a> ()</td></tr>
+<tr class="separator:a29d5ffc91f28ab6c0f8177a68b5050ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b4d8d7b2ece909c5700a69e6f0ab311"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_object_by_controller.html#a4b4d8d7b2ece909c5700a69e6f0ab311">OnDisable</a> ()</td></tr>
+<tr class="separator:a4b4d8d7b2ece909c5700a69e6f0ab311"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_controller_action"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_controller_action')"><img src="closed.png" alt="-"/>&#160;Protected 成员函数 继承自 <a class="el" href="class_controller_action.html">ControllerAction</a></td></tr>
+<tr class="memitem:a6555650db283b88f214b210a80783818 inherit pro_methods_class_controller_action"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#a6555650db283b88f214b210a80783818">OnControllerAtionStart</a> (EventArgs e)</td></tr>
+<tr class="memdesc:a6555650db283b88f214b210a80783818 inherit pro_methods_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">功能开始的事件触发函数  <a href="class_controller_action.html#a6555650db283b88f214b210a80783818">更多...</a><br /></td></tr>
+<tr class="separator:a6555650db283b88f214b210a80783818 inherit pro_methods_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb0c2fdfd641ce634839e6ce52deddea inherit pro_methods_class_controller_action"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">OnControllerActionEnd</a> (EventArgs e)</td></tr>
+<tr class="memdesc:acb0c2fdfd641ce634839e6ce52deddea inherit pro_methods_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">功能结束的事件触发函数  <a href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">更多...</a><br /></td></tr>
+<tr class="separator:acb0c2fdfd641ce634839e6ce52deddea inherit pro_methods_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a10a69ea705c34bbce1654efe1dfa43 inherit pro_methods_class_controller_action"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#a0a10a69ea705c34bbce1654efe1dfa43">DoButtonTwoPressed</a> (object sender, ControllerInteractionEventArgs e)</td></tr>
+<tr class="separator:a0a10a69ea705c34bbce1654efe1dfa43 inherit pro_methods_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private 成员函数</h2></td></tr>
-<tr class="memitem:a7161f5fa00b2a95ff055ca1d96fe7476"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_object_by_controller.html#a7161f5fa00b2a95ff055ca1d96fe7476">OnEnable</a> ()</td></tr>
-<tr class="separator:a7161f5fa00b2a95ff055ca1d96fe7476"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5138f1c81509ca9404b0a50d1952d58c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_object_by_controller.html#a5138f1c81509ca9404b0a50d1952d58c">OnDisable</a> ()</td></tr>
-<tr class="separator:a5138f1c81509ca9404b0a50d1952d58c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0c691276dfb85a267be8c345a8b748f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_object_by_controller.html#aa0c691276dfb85a267be8c345a8b748f">DoControllerTouch</a> (object sender, ObjectInteractEventArgs e)</td></tr>
 <tr class="separator:aa0c691276dfb85a267be8c345a8b748f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc2248d69ac9606f7cee8f294c33bf06"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_object_by_controller.html#acc2248d69ac9606f7cee8f294c33bf06">DoControllerUnTouch</a> (object sender, ObjectInteractEventArgs e)</td></tr>
 <tr class="separator:acc2248d69ac9606f7cee8f294c33bf06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a33661c5ea7c7c42c505a07ce903830"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_object_by_controller.html#a4a33661c5ea7c7c42c505a07ce903830">ControllerSelect</a> (object sender, ControllerInteractionEventArgs e)</td></tr>
 <tr class="separator:a4a33661c5ea7c7c42c505a07ce903830"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a780ec31409fede1f07ba79c1813716f5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_object_by_controller.html#a780ec31409fede1f07ba79c1813716f5">HasObjectSelected</a> ()</td></tr>
+<tr class="memdesc:a780ec31409fede1f07ba79c1813716f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">有物体被选取时触发的函数  <a href="class_select_object_by_controller.html#a780ec31409fede1f07ba79c1813716f5">更多...</a><br /></td></tr>
+<tr class="separator:a780ec31409fede1f07ba79c1813716f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cd5ea376d6449d62a2528197a2bf0cc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_select_object_by_controller.html#a3cd5ea376d6449d62a2528197a2bf0cc">HasObjectUnSelected</a> ()</td></tr>
+<tr class="memdesc:a3cd5ea376d6449d62a2528197a2bf0cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">物体取消选取时触发的函数  <a href="class_select_object_by_controller.html#a3cd5ea376d6449d62a2528197a2bf0cc">更多...</a><br /></td></tr>
+<tr class="separator:a3cd5ea376d6449d62a2528197a2bf0cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private 属性</h2></td></tr>
@@ -116,13 +120,16 @@ Private 属性</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 额外继承的成员函数</h2></td></tr>
-<tr class="inherit_header pro_methods_class_controller_action"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_controller_action')"><img src="closed.png" alt="-"/>&#160;Protected 成员函数 继承自 <a class="el" href="class_controller_action.html">ControllerAction</a></td></tr>
-<tr class="memitem:a6555650db283b88f214b210a80783818 inherit pro_methods_class_controller_action"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#a6555650db283b88f214b210a80783818">OnControllerAtionStart</a> (EventArgs e)</td></tr>
-<tr class="memdesc:a6555650db283b88f214b210a80783818 inherit pro_methods_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">功能开始的事件触发函数  <a href="class_controller_action.html#a6555650db283b88f214b210a80783818">更多...</a><br /></td></tr>
-<tr class="separator:a6555650db283b88f214b210a80783818 inherit pro_methods_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb0c2fdfd641ce634839e6ce52deddea inherit pro_methods_class_controller_action"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">OnControllerActionEnd</a> (EventArgs e)</td></tr>
-<tr class="memdesc:acb0c2fdfd641ce634839e6ce52deddea inherit pro_methods_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">功能结束的事件触发函数  <a href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">更多...</a><br /></td></tr>
-<tr class="separator:acb0c2fdfd641ce634839e6ce52deddea inherit pro_methods_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_controller_action"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_controller_action')"><img src="closed.png" alt="-"/>&#160;Protected 属性 继承自 <a class="el" href="class_controller_action.html">ControllerAction</a></td></tr>
+<tr class="memitem:af0986b059f6087f0232a6079d016ddfc inherit pro_attribs_class_controller_action"><td class="memItemLeft" align="right" valign="top">VRTK_ControllerEvents&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#af0986b059f6087f0232a6079d016ddfc">conEvt</a></td></tr>
+<tr class="separator:af0986b059f6087f0232a6079d016ddfc inherit pro_attribs_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header events_class_controller_action"><td colspan="2" onclick="javascript:toggleInherit('events_class_controller_action')"><img src="closed.png" alt="-"/>&#160;事件 继承自 <a class="el" href="class_controller_action.html">ControllerAction</a></td></tr>
+<tr class="memitem:ae44944045c9edca97a20c1b80869e37b inherit events_class_controller_action"><td class="memItemLeft" align="right" valign="top">EventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#ae44944045c9edca97a20c1b80869e37b">ControllerActionStart</a></td></tr>
+<tr class="memdesc:ae44944045c9edca97a20c1b80869e37b inherit events_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">功能启动事件  <a href="class_controller_action.html#ae44944045c9edca97a20c1b80869e37b">更多...</a><br /></td></tr>
+<tr class="separator:ae44944045c9edca97a20c1b80869e37b inherit events_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a335e9ec9715ce53dd2be91e02c3d8ec0 inherit events_class_controller_action"><td class="memItemLeft" align="right" valign="top">EventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#a335e9ec9715ce53dd2be91e02c3d8ec0">ControllerActionEnd</a></td></tr>
+<tr class="memdesc:a335e9ec9715ce53dd2be91e02c3d8ec0 inherit events_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">功能关闭事件  <a href="class_controller_action.html#a335e9ec9715ce53dd2be91e02c3d8ec0">更多...</a><br /></td></tr>
+<tr class="separator:a335e9ec9715ce53dd2be91e02c3d8ec0 inherit events_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
 <div class="textblock">
@@ -162,7 +169,17 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_select_object_by_controller_8cs_source.html">SelectObjectByController.cs</a> 第 <a class="el" href="_select_object_by_controller_8cs_source.html#l00076">76</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_select_object_by_controller_8cs_source.html">SelectObjectByController.cs</a> 第 <a class="el" href="_select_object_by_controller_8cs_source.html#l00073">73</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_object_by_controller_a4a33661c5ea7c7c42c505a07ce903830_cgraph.png" border="0" usemap="#aclass_select_object_by_controller_a4a33661c5ea7c7c42c505a07ce903830_cgraph" alt=""/></div>
+<map name="aclass_select_object_by_controller_a4a33661c5ea7c7c42c505a07ce903830_cgraph" id="aclass_select_object_by_controller_a4a33661c5ea7c7c42c505a07ce903830_cgraph">
+<area shape="rect" title=" " alt="" coords="5,35,152,71"/>
+<area shape="rect" href="class_select_object_by_controller.html#a780ec31409fede1f07ba79c1813716f5" title="有物体被选取时触发的函数" alt="" coords="200,5,347,41"/>
+<area shape="rect" href="class_select_object_by_controller.html#a3cd5ea376d6449d62a2528197a2bf0cc" title="物体取消选取时触发的函数" alt="" coords="200,65,347,101"/>
+</map>
+</div>
 <div class="dynheader">
 这是这个函数的调用关系图:</div>
 <div class="dyncontent">
@@ -171,8 +188,8 @@ Private 属性</h2></td></tr>
 <area shape="rect" title=" " alt="" coords="395,35,541,71"/>
 <area shape="rect" href="class_select_object_by_controller.html#aa0c691276dfb85a267be8c345a8b748f" title=" " alt="" coords="200,5,347,41"/>
 <area shape="rect" href="class_select_object_by_controller.html#acc2248d69ac9606f7cee8f294c33bf06" title=" " alt="" coords="200,65,347,101"/>
-<area shape="rect" href="class_select_object_by_controller.html#a5138f1c81509ca9404b0a50d1952d58c" title=" " alt="" coords="5,5,152,41"/>
-<area shape="rect" href="class_select_object_by_controller.html#a7161f5fa00b2a95ff055ca1d96fe7476" title=" " alt="" coords="5,65,152,101"/>
+<area shape="rect" href="class_select_object_by_controller.html#a4b4d8d7b2ece909c5700a69e6f0ab311" title=" " alt="" coords="5,5,152,41"/>
+<area shape="rect" href="class_select_object_by_controller.html#a29d5ffc91f28ab6c0f8177a68b5050ca" title=" " alt="" coords="5,65,152,101"/>
 </map>
 </div>
 
@@ -212,14 +229,16 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_select_object_by_controller_8cs_source.html">SelectObjectByController.cs</a> 第 <a class="el" href="_select_object_by_controller_8cs_source.html#l00055">55</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_select_object_by_controller_8cs_source.html">SelectObjectByController.cs</a> 第 <a class="el" href="_select_object_by_controller_8cs_source.html#l00052">52</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_select_object_by_controller_aa0c691276dfb85a267be8c345a8b748f_cgraph.png" border="0" usemap="#aclass_select_object_by_controller_aa0c691276dfb85a267be8c345a8b748f_cgraph" alt=""/></div>
 <map name="aclass_select_object_by_controller_aa0c691276dfb85a267be8c345a8b748f_cgraph" id="aclass_select_object_by_controller_aa0c691276dfb85a267be8c345a8b748f_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,152,41"/>
-<area shape="rect" href="class_select_object_by_controller.html#a4a33661c5ea7c7c42c505a07ce903830" title=" " alt="" coords="200,5,347,41"/>
+<area shape="rect" title=" " alt="" coords="5,35,152,71"/>
+<area shape="rect" href="class_select_object_by_controller.html#a4a33661c5ea7c7c42c505a07ce903830" title=" " alt="" coords="200,35,347,71"/>
+<area shape="rect" href="class_select_object_by_controller.html#a780ec31409fede1f07ba79c1813716f5" title="有物体被选取时触发的函数" alt="" coords="395,5,541,41"/>
+<area shape="rect" href="class_select_object_by_controller.html#a3cd5ea376d6449d62a2528197a2bf0cc" title="物体取消选取时触发的函数" alt="" coords="395,65,541,101"/>
 </map>
 </div>
 <div class="dynheader">
@@ -228,8 +247,8 @@ Private 属性</h2></td></tr>
 <div class="center"><img src="class_select_object_by_controller_aa0c691276dfb85a267be8c345a8b748f_icgraph.png" border="0" usemap="#aclass_select_object_by_controller_aa0c691276dfb85a267be8c345a8b748f_icgraph" alt=""/></div>
 <map name="aclass_select_object_by_controller_aa0c691276dfb85a267be8c345a8b748f_icgraph" id="aclass_select_object_by_controller_aa0c691276dfb85a267be8c345a8b748f_icgraph">
 <area shape="rect" title=" " alt="" coords="200,35,347,71"/>
-<area shape="rect" href="class_select_object_by_controller.html#a5138f1c81509ca9404b0a50d1952d58c" title=" " alt="" coords="5,5,152,41"/>
-<area shape="rect" href="class_select_object_by_controller.html#a7161f5fa00b2a95ff055ca1d96fe7476" title=" " alt="" coords="5,65,152,101"/>
+<area shape="rect" href="class_select_object_by_controller.html#a4b4d8d7b2ece909c5700a69e6f0ab311" title=" " alt="" coords="5,5,152,41"/>
+<area shape="rect" href="class_select_object_by_controller.html#a29d5ffc91f28ab6c0f8177a68b5050ca" title=" " alt="" coords="5,65,152,101"/>
 </map>
 </div>
 
@@ -269,14 +288,16 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_select_object_by_controller_8cs_source.html">SelectObjectByController.cs</a> 第 <a class="el" href="_select_object_by_controller_8cs_source.html#l00066">66</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_select_object_by_controller_8cs_source.html">SelectObjectByController.cs</a> 第 <a class="el" href="_select_object_by_controller_8cs_source.html#l00063">63</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_select_object_by_controller_acc2248d69ac9606f7cee8f294c33bf06_cgraph.png" border="0" usemap="#aclass_select_object_by_controller_acc2248d69ac9606f7cee8f294c33bf06_cgraph" alt=""/></div>
 <map name="aclass_select_object_by_controller_acc2248d69ac9606f7cee8f294c33bf06_cgraph" id="aclass_select_object_by_controller_acc2248d69ac9606f7cee8f294c33bf06_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,152,41"/>
-<area shape="rect" href="class_select_object_by_controller.html#a4a33661c5ea7c7c42c505a07ce903830" title=" " alt="" coords="200,5,347,41"/>
+<area shape="rect" title=" " alt="" coords="5,35,152,71"/>
+<area shape="rect" href="class_select_object_by_controller.html#a4a33661c5ea7c7c42c505a07ce903830" title=" " alt="" coords="200,35,347,71"/>
+<area shape="rect" href="class_select_object_by_controller.html#a780ec31409fede1f07ba79c1813716f5" title="有物体被选取时触发的函数" alt="" coords="395,5,541,41"/>
+<area shape="rect" href="class_select_object_by_controller.html#a3cd5ea376d6449d62a2528197a2bf0cc" title="物体取消选取时触发的函数" alt="" coords="395,65,541,101"/>
 </map>
 </div>
 <div class="dynheader">
@@ -285,15 +306,15 @@ Private 属性</h2></td></tr>
 <div class="center"><img src="class_select_object_by_controller_acc2248d69ac9606f7cee8f294c33bf06_icgraph.png" border="0" usemap="#aclass_select_object_by_controller_acc2248d69ac9606f7cee8f294c33bf06_icgraph" alt=""/></div>
 <map name="aclass_select_object_by_controller_acc2248d69ac9606f7cee8f294c33bf06_icgraph" id="aclass_select_object_by_controller_acc2248d69ac9606f7cee8f294c33bf06_icgraph">
 <area shape="rect" title=" " alt="" coords="200,35,347,71"/>
-<area shape="rect" href="class_select_object_by_controller.html#a5138f1c81509ca9404b0a50d1952d58c" title=" " alt="" coords="5,5,152,41"/>
-<area shape="rect" href="class_select_object_by_controller.html#a7161f5fa00b2a95ff055ca1d96fe7476" title=" " alt="" coords="5,65,152,101"/>
+<area shape="rect" href="class_select_object_by_controller.html#a4b4d8d7b2ece909c5700a69e6f0ab311" title=" " alt="" coords="5,5,152,41"/>
+<area shape="rect" href="class_select_object_by_controller.html#a29d5ffc91f28ab6c0f8177a68b5050ca" title=" " alt="" coords="5,65,152,101"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a5138f1c81509ca9404b0a50d1952d58c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5138f1c81509ca9404b0a50d1952d58c">&#9670;&nbsp;</a></span>OnDisable()</h2>
+<a id="a780ec31409fede1f07ba79c1813716f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a780ec31409fede1f07ba79c1813716f5">&#9670;&nbsp;</a></span>HasObjectSelected()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -302,7 +323,7 @@ Private 属性</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void SelectObjectByController.OnDisable </td>
+          <td class="memname">void SelectObjectByController.HasObjectSelected </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -315,23 +336,28 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_select_object_by_controller_8cs_source.html">SelectObjectByController.cs</a> 第 <a class="el" href="_select_object_by_controller_8cs_source.html#l00037">37</a> 行定义.</p>
+<p>有物体被选取时触发的函数 </p>
+<p>1）打开外框高亮；2）打开Transform编辑 </p>
+
+<p class="definition">在文件 <a class="el" href="_select_object_by_controller_8cs_source.html">SelectObjectByController.cs</a> 第 <a class="el" href="_select_object_by_controller_8cs_source.html#l00123">123</a> 行定义.</p>
 <div class="dynheader">
-函数调用图:</div>
+这是这个函数的调用关系图:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_select_object_by_controller_a5138f1c81509ca9404b0a50d1952d58c_cgraph.png" border="0" usemap="#aclass_select_object_by_controller_a5138f1c81509ca9404b0a50d1952d58c_cgraph" alt=""/></div>
-<map name="aclass_select_object_by_controller_a5138f1c81509ca9404b0a50d1952d58c_cgraph" id="aclass_select_object_by_controller_a5138f1c81509ca9404b0a50d1952d58c_cgraph">
-<area shape="rect" title=" " alt="" coords="5,35,152,71"/>
+<div class="center"><img src="class_select_object_by_controller_a780ec31409fede1f07ba79c1813716f5_icgraph.png" border="0" usemap="#aclass_select_object_by_controller_a780ec31409fede1f07ba79c1813716f5_icgraph" alt=""/></div>
+<map name="aclass_select_object_by_controller_a780ec31409fede1f07ba79c1813716f5_icgraph" id="aclass_select_object_by_controller_a780ec31409fede1f07ba79c1813716f5_icgraph">
+<area shape="rect" title="有物体被选取时触发的函数" alt="" coords="589,35,736,71"/>
+<area shape="rect" href="class_select_object_by_controller.html#a4a33661c5ea7c7c42c505a07ce903830" title=" " alt="" coords="395,35,541,71"/>
 <area shape="rect" href="class_select_object_by_controller.html#aa0c691276dfb85a267be8c345a8b748f" title=" " alt="" coords="200,5,347,41"/>
 <area shape="rect" href="class_select_object_by_controller.html#acc2248d69ac9606f7cee8f294c33bf06" title=" " alt="" coords="200,65,347,101"/>
-<area shape="rect" href="class_select_object_by_controller.html#a4a33661c5ea7c7c42c505a07ce903830" title=" " alt="" coords="395,35,541,71"/>
+<area shape="rect" href="class_select_object_by_controller.html#a4b4d8d7b2ece909c5700a69e6f0ab311" title=" " alt="" coords="5,5,152,41"/>
+<area shape="rect" href="class_select_object_by_controller.html#a29d5ffc91f28ab6c0f8177a68b5050ca" title=" " alt="" coords="5,65,152,101"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a7161f5fa00b2a95ff055ca1d96fe7476"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7161f5fa00b2a95ff055ca1d96fe7476">&#9670;&nbsp;</a></span>OnEnable()</h2>
+<a id="a3cd5ea376d6449d62a2528197a2bf0cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cd5ea376d6449d62a2528197a2bf0cc">&#9670;&nbsp;</a></span>HasObjectUnSelected()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -340,7 +366,7 @@ Private 属性</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void SelectObjectByController.OnEnable </td>
+          <td class="memname">void SelectObjectByController.HasObjectUnSelected </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -353,16 +379,105 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_select_object_by_controller_8cs_source.html">SelectObjectByController.cs</a> 第 <a class="el" href="_select_object_by_controller_8cs_source.html#l00020">20</a> 行定义.</p>
+<p>物体取消选取时触发的函数 </p>
+<p>1）关闭外框高亮；2）关闭Transform编辑 </p>
+
+<p class="definition">在文件 <a class="el" href="_select_object_by_controller_8cs_source.html">SelectObjectByController.cs</a> 第 <a class="el" href="_select_object_by_controller_8cs_source.html#l00142">142</a> 行定义.</p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_object_by_controller_a3cd5ea376d6449d62a2528197a2bf0cc_icgraph.png" border="0" usemap="#aclass_select_object_by_controller_a3cd5ea376d6449d62a2528197a2bf0cc_icgraph" alt=""/></div>
+<map name="aclass_select_object_by_controller_a3cd5ea376d6449d62a2528197a2bf0cc_icgraph" id="aclass_select_object_by_controller_a3cd5ea376d6449d62a2528197a2bf0cc_icgraph">
+<area shape="rect" title="物体取消选取时触发的函数" alt="" coords="589,35,736,71"/>
+<area shape="rect" href="class_select_object_by_controller.html#a4a33661c5ea7c7c42c505a07ce903830" title=" " alt="" coords="395,35,541,71"/>
+<area shape="rect" href="class_select_object_by_controller.html#aa0c691276dfb85a267be8c345a8b748f" title=" " alt="" coords="200,5,347,41"/>
+<area shape="rect" href="class_select_object_by_controller.html#acc2248d69ac9606f7cee8f294c33bf06" title=" " alt="" coords="200,65,347,101"/>
+<area shape="rect" href="class_select_object_by_controller.html#a4b4d8d7b2ece909c5700a69e6f0ab311" title=" " alt="" coords="5,5,152,41"/>
+<area shape="rect" href="class_select_object_by_controller.html#a29d5ffc91f28ab6c0f8177a68b5050ca" title=" " alt="" coords="5,65,152,101"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a4b4d8d7b2ece909c5700a69e6f0ab311"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b4d8d7b2ece909c5700a69e6f0ab311">&#9670;&nbsp;</a></span>OnDisable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void SelectObjectByController.OnDisable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>重载 <a class="el" href="class_controller_action.html#ae307971a4af89d4ccb7074bfe643d7d4">ControllerAction</a> .</p>
+
+<p class="definition">在文件 <a class="el" href="_select_object_by_controller_8cs_source.html">SelectObjectByController.cs</a> 第 <a class="el" href="_select_object_by_controller_8cs_source.html#l00034">34</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_select_object_by_controller_a7161f5fa00b2a95ff055ca1d96fe7476_cgraph.png" border="0" usemap="#aclass_select_object_by_controller_a7161f5fa00b2a95ff055ca1d96fe7476_cgraph" alt=""/></div>
-<map name="aclass_select_object_by_controller_a7161f5fa00b2a95ff055ca1d96fe7476_cgraph" id="aclass_select_object_by_controller_a7161f5fa00b2a95ff055ca1d96fe7476_cgraph">
+<div class="center"><img src="class_select_object_by_controller_a4b4d8d7b2ece909c5700a69e6f0ab311_cgraph.png" border="0" usemap="#aclass_select_object_by_controller_a4b4d8d7b2ece909c5700a69e6f0ab311_cgraph" alt=""/></div>
+<map name="aclass_select_object_by_controller_a4b4d8d7b2ece909c5700a69e6f0ab311_cgraph" id="aclass_select_object_by_controller_a4b4d8d7b2ece909c5700a69e6f0ab311_cgraph">
 <area shape="rect" title=" " alt="" coords="5,35,152,71"/>
 <area shape="rect" href="class_select_object_by_controller.html#aa0c691276dfb85a267be8c345a8b748f" title=" " alt="" coords="200,5,347,41"/>
 <area shape="rect" href="class_select_object_by_controller.html#acc2248d69ac9606f7cee8f294c33bf06" title=" " alt="" coords="200,65,347,101"/>
 <area shape="rect" href="class_select_object_by_controller.html#a4a33661c5ea7c7c42c505a07ce903830" title=" " alt="" coords="395,35,541,71"/>
+<area shape="rect" href="class_select_object_by_controller.html#a780ec31409fede1f07ba79c1813716f5" title="有物体被选取时触发的函数" alt="" coords="589,5,736,41"/>
+<area shape="rect" href="class_select_object_by_controller.html#a3cd5ea376d6449d62a2528197a2bf0cc" title="物体取消选取时触发的函数" alt="" coords="589,65,736,101"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a29d5ffc91f28ab6c0f8177a68b5050ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29d5ffc91f28ab6c0f8177a68b5050ca">&#9670;&nbsp;</a></span>OnEnable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override void SelectObjectByController.OnEnable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>重载 <a class="el" href="class_controller_action.html#aa49bbe868d24d10ac2d3f0df2c615bc7">ControllerAction</a> .</p>
+
+<p class="definition">在文件 <a class="el" href="_select_object_by_controller_8cs_source.html">SelectObjectByController.cs</a> 第 <a class="el" href="_select_object_by_controller_8cs_source.html#l00017">17</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_select_object_by_controller_a29d5ffc91f28ab6c0f8177a68b5050ca_cgraph.png" border="0" usemap="#aclass_select_object_by_controller_a29d5ffc91f28ab6c0f8177a68b5050ca_cgraph" alt=""/></div>
+<map name="aclass_select_object_by_controller_a29d5ffc91f28ab6c0f8177a68b5050ca_cgraph" id="aclass_select_object_by_controller_a29d5ffc91f28ab6c0f8177a68b5050ca_cgraph">
+<area shape="rect" title=" " alt="" coords="5,35,152,71"/>
+<area shape="rect" href="class_select_object_by_controller.html#aa0c691276dfb85a267be8c345a8b748f" title=" " alt="" coords="200,5,347,41"/>
+<area shape="rect" href="class_select_object_by_controller.html#acc2248d69ac9606f7cee8f294c33bf06" title=" " alt="" coords="200,65,347,101"/>
+<area shape="rect" href="class_select_object_by_controller.html#a4a33661c5ea7c7c42c505a07ce903830" title=" " alt="" coords="395,35,541,71"/>
+<area shape="rect" href="class_select_object_by_controller.html#a780ec31409fede1f07ba79c1813716f5" title="有物体被选取时触发的函数" alt="" coords="589,5,736,41"/>
+<area shape="rect" href="class_select_object_by_controller.html#a3cd5ea376d6449d62a2528197a2bf0cc" title="物体取消选取时触发的函数" alt="" coords="589,65,736,101"/>
 </map>
 </div>
 
@@ -438,55 +553,6 @@ Private 属性</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">在文件 <a class="el" href="_select_object_by_controller_8cs_source.html">SelectObjectByController.cs</a> 第 <a class="el" href="_select_object_by_controller_8cs_source.html#l00011">11</a> 行定义.</p>
-
-</div>
-</div>
-<h2 class="groupheader">事件说明</h2>
-<a id="a87e3669d54eeea5d898baa5651420fcf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87e3669d54eeea5d898baa5651420fcf">&#9670;&nbsp;</a></span>hasObjectSelected</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">EventHandler SelectObjectByController.hasObjectSelected</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">在文件 <a class="el" href="_select_object_by_controller_8cs_source.html">SelectObjectByController.cs</a> 第 <a class="el" href="_select_object_by_controller_8cs_source.html#l00017">17</a> 行定义.</p>
-
-</div>
-</div>
-<a id="a5685465be0233bd1e8f2e24d790e538b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5685465be0233bd1e8f2e24d790e538b">&#9670;&nbsp;</a></span>hasObjectUnSelected</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">EventHandler SelectObjectByController.hasObjectUnSelected</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">在文件 <a class="el" href="_select_object_by_controller_8cs_source.html">SelectObjectByController.cs</a> 第 <a class="el" href="_select_object_by_controller_8cs_source.html#l00018">18</a> 行定义.</p>
 
 </div>
 </div>

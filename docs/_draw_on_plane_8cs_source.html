@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>VR Sketch Design: Y:/Coding/Unity/VRDesignProject/Assets/Scripts/ControllerActions/DrawOnPlane.cs 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">VR Sketch Design
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">VR Project</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.1 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_b93ca4f67e5c4f3d8967bcc66a8efe61.html">Y:</a></li><li class="navelem"><a class="el" href="dir_657949dcc09204b591ba08b2dd60005a.html">Coding</a></li><li class="navelem"><a class="el" href="dir_9e3bf1a2f1e8bb1f1076cb3a500c0924.html">Unity</a></li><li class="navelem"><a class="el" href="dir_d92c12ce3d70d23921038a5d2ecff28d.html">VRDesignProject</a></li><li class="navelem"><a class="el" href="dir_bbf63476caace77856cc7cbaedc98ba5.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a6ab9145be13875259d1d9e44e1e8835.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_9eb04459ffa80765a164874b47dfec96.html">ControllerActions</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">DrawOnPlane.cs</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_draw_on_plane_8cs.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">using</span> System.Collections;</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">using</span> System.Collections.Generic;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">using</span> UnityEngine;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">using</span> VRTK;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
+<div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="class_draw_on_plane.html">    6</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="class_draw_on_plane.html">DrawOnPlane</a> : <a class="code" href="class_controller_draw_line.html">ControllerDrawLine</a></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    </div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="class_draw_on_plane.html#a84958e312834e097e17aa1414a330e28">    9</a></span>&#160;    <span class="keyword">private</span> Ray <a class="code" href="class_draw_on_plane.html#a84958e312834e097e17aa1414a330e28">painter</a>;</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_draw_on_plane.html#a7da845aee741d7b3b648bdb5a5e24d61">   10</a></span>&#160;    <span class="keyword">private</span> RaycastHit <a class="code" href="class_draw_on_plane.html#a7da845aee741d7b3b648bdb5a5e24d61">hitInfo</a>;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_draw_on_plane.html#abdf4ea35253b07dba7ed9e7d9eb983ef">   12</a></span>&#160;    <span class="keyword">private</span> <span class="keyword">const</span> <span class="keywordtype">float</span> <a class="code" href="class_draw_on_plane.html#abdf4ea35253b07dba7ed9e7d9eb983ef">Eps</a> = 0.001f;</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;    <span class="comment">// Start is called before the first frame update</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="class_draw_on_plane.html#af3b5d1ba3e5075805923be42ce1ecaca">   15</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code" href="class_draw_on_plane.html#af3b5d1ba3e5075805923be42ce1ecaca">OnEnable</a>()</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    {</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        base.OnEnable();</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="comment">// 2. 记录ray hit位置</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160; </div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="comment">// 3. 使用lineRenderer将hit的位置渲染出来</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    }</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160; </div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    <span class="comment">// Update is called once per frame</span></div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_draw_on_plane.html#a0fd6b8f976f0a5ee43154b5e300a990e">   24</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code" href="class_draw_on_plane.html#a0fd6b8f976f0a5ee43154b5e300a990e">Update</a>()</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    {</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <a class="code" href="class_draw_on_plane.html#a84958e312834e097e17aa1414a330e28">painter</a> = <span class="keyword">new</span> Ray(transform.position, transform.forward);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordflow">if</span> (Physics.Raycast(<a class="code" href="class_draw_on_plane.html#a84958e312834e097e17aa1414a330e28">painter</a>, out <a class="code" href="class_draw_on_plane.html#a7da845aee741d7b3b648bdb5a5e24d61">hitInfo</a>))</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="class_controller_action.html#af0986b059f6087f0232a6079d016ddfc">conEvt</a>.triggerTouched)</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            {</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;                <a class="code" href="class_draw_on_plane.html#af8507fa1bbef3d9be7ec7c1c737900b6">SetLinePos</a>();</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            }</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;        }</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;    }</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160; </div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_draw_on_plane.html#af8507fa1bbef3d9be7ec7c1c737900b6">   36</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code" href="class_draw_on_plane.html#af8507fa1bbef3d9be7ec7c1c737900b6">SetLinePos</a>()</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    {</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        <span class="comment">// 绘制的直线点，在击中位置往法线方向移动Eps距离处，解决绘制线畸变的问题</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <a class="code" href="class_controller_draw_line.html#a03e3c5d509f298ae843a83d6e34158bc">curLine</a>.SetPosition(++<a class="code" href="class_controller_draw_line.html#a03e3c5d509f298ae843a83d6e34158bc">curLine</a>.positionCount - 1, <a class="code" href="class_draw_on_plane.html#a7da845aee741d7b3b648bdb5a5e24d61">hitInfo</a>.point + <a class="code" href="class_draw_on_plane.html#a7da845aee741d7b3b648bdb5a5e24d61">hitInfo</a>.normal.normalized * <a class="code" href="class_draw_on_plane.html#abdf4ea35253b07dba7ed9e7d9eb983ef">Eps</a>);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    }</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="class_draw_on_plane.html#a515e6ff3c18678609dcbe8ad7d10bb2b">   42</a></span>&#160;    <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code" href="class_draw_on_plane.html#a515e6ff3c18678609dcbe8ad7d10bb2b">OnDrawGizmos</a>()</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        Gizmos.DrawRay(<a class="code" href="class_draw_on_plane.html#a84958e312834e097e17aa1414a330e28">painter</a>);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        Gizmos.color = Color.red;</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="class_draw_on_plane.html#a7da845aee741d7b3b648bdb5a5e24d61">hitInfo</a>.point != <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;            Gizmos.DrawSphere(<a class="code" href="class_draw_on_plane.html#a7da845aee741d7b3b648bdb5a5e24d61">hitInfo</a>.point, 0.01f);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    }</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;}</div>
+<div class="ttc" id="aclass_controller_action_html_af0986b059f6087f0232a6079d016ddfc"><div class="ttname"><a href="class_controller_action.html#af0986b059f6087f0232a6079d016ddfc">ControllerAction.conEvt</a></div><div class="ttdeci">VRTK_ControllerEvents conEvt</div><div class="ttdef"><b>Definition:</b> <a href="_controller_action_8cs_source.html#l00016">ControllerAction.cs:16</a></div></div>
+<div class="ttc" id="aclass_controller_draw_line_html"><div class="ttname"><a href="class_controller_draw_line.html">ControllerDrawLine</a></div><div class="ttdef"><b>Definition:</b> <a href="_controller_draw_line_8cs_source.html#l00008">ControllerDrawLine.cs:9</a></div></div>
+<div class="ttc" id="aclass_controller_draw_line_html_a03e3c5d509f298ae843a83d6e34158bc"><div class="ttname"><a href="class_controller_draw_line.html#a03e3c5d509f298ae843a83d6e34158bc">ControllerDrawLine.curLine</a></div><div class="ttdeci">LineRenderer curLine</div><div class="ttdef"><b>Definition:</b> <a href="_controller_draw_line_8cs_source.html#l00011">ControllerDrawLine.cs:11</a></div></div>
+<div class="ttc" id="aclass_draw_on_plane_html"><div class="ttname"><a href="class_draw_on_plane.html">DrawOnPlane</a></div><div class="ttdef"><b>Definition:</b> <a href="_draw_on_plane_8cs_source.html#l00006">DrawOnPlane.cs:7</a></div></div>
+<div class="ttc" id="aclass_draw_on_plane_html_a0fd6b8f976f0a5ee43154b5e300a990e"><div class="ttname"><a href="class_draw_on_plane.html#a0fd6b8f976f0a5ee43154b5e300a990e">DrawOnPlane.Update</a></div><div class="ttdeci">override void Update()</div><div class="ttdef"><b>Definition:</b> <a href="_draw_on_plane_8cs_source.html#l00024">DrawOnPlane.cs:24</a></div></div>
+<div class="ttc" id="aclass_draw_on_plane_html_a515e6ff3c18678609dcbe8ad7d10bb2b"><div class="ttname"><a href="class_draw_on_plane.html#a515e6ff3c18678609dcbe8ad7d10bb2b">DrawOnPlane.OnDrawGizmos</a></div><div class="ttdeci">void OnDrawGizmos()</div><div class="ttdef"><b>Definition:</b> <a href="_draw_on_plane_8cs_source.html#l00042">DrawOnPlane.cs:42</a></div></div>
+<div class="ttc" id="aclass_draw_on_plane_html_a7da845aee741d7b3b648bdb5a5e24d61"><div class="ttname"><a href="class_draw_on_plane.html#a7da845aee741d7b3b648bdb5a5e24d61">DrawOnPlane.hitInfo</a></div><div class="ttdeci">RaycastHit hitInfo</div><div class="ttdef"><b>Definition:</b> <a href="_draw_on_plane_8cs_source.html#l00010">DrawOnPlane.cs:10</a></div></div>
+<div class="ttc" id="aclass_draw_on_plane_html_a84958e312834e097e17aa1414a330e28"><div class="ttname"><a href="class_draw_on_plane.html#a84958e312834e097e17aa1414a330e28">DrawOnPlane.painter</a></div><div class="ttdeci">Ray painter</div><div class="ttdef"><b>Definition:</b> <a href="_draw_on_plane_8cs_source.html#l00009">DrawOnPlane.cs:9</a></div></div>
+<div class="ttc" id="aclass_draw_on_plane_html_abdf4ea35253b07dba7ed9e7d9eb983ef"><div class="ttname"><a href="class_draw_on_plane.html#abdf4ea35253b07dba7ed9e7d9eb983ef">DrawOnPlane.Eps</a></div><div class="ttdeci">const float Eps</div><div class="ttdef"><b>Definition:</b> <a href="_draw_on_plane_8cs_source.html#l00012">DrawOnPlane.cs:12</a></div></div>
+<div class="ttc" id="aclass_draw_on_plane_html_af3b5d1ba3e5075805923be42ce1ecaca"><div class="ttname"><a href="class_draw_on_plane.html#af3b5d1ba3e5075805923be42ce1ecaca">DrawOnPlane.OnEnable</a></div><div class="ttdeci">override void OnEnable()</div><div class="ttdef"><b>Definition:</b> <a href="_draw_on_plane_8cs_source.html#l00015">DrawOnPlane.cs:15</a></div></div>
+<div class="ttc" id="aclass_draw_on_plane_html_af8507fa1bbef3d9be7ec7c1c737900b6"><div class="ttname"><a href="class_draw_on_plane.html#af8507fa1bbef3d9be7ec7c1c737900b6">DrawOnPlane.SetLinePos</a></div><div class="ttdeci">override void SetLinePos()</div><div class="ttdef"><b>Definition:</b> <a href="_draw_on_plane_8cs_source.html#l00036">DrawOnPlane.cs:36</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

@@ -1,10 +1,10 @@
 <map id="ControllerActionManager.DoControllerActionStart" name="ControllerActionManager.DoControllerActionStart">
-<area shape="rect" id="node1" title=" " alt="" coords="6,97,151,133"/>
-<area shape="rect" id="node2" href="$class_controller_action_manager.html#a8e9d797042fd988bfbbd9069e4253db8" title=" " alt="" coords="411,69,557,105"/>
-<area shape="rect" id="node5" href="$class_controller_action_manager.html#a9ca1058a63dcad6dbc0ecf2c5fe857f5" title=" " alt="" coords="209,97,354,133"/>
-<area shape="rect" id="node8" href="$class_controller_action_manager.html#ad0ca6cda3a61d060246ab409e89c70e7" title=" " alt="" coords="200,157,363,193"/>
-<area shape="rect" id="node3" href="$class_controller_action_manager.html#a57255f7af4467bda1fa6db145f507595" title=" " alt="" coords="606,65,751,101"/>
-<area shape="rect" id="node4" href="$class_controller_action_manager.html#a488a1ebe216105ac4543349e59147367" title=" " alt="" coords="606,125,751,161"/>
-<area shape="rect" id="node6" href="$class_controller_action_manager.html#a39f1fd358b15b905909ca1cc54e21afa" title=" " alt="" coords="411,9,557,45"/>
-<area shape="rect" id="node7" href="$class_controller_action_manager.html#a6dde35e0f3d632c0dd8a98e3fd6c9701" title=" " alt="" coords="606,5,751,41"/>
+<area shape="rect" id="node1" title="功能脚本启动事件回调" alt="" coords="6,97,151,133"/>
+<area shape="rect" id="node2" href="$class_controller_action_manager.html#a8e9d797042fd988bfbbd9069e4253db8" title="将当前功能切换为新功能" alt="" coords="411,69,557,105"/>
+<area shape="rect" id="node5" href="$class_controller_action_manager.html#a170b9a480b9754639a5ecb6bfcc625e4" title="供另一只手柄调用，打开某功能脚本" alt="" coords="209,97,354,133"/>
+<area shape="rect" id="node8" href="$class_controller_action_manager.html#ad0ca6cda3a61d060246ab409e89c70e7" title="关闭物体的可交互属性 @detail 可交互属性包含可抓取、可高亮" alt="" coords="200,157,363,193"/>
+<area shape="rect" id="node3" href="$class_controller_action_manager.html#a57255f7af4467bda1fa6db145f507595" title="将当前的功能打开" alt="" coords="606,65,751,101"/>
+<area shape="rect" id="node4" href="$class_controller_action_manager.html#a488a1ebe216105ac4543349e59147367" title="将当前的功能关闭" alt="" coords="606,125,751,161"/>
+<area shape="rect" id="node6" href="$class_controller_action_manager.html#a451d199268ba8e918563fa6c39c4f045" title="将默认功能脚本设为当前活跃脚本" alt="" coords="411,9,557,45"/>
+<area shape="rect" id="node7" href="$class_controller_action_manager.html#a6dde35e0f3d632c0dd8a98e3fd6c9701" title="打开物体的可交互属性 @detail 可交互属性包含可抓取、可高亮" alt="" coords="606,5,751,41"/>
 </map>

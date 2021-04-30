@@ -1,0 +1,8 @@
+<map id="SelectObjectByController.OnEnable" name="SelectObjectByController.OnEnable">
+<area shape="rect" id="node1" title=" " alt="" coords="5,35,152,71"/>
+<area shape="rect" id="node2" href="$class_select_object_by_controller.html#aa0c691276dfb85a267be8c345a8b748f" title=" " alt="" coords="200,5,347,41"/>
+<area shape="rect" id="node6" href="$class_select_object_by_controller.html#acc2248d69ac9606f7cee8f294c33bf06" title=" " alt="" coords="200,65,347,101"/>
+<area shape="rect" id="node3" href="$class_select_object_by_controller.html#a4a33661c5ea7c7c42c505a07ce903830" title=" " alt="" coords="395,35,541,71"/>
+<area shape="rect" id="node4" href="$class_select_object_by_controller.html#a780ec31409fede1f07ba79c1813716f5" title="有物体被选取时触发的函数" alt="" coords="589,5,736,41"/>
+<area shape="rect" id="node5" href="$class_select_object_by_controller.html#a3cd5ea376d6449d62a2528197a2bf0cc" title="物体取消选取时触发的函数" alt="" coords="589,65,736,101"/>
+</map>
