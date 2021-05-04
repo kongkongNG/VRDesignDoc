@@ -44,6 +44,7 @@ $(function() {
 <a href="#pub-methods">Public 成员函数</a> &#124;
 <a href="#pri-methods">Private 成员函数</a> &#124;
 <a href="#pri-attribs">Private 属性</a> &#124;
+<a href="#pri-static-attribs">静态 Private 属性</a> &#124;
 <a href="class_cylinder_creater-members.html">所有成员列表</a>  </div>
   <div class="headertitle">
 <div class="title">CylinderCreater类 参考</div>  </div>
@@ -57,8 +58,8 @@ $(function() {
 <div class="dyncontent">
 <div class="center"><img src="class_cylinder_creater__inherit__graph.png" border="0" usemap="#a_cylinder_creater_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_cylinder_creater_inherit__map" id="a_cylinder_creater_inherit__map">
-<area shape="rect" title="圆柱体创建器 继承了创建器父类" alt="" coords="19,398,157,599"/>
-<area shape="rect" href="class_model_creater.html" title="模型创建器的父类（抽象类） 定义模型创建器的行为" alt="" coords="5,123,171,349"/>
+<area shape="rect" title="圆柱体创建器 继承了创建器父类" alt="" coords="19,481,157,682"/>
+<area shape="rect" href="class_model_creater.html" title="模型创建器的父类（抽象类） 定义模型创建器的行为" alt="" coords="5,123,171,432"/>
 <area shape="rect" title=" " alt="" coords="40,5,136,75"/>
 </map>
 </div>
@@ -67,8 +68,8 @@ CylinderCreater 的协作图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_cylinder_creater__coll__graph.png" border="0" usemap="#a_cylinder_creater_coll__map" alt="Collaboration graph"/></div>
 <map name="a_cylinder_creater_coll__map" id="a_cylinder_creater_coll__map">
-<area shape="rect" title="圆柱体创建器 继承了创建器父类" alt="" coords="19,398,157,599"/>
-<area shape="rect" href="class_model_creater.html" title="模型创建器的父类（抽象类） 定义模型创建器的行为" alt="" coords="5,123,171,349"/>
+<area shape="rect" title="圆柱体创建器 继承了创建器父类" alt="" coords="19,481,157,682"/>
+<area shape="rect" href="class_model_creater.html" title="模型创建器的父类（抽象类） 定义模型创建器的行为" alt="" coords="5,123,171,432"/>
 <area shape="rect" title=" " alt="" coords="40,5,136,75"/>
 </map>
 </div>
@@ -77,18 +78,29 @@ CylinderCreater 的协作图:</div>
 Public 成员函数</h2></td></tr>
 <tr class="memitem:a39a0db13c789ebf71c86c5b4b4a78f3b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cylinder_creater.html#a39a0db13c789ebf71c86c5b4b4a78f3b">CylinderCreater</a> ()</td></tr>
 <tr class="separator:a39a0db13c789ebf71c86c5b4b4a78f3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe0129ca31d9e3f072f27c3fb24716f6"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cylinder_creater.html#abe0129ca31d9e3f072f27c3fb24716f6">CreateContour</a> (out GameObject contour)</td></tr>
-<tr class="memdesc:abe0129ca31d9e3f072f27c3fb24716f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建圆形轮廓 param[out] contour 圆形轮廓的GameObject  <a href="class_cylinder_creater.html#abe0129ca31d9e3f072f27c3fb24716f6">更多...</a><br /></td></tr>
-<tr class="separator:abe0129ca31d9e3f072f27c3fb24716f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cc7d39215a6dd0aac0ccd22b913bc6a"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cylinder_creater.html#a3cc7d39215a6dd0aac0ccd22b913bc6a">CreateContour</a> (Vector3 pos)</td></tr>
+<tr class="memdesc:a3cc7d39215a6dd0aac0ccd22b913bc6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建圆形轮廓  <a href="class_cylinder_creater.html#a3cc7d39215a6dd0aac0ccd22b913bc6a">更多...</a><br /></td></tr>
+<tr class="separator:a3cc7d39215a6dd0aac0ccd22b913bc6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42537840234063d6dfaf77ea407dce4e"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cylinder_creater.html#a42537840234063d6dfaf77ea407dce4e">ChangeSize</a> (Vector3 controllerVec)</td></tr>
 <tr class="memdesc:a42537840234063d6dfaf77ea407dce4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据手柄改变圆形轮廓  <a href="class_cylinder_creater.html#a42537840234063d6dfaf77ea407dce4e">更多...</a><br /></td></tr>
 <tr class="separator:a42537840234063d6dfaf77ea407dce4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a386d0e14d79c2c91eb2a21d4a88b578b"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cylinder_creater.html#a386d0e14d79c2c91eb2a21d4a88b578b">Extrude</a> (Vector3 controllerVec, out GameObject obj)</td></tr>
-<tr class="memdesc:a386d0e14d79c2c91eb2a21d4a88b578b"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据手柄拉伸出模型实体  <a href="class_cylinder_creater.html#a386d0e14d79c2c91eb2a21d4a88b578b">更多...</a><br /></td></tr>
-<tr class="separator:a386d0e14d79c2c91eb2a21d4a88b578b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab09c9e02f5956d52c3c609197fc082af"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cylinder_creater.html#ab09c9e02f5956d52c3c609197fc082af">Extrude</a> (Vector3 controllerVec)</td></tr>
+<tr class="memdesc:ab09c9e02f5956d52c3c609197fc082af"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据手柄拉伸出模型实体  <a href="class_cylinder_creater.html#ab09c9e02f5956d52c3c609197fc082af">更多...</a><br /></td></tr>
+<tr class="separator:ab09c9e02f5956d52c3c609197fc082af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a894dcbe9a7396570ee6f0b3d52792abc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cylinder_creater.html#a894dcbe9a7396570ee6f0b3d52792abc">AddPoint</a> (int idx, Vector3 p)</td></tr>
 <tr class="memdesc:a894dcbe9a7396570ee6f0b3d52792abc"><td class="mdescLeft">&#160;</td><td class="mdescRight">为轮廓的LineRenderer添加顶点  <a href="class_cylinder_creater.html#a894dcbe9a7396570ee6f0b3d52792abc">更多...</a><br /></td></tr>
 <tr class="separator:a894dcbe9a7396570ee6f0b3d52792abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dbe93fbbf0b4287c8d67342849725a7"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cylinder_creater.html#a5dbe93fbbf0b4287c8d67342849725a7">PostCreation</a> ()</td></tr>
+<tr class="separator:a5dbe93fbbf0b4287c8d67342849725a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_class_model_creater"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_model_creater')"><img src="closed.png" alt="-"/>&#160;Public 成员函数 继承自 <a class="el" href="class_model_creater.html">ModelCreater</a></td></tr>
+<tr class="memitem:aa5914bf533ff378cf5a04e387298daf3 inherit pub_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#aa5914bf533ff378cf5a04e387298daf3">ChangePos</a> (Vector3 newPos)</td></tr>
+<tr class="separator:aa5914bf533ff378cf5a04e387298daf3 inherit pub_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13e2e05ccf23220c36674ea7455aac61 inherit pub_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a13e2e05ccf23220c36674ea7455aac61">CreateDirectly</a> (Vector3 pos)</td></tr>
+<tr class="memdesc:a13e2e05ccf23220c36674ea7455aac61 inherit pub_methods_class_model_creater"><td class="mdescLeft">&#160;</td><td class="mdescRight">直接创建物体  <a href="class_model_creater.html#a13e2e05ccf23220c36674ea7455aac61">更多...</a><br /></td></tr>
+<tr class="separator:a13e2e05ccf23220c36674ea7455aac61 inherit pub_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae400d7acfc5ad422eaf12e14edb53ea7 inherit pub_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#ae400d7acfc5ad422eaf12e14edb53ea7">CombineAreas</a> ()</td></tr>
+<tr class="memdesc:ae400d7acfc5ad422eaf12e14edb53ea7 inherit pub_methods_class_model_creater"><td class="mdescLeft">&#160;</td><td class="mdescRight">合并所有面，形成一个物体，保留原有的面但不显示  <a href="class_model_creater.html#ae400d7acfc5ad422eaf12e14edb53ea7">更多...</a><br /></td></tr>
+<tr class="separator:ae400d7acfc5ad422eaf12e14edb53ea7 inherit pub_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private 成员函数</h2></td></tr>
@@ -113,12 +125,12 @@ Private 属性</h2></td></tr>
 <tr class="memitem:a12b5964fcae9237059baaed0f1948756"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cylinder_creater.html#a12b5964fcae9237059baaed0f1948756">op_mesh</a></td></tr>
 <tr class="memdesc:a12b5964fcae9237059baaed0f1948756"><td class="mdescLeft">&#160;</td><td class="mdescRight">sgcore生成的网格  <a href="class_cylinder_creater.html#a12b5964fcae9237059baaed0f1948756">更多...</a><br /></td></tr>
 <tr class="separator:a12b5964fcae9237059baaed0f1948756"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adc3d818066aed2a94eb741009a040915"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cylinder_creater.html#adc3d818066aed2a94eb741009a040915">circleObj</a></td></tr>
-<tr class="memdesc:adc3d818066aed2a94eb741009a040915"><td class="mdescLeft">&#160;</td><td class="mdescRight">unity中的圆形实体  <a href="class_cylinder_creater.html#adc3d818066aed2a94eb741009a040915">更多...</a><br /></td></tr>
-<tr class="separator:adc3d818066aed2a94eb741009a040915"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaec9a175980449208e7ab76a024e0b37"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cylinder_creater.html#aaec9a175980449208e7ab76a024e0b37">meshObj</a></td></tr>
-<tr class="memdesc:aaec9a175980449208e7ab76a024e0b37"><td class="mdescLeft">&#160;</td><td class="mdescRight">unity中的圆柱实体  <a href="class_cylinder_creater.html#aaec9a175980449208e7ab76a024e0b37">更多...</a><br /></td></tr>
-<tr class="separator:aaec9a175980449208e7ab76a024e0b37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+静态 Private 属性</h2></td></tr>
+<tr class="memitem:ac0805911c3e787003c471424cd54dd18"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cylinder_creater.html#ac0805911c3e787003c471424cd54dd18">modelCnt</a> = 1</td></tr>
+<tr class="memdesc:ac0805911c3e787003c471424cd54dd18"><td class="mdescLeft">&#160;</td><td class="mdescRight">模型计数  <a href="class_cylinder_creater.html#ac0805911c3e787003c471424cd54dd18">更多...</a><br /></td></tr>
+<tr class="separator:ac0805911c3e787003c471424cd54dd18"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 额外继承的成员函数</h2></td></tr>
@@ -167,6 +179,18 @@ Private 属性</h2></td></tr>
 <tr class="separator:a45887bab9b382e3275b8e9054f0e2e46 inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39fbef3e50beb28160f6e9da42954152 inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a39fbef3e50beb28160f6e9da42954152">sgGetObjectMaterialIndex</a> (IntPtr objPtr)</td></tr>
 <tr class="separator:a39fbef3e50beb28160f6e9da42954152 inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_class_model_creater"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_model_creater')"><img src="closed.png" alt="-"/>&#160;Protected 属性 继承自 <a class="el" href="class_model_creater.html">ModelCreater</a></td></tr>
+<tr class="memitem:aac01c9fd2f402146f70d6e62f0310a60 inherit pro_attribs_class_model_creater"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#aac01c9fd2f402146f70d6e62f0310a60">modelFa</a></td></tr>
+<tr class="memdesc:aac01c9fd2f402146f70d6e62f0310a60 inherit pro_attribs_class_model_creater"><td class="mdescLeft">&#160;</td><td class="mdescRight">整个模型的父物体  <a href="class_model_creater.html#aac01c9fd2f402146f70d6e62f0310a60">更多...</a><br /></td></tr>
+<tr class="separator:aac01c9fd2f402146f70d6e62f0310a60 inherit pro_attribs_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ed7ef0f0d2235b4f59ab961cb19400b inherit pro_attribs_class_model_creater"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a4ed7ef0f0d2235b4f59ab961cb19400b">contourObj</a></td></tr>
+<tr class="memdesc:a4ed7ef0f0d2235b4f59ab961cb19400b inherit pro_attribs_class_model_creater"><td class="mdescLeft">&#160;</td><td class="mdescRight">圆形轮廓实体  <a href="class_model_creater.html#a4ed7ef0f0d2235b4f59ab961cb19400b">更多...</a><br /></td></tr>
+<tr class="separator:a4ed7ef0f0d2235b4f59ab961cb19400b inherit pro_attribs_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1d1ecda79260c8ce641171dceb84cf3 inherit pro_attribs_class_model_creater"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#ac1d1ecda79260c8ce641171dceb84cf3">areaObj</a></td></tr>
+<tr class="memdesc:ac1d1ecda79260c8ce641171dceb84cf3 inherit pro_attribs_class_model_creater"><td class="mdescLeft">&#160;</td><td class="mdescRight">圆柱模型所有面的父物体体  <a href="class_model_creater.html#ac1d1ecda79260c8ce641171dceb84cf3">更多...</a><br /></td></tr>
+<tr class="separator:ac1d1ecda79260c8ce641171dceb84cf3 inherit pro_attribs_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a642be26a8dbb3ab9d7e44d0f2615ebb3 inherit pro_attribs_class_model_creater"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a642be26a8dbb3ab9d7e44d0f2615ebb3">modelObj</a></td></tr>
+<tr class="separator:a642be26a8dbb3ab9d7e44d0f2615ebb3 inherit pro_attribs_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
 <div class="textblock"><p>圆柱体创建器 继承了创建器父类 </p>
@@ -188,7 +212,7 @@ Private 属性</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_cylinder_creater_8cs_source.html">CylinderCreater.cs</a> 第 <a class="el" href="_cylinder_creater_8cs_source.html#l00034">34</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_cylinder_creater_8cs_source.html">CylinderCreater.cs</a> 第 <a class="el" href="_cylinder_creater_8cs_source.html#l00035">35</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
@@ -237,7 +261,7 @@ Private 属性</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="_cylinder_creater_8cs_source.html">CylinderCreater.cs</a> 第 <a class="el" href="_cylinder_creater_8cs_source.html#l00253">253</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_cylinder_creater_8cs_source.html">CylinderCreater.cs</a> 第 <a class="el" href="_cylinder_creater_8cs_source.html#l00256">256</a> 行定义.</p>
 <div class="dynheader">
 这是这个函数的调用关系图:</div>
 <div class="dyncontent">
@@ -246,7 +270,7 @@ Private 属性</h2></td></tr>
 <area shape="rect" title="为轮廓的LineRenderer添加顶点" alt="" coords="438,29,583,53"/>
 <area shape="rect" href="class_cylinder_creater.html#a2cd20aa92f5e739ddd83354e69d9278d" title="提取sgcore指针中的顶点数据，添加到LineRenderer中" alt="" coords="229,23,389,59"/>
 <area shape="rect" href="class_cylinder_creater.html#a42537840234063d6dfaf77ea407dce4e" title="根据手柄改变圆形轮廓" alt="" coords="14,5,173,29"/>
-<area shape="rect" href="class_cylinder_creater.html#abe0129ca31d9e3f072f27c3fb24716f6" title="创建圆形轮廓 param[out] contour 圆形轮廓的GameObject" alt="" coords="6,53,181,77"/>
+<area shape="rect" href="class_cylinder_creater.html#a3cc7d39215a6dd0aac0ccd22b913bc6a" title="创建圆形轮廓" alt="" coords="6,53,181,77"/>
 </map>
 </div>
 
@@ -286,7 +310,7 @@ Private 属性</h2></td></tr>
 
 <p>实现了 <a class="el" href="class_model_creater.html#a6d63cc6b8514361ee863dad27cc21df3">ModelCreater</a>.</p>
 
-<p class="definition">在文件 <a class="el" href="_cylinder_creater_8cs_source.html">CylinderCreater.cs</a> 第 <a class="el" href="_cylinder_creater_8cs_source.html#l00089">89</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_cylinder_creater_8cs_source.html">CylinderCreater.cs</a> 第 <a class="el" href="_cylinder_creater_8cs_source.html#l00087">87</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
@@ -303,8 +327,8 @@ Private 属性</h2></td></tr>
 
 </div>
 </div>
-<a id="abe0129ca31d9e3f072f27c3fb24716f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe0129ca31d9e3f072f27c3fb24716f6">&#9670;&nbsp;</a></span>CreateContour()</h2>
+<a id="a3cc7d39215a6dd0aac0ccd22b913bc6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cc7d39215a6dd0aac0ccd22b913bc6a">&#9670;&nbsp;</a></span>CreateContour()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -315,8 +339,8 @@ Private 属性</h2></td></tr>
         <tr>
           <td class="memname">override void CylinderCreater.CreateContour </td>
           <td>(</td>
-          <td class="paramtype">out GameObject&#160;</td>
-          <td class="paramname"><em>contour</em></td><td>)</td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -327,17 +351,23 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>创建圆形轮廓 param[out] contour 圆形轮廓的GameObject </p>
+<p>创建圆形轮廓 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos</td><td>圆形轮廓的创建位置 </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>实现了 <a class="el" href="class_model_creater.html#a6b4fe2dd97cd779523a528c3445faad1">ModelCreater</a>.</p>
+<p>实现了 <a class="el" href="class_model_creater.html#aea7f934ddcb21731c179ff5bf705b22f">ModelCreater</a>.</p>
 
-<p class="definition">在文件 <a class="el" href="_cylinder_creater_8cs_source.html">CylinderCreater.cs</a> 第 <a class="el" href="_cylinder_creater_8cs_source.html#l00049">49</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_cylinder_creater_8cs_source.html">CylinderCreater.cs</a> 第 <a class="el" href="_cylinder_creater_8cs_source.html#l00045">45</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_cylinder_creater_abe0129ca31d9e3f072f27c3fb24716f6_cgraph.png" border="0" usemap="#aclass_cylinder_creater_abe0129ca31d9e3f072f27c3fb24716f6_cgraph" alt=""/></div>
-<map name="aclass_cylinder_creater_abe0129ca31d9e3f072f27c3fb24716f6_cgraph" id="aclass_cylinder_creater_abe0129ca31d9e3f072f27c3fb24716f6_cgraph">
-<area shape="rect" title="创建圆形轮廓 param[out] contour 圆形轮廓的GameObject" alt="" coords="6,92,181,116"/>
+<div class="center"><img src="class_cylinder_creater_a3cc7d39215a6dd0aac0ccd22b913bc6a_cgraph.png" border="0" usemap="#aclass_cylinder_creater_a3cc7d39215a6dd0aac0ccd22b913bc6a_cgraph" alt=""/></div>
+<map name="aclass_cylinder_creater_a3cc7d39215a6dd0aac0ccd22b913bc6a_cgraph" id="aclass_cylinder_creater_a3cc7d39215a6dd0aac0ccd22b913bc6a_cgraph">
+<area shape="rect" title="创建圆形轮廓" alt="" coords="6,92,181,116"/>
 <area shape="rect" href="class_cylinder_creater.html#a2cd20aa92f5e739ddd83354e69d9278d" title="提取sgcore指针中的顶点数据，添加到LineRenderer中" alt="" coords="233,26,393,62"/>
 <area shape="rect" href="class_model_creater.html#a2be1349c2ccf9300f34825c309f973fa" title=" " alt="" coords="230,86,397,122"/>
 <area shape="rect" href="class_model_creater.html#a571c5a3c60d5223dfd7777527c83aa02" title=" " alt="" coords="238,146,389,182"/>
@@ -398,7 +428,7 @@ Private 属性</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="_cylinder_creater_8cs_source.html">CylinderCreater.cs</a> 第 <a class="el" href="_cylinder_creater_8cs_source.html#l00129">129</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_cylinder_creater_8cs_source.html">CylinderCreater.cs</a> 第 <a class="el" href="_cylinder_creater_8cs_source.html#l00115">115</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
@@ -416,14 +446,14 @@ Private 属性</h2></td></tr>
 <map name="aclass_cylinder_creater_a2cd20aa92f5e739ddd83354e69d9278d_icgraph" id="aclass_cylinder_creater_a2cd20aa92f5e739ddd83354e69d9278d_icgraph">
 <area shape="rect" title="提取sgcore指针中的顶点数据，添加到LineRenderer中" alt="" coords="229,23,389,59"/>
 <area shape="rect" href="class_cylinder_creater.html#a42537840234063d6dfaf77ea407dce4e" title="根据手柄改变圆形轮廓" alt="" coords="14,5,173,29"/>
-<area shape="rect" href="class_cylinder_creater.html#abe0129ca31d9e3f072f27c3fb24716f6" title="创建圆形轮廓 param[out] contour 圆形轮廓的GameObject" alt="" coords="6,53,181,77"/>
+<area shape="rect" href="class_cylinder_creater.html#a3cc7d39215a6dd0aac0ccd22b913bc6a" title="创建圆形轮廓" alt="" coords="6,53,181,77"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a386d0e14d79c2c91eb2a21d4a88b578b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a386d0e14d79c2c91eb2a21d4a88b578b">&#9670;&nbsp;</a></span>Extrude()</h2>
+<a id="ab09c9e02f5956d52c3c609197fc082af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab09c9e02f5956d52c3c609197fc082af">&#9670;&nbsp;</a></span>Extrude()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -435,18 +465,8 @@ Private 属性</h2></td></tr>
           <td class="memname">override void CylinderCreater.Extrude </td>
           <td>(</td>
           <td class="paramtype">Vector3&#160;</td>
-          <td class="paramname"><em>controllerVec</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>controllerVec</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">out GameObject&#160;</td>
-          <td class="paramname"><em>obj</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -465,14 +485,14 @@ Private 属性</h2></td></tr>
   </dd>
 </dl>
 
-<p>实现了 <a class="el" href="class_model_creater.html#ad14c1a9434bc4dba63e0829d2e36c6c8">ModelCreater</a>.</p>
+<p>实现了 <a class="el" href="class_model_creater.html#a00493148d8c852fa3ef1e5f34a7ddfcd">ModelCreater</a>.</p>
 
-<p class="definition">在文件 <a class="el" href="_cylinder_creater_8cs_source.html">CylinderCreater.cs</a> 第 <a class="el" href="_cylinder_creater_8cs_source.html#l00150">150</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_cylinder_creater_8cs_source.html">CylinderCreater.cs</a> 第 <a class="el" href="_cylinder_creater_8cs_source.html#l00136">136</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_cylinder_creater_a386d0e14d79c2c91eb2a21d4a88b578b_cgraph.png" border="0" usemap="#aclass_cylinder_creater_a386d0e14d79c2c91eb2a21d4a88b578b_cgraph" alt=""/></div>
-<map name="aclass_cylinder_creater_a386d0e14d79c2c91eb2a21d4a88b578b_cgraph" id="aclass_cylinder_creater_a386d0e14d79c2c91eb2a21d4a88b578b_cgraph">
+<div class="center"><img src="class_cylinder_creater_ab09c9e02f5956d52c3c609197fc082af_cgraph.png" border="0" usemap="#aclass_cylinder_creater_ab09c9e02f5956d52c3c609197fc082af_cgraph" alt=""/></div>
+<map name="aclass_cylinder_creater_ab09c9e02f5956d52c3c609197fc082af_cgraph" id="aclass_cylinder_creater_ab09c9e02f5956d52c3c609197fc082af_cgraph">
 <area shape="rect" title="根据手柄拉伸出模型实体" alt="" coords="6,120,146,144"/>
 <area shape="rect" href="class_model_creater.html#ad60e8085c0d66d030e5f84f1fa8bd6ca" title=" " alt="" coords="207,5,375,41"/>
 <area shape="rect" href="class_model_creater.html#a4940dc2e4945cd2d3a62477ca58922b4" title=" " alt="" coords="197,65,384,89"/>
@@ -484,9 +504,8 @@ Private 属性</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">类成员变量说明</h2>
-<a id="adc3d818066aed2a94eb741009a040915"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adc3d818066aed2a94eb741009a040915">&#9670;&nbsp;</a></span>circleObj</h2>
+<a id="a5dbe93fbbf0b4287c8d67342849725a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dbe93fbbf0b4287c8d67342849725a7">&#9670;&nbsp;</a></span>PostCreation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -495,22 +514,26 @@ Private 属性</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">GameObject CylinderCreater.circleObj</td>
+          <td class="memname">override void CylinderCreater.PostCreation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>unity中的圆形实体 </p>
+<p>重载 <a class="el" href="class_model_creater.html#a749d10ecdf461e137334e030915fcd2b">ModelCreater</a> .</p>
 
-<p class="definition">在文件 <a class="el" href="_cylinder_creater_8cs_source.html">CylinderCreater.cs</a> 第 <a class="el" href="_cylinder_creater_8cs_source.html#l00020">20</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_cylinder_creater_8cs_source.html">CylinderCreater.cs</a> 第 <a class="el" href="_cylinder_creater_8cs_source.html#l00261">261</a> 行定义.</p>
 
 </div>
 </div>
+<h2 class="groupheader">类成员变量说明</h2>
 <a id="aaab3e9bf4704b0e7d9a2711e47f35c7f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaab3e9bf4704b0e7d9a2711e47f35c7f">&#9670;&nbsp;</a></span>line</h2>
 
@@ -537,8 +560,8 @@ Private 属性</h2></td></tr>
 
 </div>
 </div>
-<a id="aaec9a175980449208e7ab76a024e0b37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaec9a175980449208e7ab76a024e0b37">&#9670;&nbsp;</a></span>meshObj</h2>
+<a id="ac0805911c3e787003c471424cd54dd18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0805911c3e787003c471424cd54dd18">&#9670;&nbsp;</a></span>modelCnt</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -547,19 +570,19 @@ Private 属性</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">GameObject CylinderCreater.meshObj</td>
+          <td class="memname">int CylinderCreater.modelCnt = 1</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>unity中的圆柱实体 </p>
+<p>模型计数 </p>
 
-<p class="definition">在文件 <a class="el" href="_cylinder_creater_8cs_source.html">CylinderCreater.cs</a> 第 <a class="el" href="_cylinder_creater_8cs_source.html#l00021">21</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_cylinder_creater_8cs_source.html">CylinderCreater.cs</a> 第 <a class="el" href="_cylinder_creater_8cs_source.html#l00022">22</a> 行定义.</p>
 
 </div>
 </div>

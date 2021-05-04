@@ -57,9 +57,9 @@ $(function() {
 <div class="dyncontent">
 <div class="center"><img src="class_create_model_action__inherit__graph.png" border="0" usemap="#a_create_model_action_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_create_model_action_inherit__map" id="a_create_model_action_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,289,165,538"/>
-<area shape="rect" href="class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="10,123,160,240"/>
-<area shape="rect" title=" " alt="" coords="37,5,133,75"/>
+<area shape="rect" title=" " alt="" coords="5,288,168,549"/>
+<area shape="rect" href="class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="11,123,161,240"/>
+<area shape="rect" title=" " alt="" coords="39,5,135,75"/>
 </map>
 </div>
 <div class="dynheader">
@@ -67,10 +67,10 @@ CreateModelAction 的协作图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_create_model_action__coll__graph.png" border="0" usemap="#a_create_model_action_coll__map" alt="Collaboration graph"/></div>
 <map name="a_create_model_action_coll__map" id="a_create_model_action_coll__map">
-<area shape="rect" title=" " alt="" coords="56,413,216,651"/>
-<area shape="rect" href="class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,180,155,297"/>
+<area shape="rect" title=" " alt="" coords="54,497,217,746"/>
+<area shape="rect" href="class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,221,155,339"/>
 <area shape="rect" title=" " alt="" coords="141,5,237,75"/>
-<area shape="rect" href="class_model_creater.html" title="模型创建器的父类（抽象类） 定义模型创建器的行为" alt="" coords="179,126,345,351"/>
+<area shape="rect" href="class_model_creater.html" title="模型创建器的父类（抽象类） 定义模型创建器的行为" alt="" coords="179,125,345,435"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -88,9 +88,12 @@ Public 属性</h2></td></tr>
 <tr class="memitem:a84e1b8e7d6353987d18ebf69e1f4b297"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_create_model_action.html#a84e1b8e7d6353987d18ebf69e1f4b297">scale</a> = 1.0f</td></tr>
 <tr class="memdesc:a84e1b8e7d6353987d18ebf69e1f4b297"><td class="mdescLeft">&#160;</td><td class="mdescRight">物体随手柄距离改变大小的乘数  <a href="class_create_model_action.html#a84e1b8e7d6353987d18ebf69e1f4b297">更多...</a><br /></td></tr>
 <tr class="separator:a84e1b8e7d6353987d18ebf69e1f4b297"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab65f601d924f8ef66d6cb4f299d7fdfd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_create_model_action.html#ab65f601d924f8ef66d6cb4f299d7fdfd">forwardDistance</a> = 0f</td></tr>
-<tr class="memdesc:ab65f601d924f8ef66d6cb4f299d7fdfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">物体距手柄中心点往前的距离  <a href="class_create_model_action.html#ab65f601d924f8ef66d6cb4f299d7fdfd">更多...</a><br /></td></tr>
+<tr class="memitem:ab65f601d924f8ef66d6cb4f299d7fdfd"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_create_model_action.html#ab65f601d924f8ef66d6cb4f299d7fdfd">forwardDistance</a> = 1.0f</td></tr>
+<tr class="memdesc:ab65f601d924f8ef66d6cb4f299d7fdfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">物体距右手柄往前的距离  <a href="class_create_model_action.html#ab65f601d924f8ef66d6cb4f299d7fdfd">更多...</a><br /></td></tr>
 <tr class="separator:ab65f601d924f8ef66d6cb4f299d7fdfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7af8c66410ea290caaf844cde2b890c7"><td class="memItemLeft" align="right" valign="top">Toggle&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_create_model_action.html#a7af8c66410ea290caaf844cde2b890c7">isCreateDirectly</a></td></tr>
+<tr class="memdesc:a7af8c66410ea290caaf844cde2b890c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否为直接创建  <a href="class_create_model_action.html#a7af8c66410ea290caaf844cde2b890c7">更多...</a><br /></td></tr>
+<tr class="separator:a7af8c66410ea290caaf844cde2b890c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected 成员函数</h2></td></tr>
@@ -111,9 +114,16 @@ Protected 成员函数</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-types"></a>
 Private 类型</h2></td></tr>
-<tr class="memitem:a5582dd2927787e92a9043adaae6dd22a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_create_model_action.html#a5582dd2927787e92a9043adaae6dd22a">State</a> { <a class="el" href="class_create_model_action.html#a5582dd2927787e92a9043adaae6dd22aa2ad9d63b69c4a10a5cc9cad923133bc4">Bottom</a>
+<tr class="memitem:a5582dd2927787e92a9043adaae6dd22a"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_create_model_action.html#a5582dd2927787e92a9043adaae6dd22a">State</a> { <br />
+&#160;&#160;<a class="el" href="class_create_model_action.html#a5582dd2927787e92a9043adaae6dd22aaa6122a65eaa676f700ae68d393054a37">Start</a>
+, <a class="el" href="class_create_model_action.html#a5582dd2927787e92a9043adaae6dd22aa2ad9d63b69c4a10a5cc9cad923133bc4">Bottom</a>
 , <a class="el" href="class_create_model_action.html#a5582dd2927787e92a9043adaae6dd22aaeec6c4bdbd339edf8cbea68becb85244">Height</a>
+, <a class="el" href="class_create_model_action.html#a5582dd2927787e92a9043adaae6dd22aae7b3c0acb7168c7969b03e8aebc67ce7">Combine</a>
+, <br />
+&#160;&#160;<a class="el" href="class_create_model_action.html#a5582dd2927787e92a9043adaae6dd22aa63596a60e40991c170be34acfb4c6a87">PostCreate</a>
 , <a class="el" href="class_create_model_action.html#a5582dd2927787e92a9043adaae6dd22aaa20ddccbb6f808ec42cd66323e6c6061">Finish</a>
+, <a class="el" href="class_create_model_action.html#a5582dd2927787e92a9043adaae6dd22aafd1dd0c603be8170f9eae0be9f2f6afb">Direct</a>
+<br />
  }</td></tr>
 <tr class="memdesc:a5582dd2927787e92a9043adaae6dd22a"><td class="mdescLeft">&#160;</td><td class="mdescRight">操作状态机的所有状态  <a href="class_create_model_action.html#a5582dd2927787e92a9043adaae6dd22a">更多...</a><br /></td></tr>
 <tr class="separator:a5582dd2927787e92a9043adaae6dd22a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,21 +144,17 @@ Private 成员函数</h2></td></tr>
 <tr class="memitem:ad50d0d25201b149744b45f526134a155"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_create_model_action.html#ad50d0d25201b149744b45f526134a155">UpdateHeight</a> ()</td></tr>
 <tr class="memdesc:ad50d0d25201b149744b45f526134a155"><td class="mdescLeft">&#160;</td><td class="mdescRight">调整高度  <a href="class_create_model_action.html#ad50d0d25201b149744b45f526134a155">更多...</a><br /></td></tr>
 <tr class="separator:ad50d0d25201b149744b45f526134a155"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2e2d3a355dbd5d6588a9678ff456588"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_create_model_action.html#ad2e2d3a355dbd5d6588a9678ff456588">UpdatePosition</a> ()</td></tr>
-<tr class="memdesc:ad2e2d3a355dbd5d6588a9678ff456588"><td class="mdescLeft">&#160;</td><td class="mdescRight">调整位置  <a href="class_create_model_action.html#ad2e2d3a355dbd5d6588a9678ff456588">更多...</a><br /></td></tr>
-<tr class="separator:ad2e2d3a355dbd5d6588a9678ff456588"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d6c8c81122eb4b14a21c8b79bbc32d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_create_model_action.html#a0d6c8c81122eb4b14a21c8b79bbc32d1">PostCreate</a> ()</td></tr>
-<tr class="memdesc:a0d6c8c81122eb4b14a21c8b79bbc32d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建后，为物体添加脚本  <a href="class_create_model_action.html#a0d6c8c81122eb4b14a21c8b79bbc32d1">更多...</a><br /></td></tr>
-<tr class="separator:a0d6c8c81122eb4b14a21c8b79bbc32d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1629116a8182e656cf9b464ce21fd55b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_create_model_action.html#a1629116a8182e656cf9b464ce21fd55b">UpdateModelPosCentered</a> ()</td></tr>
+<tr class="memdesc:a1629116a8182e656cf9b464ce21fd55b"><td class="mdescLeft">&#160;</td><td class="mdescRight">调整位置  <a href="class_create_model_action.html#a1629116a8182e656cf9b464ce21fd55b">更多...</a><br /></td></tr>
+<tr class="separator:a1629116a8182e656cf9b464ce21fd55b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b2d987b6b865fb84e1d1a633577bf37"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_create_model_action.html#a8b2d987b6b865fb84e1d1a633577bf37">UpdateModelPosFollowRightHand</a> ()</td></tr>
+<tr class="separator:a8b2d987b6b865fb84e1d1a633577bf37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae533e185e257e2eb8c497de2d5c64f51"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_create_model_action.html#ae533e185e257e2eb8c497de2d5c64f51">PostCreation</a> ()</td></tr>
+<tr class="memdesc:ae533e185e257e2eb8c497de2d5c64f51"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建后，为物体添加脚本  <a href="class_create_model_action.html#ae533e185e257e2eb8c497de2d5c64f51">更多...</a><br /></td></tr>
+<tr class="separator:ae533e185e257e2eb8c497de2d5c64f51"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private 属性</h2></td></tr>
-<tr class="memitem:a5a340e62e1565a5cde697da210ffcea6"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_create_model_action.html#a5a340e62e1565a5cde697da210ffcea6">model</a></td></tr>
-<tr class="memdesc:a5a340e62e1565a5cde697da210ffcea6"><td class="mdescLeft">&#160;</td><td class="mdescRight">被创建的模型父物体  <a href="class_create_model_action.html#a5a340e62e1565a5cde697da210ffcea6">更多...</a><br /></td></tr>
-<tr class="separator:a5a340e62e1565a5cde697da210ffcea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a5f5ce5e891e8e2dbe412b058d4d6f8"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_create_model_action.html#a6a5f5ce5e891e8e2dbe412b058d4d6f8">meshObj</a></td></tr>
-<tr class="memdesc:a6a5f5ce5e891e8e2dbe412b058d4d6f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">被创建的模型  <a href="class_create_model_action.html#a6a5f5ce5e891e8e2dbe412b058d4d6f8">更多...</a><br /></td></tr>
-<tr class="separator:a6a5f5ce5e891e8e2dbe412b058d4d6f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7d7aa3988ec605847b2ab30ad87e1a47"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_create_model_action.html#a5582dd2927787e92a9043adaae6dd22a">State</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_create_model_action.html#a7d7aa3988ec605847b2ab30ad87e1a47">state</a></td></tr>
 <tr class="memdesc:a7d7aa3988ec605847b2ab30ad87e1a47"><td class="mdescLeft">&#160;</td><td class="mdescRight">状态机当前状态  <a href="class_create_model_action.html#a7d7aa3988ec605847b2ab30ad87e1a47">更多...</a><br /></td></tr>
 <tr class="separator:a7d7aa3988ec605847b2ab30ad87e1a47"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -172,7 +178,7 @@ Private 属性</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
 <div class="textblock">
-<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00008">8</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00009">9</a> 行定义.</p>
 </div><h2 class="groupheader">成员枚举类型说明</h2>
 <a id="a5582dd2927787e92a9043adaae6dd22a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5582dd2927787e92a9043adaae6dd22a">&#9670;&nbsp;</a></span>State</h2>
@@ -196,12 +202,23 @@ Private 属性</h2></td></tr>
 
 <p>操作状态机的所有状态 </p>
 <table class="fieldtable">
-<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="a5582dd2927787e92a9043adaae6dd22aa2ad9d63b69c4a10a5cc9cad923133bc4"></a>Bottom&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5582dd2927787e92a9043adaae6dd22aaeec6c4bdbd339edf8cbea68becb85244"></a>Height&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a5582dd2927787e92a9043adaae6dd22aaa20ddccbb6f808ec42cd66323e6c6061"></a>Finish&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="a5582dd2927787e92a9043adaae6dd22aaa6122a65eaa676f700ae68d393054a37"></a>Start&#160;</td><td class="fielddoc"><p>起始状态 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5582dd2927787e92a9043adaae6dd22aa2ad9d63b69c4a10a5cc9cad923133bc4"></a>Bottom&#160;</td><td class="fielddoc"><p>调整底面轮廓 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5582dd2927787e92a9043adaae6dd22aaeec6c4bdbd339edf8cbea68becb85244"></a>Height&#160;</td><td class="fielddoc"><p>调整高度 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5582dd2927787e92a9043adaae6dd22aae7b3c0acb7168c7969b03e8aebc67ce7"></a>Combine&#160;</td><td class="fielddoc"><p>合并为整体 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5582dd2927787e92a9043adaae6dd22aa63596a60e40991c170be34acfb4c6a87"></a>PostCreate&#160;</td><td class="fielddoc"><p>后创建 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5582dd2927787e92a9043adaae6dd22aaa20ddccbb6f808ec42cd66323e6c6061"></a>Finish&#160;</td><td class="fielddoc"><p>完成创建 </p>
+</td></tr>
+<tr><td class="fieldname"><a id="a5582dd2927787e92a9043adaae6dd22aafd1dd0c603be8170f9eae0be9f2f6afb"></a>Direct&#160;</td><td class="fielddoc"><p>直接创建 </p>
+</td></tr>
 </table>
 
-<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00011">11</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00012">12</a> 行定义.</p>
 
 </div>
 </div>
@@ -242,7 +259,7 @@ Private 属性</h2></td></tr>
 
 <p>Trigger Clicked事件回调函数 </p>
 
-<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00085">85</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00104">104</a> 行定义.</p>
 <div class="dynheader">
 这是这个函数的调用关系图:</div>
 <div class="dyncontent">
@@ -273,7 +290,7 @@ Private 属性</h2></td></tr>
 
 <p>创建圆柱按钮点击事件 </p>
 
-<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00218">218</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00209">209</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
@@ -311,7 +328,7 @@ Private 属性</h2></td></tr>
 
 <p>重载 <a class="el" href="class_controller_action.html#ae307971a4af89d4ccb7074bfe643d7d4">ControllerAction</a> .</p>
 
-<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00045">45</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00051">51</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
@@ -349,23 +366,21 @@ Private 属性</h2></td></tr>
 
 <p>重载 <a class="el" href="class_controller_action.html#aa49bbe868d24d10ac2d3f0df2c615bc7">ControllerAction</a> .</p>
 
-<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00026">26</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00034">34</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_create_model_action_ac42a81c6fbd87c5e7762707e981619f0_cgraph.png" border="0" usemap="#aclass_create_model_action_ac42a81c6fbd87c5e7762707e981619f0_cgraph" alt=""/></div>
 <map name="aclass_create_model_action_ac42a81c6fbd87c5e7762707e981619f0_cgraph" id="aclass_create_model_action_ac42a81c6fbd87c5e7762707e981619f0_cgraph">
-<area shape="rect" title=" " alt="" coords="5,39,168,63"/>
-<area shape="rect" href="class_create_model_action.html#a50127e4aecaae35d4156a995805c2a2d" title="Trigger Clicked事件回调函数" alt="" coords="218,5,382,41"/>
-<area shape="rect" href="class_create_model_action.html#acfff511a5314778412e6bb1d0891a78b" title="预创建" alt="" coords="217,65,383,89"/>
-<area shape="rect" href="class_model_creater.html#a6b4fe2dd97cd779523a528c3445faad1" title="创建底面轮廓" alt="" coords="432,65,595,89"/>
+<area shape="rect" title=" " alt="" coords="5,11,168,35"/>
+<area shape="rect" href="class_create_model_action.html#a50127e4aecaae35d4156a995805c2a2d" title="Trigger Clicked事件回调函数" alt="" coords="217,5,381,41"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a0d6c8c81122eb4b14a21c8b79bbc32d1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d6c8c81122eb4b14a21c8b79bbc32d1">&#9670;&nbsp;</a></span>PostCreate()</h2>
+<a id="ae533e185e257e2eb8c497de2d5c64f51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae533e185e257e2eb8c497de2d5c64f51">&#9670;&nbsp;</a></span>PostCreation()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -374,7 +389,7 @@ Private 属性</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CreateModelAction.PostCreate </td>
+          <td class="memname">void CreateModelAction.PostCreation </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -388,15 +403,23 @@ Private 属性</h2></td></tr>
 </div><div class="memdoc">
 
 <p>创建后，为物体添加脚本 </p>
-<p>融合网格</p>
 
-<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00167">167</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00201">201</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_create_model_action_ae533e185e257e2eb8c497de2d5c64f51_cgraph.png" border="0" usemap="#aclass_create_model_action_ae533e185e257e2eb8c497de2d5c64f51_cgraph" alt=""/></div>
+<map name="aclass_create_model_action_ae533e185e257e2eb8c497de2d5c64f51_cgraph" id="aclass_create_model_action_ae533e185e257e2eb8c497de2d5c64f51_cgraph">
+<area shape="rect" title="创建后，为物体添加脚本" alt="" coords="5,5,184,29"/>
+<area shape="rect" href="class_model_creater.html#a749d10ecdf461e137334e030915fcd2b" title=" " alt="" coords="233,5,386,29"/>
+</map>
+</div>
 <div class="dynheader">
 这是这个函数的调用关系图:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_create_model_action_a0d6c8c81122eb4b14a21c8b79bbc32d1_icgraph.png" border="0" usemap="#aclass_create_model_action_a0d6c8c81122eb4b14a21c8b79bbc32d1_icgraph" alt=""/></div>
-<map name="aclass_create_model_action_a0d6c8c81122eb4b14a21c8b79bbc32d1_icgraph" id="aclass_create_model_action_a0d6c8c81122eb4b14a21c8b79bbc32d1_icgraph">
-<area shape="rect" title="创建后，为物体添加脚本" alt="" coords="205,5,376,29"/>
+<div class="center"><img src="class_create_model_action_ae533e185e257e2eb8c497de2d5c64f51_icgraph.png" border="0" usemap="#aclass_create_model_action_ae533e185e257e2eb8c497de2d5c64f51_icgraph" alt=""/></div>
+<map name="aclass_create_model_action_ae533e185e257e2eb8c497de2d5c64f51_icgraph" id="aclass_create_model_action_ae533e185e257e2eb8c497de2d5c64f51_icgraph">
+<area shape="rect" title="创建后，为物体添加脚本" alt="" coords="205,5,384,29"/>
 <area shape="rect" href="class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="5,5,157,29"/>
 </map>
 </div>
@@ -428,14 +451,17 @@ Private 属性</h2></td></tr>
 
 <p>预创建 </p>
 
-<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00097">97</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00121">121</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_create_model_action_acfff511a5314778412e6bb1d0891a78b_cgraph.png" border="0" usemap="#aclass_create_model_action_acfff511a5314778412e6bb1d0891a78b_cgraph" alt=""/></div>
 <map name="aclass_create_model_action_acfff511a5314778412e6bb1d0891a78b_cgraph" id="aclass_create_model_action_acfff511a5314778412e6bb1d0891a78b_cgraph">
-<area shape="rect" title="预创建" alt="" coords="6,5,173,29"/>
-<area shape="rect" href="class_model_creater.html#a6b4fe2dd97cd779523a528c3445faad1" title="创建底面轮廓" alt="" coords="221,5,384,29"/>
+<area shape="rect" title="预创建" alt="" coords="6,31,173,55"/>
+<area shape="rect" href="class_model_creater.html#aea7f934ddcb21731c179ff5bf705b22f" title="创建底面轮廓" alt="" coords="429,5,592,29"/>
+<area shape="rect" href="class_model_creater.html#a13e2e05ccf23220c36674ea7455aac61" title="直接创建物体" alt="" coords="221,55,381,79"/>
+<area shape="rect" href="class_model_creater.html#ae400d7acfc5ad422eaf12e14edb53ea7" title="合并所有面，形成一个物体，保留原有的面但不显示" alt="" coords="431,53,591,77"/>
+<area shape="rect" href="class_model_creater.html#a00493148d8c852fa3ef1e5f34a7ddfcd" title="拉伸实体" alt="" coords="446,101,575,125"/>
 </map>
 </div>
 <div class="dynheader">
@@ -443,8 +469,8 @@ Private 属性</h2></td></tr>
 <div class="dyncontent">
 <div class="center"><img src="class_create_model_action_acfff511a5314778412e6bb1d0891a78b_icgraph.png" border="0" usemap="#aclass_create_model_action_acfff511a5314778412e6bb1d0891a78b_icgraph" alt=""/></div>
 <map name="aclass_create_model_action_acfff511a5314778412e6bb1d0891a78b_icgraph" id="aclass_create_model_action_acfff511a5314778412e6bb1d0891a78b_icgraph">
-<area shape="rect" title="预创建" alt="" coords="217,5,383,29"/>
-<area shape="rect" href="class_create_model_action.html#ac42a81c6fbd87c5e7762707e981619f0" title=" " alt="" coords="5,5,168,29"/>
+<area shape="rect" title="预创建" alt="" coords="206,5,373,29"/>
+<area shape="rect" href="class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="5,5,157,29"/>
 </map>
 </div>
 
@@ -473,20 +499,27 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00058">58</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00064">64</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_create_model_action_aa51f2552da82db37ce9402843caf8b74_cgraph.png" border="0" usemap="#aclass_create_model_action_aa51f2552da82db37ce9402843caf8b74_cgraph" alt=""/></div>
 <map name="aclass_create_model_action_aa51f2552da82db37ce9402843caf8b74_cgraph" id="aclass_create_model_action_aa51f2552da82db37ce9402843caf8b74_cgraph">
-<area shape="rect" title=" " alt="" coords="5,120,157,144"/>
-<area shape="rect" href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea" title="功能结束的事件触发函数" alt="" coords="209,5,373,41"/>
-<area shape="rect" href="class_create_model_action.html#a0d6c8c81122eb4b14a21c8b79bbc32d1" title="创建后，为物体添加脚本" alt="" coords="205,65,376,89"/>
-<area shape="rect" href="class_create_model_action.html#a988e97773595065c762c92a32ddb30bf" title="调整底部" alt="" coords="215,114,367,150"/>
-<area shape="rect" href="class_create_model_action.html#ad50d0d25201b149744b45f526134a155" title="调整高度" alt="" coords="215,174,367,210"/>
-<area shape="rect" href="class_create_model_action.html#ad2e2d3a355dbd5d6588a9678ff456588" title="调整位置" alt="" coords="215,234,367,270"/>
-<area shape="rect" href="class_model_creater.html#a6d63cc6b8514361ee863dad27cc21df3" title="改变轮廓大小" alt="" coords="424,120,571,144"/>
-<area shape="rect" href="class_model_creater.html#ad14c1a9434bc4dba63e0829d2e36c6c8" title="拉伸实体" alt="" coords="433,180,562,204"/>
+<area shape="rect" title=" " alt="" coords="5,208,157,232"/>
+<area shape="rect" href="class_model_creater.html#ae400d7acfc5ad422eaf12e14edb53ea7" title="合并所有面，形成一个物体，保留原有的面但不显示" alt="" coords="641,27,801,51"/>
+<area shape="rect" href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea" title="功能结束的事件触发函数" alt="" coords="213,174,377,210"/>
+<area shape="rect" href="class_create_model_action.html#ae533e185e257e2eb8c497de2d5c64f51" title="创建后，为物体添加脚本" alt="" coords="205,235,384,259"/>
+<area shape="rect" href="class_create_model_action.html#acfff511a5314778412e6bb1d0891a78b" title="预创建" alt="" coords="211,75,378,99"/>
+<area shape="rect" href="class_create_model_action.html#a988e97773595065c762c92a32ddb30bf" title="调整底部" alt="" coords="219,283,371,319"/>
+<area shape="rect" href="class_create_model_action.html#ad50d0d25201b149744b45f526134a155" title="调整高度" alt="" coords="436,150,588,186"/>
+<area shape="rect" href="class_create_model_action.html#a1629116a8182e656cf9b464ce21fd55b" title="调整位置" alt="" coords="219,343,371,379"/>
+<area shape="rect" href="class_create_model_action.html#a8b2d987b6b865fb84e1d1a633577bf37" title=" " alt="" coords="219,403,371,439"/>
+<area shape="rect" href="class_model_creater.html#a749d10ecdf461e137334e030915fcd2b" title=" " alt="" coords="435,235,589,259"/>
+<area shape="rect" href="class_model_creater.html#aea7f934ddcb21731c179ff5bf705b22f" title="创建底面轮廓" alt="" coords="640,88,803,112"/>
+<area shape="rect" href="class_model_creater.html#a13e2e05ccf23220c36674ea7455aac61" title="直接创建物体" alt="" coords="432,51,592,75"/>
+<area shape="rect" href="class_model_creater.html#a00493148d8c852fa3ef1e5f34a7ddfcd" title="拉伸实体" alt="" coords="657,140,786,164"/>
+<area shape="rect" href="class_model_creater.html#a6d63cc6b8514361ee863dad27cc21df3" title="改变轮廓大小" alt="" coords="439,289,585,313"/>
+<area shape="rect" href="class_model_creater.html#aa5914bf533ff378cf5a04e387298daf3" title=" " alt="" coords="439,379,585,403"/>
 </map>
 </div>
 
@@ -517,7 +550,7 @@ Private 属性</h2></td></tr>
 
 <p>调整底部 </p>
 
-<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00112">112</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00140">140</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
@@ -564,14 +597,14 @@ Private 属性</h2></td></tr>
 
 <p>调整高度 </p>
 
-<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00130">130</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00158">158</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_create_model_action_ad50d0d25201b149744b45f526134a155_cgraph.png" border="0" usemap="#aclass_create_model_action_ad50d0d25201b149744b45f526134a155_cgraph" alt=""/></div>
 <map name="aclass_create_model_action_ad50d0d25201b149744b45f526134a155_cgraph" id="aclass_create_model_action_ad50d0d25201b149744b45f526134a155_cgraph">
 <area shape="rect" title="调整高度" alt="" coords="5,5,157,41"/>
-<area shape="rect" href="class_model_creater.html#ad14c1a9434bc4dba63e0829d2e36c6c8" title="拉伸实体" alt="" coords="206,11,335,35"/>
+<area shape="rect" href="class_model_creater.html#a00493148d8c852fa3ef1e5f34a7ddfcd" title="拉伸实体" alt="" coords="206,11,335,35"/>
 </map>
 </div>
 <div class="dynheader">
@@ -586,8 +619,8 @@ Private 属性</h2></td></tr>
 
 </div>
 </div>
-<a id="ad2e2d3a355dbd5d6588a9678ff456588"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2e2d3a355dbd5d6588a9678ff456588">&#9670;&nbsp;</a></span>UpdatePosition()</h2>
+<a id="a1629116a8182e656cf9b464ce21fd55b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1629116a8182e656cf9b464ce21fd55b">&#9670;&nbsp;</a></span>UpdateModelPosCentered()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -596,7 +629,7 @@ Private 属性</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CreateModelAction.UpdatePosition </td>
+          <td class="memname">void CreateModelAction.UpdateModelPosCentered </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -611,13 +644,67 @@ Private 属性</h2></td></tr>
 
 <p>调整位置 </p>
 
-<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00155">155</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00181">181</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_create_model_action_a1629116a8182e656cf9b464ce21fd55b_cgraph.png" border="0" usemap="#aclass_create_model_action_a1629116a8182e656cf9b464ce21fd55b_cgraph" alt=""/></div>
+<map name="aclass_create_model_action_a1629116a8182e656cf9b464ce21fd55b_cgraph" id="aclass_create_model_action_a1629116a8182e656cf9b464ce21fd55b_cgraph">
+<area shape="rect" title="调整位置" alt="" coords="5,5,157,41"/>
+<area shape="rect" href="class_model_creater.html#aa5914bf533ff378cf5a04e387298daf3" title=" " alt="" coords="206,11,351,35"/>
+</map>
+</div>
 <div class="dynheader">
 这是这个函数的调用关系图:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_create_model_action_ad2e2d3a355dbd5d6588a9678ff456588_icgraph.png" border="0" usemap="#aclass_create_model_action_ad2e2d3a355dbd5d6588a9678ff456588_icgraph" alt=""/></div>
-<map name="aclass_create_model_action_ad2e2d3a355dbd5d6588a9678ff456588_icgraph" id="aclass_create_model_action_ad2e2d3a355dbd5d6588a9678ff456588_icgraph">
+<div class="center"><img src="class_create_model_action_a1629116a8182e656cf9b464ce21fd55b_icgraph.png" border="0" usemap="#aclass_create_model_action_a1629116a8182e656cf9b464ce21fd55b_icgraph" alt=""/></div>
+<map name="aclass_create_model_action_a1629116a8182e656cf9b464ce21fd55b_icgraph" id="aclass_create_model_action_a1629116a8182e656cf9b464ce21fd55b_icgraph">
 <area shape="rect" title="调整位置" alt="" coords="205,5,357,41"/>
+<area shape="rect" href="class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="5,11,157,35"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a8b2d987b6b865fb84e1d1a633577bf37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b2d987b6b865fb84e1d1a633577bf37">&#9670;&nbsp;</a></span>UpdateModelPosFollowRightHand()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CreateModelAction.UpdateModelPosFollowRightHand </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00191">191</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_create_model_action_a8b2d987b6b865fb84e1d1a633577bf37_cgraph.png" border="0" usemap="#aclass_create_model_action_a8b2d987b6b865fb84e1d1a633577bf37_cgraph" alt=""/></div>
+<map name="aclass_create_model_action_a8b2d987b6b865fb84e1d1a633577bf37_cgraph" id="aclass_create_model_action_a8b2d987b6b865fb84e1d1a633577bf37_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,157,41"/>
+<area shape="rect" href="class_model_creater.html#aa5914bf533ff378cf5a04e387298daf3" title=" " alt="" coords="206,11,351,35"/>
+</map>
+</div>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_create_model_action_a8b2d987b6b865fb84e1d1a633577bf37_icgraph.png" border="0" usemap="#aclass_create_model_action_a8b2d987b6b865fb84e1d1a633577bf37_icgraph" alt=""/></div>
+<map name="aclass_create_model_action_a8b2d987b6b865fb84e1d1a633577bf37_icgraph" id="aclass_create_model_action_a8b2d987b6b865fb84e1d1a633577bf37_icgraph">
+<area shape="rect" title=" " alt="" coords="205,5,357,41"/>
 <area shape="rect" href="class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="5,11,157,35"/>
 </map>
 </div>
@@ -647,7 +734,7 @@ Private 属性</h2></td></tr>
 
 <p>创建器 </p>
 
-<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00024">24</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00032">32</a> 行定义.</p>
 
 </div>
 </div>
@@ -658,66 +745,32 @@ Private 属性</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float CreateModelAction.forwardDistance = 0f</td>
+          <td class="memname">float CreateModelAction.forwardDistance = 1.0f</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>物体距手柄中心点往前的距离 </p>
+<p>物体距右手柄往前的距离 </p>
 
-<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00020">20</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00027">27</a> 行定义.</p>
 
 </div>
 </div>
-<a id="a6a5f5ce5e891e8e2dbe412b058d4d6f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a5f5ce5e891e8e2dbe412b058d4d6f8">&#9670;&nbsp;</a></span>meshObj</h2>
+<a id="a7af8c66410ea290caaf844cde2b890c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7af8c66410ea290caaf844cde2b890c7">&#9670;&nbsp;</a></span>isCreateDirectly</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">GameObject CreateModelAction.meshObj</td>
+          <td class="memname">Toggle CreateModelAction.isCreateDirectly</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>被创建的模型 </p>
+<p>是否为直接创建 </p>
 
-<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00017">17</a> 行定义.</p>
-
-</div>
-</div>
-<a id="a5a340e62e1565a5cde697da210ffcea6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a340e62e1565a5cde697da210ffcea6">&#9670;&nbsp;</a></span>model</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">GameObject CreateModelAction.model</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>被创建的模型父物体 </p>
-
-<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00016">16</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00028">28</a> 行定义.</p>
 
 </div>
 </div>
@@ -735,7 +788,7 @@ Private 属性</h2></td></tr>
 
 <p>右手柄 </p>
 
-<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00018">18</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00025">25</a> 行定义.</p>
 
 </div>
 </div>
@@ -753,7 +806,7 @@ Private 属性</h2></td></tr>
 
 <p>物体随手柄距离改变大小的乘数 </p>
 
-<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00019">19</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00026">26</a> 行定义.</p>
 
 </div>
 </div>
@@ -779,7 +832,7 @@ Private 属性</h2></td></tr>
 
 <p>状态机当前状态 </p>
 
-<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00021">21</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_create_model_action_8cs_source.html">CreateModelAction.cs</a> 第 <a class="el" href="_create_model_action_8cs_source.html#l00029">29</a> 行定义.</p>
 
 </div>
 </div>

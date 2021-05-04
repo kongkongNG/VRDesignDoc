@@ -1,0 +1,5 @@
+<map id="ModelCreater.CreateDirectly" name="ModelCreater.CreateDirectly">
+<area shape="rect" id="node1" title="直接创建物体" alt="" coords="421,5,581,29"/>
+<area shape="rect" id="node2" href="$class_create_model_action.html#acfff511a5314778412e6bb1d0891a78b" title="预创建" alt="" coords="206,5,373,29"/>
+<area shape="rect" id="node3" href="$class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="5,5,157,29"/>
+</map>

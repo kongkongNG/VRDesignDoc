@@ -1,10 +1,17 @@
 <map id="CreateModelAction.Update" name="CreateModelAction.Update">
-<area shape="rect" id="node1" title=" " alt="" coords="5,120,157,144"/>
-<area shape="rect" id="node2" href="$class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea" title="功能结束的事件触发函数" alt="" coords="209,5,373,41"/>
-<area shape="rect" id="node3" href="$class_create_model_action.html#a0d6c8c81122eb4b14a21c8b79bbc32d1" title="创建后，为物体添加脚本" alt="" coords="205,65,376,89"/>
-<area shape="rect" id="node4" href="$class_create_model_action.html#a988e97773595065c762c92a32ddb30bf" title="调整底部" alt="" coords="215,114,367,150"/>
-<area shape="rect" id="node6" href="$class_create_model_action.html#ad50d0d25201b149744b45f526134a155" title="调整高度" alt="" coords="215,174,367,210"/>
-<area shape="rect" id="node8" href="$class_create_model_action.html#ad2e2d3a355dbd5d6588a9678ff456588" title="调整位置" alt="" coords="215,234,367,270"/>
-<area shape="rect" id="node5" href="$class_model_creater.html#a6d63cc6b8514361ee863dad27cc21df3" title="改变轮廓大小" alt="" coords="424,120,571,144"/>
-<area shape="rect" id="node7" href="$class_model_creater.html#ad14c1a9434bc4dba63e0829d2e36c6c8" title="拉伸实体" alt="" coords="433,180,562,204"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,208,157,232"/>
+<area shape="rect" id="node2" href="$class_model_creater.html#ae400d7acfc5ad422eaf12e14edb53ea7" title="合并所有面，形成一个物体，保留原有的面但不显示" alt="" coords="641,27,801,51"/>
+<area shape="rect" id="node3" href="$class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea" title="功能结束的事件触发函数" alt="" coords="213,174,377,210"/>
+<area shape="rect" id="node4" href="$class_create_model_action.html#ae533e185e257e2eb8c497de2d5c64f51" title="创建后，为物体添加脚本" alt="" coords="205,235,384,259"/>
+<area shape="rect" id="node6" href="$class_create_model_action.html#acfff511a5314778412e6bb1d0891a78b" title="预创建" alt="" coords="211,75,378,99"/>
+<area shape="rect" id="node10" href="$class_create_model_action.html#a988e97773595065c762c92a32ddb30bf" title="调整底部" alt="" coords="219,283,371,319"/>
+<area shape="rect" id="node12" href="$class_create_model_action.html#ad50d0d25201b149744b45f526134a155" title="调整高度" alt="" coords="436,150,588,186"/>
+<area shape="rect" id="node13" href="$class_create_model_action.html#a1629116a8182e656cf9b464ce21fd55b" title="调整位置" alt="" coords="219,343,371,379"/>
+<area shape="rect" id="node15" href="$class_create_model_action.html#a8b2d987b6b865fb84e1d1a633577bf37" title=" " alt="" coords="219,403,371,439"/>
+<area shape="rect" id="node5" href="$class_model_creater.html#a749d10ecdf461e137334e030915fcd2b" title=" " alt="" coords="435,235,589,259"/>
+<area shape="rect" id="node7" href="$class_model_creater.html#aea7f934ddcb21731c179ff5bf705b22f" title="创建底面轮廓" alt="" coords="640,88,803,112"/>
+<area shape="rect" id="node8" href="$class_model_creater.html#a13e2e05ccf23220c36674ea7455aac61" title="直接创建物体" alt="" coords="432,51,592,75"/>
+<area shape="rect" id="node9" href="$class_model_creater.html#a00493148d8c852fa3ef1e5f34a7ddfcd" title="拉伸实体" alt="" coords="657,140,786,164"/>
+<area shape="rect" id="node11" href="$class_model_creater.html#a6d63cc6b8514361ee863dad27cc21df3" title="改变轮廓大小" alt="" coords="439,289,585,313"/>
+<area shape="rect" id="node14" href="$class_model_creater.html#aa5914bf533ff378cf5a04e387298daf3" title=" " alt="" coords="439,379,585,403"/>
 </map>

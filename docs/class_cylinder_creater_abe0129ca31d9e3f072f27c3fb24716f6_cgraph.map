@@ -1,8 +1,0 @@
-<map id="CylinderCreater.CreateContour" name="CylinderCreater.CreateContour">
-<area shape="rect" id="node1" title="创建圆形轮廓 param[out] contour 圆形轮廓的GameObject" alt="" coords="6,92,181,116"/>
-<area shape="rect" id="node2" href="$class_cylinder_creater.html#a2cd20aa92f5e739ddd83354e69d9278d" title="提取sgcore指针中的顶点数据，添加到LineRenderer中" alt="" coords="233,26,393,62"/>
-<area shape="rect" id="node5" href="$class_model_creater.html#a2be1349c2ccf9300f34825c309f973fa" title=" " alt="" coords="230,86,397,122"/>
-<area shape="rect" id="node6" href="$class_model_creater.html#a571c5a3c60d5223dfd7777527c83aa02" title=" " alt="" coords="238,146,389,182"/>
-<area shape="rect" id="node3" href="$class_cylinder_creater.html#a894dcbe9a7396570ee6f0b3d52792abc" title="为轮廓的LineRenderer添加顶点" alt="" coords="449,5,594,29"/>
-<area shape="rect" id="node4" href="$class_model_creater.html#a98056f3d506f955fbb870398a133f021" title=" " alt="" coords="446,54,597,90"/>
-</map>

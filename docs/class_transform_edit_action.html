@@ -42,6 +42,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-attribs">Public 属性</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
 <a href="#pri-methods">Private 成员函数</a> &#124;
 <a href="#pri-attribs">Private 属性</a> &#124;
 <a href="class_transform_edit_action-members.html">所有成员列表</a>  </div>
@@ -54,7 +55,7 @@ $(function() {
 <div class="dyncontent">
 <div class="center"><img src="class_transform_edit_action__inherit__graph.png" border="0" usemap="#a_transform_edit_action_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_transform_edit_action_inherit__map" id="a_transform_edit_action_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,288,155,501"/>
+<area shape="rect" title=" " alt="" coords="5,289,155,490"/>
 <area shape="rect" href="class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,123,155,240"/>
 <area shape="rect" title=" " alt="" coords="32,5,128,75"/>
 </map>
@@ -64,7 +65,7 @@ TransformEditAction 的协作图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_transform_edit_action__coll__graph.png" border="0" usemap="#a_transform_edit_action_coll__map" alt="Collaboration graph"/></div>
 <map name="a_transform_edit_action_coll__map" id="a_transform_edit_action_coll__map">
-<area shape="rect" title=" " alt="" coords="5,288,155,501"/>
+<area shape="rect" title=" " alt="" coords="5,289,155,490"/>
 <area shape="rect" href="class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,123,155,240"/>
 <area shape="rect" title=" " alt="" coords="32,5,128,75"/>
 </map>
@@ -81,12 +82,25 @@ Public 属性</h2></td></tr>
 <tr class="memitem:acf31784e5a1b6929fd5d2fb3df3d684f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transform_edit_action.html#acf31784e5a1b6929fd5d2fb3df3d684f">rotateDeltaDiv</a></td></tr>
 <tr class="separator:acf31784e5a1b6929fd5d2fb3df3d684f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:a13e8d6f4e2c0c4897096cef2a68fe0fe"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transform_edit_action.html#a13e8d6f4e2c0c4897096cef2a68fe0fe">OnEnable</a> ()</td></tr>
+<tr class="separator:a13e8d6f4e2c0c4897096cef2a68fe0fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae76ff594c39e1c5e8fb552f7ad0f6c86"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transform_edit_action.html#ae76ff594c39e1c5e8fb552f7ad0f6c86">OnDisable</a> ()</td></tr>
+<tr class="separator:ae76ff594c39e1c5e8fb552f7ad0f6c86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_class_controller_action"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_controller_action')"><img src="closed.png" alt="-"/>&#160;Protected 成员函数 继承自 <a class="el" href="class_controller_action.html">ControllerAction</a></td></tr>
+<tr class="memitem:a6555650db283b88f214b210a80783818 inherit pro_methods_class_controller_action"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#a6555650db283b88f214b210a80783818">OnControllerAtionStart</a> (EventArgs e)</td></tr>
+<tr class="memdesc:a6555650db283b88f214b210a80783818 inherit pro_methods_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">功能开始的事件触发函数  <a href="class_controller_action.html#a6555650db283b88f214b210a80783818">更多...</a><br /></td></tr>
+<tr class="separator:a6555650db283b88f214b210a80783818 inherit pro_methods_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb0c2fdfd641ce634839e6ce52deddea inherit pro_methods_class_controller_action"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">OnControllerActionEnd</a> (EventArgs e)</td></tr>
+<tr class="memdesc:acb0c2fdfd641ce634839e6ce52deddea inherit pro_methods_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">功能结束的事件触发函数  <a href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">更多...</a><br /></td></tr>
+<tr class="separator:acb0c2fdfd641ce634839e6ce52deddea inherit pro_methods_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a10a69ea705c34bbce1654efe1dfa43 inherit pro_methods_class_controller_action"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#a0a10a69ea705c34bbce1654efe1dfa43">DoButtonTwoPressed</a> (object sender, ControllerInteractionEventArgs e)</td></tr>
+<tr class="memdesc:a0a10a69ea705c34bbce1654efe1dfa43 inherit pro_methods_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">手柄Menu按钮点击事件回调函数  <a href="class_controller_action.html#a0a10a69ea705c34bbce1654efe1dfa43">更多...</a><br /></td></tr>
+<tr class="separator:a0a10a69ea705c34bbce1654efe1dfa43 inherit pro_methods_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private 成员函数</h2></td></tr>
-<tr class="memitem:a90ad96aaff55c6462e2cd29b82c1506d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transform_edit_action.html#a90ad96aaff55c6462e2cd29b82c1506d">OnEnable</a> ()</td></tr>
-<tr class="separator:a90ad96aaff55c6462e2cd29b82c1506d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5d7dd2b538878ac214c36c3fc759e95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transform_edit_action.html#ac5d7dd2b538878ac214c36c3fc759e95">OnDisable</a> ()</td></tr>
-<tr class="separator:ac5d7dd2b538878ac214c36c3fc759e95"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f64bd357ce15f4130fda7eb886994a5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transform_edit_action.html#a9f64bd357ce15f4130fda7eb886994a5">Update</a> ()</td></tr>
 <tr class="separator:a9f64bd357ce15f4130fda7eb886994a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29d8c394d7f83e118f5ebbe6cea2092d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transform_edit_action.html#a29d8c394d7f83e118f5ebbe6cea2092d">CalcRotation</a> (Vector3 fromPos, Vector3 toPos)</td></tr>
@@ -102,23 +116,11 @@ Private 属性</h2></td></tr>
 <tr class="separator:a801b19628fa8aa8db678d9739f319d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adeb6a1d6f34d2591e28d69a73333a77c"><td class="memItemLeft" align="right" valign="top">Vector3?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transform_edit_action.html#adeb6a1d6f34d2591e28d69a73333a77c">lastRightPos</a></td></tr>
 <tr class="separator:adeb6a1d6f34d2591e28d69a73333a77c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b1835efa49ebfbc428d74e3a93c03f7"><td class="memItemLeft" align="right" valign="top">VRTK_ControllerEvents&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transform_edit_action.html#a1b1835efa49ebfbc428d74e3a93c03f7">leftConEvt</a></td></tr>
-<tr class="separator:a1b1835efa49ebfbc428d74e3a93c03f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add8279ec1171c892880ab0c046216aac"><td class="memItemLeft" align="right" valign="top">VRTK_ControllerEvents&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transform_edit_action.html#add8279ec1171c892880ab0c046216aac">rightConEvt</a></td></tr>
 <tr class="separator:add8279ec1171c892880ab0c046216aac"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 额外继承的成员函数</h2></td></tr>
-<tr class="inherit_header pro_methods_class_controller_action"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_controller_action')"><img src="closed.png" alt="-"/>&#160;Protected 成员函数 继承自 <a class="el" href="class_controller_action.html">ControllerAction</a></td></tr>
-<tr class="memitem:a6555650db283b88f214b210a80783818 inherit pro_methods_class_controller_action"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#a6555650db283b88f214b210a80783818">OnControllerAtionStart</a> (EventArgs e)</td></tr>
-<tr class="memdesc:a6555650db283b88f214b210a80783818 inherit pro_methods_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">功能开始的事件触发函数  <a href="class_controller_action.html#a6555650db283b88f214b210a80783818">更多...</a><br /></td></tr>
-<tr class="separator:a6555650db283b88f214b210a80783818 inherit pro_methods_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb0c2fdfd641ce634839e6ce52deddea inherit pro_methods_class_controller_action"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">OnControllerActionEnd</a> (EventArgs e)</td></tr>
-<tr class="memdesc:acb0c2fdfd641ce634839e6ce52deddea inherit pro_methods_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">功能结束的事件触发函数  <a href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">更多...</a><br /></td></tr>
-<tr class="separator:acb0c2fdfd641ce634839e6ce52deddea inherit pro_methods_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a10a69ea705c34bbce1654efe1dfa43 inherit pro_methods_class_controller_action"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#a0a10a69ea705c34bbce1654efe1dfa43">DoButtonTwoPressed</a> (object sender, ControllerInteractionEventArgs e)</td></tr>
-<tr class="memdesc:a0a10a69ea705c34bbce1654efe1dfa43 inherit pro_methods_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">手柄Menu按钮点击事件回调函数  <a href="class_controller_action.html#a0a10a69ea705c34bbce1654efe1dfa43">更多...</a><br /></td></tr>
-<tr class="separator:a0a10a69ea705c34bbce1654efe1dfa43 inherit pro_methods_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_controller_action"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_controller_action')"><img src="closed.png" alt="-"/>&#160;Protected 属性 继承自 <a class="el" href="class_controller_action.html">ControllerAction</a></td></tr>
 <tr class="memitem:af0986b059f6087f0232a6079d016ddfc inherit pro_attribs_class_controller_action"><td class="memItemLeft" align="right" valign="top">VRTK_ControllerEvents&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#af0986b059f6087f0232a6079d016ddfc">conEvt</a></td></tr>
 <tr class="memdesc:af0986b059f6087f0232a6079d016ddfc inherit pro_attribs_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">手柄控制事件  <a href="class_controller_action.html#af0986b059f6087f0232a6079d016ddfc">更多...</a><br /></td></tr>
@@ -245,8 +247,8 @@ Private 属性</h2></td></tr>
 
 </div>
 </div>
-<a id="ac5d7dd2b538878ac214c36c3fc759e95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5d7dd2b538878ac214c36c3fc759e95">&#9670;&nbsp;</a></span>OnDisable()</h2>
+<a id="ae76ff594c39e1c5e8fb552f7ad0f6c86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae76ff594c39e1c5e8fb552f7ad0f6c86">&#9670;&nbsp;</a></span>OnDisable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -255,7 +257,7 @@ Private 属性</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void TransformEditAction.OnDisable </td>
+          <td class="memname">override void TransformEditAction.OnDisable </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -263,7 +265,7 @@ Private 属性</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -274,8 +276,8 @@ Private 属性</h2></td></tr>
 
 </div>
 </div>
-<a id="a90ad96aaff55c6462e2cd29b82c1506d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90ad96aaff55c6462e2cd29b82c1506d">&#9670;&nbsp;</a></span>OnEnable()</h2>
+<a id="a13e8d6f4e2c0c4897096cef2a68fe0fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13e8d6f4e2c0c4897096cef2a68fe0fe">&#9670;&nbsp;</a></span>OnEnable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -284,7 +286,7 @@ Private 属性</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void TransformEditAction.OnEnable </td>
+          <td class="memname">override void TransformEditAction.OnEnable </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -292,7 +294,7 @@ Private 属性</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -410,30 +412,6 @@ Private 属性</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">在文件 <a class="el" href="_transform_edit_action_8cs_source.html">TransformEditAction.cs</a> 第 <a class="el" href="_transform_edit_action_8cs_source.html#l00012">12</a> 行定义.</p>
-
-</div>
-</div>
-<a id="a1b1835efa49ebfbc428d74e3a93c03f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b1835efa49ebfbc428d74e3a93c03f7">&#9670;&nbsp;</a></span>leftConEvt</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">VRTK_ControllerEvents TransformEditAction.leftConEvt</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">在文件 <a class="el" href="_transform_edit_action_8cs_source.html">TransformEditAction.cs</a> 第 <a class="el" href="_transform_edit_action_8cs_source.html#l00015">15</a> 行定义.</p>
 
 </div>
 </div>
