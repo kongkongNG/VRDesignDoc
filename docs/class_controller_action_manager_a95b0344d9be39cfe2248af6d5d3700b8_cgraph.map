@@ -1,5 +1,5 @@
 <map id="ControllerActionManager.Start" name="ControllerActionManager.Start">
-<area shape="rect" id="node1" title="初始化功能管理器" alt="" coords="6,154,151,190"/>
+<area shape="rect" id="node1" title=" " alt="" coords="6,154,151,190"/>
 <area shape="rect" id="node2" href="$class_controller_action_manager.html#a29bdb190834ae7e9315e549c6ae10a70" title="功能脚本关闭事件回调" alt="" coords="203,123,349,159"/>
 <area shape="rect" id="node8" href="$class_controller_action_manager.html#a451d199268ba8e918563fa6c39c4f045" title="将默认功能脚本设为当前活跃脚本" alt="" coords="611,70,757,106"/>
 <area shape="rect" id="node9" href="$class_controller_action_manager.html#aa7303af3ef40bdf06c6e12cc6eca8bbe" title="功能脚本启动事件回调" alt="" coords="203,183,349,219"/>

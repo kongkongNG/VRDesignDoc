@@ -1,6 +1,6 @@
 <map id="SelectTexture.DoTouchpadUntouched" name="SelectTexture.DoTouchpadUntouched">
-<area shape="rect" id="node1" title=" " alt="" coords="6,65,159,101"/>
-<area shape="rect" id="node2" href="$class_select_texture.html#a7f924fbf6808c48845cf461867620e4b" title=" " alt="" coords="209,5,373,41"/>
-<area shape="rect" id="node3" href="$class_select_texture.html#a73db1358103d4708bbf79aac27b41b89" title=" " alt="" coords="208,65,373,101"/>
-<area shape="rect" id="node4" href="$class_select_texture.html#a477957a51f31d576ea16f9d128c3f18b" title=" " alt="" coords="211,125,371,161"/>
+<area shape="rect" id="node1" title="手柄Touchpad Untouched事件回调函数" alt="" coords="6,65,159,101"/>
+<area shape="rect" id="node2" href="$class_select_texture.html#a7f924fbf6808c48845cf461867620e4b" title="根据Swipe方向计算新的图片下标索引" alt="" coords="209,5,373,41"/>
+<area shape="rect" id="node3" href="$class_select_texture.html#a73db1358103d4708bbf79aac27b41b89" title="判定Swipe行为并计算Swipe方向" alt="" coords="208,65,373,101"/>
+<area shape="rect" id="node4" href="$class_select_texture.html#a477957a51f31d576ea16f9d128c3f18b" title="切换选取的图片以及选取框位置" alt="" coords="211,125,371,161"/>
 </map>

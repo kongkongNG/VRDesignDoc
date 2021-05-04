@@ -1,5 +1,5 @@
 <map id="SelectTexture.DoTouchpadAxisChange" name="SelectTexture.DoTouchpadAxisChange">
-<area shape="rect" id="node1" title=" " alt="" coords="195,23,349,59"/>
-<area shape="rect" id="node2" href="$class_select_texture.html#ac1804815a1ab409c3ad3f445cca11a42" title=" " alt="" coords="5,5,147,29"/>
-<area shape="rect" id="node3" href="$class_select_texture.html#a4a85f8da8313ee06936c3af53de350ea" title=" " alt="" coords="7,53,145,77"/>
+<area shape="rect" id="node1" title="手柄Touchpad Axis Change事件回调函数" alt="" coords="195,23,349,59"/>
+<area shape="rect" id="node2" href="$class_select_texture.html#afd8d21a087579023dde79cd392241005" title=" " alt="" coords="5,5,147,29"/>
+<area shape="rect" id="node3" href="$class_select_texture.html#a385e76c091974a280ab65cd770dde226" title=" " alt="" coords="7,53,145,77"/>
 </map>

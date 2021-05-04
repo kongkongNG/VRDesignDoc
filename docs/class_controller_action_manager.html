@@ -41,7 +41,6 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public 类型</a> &#124;
 <a href="#pub-methods">Public 成员函数</a> &#124;
 <a href="#pub-attribs">Public 属性</a> &#124;
 <a href="#pri-methods">Private 成员函数</a> &#124;
@@ -74,15 +73,6 @@ ControllerActionManager 的协作图:</div>
 </map>
 </div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public 类型</h2></td></tr>
-<tr class="memitem:a35e94067345b4478cdc530276ff4c487"><td class="memItemLeft" align="right" valign="top">enum class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action_manager.html#a35e94067345b4478cdc530276ff4c487">SetType</a> { <a class="el" href="class_controller_action_manager.html#a35e94067345b4478cdc530276ff4c487a421cfd143e450c3f5814a0495409e073">CHANGE</a>
-, <a class="el" href="class_controller_action_manager.html#a35e94067345b4478cdc530276ff4c487a9eeb52badb613229884838847294b90d">ADD</a>
-, <a class="el" href="class_controller_action_manager.html#a35e94067345b4478cdc530276ff4c487a78baf367c4626442174307cdf41c6538">REMOVE</a>
-, <a class="el" href="class_controller_action_manager.html#a35e94067345b4478cdc530276ff4c487a146573425e1d6ffd43a5d626f20f56d5">SETDEFAULT</a>
- }</td></tr>
-<tr class="separator:a35e94067345b4478cdc530276ff4c487"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public 成员函数</h2></td></tr>
 <tr class="memitem:aa7303af3ef40bdf06c6e12cc6eca8bbe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action_manager.html#aa7303af3ef40bdf06c6e12cc6eca8bbe">DoControllerActionStart</a> (object sender, EventArgs e)</td></tr>
@@ -104,12 +94,12 @@ Public 属性</h2></td></tr>
 <tr class="memdesc:a4468151f37b765971397bf30868b3d74"><td class="mdescLeft">&#160;</td><td class="mdescRight">另一只手柄管理器  <a href="class_controller_action_manager.html#a4468151f37b765971397bf30868b3d74">更多...</a><br /></td></tr>
 <tr class="separator:a4468151f37b765971397bf30868b3d74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a30d0a3d12be4faa0693f0bae4fb83bd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_controller_action.html">ControllerAction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action_manager.html#a30d0a3d12be4faa0693f0bae4fb83bd9">curAction</a></td></tr>
+<tr class="memdesc:a30d0a3d12be4faa0693f0bae4fb83bd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">当前活动功能  <a href="class_controller_action_manager.html#a30d0a3d12be4faa0693f0bae4fb83bd9">更多...</a><br /></td></tr>
 <tr class="separator:a30d0a3d12be4faa0693f0bae4fb83bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private 成员函数</h2></td></tr>
 <tr class="memitem:a95b0344d9be39cfe2248af6d5d3700b8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8">Start</a> ()</td></tr>
-<tr class="memdesc:a95b0344d9be39cfe2248af6d5d3700b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">初始化功能管理器  <a href="class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8">更多...</a><br /></td></tr>
 <tr class="separator:a95b0344d9be39cfe2248af6d5d3700b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af6b9807b2f013180d1e1c9ad455cf016"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action_manager.html#af6b9807b2f013180d1e1c9ad455cf016">MapCorrespondActionType</a> ()</td></tr>
 <tr class="memdesc:af6b9807b2f013180d1e1c9ad455cf016"><td class="mdescLeft">&#160;</td><td class="mdescRight">建立两只手柄间的ControllerAction类型映射  <a href="class_controller_action_manager.html#af6b9807b2f013180d1e1c9ad455cf016">更多...</a><br /></td></tr>
@@ -136,6 +126,7 @@ Private 成员函数</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private 属性</h2></td></tr>
 <tr class="memitem:ad5f359de642e02ed9f8548bbc9807e62"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_controller_action.html">ControllerAction</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action_manager.html#ad5f359de642e02ed9f8548bbc9807e62">actionList</a></td></tr>
+<tr class="memdesc:ad5f359de642e02ed9f8548bbc9807e62"><td class="mdescLeft">&#160;</td><td class="mdescRight">手柄上的所有功能脚本  <a href="class_controller_action_manager.html#ad5f359de642e02ed9f8548bbc9807e62">更多...</a><br /></td></tr>
 <tr class="separator:ad5f359de642e02ed9f8548bbc9807e62"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac92fdf0dcfc0498d4a68bdde476dee8c"><td class="memItemLeft" align="right" valign="top">Dictionary&lt; Type, Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action_manager.html#ac92fdf0dcfc0498d4a68bdde476dee8c">corrActionTypeMap</a></td></tr>
 <tr class="memdesc:ac92fdf0dcfc0498d4a68bdde476dee8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">左右手柄类型映射表  <a href="class_controller_action_manager.html#ac92fdf0dcfc0498d4a68bdde476dee8c">更多...</a><br /></td></tr>
@@ -148,38 +139,7 @@ Private 属性</h2></td></tr>
 <div class="textblock"><p>功能脚本管理器类 管理所有活动的脚本，并为它们挂载事件处理函数 </p>
 
 <p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00011">11</a> 行定义.</p>
-</div><h2 class="groupheader">成员枚举类型说明</h2>
-<a id="a35e94067345b4478cdc530276ff4c487"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35e94067345b4478cdc530276ff4c487">&#9670;&nbsp;</a></span>SetType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="class_controller_action_manager.html#a35e94067345b4478cdc530276ff4c487">ControllerActionManager.SetType</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">枚举值</th></tr><tr><td class="fieldname"><a id="a35e94067345b4478cdc530276ff4c487a421cfd143e450c3f5814a0495409e073"></a>CHANGE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a35e94067345b4478cdc530276ff4c487a9eeb52badb613229884838847294b90d"></a>ADD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a35e94067345b4478cdc530276ff4c487a78baf367c4626442174307cdf41c6538"></a>REMOVE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a35e94067345b4478cdc530276ff4c487a146573425e1d6ffd43a5d626f20f56d5"></a>SETDEFAULT&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00023">23</a> 行定义.</p>
-
-</div>
-</div>
-<h2 class="groupheader">成员函数说明</h2>
+</div><h2 class="groupheader">成员函数说明</h2>
 <a id="a8e9d797042fd988bfbbd9069e4253db8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8e9d797042fd988bfbbd9069e4253db8">&#9670;&nbsp;</a></span>ChangeCurAction()</h2>
 
@@ -212,7 +172,7 @@ Private 属性</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00160">160</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00156">156</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
@@ -232,7 +192,7 @@ Private 属性</h2></td></tr>
 <area shape="rect" href="class_controller_action_manager.html#aa7303af3ef40bdf06c6e12cc6eca8bbe" title="功能脚本启动事件回调" alt="" coords="201,5,346,41"/>
 <area shape="rect" href="class_controller_action_manager.html#a170b9a480b9754639a5ecb6bfcc625e4" title="供另一只手柄调用，打开某功能脚本" alt="" coords="395,61,541,97"/>
 <area shape="rect" href="class_controller_action_manager.html#a7341687114ed809bc54383a32b1f9489" title="销毁管理器时的行为" alt="" coords="6,5,151,41"/>
-<area shape="rect" href="class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title="初始化功能管理器" alt="" coords="6,65,151,101"/>
+<area shape="rect" href="class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title=" " alt="" coords="6,65,151,101"/>
 <area shape="rect" href="class_controller_action_manager.html#a29bdb190834ae7e9315e549c6ae10a70" title="功能脚本关闭事件回调" alt="" coords="201,65,346,101"/>
 </map>
 </div>
@@ -275,7 +235,7 @@ Private 属性</h2></td></tr>
 </dl>
 <dl class="section note"><dt>注解</dt><dd>目前e未使用 </dd></dl>
 
-<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00124">124</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00120">120</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
@@ -297,7 +257,7 @@ Private 属性</h2></td></tr>
 <map name="aclass_controller_action_manager_a29bdb190834ae7e9315e549c6ae10a70_icgraph" id="aclass_controller_action_manager_a29bdb190834ae7e9315e549c6ae10a70_icgraph">
 <area shape="rect" title="功能脚本关闭事件回调" alt="" coords="201,35,346,71"/>
 <area shape="rect" href="class_controller_action_manager.html#a7341687114ed809bc54383a32b1f9489" title="销毁管理器时的行为" alt="" coords="6,5,151,41"/>
-<area shape="rect" href="class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title="初始化功能管理器" alt="" coords="6,65,151,101"/>
+<area shape="rect" href="class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title=" " alt="" coords="6,65,151,101"/>
 </map>
 </div>
 
@@ -339,7 +299,7 @@ Private 属性</h2></td></tr>
 </dl>
 <dl class="section note"><dt>注解</dt><dd>目前e未使用 </dd></dl>
 
-<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00100">100</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00096">96</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
@@ -362,7 +322,7 @@ Private 属性</h2></td></tr>
 <map name="aclass_controller_action_manager_aa7303af3ef40bdf06c6e12cc6eca8bbe_icgraph" id="aclass_controller_action_manager_aa7303af3ef40bdf06c6e12cc6eca8bbe_icgraph">
 <area shape="rect" title="功能脚本启动事件回调" alt="" coords="201,35,346,71"/>
 <area shape="rect" href="class_controller_action_manager.html#a7341687114ed809bc54383a32b1f9489" title="销毁管理器时的行为" alt="" coords="6,5,151,41"/>
-<area shape="rect" href="class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title="初始化功能管理器" alt="" coords="6,65,151,101"/>
+<area shape="rect" href="class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title=" " alt="" coords="6,65,151,101"/>
 </map>
 </div>
 
@@ -393,14 +353,14 @@ Private 属性</h2></td></tr>
 
 <p>建立两只手柄间的ControllerAction类型映射 </p>
 
-<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00058">58</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00054">54</a> 行定义.</p>
 <div class="dynheader">
 这是这个函数的调用关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_controller_action_manager_af6b9807b2f013180d1e1c9ad455cf016_icgraph.png" border="0" usemap="#aclass_controller_action_manager_af6b9807b2f013180d1e1c9ad455cf016_icgraph" alt=""/></div>
 <map name="aclass_controller_action_manager_af6b9807b2f013180d1e1c9ad455cf016_icgraph" id="aclass_controller_action_manager_af6b9807b2f013180d1e1c9ad455cf016_icgraph">
 <area shape="rect" title="建立两只手柄间的ControllerAction类型映射" alt="" coords="200,5,352,41"/>
-<area shape="rect" href="class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title="初始化功能管理器" alt="" coords="6,5,151,41"/>
+<area shape="rect" href="class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title=" " alt="" coords="6,5,151,41"/>
 </map>
 </div>
 
@@ -431,7 +391,7 @@ Private 属性</h2></td></tr>
 
 <p>销毁管理器时的行为 </p>
 
-<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00082">82</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00078">78</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
@@ -477,7 +437,7 @@ Private 属性</h2></td></tr>
 
 <p>打开物体的可交互属性 @detail 可交互属性包含可抓取、可高亮 </p>
 
-<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00243">243</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00223">223</a> 行定义.</p>
 <div class="dynheader">
 这是这个函数的调用关系图:</div>
 <div class="dyncontent">
@@ -487,7 +447,7 @@ Private 属性</h2></td></tr>
 <area shape="rect" href="class_controller_action_manager.html#a29bdb190834ae7e9315e549c6ae10a70" title="功能脚本关闭事件回调" alt="" coords="201,96,346,132"/>
 <area shape="rect" href="class_controller_action_manager.html#a451d199268ba8e918563fa6c39c4f045" title="将默认功能脚本设为当前活跃脚本" alt="" coords="590,62,735,98"/>
 <area shape="rect" href="class_controller_action_manager.html#a7341687114ed809bc54383a32b1f9489" title="销毁管理器时的行为" alt="" coords="6,96,151,132"/>
-<area shape="rect" href="class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title="初始化功能管理器" alt="" coords="6,36,151,72"/>
+<area shape="rect" href="class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title=" " alt="" coords="6,36,151,72"/>
 <area shape="rect" href="class_controller_action_manager.html#a170b9a480b9754639a5ecb6bfcc625e4" title="供另一只手柄调用，打开某功能脚本" alt="" coords="395,36,541,72"/>
 <area shape="rect" href="class_controller_action_manager.html#aa7303af3ef40bdf06c6e12cc6eca8bbe" title="功能脚本启动事件回调" alt="" coords="201,36,346,72"/>
 </map>
@@ -520,7 +480,7 @@ Private 属性</h2></td></tr>
 
 <p>将当前的功能打开 </p>
 
-<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00189">189</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00171">171</a> 行定义.</p>
 <div class="dynheader">
 这是这个函数的调用关系图:</div>
 <div class="dyncontent">
@@ -532,7 +492,7 @@ Private 属性</h2></td></tr>
 <area shape="rect" href="class_controller_action_manager.html#aa7303af3ef40bdf06c6e12cc6eca8bbe" title="功能脚本启动事件回调" alt="" coords="201,84,346,120"/>
 <area shape="rect" href="class_controller_action_manager.html#a170b9a480b9754639a5ecb6bfcc625e4" title="供另一只手柄调用，打开某功能脚本" alt="" coords="395,75,541,111"/>
 <area shape="rect" href="class_controller_action_manager.html#a7341687114ed809bc54383a32b1f9489" title="销毁管理器时的行为" alt="" coords="6,84,151,120"/>
-<area shape="rect" href="class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title="初始化功能管理器" alt="" coords="6,24,151,60"/>
+<area shape="rect" href="class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title=" " alt="" coords="6,24,151,60"/>
 <area shape="rect" href="class_controller_action_manager.html#a29bdb190834ae7e9315e549c6ae10a70" title="功能脚本关闭事件回调" alt="" coords="201,24,346,60"/>
 </map>
 </div>
@@ -563,7 +523,7 @@ Private 属性</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00207">207</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00189">189</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
@@ -586,7 +546,7 @@ Private 属性</h2></td></tr>
 <area shape="rect" href="class_controller_action_manager.html#a29bdb190834ae7e9315e549c6ae10a70" title="功能脚本关闭事件回调" alt="" coords="201,5,346,41"/>
 <area shape="rect" href="class_controller_action_manager.html#aa7303af3ef40bdf06c6e12cc6eca8bbe" title="功能脚本启动事件回调" alt="" coords="201,65,346,101"/>
 <area shape="rect" href="class_controller_action_manager.html#a7341687114ed809bc54383a32b1f9489" title="销毁管理器时的行为" alt="" coords="6,5,151,41"/>
-<area shape="rect" href="class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title="初始化功能管理器" alt="" coords="6,65,151,101"/>
+<area shape="rect" href="class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title=" " alt="" coords="6,65,151,101"/>
 </map>
 </div>
 
@@ -609,8 +569,9 @@ Private 属性</h2></td></tr>
 
 <p>将默认功能脚本设为当前活跃脚本 </p>
 <dl class="section pre"><dt>前置条件</dt><dd>当前功能已被关闭 </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">待办事项:</a></b></dt><dd>存在重复OpenInteractableObject()的冗余 </dd></dl>
 
-<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00148">148</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00144">144</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
@@ -628,7 +589,7 @@ Private 属性</h2></td></tr>
 <map name="aclass_controller_action_manager_a451d199268ba8e918563fa6c39c4f045_icgraph" id="aclass_controller_action_manager_a451d199268ba8e918563fa6c39c4f045_icgraph">
 <area shape="rect" title="将默认功能脚本设为当前活跃脚本" alt="" coords="590,67,735,103"/>
 <area shape="rect" href="class_controller_action_manager.html#a29bdb190834ae7e9315e549c6ae10a70" title="功能脚本关闭事件回调" alt="" coords="201,65,346,101"/>
-<area shape="rect" href="class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title="初始化功能管理器" alt="" coords="6,65,151,101"/>
+<area shape="rect" href="class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title=" " alt="" coords="6,65,151,101"/>
 <area shape="rect" href="class_controller_action_manager.html#a170b9a480b9754639a5ecb6bfcc625e4" title="供另一只手柄调用，打开某功能脚本" alt="" coords="395,11,541,47"/>
 <area shape="rect" href="class_controller_action_manager.html#a7341687114ed809bc54383a32b1f9489" title="销毁管理器时的行为" alt="" coords="6,5,151,41"/>
 <area shape="rect" href="class_controller_action_manager.html#aa7303af3ef40bdf06c6e12cc6eca8bbe" title="功能脚本启动事件回调" alt="" coords="201,5,346,41"/>
@@ -662,7 +623,7 @@ Private 属性</h2></td></tr>
 
 <p>将当前的功能关闭 </p>
 
-<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00197">197</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00179">179</a> 行定义.</p>
 <div class="dynheader">
 这是这个函数的调用关系图:</div>
 <div class="dyncontent">
@@ -674,7 +635,7 @@ Private 属性</h2></td></tr>
 <area shape="rect" href="class_controller_action_manager.html#a29bdb190834ae7e9315e549c6ae10a70" title="功能脚本关闭事件回调" alt="" coords="201,89,346,125"/>
 <area shape="rect" href="class_controller_action_manager.html#aa7303af3ef40bdf06c6e12cc6eca8bbe" title="功能脚本启动事件回调" alt="" coords="201,29,346,65"/>
 <area shape="rect" href="class_controller_action_manager.html#a7341687114ed809bc54383a32b1f9489" title="销毁管理器时的行为" alt="" coords="6,29,151,65"/>
-<area shape="rect" href="class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title="初始化功能管理器" alt="" coords="6,89,151,125"/>
+<area shape="rect" href="class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title=" " alt="" coords="6,89,151,125"/>
 </map>
 </div>
 
@@ -705,7 +666,7 @@ Private 属性</h2></td></tr>
 
 <p>关闭物体的可交互属性 @detail 可交互属性包含可抓取、可高亮 </p>
 
-<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00224">224</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00206">206</a> 行定义.</p>
 <div class="dynheader">
 这是这个函数的调用关系图:</div>
 <div class="dyncontent">
@@ -714,7 +675,7 @@ Private 属性</h2></td></tr>
 <area shape="rect" title="关闭物体的可交互属性 @detail 可交互属性包含可抓取、可高亮" alt="" coords="395,35,557,71"/>
 <area shape="rect" href="class_controller_action_manager.html#aa7303af3ef40bdf06c6e12cc6eca8bbe" title="功能脚本启动事件回调" alt="" coords="201,35,346,71"/>
 <area shape="rect" href="class_controller_action_manager.html#a7341687114ed809bc54383a32b1f9489" title="销毁管理器时的行为" alt="" coords="6,5,151,41"/>
-<area shape="rect" href="class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title="初始化功能管理器" alt="" coords="6,65,151,101"/>
+<area shape="rect" href="class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title=" " alt="" coords="6,65,151,101"/>
 </map>
 </div>
 
@@ -743,15 +704,13 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>初始化功能管理器 </p>
-
-<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00031">31</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00027">27</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_controller_action_manager_a95b0344d9be39cfe2248af6d5d3700b8_cgraph.png" border="0" usemap="#aclass_controller_action_manager_a95b0344d9be39cfe2248af6d5d3700b8_cgraph" alt=""/></div>
 <map name="aclass_controller_action_manager_a95b0344d9be39cfe2248af6d5d3700b8_cgraph" id="aclass_controller_action_manager_a95b0344d9be39cfe2248af6d5d3700b8_cgraph">
-<area shape="rect" title="初始化功能管理器" alt="" coords="6,154,151,190"/>
+<area shape="rect" title=" " alt="" coords="6,154,151,190"/>
 <area shape="rect" href="class_controller_action_manager.html#a29bdb190834ae7e9315e549c6ae10a70" title="功能脚本关闭事件回调" alt="" coords="203,123,349,159"/>
 <area shape="rect" href="class_controller_action_manager.html#a451d199268ba8e918563fa6c39c4f045" title="将默认功能脚本设为当前活跃脚本" alt="" coords="611,70,757,106"/>
 <area shape="rect" href="class_controller_action_manager.html#aa7303af3ef40bdf06c6e12cc6eca8bbe" title="功能脚本启动事件回调" alt="" coords="203,183,349,219"/>
@@ -788,7 +747,9 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00017">17</a> 行定义.</p>
+<p>手柄上的所有功能脚本 </p>
+
+<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00016">16</a> 行定义.</p>
 
 </div>
 </div>
@@ -814,7 +775,7 @@ Private 属性</h2></td></tr>
 
 <p>左右手柄类型映射表 </p>
 
-<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00019">19</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00018">18</a> 行定义.</p>
 
 </div>
 </div>
@@ -830,7 +791,9 @@ Private 属性</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00015">15</a> 行定义.</p>
+<p>当前活动功能 </p>
+
+<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00014">14</a> 行定义.</p>
 
 </div>
 </div>
@@ -856,7 +819,7 @@ Private 属性</h2></td></tr>
 
 <p>默认功能 </p>
 
-<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00021">21</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_controller_action_manager_8cs_source.html">ControllerActionManager.cs</a> 第 <a class="el" href="_controller_action_manager_8cs_source.html#l00020">20</a> 行定义.</p>
 
 </div>
 </div>

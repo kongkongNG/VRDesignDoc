@@ -1,6 +1,0 @@
-<map id="CubeBevel.OnControllerActionEnd" name="CubeBevel.OnControllerActionEnd">
-<area shape="rect" id="node1" title="功能结束的事件触发函数" alt="" coords="384,29,571,53"/>
-<area shape="rect" id="node2" href="$class_cube_bevel.html#a32ee15b985c8ec51757ffd504bf2a2e2" title=" " alt="" coords="179,29,336,53"/>
-<area shape="rect" id="node3" href="$class_cube_bevel.html#ac081f8765efbb183ba6ad5ca5bd6708f" title=" " alt="" coords="5,5,131,29"/>
-<area shape="rect" id="node4" href="$class_cube_bevel.html#a0de98e7a6236e7cc9e2672109d01b2af" title=" " alt="" coords="7,53,129,77"/>
-</map>

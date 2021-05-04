@@ -1,4 +1,4 @@
 <map id="ControllerDrawLine.OnControllerDrawLineButtonClick" name="ControllerDrawLine.OnControllerDrawLineButtonClick">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,184,41"/>
+<area shape="rect" id="node1" title="按钮点击时触发，打开功能" alt="" coords="5,5,184,41"/>
 <area shape="rect" id="node2" href="$class_controller_action.html#a6555650db283b88f214b210a80783818" title="功能开始的事件触发函数" alt="" coords="233,5,397,41"/>
 </map>

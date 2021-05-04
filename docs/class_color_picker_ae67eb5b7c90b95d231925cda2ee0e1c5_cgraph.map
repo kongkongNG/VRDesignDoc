@@ -1,8 +1,11 @@
 <map id="ColorPicker.OnEnable" name="ColorPicker.OnEnable">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,131,63"/>
-<area shape="rect" id="node2" href="$class_color_picker.html#a3c30f1e9b59c992eb9def8cb7d6d8e30" title="手柄Touchpad Axis Changed事件回调函数" alt="" coords="179,5,338,41"/>
-<area shape="rect" id="node5" href="$class_color_picker.html#a51f3b586df45e95a404ad04726e8ebc2" title="手柄Trigger Clicked事件回调函数" alt="" coords="179,65,338,89"/>
-<area shape="rect" id="node3" href="$class_color_picker.html#afd3471da1bf105145548a9cc84d9a4a1" title="根据axis和angle调整Hue和Saturation" alt="" coords="387,11,573,35"/>
-<area shape="rect" id="node4" href="$class_color_picker.html#a380300a7a54a14c46d75ae81fcbb1b7e" title="更新颜色" alt="" coords="621,11,760,35"/>
-<area shape="rect" id="node6" href="$class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea" title="功能结束的事件触发函数" alt="" coords="398,59,562,95"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,132,131,156"/>
+<area shape="rect" id="node2" href="$class_color_picker.html#a3c30f1e9b59c992eb9def8cb7d6d8e30" title="手柄Trigger Clicked事件回调函数" alt="" coords="193,47,351,83"/>
+<area shape="rect" id="node6" href="$class_color_picker.html#ad0290ea768d7b2783fda9ea7b00487f5" title="手柄Touchpad Press事件回调函数" alt="" coords="183,108,361,132"/>
+<area shape="rect" id="node7" href="$class_color_picker.html#aabe23c4372050d404a0b02c6bd77e973" title="手柄Touchpad Touch End事件回调函数" alt="" coords="179,156,365,180"/>
+<area shape="rect" id="node9" href="$class_color_picker.html#aee45e04430985d01bc54eff4db959979" title="手柄Touchpad Touch Start事件回调函数" alt="" coords="188,205,356,241"/>
+<area shape="rect" id="node3" href="$class_color_picker.html#afd3471da1bf105145548a9cc84d9a4a1" title="根据axis和angle调整Hue和Saturation" alt="" coords="414,5,599,29"/>
+<area shape="rect" id="node4" href="$class_color_picker.html#a7f2142ba8812308106ed12b4ff33f2c6" title="将手指在Touchpad上的坐标映射为Value" alt="" coords="435,53,578,77"/>
+<area shape="rect" id="node5" href="$class_color_picker.html#a10c70ed140f4018ce89910aa064bb5aa" title="更新色盘颜色" alt="" coords="422,101,591,125"/>
+<area shape="rect" id="node8" href="$class_color_picker.html#a87fdac0b22f6937a5ad8a4dbf2558a07" title="更新物体颜色" alt="" coords="429,156,585,180"/>
 </map>

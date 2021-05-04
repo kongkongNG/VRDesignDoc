@@ -1,4 +1,4 @@
 <map id="SelectTexture.OnSelectTextureButtonClick" name="SelectTexture.OnSelectTextureButtonClick">
-<area shape="rect" id="node1" title=" " alt="" coords="6,5,181,41"/>
+<area shape="rect" id="node1" title="纹理贴图按钮点击时的触发函数" alt="" coords="6,5,181,41"/>
 <area shape="rect" id="node2" href="$class_controller_action.html#a6555650db283b88f214b210a80783818" title="功能开始的事件触发函数" alt="" coords="230,5,394,41"/>
 </map>

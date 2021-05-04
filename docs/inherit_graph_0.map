@@ -7,32 +7,35 @@
 <area shape="rect" id="node6" title=" " alt="" coords="15,101,119,125"/>
 <area shape="rect" id="node7" title=" " alt="" coords="5,197,128,221"/>
 <area shape="rect" id="node8" title=" " alt="" coords="9,245,124,269"/>
-<area shape="rect" id="node9" title=" " alt="" coords="19,485,115,509"/>
+<area shape="rect" id="node9" title=" " alt="" coords="19,509,115,533"/>
 <area shape="rect" id="node10" href="$class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="212,509,311,533"/>
-<area shape="rect" id="node23" href="$class_controller_action_manager.html" title="功能脚本管理器类 管理所有活动的脚本，并为它们挂载事件处理函数" alt="" coords="191,557,332,581"/>
-<area shape="rect" id="node24" href="$class_controller_hand_type.html" title=" " alt="" coords="202,605,321,629"/>
-<area shape="rect" id="node25" href="$class_create.html" title=" " alt="" coords="234,653,289,677"/>
-<area shape="rect" id="node26" href="$class_cube_edit_edge.html" title=" " alt="" coords="217,701,306,725"/>
-<area shape="rect" id="node27" href="$class_cube_gen.html" title=" " alt="" coords="228,749,295,773"/>
-<area shape="rect" id="node28" href="$class_menu_panel_manager.html" title=" " alt="" coords="203,797,319,821"/>
-<area shape="rect" id="node29" href="$class_mesh_editor_point.html" title=" " alt="" coords="212,845,311,869"/>
-<area shape="rect" id="node30" href="$class_object_needed_button.html" title=" " alt="" coords="200,221,323,245"/>
-<area shape="rect" id="node32" href="$class_panel.html" title=" " alt="" coords="237,269,285,293"/>
-<area shape="rect" id="node33" href="$class_panel_menu_controller.html" title=" " alt="" coords="201,317,322,341"/>
-<area shape="rect" id="node34" href="$class_radial_menu_button_click.html" title=" " alt="" coords="196,365,327,389"/>
-<area shape="rect" id="node35" href="$class_show_menu.html" title=" " alt="" coords="224,413,299,437"/>
-<area shape="rect" id="node36" href="$class_v_r_t_k___pointer_object_highlighter.html" title=" " alt="" coords="176,461,347,485"/>
-<area shape="rect" id="node11" href="$class_c_s_g_action.html" title=" " alt="" coords="431,365,503,389"/>
-<area shape="rect" id="node12" href="$class_color_picker.html" title="右手色盘选取颜色类" alt="" coords="429,413,504,437"/>
-<area shape="rect" id="node13" href="$class_color_value_picker.html" title="左手选取颜色明度类" alt="" coords="416,461,517,485"/>
-<area shape="rect" id="node14" href="$class_controller_draw_line.html" title=" " alt="" coords="410,509,523,533"/>
-<area shape="rect" id="node16" href="$class_create_by_controller.html" title=" " alt="" coords="409,557,524,581"/>
-<area shape="rect" id="node17" href="$class_cube_bevel.html" title=" " alt="" coords="430,605,503,629"/>
-<area shape="rect" id="node18" href="$class_mesh_edit_action.html" title=" " alt="" coords="419,653,514,677"/>
-<area shape="rect" id="node19" href="$class_select_object_by_controller.html" title=" " alt="" coords="395,701,538,725"/>
-<area shape="rect" id="node20" href="$class_select_texture.html" title=" " alt="" coords="422,749,511,773"/>
-<area shape="rect" id="node21" href="$class_select_texture_right.html" title=" " alt="" coords="409,269,524,293"/>
-<area shape="rect" id="node22" href="$class_transform_edit_action.html" title=" " alt="" coords="407,317,526,341"/>
-<area shape="rect" id="node15" href="$class_draw_on_plane.html" title=" " alt="" coords="587,509,674,533"/>
-<area shape="rect" id="node31" href="$class_rounded_action_button.html" title=" " alt="" coords="403,221,530,245"/>
+<area shape="rect" id="node24" href="$class_controller_action_manager.html" title="功能脚本管理器类 管理所有活动的脚本，并为它们挂载事件处理函数" alt="" coords="191,557,332,581"/>
+<area shape="rect" id="node25" href="$class_controller_hand_type.html" title=" " alt="" coords="202,605,321,629"/>
+<area shape="rect" id="node26" href="$class_create.html" title=" " alt="" coords="234,653,289,677"/>
+<area shape="rect" id="node27" href="$class_cube_edit_edge.html" title=" " alt="" coords="217,701,306,725"/>
+<area shape="rect" id="node28" href="$class_cube_gen.html" title=" " alt="" coords="228,749,295,773"/>
+<area shape="rect" id="node29" href="$class_menu_panel_manager.html" title=" " alt="" coords="203,797,319,821"/>
+<area shape="rect" id="node30" href="$class_mesh_editor_point.html" title=" " alt="" coords="212,845,311,869"/>
+<area shape="rect" id="node31" href="$class_model_creater.html" title="模型创建器的父类（抽象类） 定义模型创建器的行为" alt="" coords="218,893,305,917"/>
+<area shape="rect" id="node33" href="$class_object_needed_button.html" title=" " alt="" coords="200,221,323,245"/>
+<area shape="rect" id="node35" href="$class_panel.html" title=" " alt="" coords="237,269,285,293"/>
+<area shape="rect" id="node36" href="$class_panel_menu_controller.html" title=" " alt="" coords="201,317,322,341"/>
+<area shape="rect" id="node37" href="$class_radial_menu_button_click.html" title=" " alt="" coords="196,365,327,389"/>
+<area shape="rect" id="node38" href="$class_show_menu.html" title=" " alt="" coords="224,413,299,437"/>
+<area shape="rect" id="node39" href="$class_v_r_t_k___pointer_object_highlighter.html" title=" " alt="" coords="176,461,347,485"/>
+<area shape="rect" id="node11" href="$class_c_s_g_action.html" title=" " alt="" coords="431,509,503,533"/>
+<area shape="rect" id="node12" href="$class_color_picker.html" title="手柄色盘颜色选取类" alt="" coords="429,557,504,581"/>
+<area shape="rect" id="node13" href="$class_color_value_picker.html" title="左手选取颜色明度类" alt="" coords="416,605,517,629"/>
+<area shape="rect" id="node14" href="$class_controller_draw_line.html" title="手柄绘制类 通过手柄绘制不同颜色的线条，并拉出实体面" alt="" coords="410,653,523,677"/>
+<area shape="rect" id="node16" href="$class_create_by_controller.html" title=" " alt="" coords="409,701,524,725"/>
+<area shape="rect" id="node17" href="$class_create_model_action.html" title=" " alt="" coords="410,749,523,773"/>
+<area shape="rect" id="node18" href="$class_cube_bevel.html" title=" " alt="" coords="430,797,503,821"/>
+<area shape="rect" id="node19" href="$class_mesh_edit_action.html" title=" " alt="" coords="419,269,514,293"/>
+<area shape="rect" id="node20" href="$class_select_object_by_controller.html" title=" " alt="" coords="395,317,538,341"/>
+<area shape="rect" id="node21" href="$class_select_texture.html" title=" " alt="" coords="422,365,511,389"/>
+<area shape="rect" id="node22" href="$class_select_texture_right.html" title=" " alt="" coords="409,413,524,437"/>
+<area shape="rect" id="node23" href="$class_transform_edit_action.html" title=" " alt="" coords="407,461,526,485"/>
+<area shape="rect" id="node15" href="$class_draw_on_plane.html" title=" " alt="" coords="587,653,674,677"/>
+<area shape="rect" id="node32" href="$class_cylinder_creater.html" title="圆柱体创建器 继承了创建器父类" alt="" coords="417,893,516,917"/>
+<area shape="rect" id="node34" href="$class_rounded_action_button.html" title=" " alt="" coords="403,221,530,245"/>
 </map>

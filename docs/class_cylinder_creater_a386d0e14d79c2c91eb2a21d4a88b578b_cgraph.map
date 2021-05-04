@@ -1,0 +1,8 @@
+<map id="CylinderCreater.Extrude" name="CylinderCreater.Extrude">
+<area shape="rect" id="node1" title="根据手柄拉伸出模型实体" alt="" coords="6,120,146,144"/>
+<area shape="rect" id="node2" href="$class_model_creater.html#ad60e8085c0d66d030e5f84f1fa8bd6ca" title=" " alt="" coords="207,5,375,41"/>
+<area shape="rect" id="node3" href="$class_model_creater.html#a4940dc2e4945cd2d3a62477ca58922b4" title=" " alt="" coords="197,65,384,89"/>
+<area shape="rect" id="node4" href="$class_model_creater.html#a2e8c1b14b807850dcd912a1e904ce4cb" title=" " alt="" coords="201,114,381,150"/>
+<area shape="rect" id="node5" href="$class_model_creater.html#a4ddabda9cfeef1d582dcd8791c7cfc87" title=" " alt="" coords="195,175,386,199"/>
+<area shape="rect" id="node6" href="$class_model_creater.html#af8cbe8f4405b9a898db6580fe04cf408" title=" " alt="" coords="204,223,377,259"/>
+</map>

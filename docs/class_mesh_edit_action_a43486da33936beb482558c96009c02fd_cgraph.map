@@ -1,4 +1,4 @@
 <map id="MeshEditAction.CreateEditPoint" name="MeshEditAction.CreateEditPoint">
-<area shape="rect" id="node1" title=" " alt="" coords="6,5,157,41"/>
-<area shape="rect" id="node2" href="$class_mesh_edit_action.html#a5b20a797224aa62cd75afc0fb9621f1a" title=" " alt="" coords="206,11,338,35"/>
+<area shape="rect" id="node1" title="创建所有控制点" alt="" coords="6,5,157,41"/>
+<area shape="rect" id="node2" href="$class_mesh_edit_action.html#a5b20a797224aa62cd75afc0fb9621f1a" title="在一个位置上创建控制点" alt="" coords="206,11,338,35"/>
 </map>

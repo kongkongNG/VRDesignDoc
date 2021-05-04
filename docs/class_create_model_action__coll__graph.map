@@ -1,0 +1,6 @@
+<map id="CreateModelAction" name="CreateModelAction">
+<area shape="rect" id="node1" title=" " alt="" coords="56,413,216,651"/>
+<area shape="rect" id="node2" href="$class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,180,155,297"/>
+<area shape="rect" id="node3" title=" " alt="" coords="141,5,237,75"/>
+<area shape="rect" id="node4" href="$class_model_creater.html" title="模型创建器的父类（抽象类） 定义模型创建器的行为" alt="" coords="179,126,345,351"/>
+</map>

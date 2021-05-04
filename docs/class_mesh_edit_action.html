@@ -44,6 +44,7 @@ $(function() {
 <a href="#pub-methods">Public 成员函数</a> &#124;
 <a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
 <a href="#pub-static-attribs">静态 Public 属性</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
 <a href="#pri-methods">Private 成员函数</a> &#124;
 <a href="#pri-attribs">Private 属性</a> &#124;
 <a href="#pri-static-attribs">静态 Private 属性</a> &#124;
@@ -57,7 +58,7 @@ $(function() {
 <div class="dyncontent">
 <div class="center"><img src="class_mesh_edit_action__inherit__graph.png" border="0" usemap="#a_mesh_edit_action_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_mesh_edit_action_inherit__map" id="a_mesh_edit_action_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,289,165,586"/>
+<area shape="rect" title=" " alt="" coords="5,288,165,573"/>
 <area shape="rect" href="class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="10,123,160,240"/>
 <area shape="rect" title=" " alt="" coords="37,5,133,75"/>
 </map>
@@ -67,7 +68,7 @@ MeshEditAction 的协作图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_mesh_edit_action__coll__graph.png" border="0" usemap="#a_mesh_edit_action_coll__map" alt="Collaboration graph"/></div>
 <map name="a_mesh_edit_action_coll__map" id="a_mesh_edit_action_coll__map">
-<area shape="rect" title=" " alt="" coords="5,289,165,586"/>
+<area shape="rect" title=" " alt="" coords="5,288,165,573"/>
 <area shape="rect" href="class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="10,123,160,240"/>
 <area shape="rect" title=" " alt="" coords="37,5,133,75"/>
 </map>
@@ -76,65 +77,30 @@ MeshEditAction 的协作图:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public 成员函数</h2></td></tr>
 <tr class="memitem:aa6761f81869958909e49a9b1fc19f2cd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#aa6761f81869958909e49a9b1fc19f2cd">OnMeshEditButtonClick</a> ()</td></tr>
+<tr class="memdesc:aa6761f81869958909e49a9b1fc19f2cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">网格编辑按钮点击时触发的函数  <a href="class_mesh_edit_action.html#aa6761f81869958909e49a9b1fc19f2cd">更多...</a><br /></td></tr>
 <tr class="separator:aa6761f81869958909e49a9b1fc19f2cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43486da33936beb482558c96009c02fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a43486da33936beb482558c96009c02fd">CreateEditPoint</a> ()</td></tr>
+<tr class="memdesc:a43486da33936beb482558c96009c02fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建所有控制点  <a href="class_mesh_edit_action.html#a43486da33936beb482558c96009c02fd">更多...</a><br /></td></tr>
 <tr class="separator:a43486da33936beb482558c96009c02fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 静态 Public 成员函数</h2></td></tr>
 <tr class="memitem:a7a124336013b4779d465e0b3598dbde2"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a7a124336013b4779d465e0b3598dbde2">PointMove</a> (string pointId, Vector3 position)</td></tr>
+<tr class="memdesc:a7a124336013b4779d465e0b3598dbde2"><td class="mdescLeft">&#160;</td><td class="mdescRight">移动网格中的顶点  <a href="class_mesh_edit_action.html#a7a124336013b4779d465e0b3598dbde2">更多...</a><br /></td></tr>
 <tr class="separator:a7a124336013b4779d465e0b3598dbde2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 静态 Public 属性</h2></td></tr>
 <tr class="memitem:a42357b015d1b8f1d9ef598be057375d5"><td class="memItemLeft" align="right" valign="top">static GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a42357b015d1b8f1d9ef598be057375d5">obj</a></td></tr>
+<tr class="memdesc:a42357b015d1b8f1d9ef598be057375d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">编辑的物体  <a href="class_mesh_edit_action.html#a42357b015d1b8f1d9ef598be057375d5">更多...</a><br /></td></tr>
 <tr class="separator:a42357b015d1b8f1d9ef598be057375d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private 成员函数</h2></td></tr>
-<tr class="memitem:a5008cf1b5f3c0cb0264ac2e12231e991"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a5008cf1b5f3c0cb0264ac2e12231e991">Update</a> ()</td></tr>
-<tr class="separator:a5008cf1b5f3c0cb0264ac2e12231e991"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13b37c95cceac9aca10bd990c3ada28c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a13b37c95cceac9aca10bd990c3ada28c">OnEnable</a> ()</td></tr>
-<tr class="separator:a13b37c95cceac9aca10bd990c3ada28c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3513f6907371a5f3e4268196f4d97c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#ad3513f6907371a5f3e4268196f4d97c2">OnDisable</a> ()</td></tr>
-<tr class="separator:ad3513f6907371a5f3e4268196f4d97c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b925c191881edd7188360191bb069a9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a2b925c191881edd7188360191bb069a9">DoTriggerClicked</a> (object sender, ControllerInteractionEventArgs e)</td></tr>
-<tr class="separator:a2b925c191881edd7188360191bb069a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac73969388263bc75047409df10812435"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#ac73969388263bc75047409df10812435">DoTouchpadAxisChanged</a> (object sender, ControllerInteractionEventArgs e)</td></tr>
-<tr class="separator:ac73969388263bc75047409df10812435"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6363180eeedc0593c6324ccd571a43b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#ab6363180eeedc0593c6324ccd571a43b">DoTouchpadTouchEnd</a> (object sender, ControllerInteractionEventArgs e)</td></tr>
-<tr class="separator:ab6363180eeedc0593c6324ccd571a43b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b20a797224aa62cd75afc0fb9621f1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a5b20a797224aa62cd75afc0fb9621f1a">Create</a> (Vector3 pos)</td></tr>
-<tr class="separator:a5b20a797224aa62cd75afc0fb9621f1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaafbc4d168c3d2f004ea62446848f086"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#aaafbc4d168c3d2f004ea62446848f086">MoveNearTouchPoints</a> (<a class="el" href="class_mesh_editor_point.html">MeshEditorPoint</a> point)</td></tr>
-<tr class="separator:aaafbc4d168c3d2f004ea62446848f086"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private 属性</h2></td></tr>
-<tr class="memitem:adf8d8c2b00429582288b90ae7678f9df"><td class="memItemLeft" align="right" valign="top">VRTK_InteractGrab&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#adf8d8c2b00429582288b90ae7678f9df">interactGrab</a></td></tr>
-<tr class="separator:adf8d8c2b00429582288b90ae7678f9df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6db2c696af4e32856057d83bbbcb2a08"><td class="memItemLeft" align="right" valign="top">VRTK_InteractNearTouch&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a6db2c696af4e32856057d83bbbcb2a08">nearTouch</a></td></tr>
-<tr class="separator:a6db2c696af4e32856057d83bbbcb2a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2832851ba2ea1f9aba97b2ffcf6b8b12"><td class="memItemLeft" align="right" valign="top">List&lt; GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a2832851ba2ea1f9aba97b2ffcf6b8b12">nearTouchList</a> = null</td></tr>
-<tr class="separator:a2832851ba2ea1f9aba97b2ffcf6b8b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac9aafbc32835c3773ce67344ba5280ec"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#ac9aafbc32835c3773ce67344ba5280ec">editAreaSphere</a></td></tr>
-<tr class="separator:ac9aafbc32835c3773ce67344ba5280ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cc5b672965dd707e13e2e02569fe20f"><td class="memItemLeft" align="right" valign="top">float?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a3cc5b672965dd707e13e2e02569fe20f">lastTouchpadAxisY</a></td></tr>
-<tr class="separator:a3cc5b672965dd707e13e2e02569fe20f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
-静态 Private 属性</h2></td></tr>
-<tr class="memitem:aa1ea0cffec889897bab67bc8736dbd58"><td class="memItemLeft" align="right" valign="top">static Mesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#aa1ea0cffec889897bab67bc8736dbd58">mesh</a></td></tr>
-<tr class="separator:aa1ea0cffec889897bab67bc8736dbd58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a909572b0aeb74aec20e7154f9149d01c"><td class="memItemLeft" align="right" valign="top">static List&lt; Vector3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a909572b0aeb74aec20e7154f9149d01c">vertices</a></td></tr>
-<tr class="separator:a909572b0aeb74aec20e7154f9149d01c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e6a44e7e776c76a2e37be78bd60550f"><td class="memItemLeft" align="right" valign="top">static List&lt; GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a0e6a44e7e776c76a2e37be78bd60550f">pointList</a></td></tr>
-<tr class="separator:a0e6a44e7e776c76a2e37be78bd60550f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8953608565f69c4a858c7013c271981a"><td class="memItemLeft" align="right" valign="top">static Dictionary&lt; string, List&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a8953608565f69c4a858c7013c271981a">pointMap</a></td></tr>
-<tr class="separator:a8953608565f69c4a858c7013c271981a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-额外继承的成员函数</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:a8ce22289d43372a333b2b13fa306b73e"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a8ce22289d43372a333b2b13fa306b73e">OnEnable</a> ()</td></tr>
+<tr class="separator:a8ce22289d43372a333b2b13fa306b73e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39e51c62fecc4e7522e1f9c61662eea5"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a39e51c62fecc4e7522e1f9c61662eea5">OnDisable</a> ()</td></tr>
+<tr class="separator:a39e51c62fecc4e7522e1f9c61662eea5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_controller_action"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_controller_action')"><img src="closed.png" alt="-"/>&#160;Protected 成员函数 继承自 <a class="el" href="class_controller_action.html">ControllerAction</a></td></tr>
 <tr class="memitem:a6555650db283b88f214b210a80783818 inherit pro_methods_class_controller_action"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#a6555650db283b88f214b210a80783818">OnControllerAtionStart</a> (EventArgs e)</td></tr>
 <tr class="memdesc:a6555650db283b88f214b210a80783818 inherit pro_methods_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">功能开始的事件触发函数  <a href="class_controller_action.html#a6555650db283b88f214b210a80783818">更多...</a><br /></td></tr>
@@ -143,9 +109,64 @@ Private 属性</h2></td></tr>
 <tr class="memdesc:acb0c2fdfd641ce634839e6ce52deddea inherit pro_methods_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">功能结束的事件触发函数  <a href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">更多...</a><br /></td></tr>
 <tr class="separator:acb0c2fdfd641ce634839e6ce52deddea inherit pro_methods_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a10a69ea705c34bbce1654efe1dfa43 inherit pro_methods_class_controller_action"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#a0a10a69ea705c34bbce1654efe1dfa43">DoButtonTwoPressed</a> (object sender, ControllerInteractionEventArgs e)</td></tr>
+<tr class="memdesc:a0a10a69ea705c34bbce1654efe1dfa43 inherit pro_methods_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">手柄Menu按钮点击事件回调函数  <a href="class_controller_action.html#a0a10a69ea705c34bbce1654efe1dfa43">更多...</a><br /></td></tr>
 <tr class="separator:a0a10a69ea705c34bbce1654efe1dfa43 inherit pro_methods_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private 成员函数</h2></td></tr>
+<tr class="memitem:a5008cf1b5f3c0cb0264ac2e12231e991"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a5008cf1b5f3c0cb0264ac2e12231e991">Update</a> ()</td></tr>
+<tr class="separator:a5008cf1b5f3c0cb0264ac2e12231e991"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac73969388263bc75047409df10812435"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#ac73969388263bc75047409df10812435">DoTouchpadAxisChanged</a> (object sender, ControllerInteractionEventArgs e)</td></tr>
+<tr class="memdesc:ac73969388263bc75047409df10812435"><td class="mdescLeft">&#160;</td><td class="mdescRight">手柄Touchpad Axis Changed事件回调函数  <a href="class_mesh_edit_action.html#ac73969388263bc75047409df10812435">更多...</a><br /></td></tr>
+<tr class="separator:ac73969388263bc75047409df10812435"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6363180eeedc0593c6324ccd571a43b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#ab6363180eeedc0593c6324ccd571a43b">DoTouchpadTouchEnd</a> (object sender, ControllerInteractionEventArgs e)</td></tr>
+<tr class="memdesc:ab6363180eeedc0593c6324ccd571a43b"><td class="mdescLeft">&#160;</td><td class="mdescRight">手柄Touchpad Touch End事件回调函数  <a href="class_mesh_edit_action.html#ab6363180eeedc0593c6324ccd571a43b">更多...</a><br /></td></tr>
+<tr class="separator:ab6363180eeedc0593c6324ccd571a43b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b20a797224aa62cd75afc0fb9621f1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a5b20a797224aa62cd75afc0fb9621f1a">Create</a> (Vector3 pos)</td></tr>
+<tr class="memdesc:a5b20a797224aa62cd75afc0fb9621f1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">在一个位置上创建控制点  <a href="class_mesh_edit_action.html#a5b20a797224aa62cd75afc0fb9621f1a">更多...</a><br /></td></tr>
+<tr class="separator:a5b20a797224aa62cd75afc0fb9621f1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaafbc4d168c3d2f004ea62446848f086"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#aaafbc4d168c3d2f004ea62446848f086">MoveNearTouchPoints</a> (<a class="el" href="class_mesh_editor_point.html">MeshEditorPoint</a> point)</td></tr>
+<tr class="memdesc:aaafbc4d168c3d2f004ea62446848f086"><td class="mdescLeft">&#160;</td><td class="mdescRight">捎带手柄周围顶点移动  <a href="class_mesh_edit_action.html#aaafbc4d168c3d2f004ea62446848f086">更多...</a><br /></td></tr>
+<tr class="separator:aaafbc4d168c3d2f004ea62446848f086"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private 属性</h2></td></tr>
+<tr class="memitem:adf8d8c2b00429582288b90ae7678f9df"><td class="memItemLeft" align="right" valign="top">VRTK_InteractGrab&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#adf8d8c2b00429582288b90ae7678f9df">interactGrab</a></td></tr>
+<tr class="memdesc:adf8d8c2b00429582288b90ae7678f9df"><td class="mdescLeft">&#160;</td><td class="mdescRight">用于获取手柄抓取的物体  <a href="class_mesh_edit_action.html#adf8d8c2b00429582288b90ae7678f9df">更多...</a><br /></td></tr>
+<tr class="separator:adf8d8c2b00429582288b90ae7678f9df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6db2c696af4e32856057d83bbbcb2a08"><td class="memItemLeft" align="right" valign="top">VRTK_InteractNearTouch&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a6db2c696af4e32856057d83bbbcb2a08">nearTouch</a></td></tr>
+<tr class="memdesc:a6db2c696af4e32856057d83bbbcb2a08"><td class="mdescLeft">&#160;</td><td class="mdescRight">用于获取手柄附近的物体  <a href="class_mesh_edit_action.html#a6db2c696af4e32856057d83bbbcb2a08">更多...</a><br /></td></tr>
+<tr class="separator:a6db2c696af4e32856057d83bbbcb2a08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2832851ba2ea1f9aba97b2ffcf6b8b12"><td class="memItemLeft" align="right" valign="top">List&lt; GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a2832851ba2ea1f9aba97b2ffcf6b8b12">nearTouchList</a> = null</td></tr>
+<tr class="memdesc:a2832851ba2ea1f9aba97b2ffcf6b8b12"><td class="mdescLeft">&#160;</td><td class="mdescRight">手柄附近所有物体的list  <a href="class_mesh_edit_action.html#a2832851ba2ea1f9aba97b2ffcf6b8b12">更多...</a><br /></td></tr>
+<tr class="separator:a2832851ba2ea1f9aba97b2ffcf6b8b12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9aafbc32835c3773ce67344ba5280ec"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#ac9aafbc32835c3773ce67344ba5280ec">editAreaSphere</a></td></tr>
+<tr class="memdesc:ac9aafbc32835c3773ce67344ba5280ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">编辑球的范围  <a href="class_mesh_edit_action.html#ac9aafbc32835c3773ce67344ba5280ec">更多...</a><br /></td></tr>
+<tr class="separator:ac9aafbc32835c3773ce67344ba5280ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cc5b672965dd707e13e2e02569fe20f"><td class="memItemLeft" align="right" valign="top">float?&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a3cc5b672965dd707e13e2e02569fe20f">lastTouchpadAxisY</a></td></tr>
+<tr class="memdesc:a3cc5b672965dd707e13e2e02569fe20f"><td class="mdescLeft">&#160;</td><td class="mdescRight">上一次touchpad的y轴值, 可为空  <a href="class_mesh_edit_action.html#a3cc5b672965dd707e13e2e02569fe20f">更多...</a><br /></td></tr>
+<tr class="separator:a3cc5b672965dd707e13e2e02569fe20f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+静态 Private 属性</h2></td></tr>
+<tr class="memitem:aa1ea0cffec889897bab67bc8736dbd58"><td class="memItemLeft" align="right" valign="top">static Mesh&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#aa1ea0cffec889897bab67bc8736dbd58">mesh</a></td></tr>
+<tr class="memdesc:aa1ea0cffec889897bab67bc8736dbd58"><td class="mdescLeft">&#160;</td><td class="mdescRight">当前编辑物体的网格  <a href="class_mesh_edit_action.html#aa1ea0cffec889897bab67bc8736dbd58">更多...</a><br /></td></tr>
+<tr class="separator:aa1ea0cffec889897bab67bc8736dbd58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a909572b0aeb74aec20e7154f9149d01c"><td class="memItemLeft" align="right" valign="top">static List&lt; Vector3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a909572b0aeb74aec20e7154f9149d01c">vertices</a></td></tr>
+<tr class="memdesc:a909572b0aeb74aec20e7154f9149d01c"><td class="mdescLeft">&#160;</td><td class="mdescRight">网格顶点列表  <a href="class_mesh_edit_action.html#a909572b0aeb74aec20e7154f9149d01c">更多...</a><br /></td></tr>
+<tr class="separator:a909572b0aeb74aec20e7154f9149d01c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e6a44e7e776c76a2e37be78bd60550f"><td class="memItemLeft" align="right" valign="top">static List&lt; GameObject &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a0e6a44e7e776c76a2e37be78bd60550f">pointList</a></td></tr>
+<tr class="memdesc:a0e6a44e7e776c76a2e37be78bd60550f"><td class="mdescLeft">&#160;</td><td class="mdescRight">控制点列表  <a href="class_mesh_edit_action.html#a0e6a44e7e776c76a2e37be78bd60550f">更多...</a><br /></td></tr>
+<tr class="separator:a0e6a44e7e776c76a2e37be78bd60550f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8953608565f69c4a858c7013c271981a"><td class="memItemLeft" align="right" valign="top">static Dictionary&lt; string, List&lt; int &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_mesh_edit_action.html#a8953608565f69c4a858c7013c271981a">pointMap</a></td></tr>
+<tr class="memdesc:a8953608565f69c4a858c7013c271981a"><td class="mdescLeft">&#160;</td><td class="mdescRight">控制点id与该控制点对应的网格顶点的map  <a href="class_mesh_edit_action.html#a8953608565f69c4a858c7013c271981a">更多...</a><br /></td></tr>
+<tr class="separator:a8953608565f69c4a858c7013c271981a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+额外继承的成员函数</h2></td></tr>
 <tr class="inherit_header pro_attribs_class_controller_action"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_controller_action')"><img src="closed.png" alt="-"/>&#160;Protected 属性 继承自 <a class="el" href="class_controller_action.html">ControllerAction</a></td></tr>
 <tr class="memitem:af0986b059f6087f0232a6079d016ddfc inherit pro_attribs_class_controller_action"><td class="memItemLeft" align="right" valign="top">VRTK_ControllerEvents&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#af0986b059f6087f0232a6079d016ddfc">conEvt</a></td></tr>
+<tr class="memdesc:af0986b059f6087f0232a6079d016ddfc inherit pro_attribs_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">手柄控制事件  <a href="class_controller_action.html#af0986b059f6087f0232a6079d016ddfc">更多...</a><br /></td></tr>
 <tr class="separator:af0986b059f6087f0232a6079d016ddfc inherit pro_attribs_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header events_class_controller_action"><td colspan="2" onclick="javascript:toggleInherit('events_class_controller_action')"><img src="closed.png" alt="-"/>&#160;事件 继承自 <a class="el" href="class_controller_action.html">ControllerAction</a></td></tr>
 <tr class="memitem:ae44944045c9edca97a20c1b80869e37b inherit events_class_controller_action"><td class="memItemLeft" align="right" valign="top">EventHandler&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#ae44944045c9edca97a20c1b80869e37b">ControllerActionStart</a></td></tr>
@@ -183,15 +204,23 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00188">188</a> 行定义.</p>
+<p>在一个位置上创建控制点 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pos</td><td>控制点的世界坐标 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00190">190</a> 行定义.</p>
 <div class="dynheader">
 这是这个函数的调用关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_mesh_edit_action_a5b20a797224aa62cd75afc0fb9621f1a_icgraph.png" border="0" usemap="#aclass_mesh_edit_action_a5b20a797224aa62cd75afc0fb9621f1a_icgraph" alt=""/></div>
 <map name="aclass_mesh_edit_action_a5b20a797224aa62cd75afc0fb9621f1a_icgraph" id="aclass_mesh_edit_action_a5b20a797224aa62cd75afc0fb9621f1a_icgraph">
-<area shape="rect" title=" " alt="" coords="411,11,543,35"/>
-<area shape="rect" href="class_mesh_edit_action.html#a43486da33936beb482558c96009c02fd" title=" " alt="" coords="211,5,362,41"/>
-<area shape="rect" href="class_mesh_edit_action.html#aa6761f81869958909e49a9b1fc19f2cd" title=" " alt="" coords="6,5,162,41"/>
+<area shape="rect" title="在一个位置上创建控制点" alt="" coords="411,11,543,35"/>
+<area shape="rect" href="class_mesh_edit_action.html#a43486da33936beb482558c96009c02fd" title="创建所有控制点" alt="" coords="211,5,362,41"/>
+<area shape="rect" href="class_mesh_edit_action.html#aa6761f81869958909e49a9b1fc19f2cd" title="网格编辑按钮点击时触发的函数" alt="" coords="6,5,162,41"/>
 </map>
 </div>
 
@@ -212,14 +241,16 @@ Private 属性</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00169">169</a> 行定义.</p>
+<p>创建所有控制点 </p>
+
+<p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00167">167</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_mesh_edit_action_a43486da33936beb482558c96009c02fd_cgraph.png" border="0" usemap="#aclass_mesh_edit_action_a43486da33936beb482558c96009c02fd_cgraph" alt=""/></div>
 <map name="aclass_mesh_edit_action_a43486da33936beb482558c96009c02fd_cgraph" id="aclass_mesh_edit_action_a43486da33936beb482558c96009c02fd_cgraph">
-<area shape="rect" title=" " alt="" coords="6,5,157,41"/>
-<area shape="rect" href="class_mesh_edit_action.html#a5b20a797224aa62cd75afc0fb9621f1a" title=" " alt="" coords="206,11,338,35"/>
+<area shape="rect" title="创建所有控制点" alt="" coords="6,5,157,41"/>
+<area shape="rect" href="class_mesh_edit_action.html#a5b20a797224aa62cd75afc0fb9621f1a" title="在一个位置上创建控制点" alt="" coords="206,11,338,35"/>
 </map>
 </div>
 <div class="dynheader">
@@ -227,8 +258,8 @@ Private 属性</h2></td></tr>
 <div class="dyncontent">
 <div class="center"><img src="class_mesh_edit_action_a43486da33936beb482558c96009c02fd_icgraph.png" border="0" usemap="#aclass_mesh_edit_action_a43486da33936beb482558c96009c02fd_icgraph" alt=""/></div>
 <map name="aclass_mesh_edit_action_a43486da33936beb482558c96009c02fd_icgraph" id="aclass_mesh_edit_action_a43486da33936beb482558c96009c02fd_icgraph">
-<area shape="rect" title=" " alt="" coords="211,5,362,41"/>
-<area shape="rect" href="class_mesh_edit_action.html#aa6761f81869958909e49a9b1fc19f2cd" title=" " alt="" coords="6,5,162,41"/>
+<area shape="rect" title="创建所有控制点" alt="" coords="211,5,362,41"/>
+<area shape="rect" href="class_mesh_edit_action.html#aa6761f81869958909e49a9b1fc19f2cd" title="网格编辑按钮点击时触发的函数" alt="" coords="6,5,162,41"/>
 </map>
 </div>
 
@@ -268,15 +299,17 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00119">119</a> 行定义.</p>
+<p>手柄Touchpad Axis Changed事件回调函数 </p>
+
+<p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00111">111</a> 行定义.</p>
 <div class="dynheader">
 这是这个函数的调用关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_mesh_edit_action_ac73969388263bc75047409df10812435_icgraph.png" border="0" usemap="#aclass_mesh_edit_action_ac73969388263bc75047409df10812435_icgraph" alt=""/></div>
 <map name="aclass_mesh_edit_action_ac73969388263bc75047409df10812435_icgraph" id="aclass_mesh_edit_action_ac73969388263bc75047409df10812435_icgraph">
-<area shape="rect" title=" " alt="" coords="201,23,359,59"/>
-<area shape="rect" href="class_mesh_edit_action.html#ad3513f6907371a5f3e4268196f4d97c2" title=" " alt="" coords="5,5,152,29"/>
-<area shape="rect" href="class_mesh_edit_action.html#a13b37c95cceac9aca10bd990c3ada28c" title=" " alt="" coords="6,53,151,77"/>
+<area shape="rect" title="手柄Touchpad Axis Changed事件回调函数" alt="" coords="201,23,359,59"/>
+<area shape="rect" href="class_mesh_edit_action.html#a39e51c62fecc4e7522e1f9c61662eea5" title=" " alt="" coords="5,5,152,29"/>
+<area shape="rect" href="class_mesh_edit_action.html#a8ce22289d43372a333b2b13fa306b73e" title=" " alt="" coords="6,53,151,77"/>
 </map>
 </div>
 
@@ -316,72 +349,17 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00140">140</a> 行定义.</p>
+<p>手柄Touchpad Touch End事件回调函数 </p>
+
+<p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00135">135</a> 行定义.</p>
 <div class="dynheader">
 这是这个函数的调用关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_mesh_edit_action_ab6363180eeedc0593c6324ccd571a43b_icgraph.png" border="0" usemap="#aclass_mesh_edit_action_ab6363180eeedc0593c6324ccd571a43b_icgraph" alt=""/></div>
 <map name="aclass_mesh_edit_action_ab6363180eeedc0593c6324ccd571a43b_icgraph" id="aclass_mesh_edit_action_ab6363180eeedc0593c6324ccd571a43b_icgraph">
-<area shape="rect" title=" " alt="" coords="201,23,359,59"/>
-<area shape="rect" href="class_mesh_edit_action.html#ad3513f6907371a5f3e4268196f4d97c2" title=" " alt="" coords="5,5,152,29"/>
-<area shape="rect" href="class_mesh_edit_action.html#a13b37c95cceac9aca10bd990c3ada28c" title=" " alt="" coords="6,53,151,77"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a2b925c191881edd7188360191bb069a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b925c191881edd7188360191bb069a9">&#9670;&nbsp;</a></span>DoTriggerClicked()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void MeshEditAction.DoTriggerClicked </td>
-          <td>(</td>
-          <td class="paramtype">object&#160;</td>
-          <td class="paramname"><em>sender</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">ControllerInteractionEventArgs&#160;</td>
-          <td class="paramname"><em>e</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00111">111</a> 行定义.</p>
-<div class="dynheader">
-函数调用图:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_mesh_edit_action_a2b925c191881edd7188360191bb069a9_cgraph.png" border="0" usemap="#aclass_mesh_edit_action_a2b925c191881edd7188360191bb069a9_cgraph" alt=""/></div>
-<map name="aclass_mesh_edit_action_a2b925c191881edd7188360191bb069a9_cgraph" id="aclass_mesh_edit_action_a2b925c191881edd7188360191bb069a9_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,152,41"/>
-<area shape="rect" href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea" title="功能结束的事件触发函数" alt="" coords="201,5,365,41"/>
-</map>
-</div>
-<div class="dynheader">
-这是这个函数的调用关系图:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_mesh_edit_action_a2b925c191881edd7188360191bb069a9_icgraph.png" border="0" usemap="#aclass_mesh_edit_action_a2b925c191881edd7188360191bb069a9_icgraph" alt=""/></div>
-<map name="aclass_mesh_edit_action_a2b925c191881edd7188360191bb069a9_icgraph" id="aclass_mesh_edit_action_a2b925c191881edd7188360191bb069a9_icgraph">
-<area shape="rect" title=" " alt="" coords="200,23,347,59"/>
-<area shape="rect" href="class_mesh_edit_action.html#ad3513f6907371a5f3e4268196f4d97c2" title=" " alt="" coords="5,5,152,29"/>
-<area shape="rect" href="class_mesh_edit_action.html#a13b37c95cceac9aca10bd990c3ada28c" title=" " alt="" coords="6,53,151,77"/>
+<area shape="rect" title="手柄Touchpad Touch End事件回调函数" alt="" coords="201,23,359,59"/>
+<area shape="rect" href="class_mesh_edit_action.html#a39e51c62fecc4e7522e1f9c61662eea5" title=" " alt="" coords="5,5,152,29"/>
+<area shape="rect" href="class_mesh_edit_action.html#a8ce22289d43372a333b2b13fa306b73e" title=" " alt="" coords="6,53,151,77"/>
 </map>
 </div>
 
@@ -411,14 +389,22 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00225">225</a> 行定义.</p>
+<p>捎带手柄周围顶点移动 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">最初始移动的控制点，根据该点移动的方向确定周围点移动的方向和距离</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00230">230</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_mesh_edit_action_aaafbc4d168c3d2f004ea62446848f086_cgraph.png" border="0" usemap="#aclass_mesh_edit_action_aaafbc4d168c3d2f004ea62446848f086_cgraph" alt=""/></div>
 <map name="aclass_mesh_edit_action_aaafbc4d168c3d2f004ea62446848f086_cgraph" id="aclass_mesh_edit_action_aaafbc4d168c3d2f004ea62446848f086_cgraph">
-<area shape="rect" title=" " alt="" coords="6,5,183,41"/>
-<area shape="rect" href="class_mesh_edit_action.html#a7a124336013b4779d465e0b3598dbde2" title=" " alt="" coords="232,11,381,35"/>
+<area shape="rect" title="捎带手柄周围顶点移动" alt="" coords="6,5,183,41"/>
+<area shape="rect" href="class_mesh_edit_action.html#a7a124336013b4779d465e0b3598dbde2" title="移动网格中的顶点" alt="" coords="232,11,381,35"/>
 </map>
 </div>
 <div class="dynheader">
@@ -426,15 +412,15 @@ Private 属性</h2></td></tr>
 <div class="dyncontent">
 <div class="center"><img src="class_mesh_edit_action_aaafbc4d168c3d2f004ea62446848f086_icgraph.png" border="0" usemap="#aclass_mesh_edit_action_aaafbc4d168c3d2f004ea62446848f086_icgraph" alt=""/></div>
 <map name="aclass_mesh_edit_action_aaafbc4d168c3d2f004ea62446848f086_icgraph" id="aclass_mesh_edit_action_aaafbc4d168c3d2f004ea62446848f086_icgraph">
-<area shape="rect" title=" " alt="" coords="190,5,367,41"/>
+<area shape="rect" title="捎带手柄周围顶点移动" alt="" coords="190,5,367,41"/>
 <area shape="rect" href="class_mesh_edit_action.html#a5008cf1b5f3c0cb0264ac2e12231e991" title=" " alt="" coords="6,11,141,35"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="ad3513f6907371a5f3e4268196f4d97c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3513f6907371a5f3e4268196f4d97c2">&#9670;&nbsp;</a></span>OnDisable()</h2>
+<a id="a39e51c62fecc4e7522e1f9c61662eea5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39e51c62fecc4e7522e1f9c61662eea5">&#9670;&nbsp;</a></span>OnDisable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -443,7 +429,7 @@ Private 属性</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MeshEditAction.OnDisable </td>
+          <td class="memname">override void MeshEditAction.OnDisable </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -451,31 +437,29 @@ Private 属性</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>重载 <a class="el" href="class_controller_action.html#ae307971a4af89d4ccb7074bfe643d7d4">ControllerAction</a> .</p>
 
-<p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00089">89</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00076">76</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_mesh_edit_action_ad3513f6907371a5f3e4268196f4d97c2_cgraph.png" border="0" usemap="#aclass_mesh_edit_action_ad3513f6907371a5f3e4268196f4d97c2_cgraph" alt=""/></div>
-<map name="aclass_mesh_edit_action_ad3513f6907371a5f3e4268196f4d97c2_cgraph" id="aclass_mesh_edit_action_ad3513f6907371a5f3e4268196f4d97c2_cgraph">
-<area shape="rect" title=" " alt="" coords="5,71,152,95"/>
-<area shape="rect" href="class_mesh_edit_action.html#ac73969388263bc75047409df10812435" title=" " alt="" coords="201,5,359,41"/>
-<area shape="rect" href="class_mesh_edit_action.html#ab6363180eeedc0593c6324ccd571a43b" title=" " alt="" coords="201,65,359,101"/>
-<area shape="rect" href="class_mesh_edit_action.html#a2b925c191881edd7188360191bb069a9" title=" " alt="" coords="207,125,353,161"/>
-<area shape="rect" href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea" title="功能结束的事件触发函数" alt="" coords="409,125,573,161"/>
+<div class="center"><img src="class_mesh_edit_action_a39e51c62fecc4e7522e1f9c61662eea5_cgraph.png" border="0" usemap="#aclass_mesh_edit_action_a39e51c62fecc4e7522e1f9c61662eea5_cgraph" alt=""/></div>
+<map name="aclass_mesh_edit_action_a39e51c62fecc4e7522e1f9c61662eea5_cgraph" id="aclass_mesh_edit_action_a39e51c62fecc4e7522e1f9c61662eea5_cgraph">
+<area shape="rect" title=" " alt="" coords="5,41,152,65"/>
+<area shape="rect" href="class_mesh_edit_action.html#ac73969388263bc75047409df10812435" title="手柄Touchpad Axis Changed事件回调函数" alt="" coords="201,5,359,41"/>
+<area shape="rect" href="class_mesh_edit_action.html#ab6363180eeedc0593c6324ccd571a43b" title="手柄Touchpad Touch End事件回调函数" alt="" coords="201,65,359,101"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a13b37c95cceac9aca10bd990c3ada28c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13b37c95cceac9aca10bd990c3ada28c">&#9670;&nbsp;</a></span>OnEnable()</h2>
+<a id="a8ce22289d43372a333b2b13fa306b73e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ce22289d43372a333b2b13fa306b73e">&#9670;&nbsp;</a></span>OnEnable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -484,7 +468,7 @@ Private 属性</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void MeshEditAction.OnEnable </td>
+          <td class="memname">override void MeshEditAction.OnEnable </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -492,7 +476,7 @@ Private 属性</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -503,13 +487,11 @@ Private 属性</h2></td></tr>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
-<div class="center"><img src="class_mesh_edit_action_a13b37c95cceac9aca10bd990c3ada28c_cgraph.png" border="0" usemap="#aclass_mesh_edit_action_a13b37c95cceac9aca10bd990c3ada28c_cgraph" alt=""/></div>
-<map name="aclass_mesh_edit_action_a13b37c95cceac9aca10bd990c3ada28c_cgraph" id="aclass_mesh_edit_action_a13b37c95cceac9aca10bd990c3ada28c_cgraph">
-<area shape="rect" title=" " alt="" coords="6,71,151,95"/>
-<area shape="rect" href="class_mesh_edit_action.html#ac73969388263bc75047409df10812435" title=" " alt="" coords="201,5,359,41"/>
-<area shape="rect" href="class_mesh_edit_action.html#ab6363180eeedc0593c6324ccd571a43b" title=" " alt="" coords="201,65,359,101"/>
-<area shape="rect" href="class_mesh_edit_action.html#a2b925c191881edd7188360191bb069a9" title=" " alt="" coords="207,125,353,161"/>
-<area shape="rect" href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea" title="功能结束的事件触发函数" alt="" coords="409,125,573,161"/>
+<div class="center"><img src="class_mesh_edit_action_a8ce22289d43372a333b2b13fa306b73e_cgraph.png" border="0" usemap="#aclass_mesh_edit_action_a8ce22289d43372a333b2b13fa306b73e_cgraph" alt=""/></div>
+<map name="aclass_mesh_edit_action_a8ce22289d43372a333b2b13fa306b73e_cgraph" id="aclass_mesh_edit_action_a8ce22289d43372a333b2b13fa306b73e_cgraph">
+<area shape="rect" title=" " alt="" coords="6,41,151,65"/>
+<area shape="rect" href="class_mesh_edit_action.html#ac73969388263bc75047409df10812435" title="手柄Touchpad Axis Changed事件回调函数" alt="" coords="201,5,359,41"/>
+<area shape="rect" href="class_mesh_edit_action.html#ab6363180eeedc0593c6324ccd571a43b" title="手柄Touchpad Touch End事件回调函数" alt="" coords="201,65,359,101"/>
 </map>
 </div>
 
@@ -530,16 +512,18 @@ Private 属性</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00148">148</a> 行定义.</p>
+<p>网格编辑按钮点击时触发的函数 </p>
+
+<p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00146">146</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_mesh_edit_action_aa6761f81869958909e49a9b1fc19f2cd_cgraph.png" border="0" usemap="#aclass_mesh_edit_action_aa6761f81869958909e49a9b1fc19f2cd_cgraph" alt=""/></div>
 <map name="aclass_mesh_edit_action_aa6761f81869958909e49a9b1fc19f2cd_cgraph" id="aclass_mesh_edit_action_aa6761f81869958909e49a9b1fc19f2cd_cgraph">
-<area shape="rect" title=" " alt="" coords="6,35,162,71"/>
-<area shape="rect" href="class_mesh_edit_action.html#a43486da33936beb482558c96009c02fd" title=" " alt="" coords="218,5,369,41"/>
+<area shape="rect" title="网格编辑按钮点击时触发的函数" alt="" coords="6,35,162,71"/>
+<area shape="rect" href="class_mesh_edit_action.html#a43486da33936beb482558c96009c02fd" title="创建所有控制点" alt="" coords="218,5,369,41"/>
 <area shape="rect" href="class_controller_action.html#a6555650db283b88f214b210a80783818" title="功能开始的事件触发函数" alt="" coords="211,65,375,101"/>
-<area shape="rect" href="class_mesh_edit_action.html#a5b20a797224aa62cd75afc0fb9621f1a" title=" " alt="" coords="425,11,557,35"/>
+<area shape="rect" href="class_mesh_edit_action.html#a5b20a797224aa62cd75afc0fb9621f1a" title="在一个位置上创建控制点" alt="" coords="425,11,557,35"/>
 </map>
 </div>
 
@@ -579,14 +563,23 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00206">206</a> 行定义.</p>
+<p>移动网格中的顶点 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">pointId</td><td>控制点的ID，用于获取该控制点对应的所有网格顶点 </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">position</td><td>新位置 </td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00210">210</a> 行定义.</p>
 <div class="dynheader">
 这是这个函数的调用关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_mesh_edit_action_a7a124336013b4779d465e0b3598dbde2_icgraph.png" border="0" usemap="#aclass_mesh_edit_action_a7a124336013b4779d465e0b3598dbde2_icgraph" alt=""/></div>
 <map name="aclass_mesh_edit_action_a7a124336013b4779d465e0b3598dbde2_icgraph" id="aclass_mesh_edit_action_a7a124336013b4779d465e0b3598dbde2_icgraph">
-<area shape="rect" title=" " alt="" coords="416,39,565,63"/>
-<area shape="rect" href="class_mesh_edit_action.html#aaafbc4d168c3d2f004ea62446848f086" title=" " alt="" coords="190,5,367,41"/>
+<area shape="rect" title="移动网格中的顶点" alt="" coords="416,39,565,63"/>
+<area shape="rect" href="class_mesh_edit_action.html#aaafbc4d168c3d2f004ea62446848f086" title="捎带手柄周围顶点移动" alt="" coords="190,5,367,41"/>
 <area shape="rect" href="class_mesh_edit_action.html#a5008cf1b5f3c0cb0264ac2e12231e991" title=" " alt="" coords="6,39,141,63"/>
 </map>
 </div>
@@ -623,8 +616,8 @@ Private 属性</h2></td></tr>
 <div class="center"><img src="class_mesh_edit_action_a5008cf1b5f3c0cb0264ac2e12231e991_cgraph.png" border="0" usemap="#aclass_mesh_edit_action_a5008cf1b5f3c0cb0264ac2e12231e991_cgraph" alt=""/></div>
 <map name="aclass_mesh_edit_action_a5008cf1b5f3c0cb0264ac2e12231e991_cgraph" id="aclass_mesh_edit_action_a5008cf1b5f3c0cb0264ac2e12231e991_cgraph">
 <area shape="rect" title=" " alt="" coords="6,39,141,63"/>
-<area shape="rect" href="class_mesh_edit_action.html#aaafbc4d168c3d2f004ea62446848f086" title=" " alt="" coords="190,5,367,41"/>
-<area shape="rect" href="class_mesh_edit_action.html#a7a124336013b4779d465e0b3598dbde2" title=" " alt="" coords="416,39,565,63"/>
+<area shape="rect" href="class_mesh_edit_action.html#aaafbc4d168c3d2f004ea62446848f086" title="捎带手柄周围顶点移动" alt="" coords="190,5,367,41"/>
+<area shape="rect" href="class_mesh_edit_action.html#a7a124336013b4779d465e0b3598dbde2" title="移动网格中的顶点" alt="" coords="416,39,565,63"/>
 </map>
 </div>
 
@@ -651,6 +644,8 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>编辑球的范围 </p>
+
 <p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00024">24</a> 行定义.</p>
 
 </div>
@@ -674,6 +669,8 @@ Private 属性</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>用于获取手柄抓取的物体 </p>
 
 <p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00013">13</a> 行定义.</p>
 
@@ -699,6 +696,8 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>上一次touchpad的y轴值, 可为空 </p>
+
 <p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00026">26</a> 行定义.</p>
 
 </div>
@@ -722,6 +721,8 @@ Private 属性</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>当前编辑物体的网格 </p>
 
 <p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00018">18</a> 行定义.</p>
 
@@ -747,6 +748,8 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>用于获取手柄附近的物体 </p>
+
 <p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00014">14</a> 行定义.</p>
 
 </div>
@@ -770,6 +773,8 @@ Private 属性</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>手柄附近所有物体的list </p>
 
 <p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00016">16</a> 行定义.</p>
 
@@ -795,6 +800,8 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>编辑的物体 </p>
+
 <p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00009">9</a> 行定义.</p>
 
 </div>
@@ -818,6 +825,8 @@ Private 属性</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>控制点列表 </p>
 
 <p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00020">20</a> 行定义.</p>
 
@@ -843,6 +852,8 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>控制点id与该控制点对应的网格顶点的map </p>
+
 <p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00021">21</a> 行定义.</p>
 
 </div>
@@ -866,6 +877,8 @@ Private 属性</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>网格顶点列表 </p>
 
 <p class="definition">在文件 <a class="el" href="_mesh_edit_action_8cs_source.html">MeshEditAction.cs</a> 第 <a class="el" href="_mesh_edit_action_8cs_source.html#l00019">19</a> 行定义.</p>
 

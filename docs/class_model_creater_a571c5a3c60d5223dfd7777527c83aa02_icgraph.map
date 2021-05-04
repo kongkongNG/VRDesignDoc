@@ -1,0 +1,5 @@
+<map id="ModelCreater.sguGetCirclePointsCount" name="ModelCreater.sguGetCirclePointsCount">
+<area shape="rect" id="node1" title=" " alt="" coords="230,23,381,59"/>
+<area shape="rect" id="node2" href="$class_cylinder_creater.html#a42537840234063d6dfaf77ea407dce4e" title="根据手柄改变圆形轮廓" alt="" coords="14,5,173,29"/>
+<area shape="rect" id="node3" href="$class_cylinder_creater.html#abe0129ca31d9e3f072f27c3fb24716f6" title="创建圆形轮廓 param[out] contour 圆形轮廓的GameObject" alt="" coords="6,53,181,77"/>
+</map>

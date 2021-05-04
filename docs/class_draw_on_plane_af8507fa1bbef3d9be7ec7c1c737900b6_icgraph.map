@@ -1,4 +1,4 @@
 <map id="DrawOnPlane.SetLinePos" name="DrawOnPlane.SetLinePos">
-<area shape="rect" id="node1" title=" " alt="" coords="182,5,325,29"/>
+<area shape="rect" id="node1" title="为当前线条添加顶点" alt="" coords="182,5,325,29"/>
 <area shape="rect" id="node2" href="$class_draw_on_plane.html#a0fd6b8f976f0a5ee43154b5e300a990e" title=" " alt="" coords="6,5,133,29"/>
 </map>

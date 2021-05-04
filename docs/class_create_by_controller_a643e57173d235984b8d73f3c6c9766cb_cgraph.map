@@ -1,8 +1,8 @@
 <map id="CreateByController.Update" name="CreateByController.Update">
 <area shape="rect" id="node1" title=" " alt="" coords="6,120,159,144"/>
 <area shape="rect" id="node2" href="$class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea" title="功能结束的事件触发函数" alt="" coords="213,5,377,41"/>
-<area shape="rect" id="node3" href="$class_create_by_controller.html#a339d039ef9ce8eb1388926e76cfdc57f" title=" " alt="" coords="209,65,381,89"/>
-<area shape="rect" id="node4" href="$class_create_by_controller.html#a588084d26ec3500431320f3a1b34a77a" title=" " alt="" coords="218,114,371,150"/>
-<area shape="rect" id="node5" href="$class_create_by_controller.html#aab9e98486c42060d5fb4e22a322f2f3e" title=" " alt="" coords="218,174,371,210"/>
-<area shape="rect" id="node6" href="$class_create_by_controller.html#a60717edeb992c2b26e1a2aacb052e677" title=" " alt="" coords="218,234,371,270"/>
+<area shape="rect" id="node3" href="$class_create_by_controller.html#a339d039ef9ce8eb1388926e76cfdc57f" title="创建后，为物体添加脚本" alt="" coords="209,65,381,89"/>
+<area shape="rect" id="node4" href="$class_create_by_controller.html#a588084d26ec3500431320f3a1b34a77a" title="调整底部" alt="" coords="218,114,371,150"/>
+<area shape="rect" id="node5" href="$class_create_by_controller.html#aab9e98486c42060d5fb4e22a322f2f3e" title="调整高度" alt="" coords="218,174,371,210"/>
+<area shape="rect" id="node6" href="$class_create_by_controller.html#a60717edeb992c2b26e1a2aacb052e677" title="调整位置" alt="" coords="218,234,371,270"/>
 </map>

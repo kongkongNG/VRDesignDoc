@@ -1,0 +1,5 @@
+<map id="ModelCreater" name="ModelCreater">
+<area shape="rect" id="node1" title="模型创建器的父类（抽象类） 定义模型创建器的行为" alt="" coords="5,123,171,349"/>
+<area shape="rect" id="node3" href="$class_cylinder_creater.html" title="圆柱体创建器 继承了创建器父类" alt="" coords="19,398,157,599"/>
+<area shape="rect" id="node2" title=" " alt="" coords="40,5,136,75"/>
+</map>

@@ -1,6 +1,6 @@
 <map id="ControllerDrawLine" name="ControllerDrawLine">
-<area shape="rect" id="node1" title=" " alt="" coords="5,289,176,658"/>
-<area shape="rect" id="node4" href="$class_draw_on_plane.html" title=" " alt="" coords="36,707,145,837"/>
+<area shape="rect" id="node1" title="手柄绘制类 通过手柄绘制不同颜色的线条，并拉出实体面" alt="" coords="5,288,176,621"/>
+<area shape="rect" id="node4" href="$class_draw_on_plane.html" title=" " alt="" coords="36,670,145,799"/>
 <area shape="rect" id="node2" href="$class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="15,123,165,240"/>
 <area shape="rect" id="node3" title=" " alt="" coords="43,5,139,75"/>
 </map>

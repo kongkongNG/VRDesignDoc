@@ -1,6 +1,6 @@
 <map id="SelectTexture.DoTouchpadPressed" name="SelectTexture.DoTouchpadPressed">
-<area shape="rect" id="node1" title=" " alt="" coords="6,23,159,59"/>
-<area shape="rect" id="node2" href="$class_select_texture.html#a0817d7ce409655a2ca3a30de25b6d98d" title=" " alt="" coords="208,5,387,29"/>
-<area shape="rect" id="node3" href="$class_select_texture.html#abf9efbecf0fb2646c8a08b5e908c5d84" title=" " alt="" coords="211,53,384,77"/>
-<area shape="rect" id="node4" href="$class_select_texture.html#a477957a51f31d576ea16f9d128c3f18b" title=" " alt="" coords="435,47,595,83"/>
+<area shape="rect" id="node1" title="手柄Touchpad Pressed事件回调函数" alt="" coords="6,23,159,59"/>
+<area shape="rect" id="node2" href="$class_select_texture.html#a0817d7ce409655a2ca3a30de25b6d98d" title="计算手指在Touchpad上的位置" alt="" coords="208,5,387,29"/>
+<area shape="rect" id="node3" href="$class_select_texture.html#abf9efbecf0fb2646c8a08b5e908c5d84" title="切换一页" alt="" coords="211,53,384,77"/>
+<area shape="rect" id="node4" href="$class_select_texture.html#a477957a51f31d576ea16f9d128c3f18b" title="切换选取的图片以及选取框位置" alt="" coords="435,47,595,83"/>
 </map>
