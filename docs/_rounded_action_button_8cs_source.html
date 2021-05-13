@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>VR Sketch Design: Y:/Coding/Unity/VRDesignProject/Assets/Scripts/RoundedActionButton.cs 源文件</title>
+<title>VR Sketch Design: Y:/Coding/Unity/VRDesignProject/Assets/Scripts/UI/RoundedActionButton.cs 源文件</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -40,7 +40,7 @@ $(function() {
 <div id="main-nav"></div>
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_b93ca4f67e5c4f3d8967bcc66a8efe61.html">Y:</a></li><li class="navelem"><a class="el" href="dir_657949dcc09204b591ba08b2dd60005a.html">Coding</a></li><li class="navelem"><a class="el" href="dir_9e3bf1a2f1e8bb1f1076cb3a500c0924.html">Unity</a></li><li class="navelem"><a class="el" href="dir_d92c12ce3d70d23921038a5d2ecff28d.html">VRDesignProject</a></li><li class="navelem"><a class="el" href="dir_bbf63476caace77856cc7cbaedc98ba5.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a6ab9145be13875259d1d9e44e1e8835.html">Scripts</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_b93ca4f67e5c4f3d8967bcc66a8efe61.html">Y:</a></li><li class="navelem"><a class="el" href="dir_657949dcc09204b591ba08b2dd60005a.html">Coding</a></li><li class="navelem"><a class="el" href="dir_9e3bf1a2f1e8bb1f1076cb3a500c0924.html">Unity</a></li><li class="navelem"><a class="el" href="dir_d92c12ce3d70d23921038a5d2ecff28d.html">VRDesignProject</a></li><li class="navelem"><a class="el" href="dir_bbf63476caace77856cc7cbaedc98ba5.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a6ab9145be13875259d1d9e44e1e8835.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_a9ea13586de174068c7b23ebe5da8dd2.html">UI</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -55,21 +55,20 @@ $(function() {
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
 <div class="line"><a name="l00006"></a><span class="lineno"><a class="line" href="class_rounded_action_button.html">    6</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="class_rounded_action_button.html">RoundedActionButton</a> : <a class="code" href="class_object_needed_button.html">ObjectNeededButton</a></div>
 <div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="class_rounded_action_button.html#a1e7c88ae6cc2784ed3f62ea4c0527df5">    8</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">override</span> <span class="keywordtype">void</span> <a class="code" href="class_rounded_action_button.html#a1e7c88ae6cc2784ed3f62ea4c0527df5">Check</a>()</div>
+<div class="line"><a name="l00008"></a><span class="lineno"><a class="line" href="class_rounded_action_button.html#aa473d71b290d36bc44b337598ac12e9a">    8</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">override</span> <span class="keywordtype">bool</span> <a class="code" href="class_rounded_action_button.html#aa473d71b290d36bc44b337598ac12e9a">Check</a>()</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;    {</div>
-<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="class_select_object_by_controller.html">SelectObjectByController</a>.<a class="code" href="class_select_object_by_controller.html#a1f891591a70ab63513331d88c930f219">selectedObject</a> == <span class="keyword">null</span>)</div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        {</div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;            <a class="code" href="class_object_needed_button.html#a409e5af138cadf6a6820bfb1ff0be5d0">btn</a>.interactable = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        }</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="comment">// 只有立方体mesh才允许进行圆角操作</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code" href="class_select_object_by_controller.html">SelectObjectByController</a>.<a class="code" href="class_select_object_by_controller.html#a1f891591a70ab63513331d88c930f219">selectedObject</a>.GetComponent&lt;MeshFilter&gt;().sharedMesh.name != <span class="stringliteral">&quot;6PCubeNorm&quot;</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            &amp;&amp; <a class="code" href="class_select_object_by_controller.html">SelectObjectByController</a>.<a class="code" href="class_select_object_by_controller.html#a1f891591a70ab63513331d88c930f219">selectedObject</a>.GetComponent&lt;MeshFilter&gt;().sharedMesh.name != <span class="stringliteral">&quot;6PCubeNorm Instance&quot;</span>)</div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        {</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            <span class="comment">//Debug.Log(SelectObjectByController.selectedObject.GetComponent&lt;MeshFilter&gt;().sharedMesh.name);</span></div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            <a class="code" href="class_object_needed_button.html#a409e5af138cadf6a6820bfb1ff0be5d0">btn</a>.interactable = <span class="keyword">false</span>;</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        }</div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;            <a class="code" href="class_object_needed_button.html#a409e5af138cadf6a6820bfb1ff0be5d0">btn</a>.interactable = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordflow">if</span> (!base.Check())</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;        <span class="comment">//if (SelectObjectByController.selectedObject.GetComponent&lt;MeshFilter&gt;().sharedMesh.name != &quot;CubeGen&quot;</span></div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;        <span class="comment">//    &amp;&amp; SelectObjectByController.selectedObject.GetComponent&lt;MeshFilter&gt;().sharedMesh.name != &quot;7PCubeWithUV Instance&quot;)</span></div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="comment">//{</span></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="comment">//    //Debug.Log(SelectObjectByController.selectedObject.GetComponent&lt;MeshFilter&gt;().sharedMesh.name);</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="comment">//    btn.interactable = false;</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="comment">//}</span></div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="comment">//else</span></div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="comment">//    btn.interactable = true;</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="comment">//public void RoundedButtonClick()</span></div>
@@ -96,11 +95,8 @@ $(function() {
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;    <span class="comment">//}</span></div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;}</div>
 <div class="ttc" id="aclass_object_needed_button_html"><div class="ttname"><a href="class_object_needed_button.html">ObjectNeededButton</a></div><div class="ttdef"><b>Definition:</b> <a href="_object_needed_button_8cs_source.html#l00006">ObjectNeededButton.cs:7</a></div></div>
-<div class="ttc" id="aclass_object_needed_button_html_a409e5af138cadf6a6820bfb1ff0be5d0"><div class="ttname"><a href="class_object_needed_button.html#a409e5af138cadf6a6820bfb1ff0be5d0">ObjectNeededButton.btn</a></div><div class="ttdeci">Button btn</div><div class="ttdef"><b>Definition:</b> <a href="_object_needed_button_8cs_source.html#l00008">ObjectNeededButton.cs:8</a></div></div>
 <div class="ttc" id="aclass_rounded_action_button_html"><div class="ttname"><a href="class_rounded_action_button.html">RoundedActionButton</a></div><div class="ttdef"><b>Definition:</b> <a href="_rounded_action_button_8cs_source.html#l00006">RoundedActionButton.cs:7</a></div></div>
-<div class="ttc" id="aclass_rounded_action_button_html_a1e7c88ae6cc2784ed3f62ea4c0527df5"><div class="ttname"><a href="class_rounded_action_button.html#a1e7c88ae6cc2784ed3f62ea4c0527df5">RoundedActionButton.Check</a></div><div class="ttdeci">override void Check()</div><div class="ttdef"><b>Definition:</b> <a href="_rounded_action_button_8cs_source.html#l00008">RoundedActionButton.cs:8</a></div></div>
-<div class="ttc" id="aclass_select_object_by_controller_html"><div class="ttname"><a href="class_select_object_by_controller.html">SelectObjectByController</a></div><div class="ttdef"><b>Definition:</b> <a href="_select_object_by_controller_8cs_source.html#l00008">SelectObjectByController.cs:9</a></div></div>
-<div class="ttc" id="aclass_select_object_by_controller_html_a1f891591a70ab63513331d88c930f219"><div class="ttname"><a href="class_select_object_by_controller.html#a1f891591a70ab63513331d88c930f219">SelectObjectByController.selectedObject</a></div><div class="ttdeci">static GameObject selectedObject</div><div class="ttdef"><b>Definition:</b> <a href="_select_object_by_controller_8cs_source.html#l00013">SelectObjectByController.cs:13</a></div></div>
+<div class="ttc" id="aclass_rounded_action_button_html_aa473d71b290d36bc44b337598ac12e9a"><div class="ttname"><a href="class_rounded_action_button.html#aa473d71b290d36bc44b337598ac12e9a">RoundedActionButton.Check</a></div><div class="ttdeci">override bool Check()</div><div class="ttdef"><b>Definition:</b> <a href="_rounded_action_button_8cs_source.html#l00008">RoundedActionButton.cs:8</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

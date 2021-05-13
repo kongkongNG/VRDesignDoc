@@ -1,4 +1,8 @@
 <map id="ModelCreater.sguExtrudeWithContour" name="ModelCreater.sguExtrudeWithContour">
-<area shape="rect" id="node1" title=" " alt="" coords="195,5,363,41"/>
-<area shape="rect" id="node2" href="$class_cylinder_creater.html#ab09c9e02f5956d52c3c609197fc082af" title="根据手柄拉伸出模型实体" alt="" coords="6,11,146,35"/>
+<area shape="rect" id="node1" title=" " alt="" coords="595,54,763,90"/>
+<area shape="rect" id="node2" href="$class_model_creater.html#a377501afba1778934b2749513fc0e8bf" title="拉伸出实体，一次执行" alt="" coords="401,5,530,29"/>
+<area shape="rect" id="node5" href="$class_cuboid_creater.html#a2b49789daf15cfc295e35d9ddc257a8b" title=" " alt="" coords="387,54,543,90"/>
+<area shape="rect" id="node6" href="$class_cylinder_creater.html#a75fa147cab7e143fc92f7b31a484f5b7" title=" " alt="" coords="384,114,547,150"/>
+<area shape="rect" id="node3" href="$class_model_creater.html#a7422ed67f3c5487cd6ece5fda2c992b2" title=" " alt="" coords="206,5,335,29"/>
+<area shape="rect" id="node4" href="$class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="5,5,157,29"/>
 </map>

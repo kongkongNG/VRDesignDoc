@@ -1,0 +1,4 @@
+<map id="SelectIcon.OnSelectIconButtonClick" name="SelectIcon.OnSelectIconButtonClick">
+<area shape="rect" id="node1" title="纹理贴图按钮点击时的触发函数" alt="" coords="6,5,178,41"/>
+<area shape="rect" id="node2" href="$class_controller_action.html#a6555650db283b88f214b210a80783818" title="功能开始的事件触发函数" alt="" coords="227,5,391,41"/>
+</map>

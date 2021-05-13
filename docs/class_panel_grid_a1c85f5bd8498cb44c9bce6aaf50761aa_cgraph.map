@@ -1,0 +1,6 @@
+<map id="PanelGrid.DoTouchpadUntouched" name="PanelGrid.DoTouchpadUntouched">
+<area shape="rect" id="node1" title="手柄Touchpad Untouched事件回调函数" alt="" coords="6,60,189,84"/>
+<area shape="rect" id="node2" href="$class_panel_grid.html#aafe9bac37d4f1b2c02526192403485fd" title="根据Swipe方向计算新的图片下标索引" alt="" coords="237,5,408,29"/>
+<area shape="rect" id="node3" href="$class_panel_grid.html#af98f2a16f6a7267a526e912f255628f0" title="判定Swipe行为并计算Swipe方向" alt="" coords="251,54,394,90"/>
+<area shape="rect" id="node4" href="$class_panel_grid.html#a5946fbb7fee904069fba56aa16758c72" title="切换选取的图片以及选取框位置" alt="" coords="241,114,404,150"/>
+</map>

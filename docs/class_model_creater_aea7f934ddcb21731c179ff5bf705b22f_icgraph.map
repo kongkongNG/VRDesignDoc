@@ -1,6 +1,0 @@
-<map id="ModelCreater.CreateContour" name="ModelCreater.CreateContour">
-<area shape="rect" id="node1" title="创建底面轮廓" alt="" coords="629,31,792,55"/>
-<area shape="rect" id="node2" href="$class_model_creater.html#a13e2e05ccf23220c36674ea7455aac61" title="直接创建物体" alt="" coords="421,5,581,29"/>
-<area shape="rect" id="node3" href="$class_create_model_action.html#acfff511a5314778412e6bb1d0891a78b" title="预创建" alt="" coords="206,31,373,55"/>
-<area shape="rect" id="node4" href="$class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="5,31,157,55"/>
-</map>

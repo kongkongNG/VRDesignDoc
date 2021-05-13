@@ -1,8 +1,0 @@
-<map id="CylinderCreater.ChangeSize" name="CylinderCreater.ChangeSize">
-<area shape="rect" id="node1" title="根据手柄改变圆形轮廓" alt="" coords="6,92,165,116"/>
-<area shape="rect" id="node2" href="$class_cylinder_creater.html#a2cd20aa92f5e739ddd83354e69d9278d" title="提取sgcore指针中的顶点数据，添加到LineRenderer中" alt="" coords="219,26,379,62"/>
-<area shape="rect" id="node5" href="$class_model_creater.html#a9f65fc5fe1e483266ed7fd34110cca56" title=" " alt="" coords="213,86,384,122"/>
-<area shape="rect" id="node6" href="$class_model_creater.html#a571c5a3c60d5223dfd7777527c83aa02" title=" " alt="" coords="223,146,374,182"/>
-<area shape="rect" id="node3" href="$class_cylinder_creater.html#a894dcbe9a7396570ee6f0b3d52792abc" title="为轮廓的LineRenderer添加顶点" alt="" coords="435,5,581,29"/>
-<area shape="rect" id="node4" href="$class_model_creater.html#a98056f3d506f955fbb870398a133f021" title=" " alt="" coords="433,54,583,90"/>
-</map>

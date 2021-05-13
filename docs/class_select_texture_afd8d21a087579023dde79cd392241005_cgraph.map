@@ -1,13 +1,5 @@
 <map id="SelectTexture.OnDisable" name="SelectTexture.OnDisable">
-<area shape="rect" id="node1" title=" " alt="" coords="5,131,147,155"/>
-<area shape="rect" id="node2" href="$class_select_texture.html#a398b06f40750532706628d8045f3b651" title="手柄Touchpad Axis Change事件回调函数" alt="" coords="205,5,358,41"/>
-<area shape="rect" id="node3" href="$class_select_texture.html#ac5c375e40d590a4716525972cb52537e" title="手柄Touchpad Pressed事件回调函数" alt="" coords="205,65,358,101"/>
-<area shape="rect" id="node7" href="$class_select_texture.html#aa3ff5d59fe6accfd8adb968421ea79f2" title="手柄Touchpad Touched事件回调函数" alt="" coords="205,125,358,161"/>
-<area shape="rect" id="node8" href="$class_select_texture.html#abe0f49616dd05d37ae78eaefdb2f3ecb" title="手柄Touchpad Untouched事件回调函数" alt="" coords="205,185,358,221"/>
-<area shape="rect" id="node11" href="$class_select_texture.html#a155c149e32fcc8180900b6dba5b04855" title="手柄Trigger Clicked事件回调函数" alt="" coords="195,245,368,269"/>
-<area shape="rect" id="node4" href="$class_select_texture.html#a0817d7ce409655a2ca3a30de25b6d98d" title="计算手指在Touchpad上的位置" alt="" coords="416,37,595,61"/>
-<area shape="rect" id="node5" href="$class_select_texture.html#abf9efbecf0fb2646c8a08b5e908c5d84" title="切换一页" alt="" coords="419,85,592,109"/>
-<area shape="rect" id="node6" href="$class_select_texture.html#a477957a51f31d576ea16f9d128c3f18b" title="切换选取的图片以及选取框位置" alt="" coords="643,105,803,141"/>
-<area shape="rect" id="node9" href="$class_select_texture.html#a7f924fbf6808c48845cf461867620e4b" title="根据Swipe方向计算新的图片下标索引" alt="" coords="423,185,587,221"/>
-<area shape="rect" id="node10" href="$class_select_texture.html#a73db1358103d4708bbf79aac27b41b89" title="判定Swipe行为并计算Swipe方向" alt="" coords="423,245,588,281"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,147,29"/>
+<area shape="rect" id="node2" href="$class_select_texture.html#a155c149e32fcc8180900b6dba5b04855" title="手柄Trigger Clicked事件回调函数" alt="" coords="195,5,368,29"/>
+<area shape="rect" id="node3" href="$class_panel_grid.html#a3a0d199e71a91078cbb7e6de72e62059" title=" " alt="" coords="417,5,543,29"/>
 </map>

@@ -42,6 +42,9 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#pri-attribs">Private 属性</a> &#124;
+<a href="#pri-static-attribs">静态 Private 属性</a> &#124;
 <a href="class_cuboid_creater-members.html">所有成员列表</a>  </div>
   <div class="headertitle">
 <div class="title">CuboidCreater类 参考</div>  </div>
@@ -52,9 +55,9 @@ $(function() {
 <div class="dyncontent">
 <div class="center"><img src="class_cuboid_creater__inherit__graph.png" border="0" usemap="#a_cuboid_creater_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_cuboid_creater_inherit__map" id="a_cuboid_creater_inherit__map">
-<area shape="rect" title=" " alt="" coords="31,480,144,573"/>
-<area shape="rect" href="class_model_creater.html" title="模型创建器的父类（抽象类） 定义模型创建器的行为" alt="" coords="5,123,171,432"/>
-<area shape="rect" title=" " alt="" coords="40,5,136,75"/>
+<area shape="rect" title=" " alt="" coords="5,600,203,765"/>
+<area shape="rect" href="class_model_creater.html" title="模型创建器的父类（抽象类） 定义模型创建器的行为" alt="" coords="25,123,183,552"/>
+<area shape="rect" title=" " alt="" coords="56,5,152,75"/>
 </map>
 </div>
 <div class="dynheader">
@@ -62,101 +65,123 @@ CuboidCreater 的协作图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_cuboid_creater__coll__graph.png" border="0" usemap="#a_cuboid_creater_coll__map" alt="Collaboration graph"/></div>
 <map name="a_cuboid_creater_coll__map" id="a_cuboid_creater_coll__map">
-<area shape="rect" title=" " alt="" coords="31,480,144,573"/>
-<area shape="rect" href="class_model_creater.html" title="模型创建器的父类（抽象类） 定义模型创建器的行为" alt="" coords="5,123,171,432"/>
-<area shape="rect" title=" " alt="" coords="40,5,136,75"/>
+<area shape="rect" title=" " alt="" coords="5,1123,203,1288"/>
+<area shape="rect" href="class_model_creater.html" title="模型创建器的父类（抽象类） 定义模型创建器的行为" alt="" coords="25,654,183,1071"/>
+<area shape="rect" title=" " alt="" coords="73,5,169,75"/>
+<area shape="rect" href="class_s_g_model.html" title=" " alt="" coords="120,126,291,591"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public 成员函数</h2></td></tr>
-<tr class="memitem:ae526ea96cbdc9c28bd744334bd11d6bf"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid_creater.html#ae526ea96cbdc9c28bd744334bd11d6bf">CreateContour</a> (Vector3 pos)</td></tr>
-<tr class="memdesc:ae526ea96cbdc9c28bd744334bd11d6bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建底面轮廓  <a href="class_cuboid_creater.html#ae526ea96cbdc9c28bd744334bd11d6bf">更多...</a><br /></td></tr>
-<tr class="separator:ae526ea96cbdc9c28bd744334bd11d6bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c5d2d5b4a922be02b753b6f8f24ff4d"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid_creater.html#a5c5d2d5b4a922be02b753b6f8f24ff4d">ChangeSize</a> (Vector3 controllerVec)</td></tr>
-<tr class="memdesc:a5c5d2d5b4a922be02b753b6f8f24ff4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">改变轮廓大小  <a href="class_cuboid_creater.html#a5c5d2d5b4a922be02b753b6f8f24ff4d">更多...</a><br /></td></tr>
-<tr class="separator:a5c5d2d5b4a922be02b753b6f8f24ff4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae522cf2c792fc7bed248dff40a24d7d4"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid_creater.html#ae522cf2c792fc7bed248dff40a24d7d4">Extrude</a> (Vector3 controllerVec)</td></tr>
-<tr class="memdesc:ae522cf2c792fc7bed248dff40a24d7d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">拉伸实体  <a href="class_cuboid_creater.html#ae522cf2c792fc7bed248dff40a24d7d4">更多...</a><br /></td></tr>
-<tr class="separator:ae522cf2c792fc7bed248dff40a24d7d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfdd2eaa1d4c814b6dc723cb042cef08"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid_creater.html#adfdd2eaa1d4c814b6dc723cb042cef08">CreateContour</a> (Vector3 pos, Vector3 planeNormal)</td></tr>
+<tr class="memdesc:adfdd2eaa1d4c814b6dc723cb042cef08"><td class="mdescLeft">&#160;</td><td class="mdescRight">创建底面轮廓  <a href="class_cuboid_creater.html#adfdd2eaa1d4c814b6dc723cb042cef08">更多...</a><br /></td></tr>
+<tr class="separator:adfdd2eaa1d4c814b6dc723cb042cef08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae307c1685dca498e4f17489e0ab82934"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid_creater.html#ae307c1685dca498e4f17489e0ab82934">ChangeContourSize</a> (Vector3 controllerVec)</td></tr>
+<tr class="memdesc:ae307c1685dca498e4f17489e0ab82934"><td class="mdescLeft">&#160;</td><td class="mdescRight">根据手柄拉伸出模型实体  <a href="class_cuboid_creater.html#ae307c1685dca498e4f17489e0ab82934">更多...</a><br /></td></tr>
+<tr class="separator:ae307c1685dca498e4f17489e0ab82934"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b49789daf15cfc295e35d9ddc257a8b"><td class="memItemLeft" align="right" valign="top">override IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid_creater.html#a2b49789daf15cfc295e35d9ddc257a8b">ReBuildMeshAtPos</a> (Vector3Int pos)</td></tr>
+<tr class="separator:a2b49789daf15cfc295e35d9ddc257a8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_class_model_creater"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_class_model_creater')"><img src="closed.png" alt="-"/>&#160;Public 成员函数 继承自 <a class="el" href="class_model_creater.html">ModelCreater</a></td></tr>
+<tr class="memitem:a476834cafa26340df374a4f9fc907ee0 inherit pub_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a476834cafa26340df374a4f9fc907ee0">ExtrudeFrame</a> (Vector3 controllerVec)</td></tr>
+<tr class="separator:a476834cafa26340df374a4f9fc907ee0 inherit pub_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7422ed67f3c5487cd6ece5fda2c992b2 inherit pub_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a7422ed67f3c5487cd6ece5fda2c992b2">Extrude</a> (Vector3 controllerVec)</td></tr>
+<tr class="separator:a7422ed67f3c5487cd6ece5fda2c992b2 inherit pub_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a377501afba1778934b2749513fc0e8bf inherit pub_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a377501afba1778934b2749513fc0e8bf">Extrude</a> ()</td></tr>
+<tr class="memdesc:a377501afba1778934b2749513fc0e8bf inherit pub_methods_class_model_creater"><td class="mdescLeft">&#160;</td><td class="mdescRight">拉伸出实体，一次执行  <a href="class_model_creater.html#a377501afba1778934b2749513fc0e8bf">更多...</a><br /></td></tr>
+<tr class="separator:a377501afba1778934b2749513fc0e8bf inherit pub_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea3b5c7bc8c08da5f231314bdada531a inherit pub_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#aea3b5c7bc8c08da5f231314bdada531a">PostCreation</a> ()</td></tr>
+<tr class="separator:aea3b5c7bc8c08da5f231314bdada531a inherit pub_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5914bf533ff378cf5a04e387298daf3 inherit pub_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#aa5914bf533ff378cf5a04e387298daf3">ChangePos</a> (Vector3 newPos)</td></tr>
+<tr class="memdesc:aa5914bf533ff378cf5a04e387298daf3 inherit pub_methods_class_model_creater"><td class="mdescLeft">&#160;</td><td class="mdescRight">改变位置  <a href="class_model_creater.html#aa5914bf533ff378cf5a04e387298daf3">更多...</a><br /></td></tr>
 <tr class="separator:aa5914bf533ff378cf5a04e387298daf3 inherit pub_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a13e2e05ccf23220c36674ea7455aac61 inherit pub_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a13e2e05ccf23220c36674ea7455aac61">CreateDirectly</a> (Vector3 pos)</td></tr>
-<tr class="memdesc:a13e2e05ccf23220c36674ea7455aac61 inherit pub_methods_class_model_creater"><td class="mdescLeft">&#160;</td><td class="mdescRight">直接创建物体  <a href="class_model_creater.html#a13e2e05ccf23220c36674ea7455aac61">更多...</a><br /></td></tr>
-<tr class="separator:a13e2e05ccf23220c36674ea7455aac61 inherit pub_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae400d7acfc5ad422eaf12e14edb53ea7 inherit pub_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#ae400d7acfc5ad422eaf12e14edb53ea7">CombineAreas</a> ()</td></tr>
-<tr class="memdesc:ae400d7acfc5ad422eaf12e14edb53ea7 inherit pub_methods_class_model_creater"><td class="mdescLeft">&#160;</td><td class="mdescRight">合并所有面，形成一个物体，保留原有的面但不显示  <a href="class_model_creater.html#ae400d7acfc5ad422eaf12e14edb53ea7">更多...</a><br /></td></tr>
-<tr class="separator:ae400d7acfc5ad422eaf12e14edb53ea7 inherit pub_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a749d10ecdf461e137334e030915fcd2b inherit pub_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a749d10ecdf461e137334e030915fcd2b">PostCreation</a> ()</td></tr>
-<tr class="separator:a749d10ecdf461e137334e030915fcd2b inherit pub_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb62b5cd76e68be311d2dc1f4abef4fe inherit pub_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#aeb62b5cd76e68be311d2dc1f4abef4fe">AddPoint</a> (int idx, Vector3 p)</td></tr>
+<tr class="memdesc:aeb62b5cd76e68be311d2dc1f4abef4fe inherit pub_methods_class_model_creater"><td class="mdescLeft">&#160;</td><td class="mdescRight">为轮廓的LineRenderer添加顶点  <a href="class_model_creater.html#aeb62b5cd76e68be311d2dc1f4abef4fe">更多...</a><br /></td></tr>
+<tr class="separator:aeb62b5cd76e68be311d2dc1f4abef4fe inherit pub_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
-额外继承的成员函数</h2></td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:ad8108a574f8d123b75d69c2a697f13a5"><td class="memItemLeft" align="right" valign="top">static IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid_creater.html#ad8108a574f8d123b75d69c2a697f13a5">sguCreateRectangle</a> (int c_x, int c_y, int c_z, int a, int b, int n_x, int n_y, int n_z)</td></tr>
+<tr class="separator:ad8108a574f8d123b75d69c2a697f13a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad9ac9a1e380bb562e544fb2f35f0906"><td class="memItemLeft" align="right" valign="top">static IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid_creater.html#aad9ac9a1e380bb562e544fb2f35f0906">sguChangeRectangleParameters</a> (IntPtr objPtr, int c_x, int c_y, int c_z, int a, int b, int n_x, int n_y, int n_z)</td></tr>
+<tr class="separator:aad9ac9a1e380bb562e544fb2f35f0906"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff776ce6ece9e1a932f22eeaa53514d7"><td class="memItemLeft" align="right" valign="top">static IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid_creater.html#aff776ce6ece9e1a932f22eeaa53514d7">sguGetRectangleVertexes</a> (IntPtr objPtr)</td></tr>
+<tr class="separator:aff776ce6ece9e1a932f22eeaa53514d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93ed3453d103dbf61a26ab4847c2a0ca"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid_creater.html#a93ed3453d103dbf61a26ab4847c2a0ca">OnEnable</a> ()</td></tr>
+<tr class="separator:a93ed3453d103dbf61a26ab4847c2a0ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_methods_class_model_creater"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_class_model_creater')"><img src="closed.png" alt="-"/>&#160;Protected 成员函数 继承自 <a class="el" href="class_model_creater.html">ModelCreater</a></td></tr>
 <tr class="memitem:a2bb1acbf10094d59ae73801f9e906040 inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a2bb1acbf10094d59ae73801f9e906040">sguInit</a> ()</td></tr>
 <tr class="separator:a2bb1acbf10094d59ae73801f9e906040 inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71c1ae037957614eac9ac1213bf37fd6 inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a71c1ae037957614eac9ac1213bf37fd6">sguFree</a> ()</td></tr>
 <tr class="separator:a71c1ae037957614eac9ac1213bf37fd6 inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2be1349c2ccf9300f34825c309f973fa inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a2be1349c2ccf9300f34825c309f973fa">sguCreateCircleContour</a> (int c_x, int c_y, int c_z, int r, int n_x, int n_y, int n_z)</td></tr>
-<tr class="separator:a2be1349c2ccf9300f34825c309f973fa inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f65fc5fe1e483266ed7fd34110cca56 inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a9f65fc5fe1e483266ed7fd34110cca56">sguChangeCircleRadius</a> (IntPtr objPtr, int new_r)</td></tr>
-<tr class="separator:a9f65fc5fe1e483266ed7fd34110cca56 inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a571c5a3c60d5223dfd7777527c83aa02 inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a571c5a3c60d5223dfd7777527c83aa02">sguGetCirclePointsCount</a> (IntPtr objPtr)</td></tr>
-<tr class="separator:a571c5a3c60d5223dfd7777527c83aa02 inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a98056f3d506f955fbb870398a133f021 inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a98056f3d506f955fbb870398a133f021">sguGetCirclePoints</a> (IntPtr objPtr)</td></tr>
-<tr class="separator:a98056f3d506f955fbb870398a133f021 inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a6deb6bf4900b0e8798ef949e6b5a3c inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a4a6deb6bf4900b0e8798ef949e6b5a3c">sguCreateRectangle</a> (int c_x, int c_y, int c_z, int a, int b)</td></tr>
-<tr class="separator:a4a6deb6bf4900b0e8798ef949e6b5a3c inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bff1608af6758bbafb162aa9a016127 inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a5bff1608af6758bbafb162aa9a016127">sguGetRectangleVertexes</a> (IntPtr objPtr)</td></tr>
-<tr class="separator:a5bff1608af6758bbafb162aa9a016127 inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad60e8085c0d66d030e5f84f1fa8bd6ca inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#ad60e8085c0d66d030e5f84f1fa8bd6ca">sguExtrudeWithContour</a> (IntPtr objPtr, int n_x, int n_y, int n_z)</td></tr>
 <tr class="separator:ad60e8085c0d66d030e5f84f1fa8bd6ca inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8cbe8f4405b9a898db6580fe04cf408 inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#af8cbe8f4405b9a898db6580fe04cf408">sguGetMeshAreaCount</a> (IntPtr objPtr)</td></tr>
-<tr class="separator:af8cbe8f4405b9a898db6580fe04cf408 inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e8c1b14b807850dcd912a1e904ce4cb inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a2e8c1b14b807850dcd912a1e904ce4cb">sguGetAreaVertexCount</a> (IntPtr objPtr, int area_id)</td></tr>
-<tr class="separator:a2e8c1b14b807850dcd912a1e904ce4cb inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ddabda9cfeef1d582dcd8791c7cfc87 inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a4ddabda9cfeef1d582dcd8791c7cfc87">sguGetAreaVertexes</a> (IntPtr objPtr, int area_id)</td></tr>
-<tr class="separator:a4ddabda9cfeef1d582dcd8791c7cfc87 inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4940dc2e4945cd2d3a62477ca58922b4 inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a4940dc2e4945cd2d3a62477ca58922b4">sguGetAreaNormals</a> (IntPtr objPtr, int area_id)</td></tr>
-<tr class="separator:a4940dc2e4945cd2d3a62477ca58922b4 inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a058e85c888b505969838ac79611bac89 inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a058e85c888b505969838ac79611bac89">sgGetHeadObject</a> ()</td></tr>
 <tr class="separator:a058e85c888b505969838ac79611bac89 inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b9cc55de0e293883b09c9db34418219 inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a1b9cc55de0e293883b09c9db34418219">sgGetNextObject</a> (IntPtr objPtr)</td></tr>
 <tr class="separator:a1b9cc55de0e293883b09c9db34418219 inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4cfead0808de8fd6afa8782756118600 inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a4cfead0808de8fd6afa8782756118600">sgGetObjectsCount</a> ()</td></tr>
 <tr class="separator:a4cfead0808de8fd6afa8782756118600 inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4f0f2e634a709b379d16c23fb558ddd inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#ae4f0f2e634a709b379d16c23fb558ddd">sgGetObjectTrianglesCount</a> (IntPtr objPtr)</td></tr>
-<tr class="separator:ae4f0f2e634a709b379d16c23fb558ddd inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5aa376b8fcc1f63c0e093ab7129828ed inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a5aa376b8fcc1f63c0e093ab7129828ed">sgGetObjectMatrix</a> (IntPtr objPtr)</td></tr>
-<tr class="separator:a5aa376b8fcc1f63c0e093ab7129828ed inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58faedb1b4a9a3abdafb87b4b02d7c2e inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a58faedb1b4a9a3abdafb87b4b02d7c2e">sgGetObjectVertexes</a> (IntPtr objPtr)</td></tr>
-<tr class="separator:a58faedb1b4a9a3abdafb87b4b02d7c2e inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff38d56d605aa9ac910cad39e051612c inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#aff38d56d605aa9ac910cad39e051612c">sgGetObjectNormals</a> (IntPtr objPtr)</td></tr>
-<tr class="separator:aff38d56d605aa9ac910cad39e051612c inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45887bab9b382e3275b8e9054f0e2e46 inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a45887bab9b382e3275b8e9054f0e2e46">sgGetObjectUVs</a> (IntPtr objPtr)</td></tr>
-<tr class="separator:a45887bab9b382e3275b8e9054f0e2e46 inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39fbef3e50beb28160f6e9da42954152 inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a39fbef3e50beb28160f6e9da42954152">sgGetObjectMaterialIndex</a> (IntPtr objPtr)</td></tr>
-<tr class="separator:a39fbef3e50beb28160f6e9da42954152 inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d22ffab0ab76157bfa1f98b81d353b9 inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a5d22ffab0ab76157bfa1f98b81d353b9">InitContourObject</a> (int point_count)</td></tr>
+<tr class="memdesc:a5d22ffab0ab76157bfa1f98b81d353b9 inherit pro_methods_class_model_creater"><td class="mdescLeft">&#160;</td><td class="mdescRight">直接创建物体  <a href="class_model_creater.html#a5d22ffab0ab76157bfa1f98b81d353b9">更多...</a><br /></td></tr>
+<tr class="separator:a5d22ffab0ab76157bfa1f98b81d353b9 inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19ce9908c3ed992ef33e4b558072e64a inherit pro_methods_class_model_creater"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a19ce9908c3ed992ef33e4b558072e64a">ExtractDataAndDraw</a> (IntPtr vertVals, int point_count)</td></tr>
+<tr class="memdesc:a19ce9908c3ed992ef33e4b558072e64a inherit pro_methods_class_model_creater"><td class="mdescLeft">&#160;</td><td class="mdescRight">提取sgcore指针中的顶点数据，添加到LineRenderer中  <a href="class_model_creater.html#a19ce9908c3ed992ef33e4b558072e64a">更多...</a><br /></td></tr>
+<tr class="separator:a19ce9908c3ed992ef33e4b558072e64a inherit pro_methods_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private 属性</h2></td></tr>
+<tr class="memitem:ad4b57cab05704f9dc544dcb3d3e26d4e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid_creater.html#ad4b57cab05704f9dc544dcb3d3e26d4e">sg_length</a></td></tr>
+<tr class="separator:ad4b57cab05704f9dc544dcb3d3e26d4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae14f1d1418eaa381085c49bbcea5e2ee"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid_creater.html#ae14f1d1418eaa381085c49bbcea5e2ee">sg_width</a></td></tr>
+<tr class="separator:ae14f1d1418eaa381085c49bbcea5e2ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+静态 Private 属性</h2></td></tr>
+<tr class="memitem:a92822acbdd2eb83fa303b2a80c4f353e"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_cuboid_creater.html#a92822acbdd2eb83fa303b2a80c4f353e">modelCnt</a> = 1</td></tr>
+<tr class="memdesc:a92822acbdd2eb83fa303b2a80c4f353e"><td class="mdescLeft">&#160;</td><td class="mdescRight">模型计数  <a href="class_cuboid_creater.html#a92822acbdd2eb83fa303b2a80c4f353e">更多...</a><br /></td></tr>
+<tr class="separator:a92822acbdd2eb83fa303b2a80c4f353e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
+额外继承的成员函数</h2></td></tr>
+<tr class="inherit_header pub_attribs_class_model_creater"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_class_model_creater')"><img src="closed.png" alt="-"/>&#160;Public 属性 继承自 <a class="el" href="class_model_creater.html">ModelCreater</a></td></tr>
+<tr class="memitem:a10b8c72bd6ade5072e9cb69b62c0deec inherit pub_attribs_class_model_creater"><td class="memItemLeft" align="right" valign="top">IntPtr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a10b8c72bd6ade5072e9cb69b62c0deec">sg_contour</a></td></tr>
+<tr class="memdesc:a10b8c72bd6ade5072e9cb69b62c0deec inherit pub_attribs_class_model_creater"><td class="mdescLeft">&#160;</td><td class="mdescRight">sgCore的轮廓指针  <a href="class_model_creater.html#a10b8c72bd6ade5072e9cb69b62c0deec">更多...</a><br /></td></tr>
+<tr class="separator:a10b8c72bd6ade5072e9cb69b62c0deec inherit pub_attribs_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac11111cfce63b08a3cfb119c26542b86 inherit pub_attribs_class_model_creater"><td class="memItemLeft" align="right" valign="top">Vector3Int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#ac11111cfce63b08a3cfb119c26542b86">sg_contour_center</a></td></tr>
+<tr class="separator:ac11111cfce63b08a3cfb119c26542b86 inherit pub_attribs_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_static_attribs_class_model_creater"><td colspan="2" onclick="javascript:toggleInherit('pub_static_attribs_class_model_creater')"><img src="closed.png" alt="-"/>&#160;静态 Public 属性 继承自 <a class="el" href="class_model_creater.html">ModelCreater</a></td></tr>
+<tr class="memitem:a811955034f11e3dab1b864353e1c73ff inherit pub_static_attribs_class_model_creater"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a811955034f11e3dab1b864353e1c73ff">ContourName</a> = &quot;Contour&quot;</td></tr>
+<tr class="separator:a811955034f11e3dab1b864353e1c73ff inherit pub_static_attribs_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a939242e06c27a0891bb82c25731129ea inherit pub_static_attribs_class_model_creater"><td class="memItemLeft" align="right" valign="top">static string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a939242e06c27a0891bb82c25731129ea">SingleModelName</a> = &quot;Model&quot;</td></tr>
+<tr class="separator:a939242e06c27a0891bb82c25731129ea inherit pub_static_attribs_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_class_model_creater"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_class_model_creater')"><img src="closed.png" alt="-"/>&#160;Protected 属性 继承自 <a class="el" href="class_model_creater.html">ModelCreater</a></td></tr>
-<tr class="memitem:aac01c9fd2f402146f70d6e62f0310a60 inherit pro_attribs_class_model_creater"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#aac01c9fd2f402146f70d6e62f0310a60">modelFa</a></td></tr>
-<tr class="memdesc:aac01c9fd2f402146f70d6e62f0310a60 inherit pro_attribs_class_model_creater"><td class="mdescLeft">&#160;</td><td class="mdescRight">整个模型的父物体  <a href="class_model_creater.html#aac01c9fd2f402146f70d6e62f0310a60">更多...</a><br /></td></tr>
-<tr class="separator:aac01c9fd2f402146f70d6e62f0310a60 inherit pro_attribs_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9780bb10b576505d3134fef3cfb09a9a inherit pro_attribs_class_model_creater"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a9780bb10b576505d3134fef3cfb09a9a">sg_height</a></td></tr>
+<tr class="memdesc:a9780bb10b576505d3134fef3cfb09a9a inherit pro_attribs_class_model_creater"><td class="mdescLeft">&#160;</td><td class="mdescRight">实体高度  <a href="class_model_creater.html#a9780bb10b576505d3134fef3cfb09a9a">更多...</a><br /></td></tr>
+<tr class="separator:a9780bb10b576505d3134fef3cfb09a9a inherit pro_attribs_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb3ab28fd9df5a0fbd7685f025292514 inherit pro_attribs_class_model_creater"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#abb3ab28fd9df5a0fbd7685f025292514">sg_contour_normal</a></td></tr>
+<tr class="separator:abb3ab28fd9df5a0fbd7685f025292514 inherit pro_attribs_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a591cfd6ffeb43370c58148bc79b85f9b inherit pro_attribs_class_model_creater"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a591cfd6ffeb43370c58148bc79b85f9b">edge_3D_prefab</a></td></tr>
+<tr class="memdesc:a591cfd6ffeb43370c58148bc79b85f9b inherit pro_attribs_class_model_creater"><td class="mdescLeft">&#160;</td><td class="mdescRight">边的预制件  <a href="class_model_creater.html#a591cfd6ffeb43370c58148bc79b85f9b">更多...</a><br /></td></tr>
+<tr class="separator:a591cfd6ffeb43370c58148bc79b85f9b inherit pro_attribs_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4119572809dc611edb705597328665a8 inherit pro_attribs_class_model_creater"><td class="memItemLeft" align="right" valign="top">LineRenderer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a4119572809dc611edb705597328665a8">contourLine</a></td></tr>
+<tr class="memdesc:a4119572809dc611edb705597328665a8 inherit pro_attribs_class_model_creater"><td class="mdescLeft">&#160;</td><td class="mdescRight">绘制轮廓的线  <a href="class_model_creater.html#a4119572809dc611edb705597328665a8">更多...</a><br /></td></tr>
+<tr class="separator:a4119572809dc611edb705597328665a8 inherit pro_attribs_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c5abf12af3ebeb5ec27567f45c188a3 inherit pro_attribs_class_model_creater"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_g_model.html">SGModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a8c5abf12af3ebeb5ec27567f45c188a3">sgModel</a></td></tr>
+<tr class="separator:a8c5abf12af3ebeb5ec27567f45c188a3 inherit pro_attribs_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ed7ef0f0d2235b4f59ab961cb19400b inherit pro_attribs_class_model_creater"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a4ed7ef0f0d2235b4f59ab961cb19400b">contourObj</a></td></tr>
-<tr class="memdesc:a4ed7ef0f0d2235b4f59ab961cb19400b inherit pro_attribs_class_model_creater"><td class="mdescLeft">&#160;</td><td class="mdescRight">圆形轮廓实体  <a href="class_model_creater.html#a4ed7ef0f0d2235b4f59ab961cb19400b">更多...</a><br /></td></tr>
+<tr class="memdesc:a4ed7ef0f0d2235b4f59ab961cb19400b inherit pro_attribs_class_model_creater"><td class="mdescLeft">&#160;</td><td class="mdescRight">轮廓实体  <a href="class_model_creater.html#a4ed7ef0f0d2235b4f59ab961cb19400b">更多...</a><br /></td></tr>
 <tr class="separator:a4ed7ef0f0d2235b4f59ab961cb19400b inherit pro_attribs_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1d1ecda79260c8ce641171dceb84cf3 inherit pro_attribs_class_model_creater"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#ac1d1ecda79260c8ce641171dceb84cf3">areaObj</a></td></tr>
-<tr class="memdesc:ac1d1ecda79260c8ce641171dceb84cf3 inherit pro_attribs_class_model_creater"><td class="mdescLeft">&#160;</td><td class="mdescRight">圆柱模型所有面的父物体体  <a href="class_model_creater.html#ac1d1ecda79260c8ce641171dceb84cf3">更多...</a><br /></td></tr>
-<tr class="separator:ac1d1ecda79260c8ce641171dceb84cf3 inherit pro_attribs_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a642be26a8dbb3ab9d7e44d0f2615ebb3 inherit pro_attribs_class_model_creater"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_model_creater.html#a642be26a8dbb3ab9d7e44d0f2615ebb3">modelObj</a></td></tr>
+<tr class="memdesc:a642be26a8dbb3ab9d7e44d0f2615ebb3 inherit pro_attribs_class_model_creater"><td class="mdescLeft">&#160;</td><td class="mdescRight">模型物体  <a href="class_model_creater.html#a642be26a8dbb3ab9d7e44d0f2615ebb3">更多...</a><br /></td></tr>
 <tr class="separator:a642be26a8dbb3ab9d7e44d0f2615ebb3 inherit pro_attribs_class_model_creater"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
 <div class="textblock">
-<p class="definition">在文件 <a class="el" href="_cuboid_creater_8cs_source.html">CuboidCreater.cs</a> 第 <a class="el" href="_cuboid_creater_8cs_source.html#l00006">6</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_cuboid_creater_8cs_source.html">CuboidCreater.cs</a> 第 <a class="el" href="_cuboid_creater_8cs_source.html#l00007">7</a> 行定义.</p>
 </div><h2 class="groupheader">成员函数说明</h2>
-<a id="a5c5d2d5b4a922be02b753b6f8f24ff4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c5d2d5b4a922be02b753b6f8f24ff4d">&#9670;&nbsp;</a></span>ChangeSize()</h2>
+<a id="ae307c1685dca498e4f17489e0ab82934"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae307c1685dca498e4f17489e0ab82934">&#9670;&nbsp;</a></span>ChangeContourSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -165,7 +190,7 @@ Public 成员函数</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override void CuboidCreater.ChangeSize </td>
+          <td class="memname">override void CuboidCreater.ChangeContourSize </td>
           <td>(</td>
           <td class="paramtype">Vector3&#160;</td>
           <td class="paramname"><em>controllerVec</em></td><td>)</td>
@@ -179,16 +204,35 @@ Public 成员函数</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>改变轮廓大小 </p>
+<p>根据手柄拉伸出模型实体 </p>
+<dl class="params"><dt>参数</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">controllerVec</td><td>两个手柄之间的向量 </td></tr>
+    <tr><td class="paramdir">[out]</td><td class="paramname">obj</td><td>拉伸出的模型实体所有面的父物体 </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p>实现了 <a class="el" href="class_model_creater.html#a6d63cc6b8514361ee863dad27cc21df3">ModelCreater</a>.</p>
+<p>实现了 <a class="el" href="class_model_creater.html#a899bed3e1e1438d6f93256a5560aa303">ModelCreater</a>.</p>
 
-<p class="definition">在文件 <a class="el" href="_cuboid_creater_8cs_source.html">CuboidCreater.cs</a> 第 <a class="el" href="_cuboid_creater_8cs_source.html#l00013">13</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_cuboid_creater_8cs_source.html">CuboidCreater.cs</a> 第 <a class="el" href="_cuboid_creater_8cs_source.html#l00072">72</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_cuboid_creater_ae307c1685dca498e4f17489e0ab82934_cgraph.png" border="0" usemap="#aclass_cuboid_creater_ae307c1685dca498e4f17489e0ab82934_cgraph" alt=""/></div>
+<map name="aclass_cuboid_creater_ae307c1685dca498e4f17489e0ab82934_cgraph" id="aclass_cuboid_creater_ae307c1685dca498e4f17489e0ab82934_cgraph">
+<area shape="rect" title="根据手柄拉伸出模型实体" alt="" coords="6,71,197,95"/>
+<area shape="rect" href="class_model_creater.html#a19ce9908c3ed992ef33e4b558072e64a" title="提取sgcore指针中的顶点数据，添加到LineRenderer中" alt="" coords="271,5,420,41"/>
+<area shape="rect" href="class_cuboid_creater.html#aad9ac9a1e380bb562e544fb2f35f0906" title=" " alt="" coords="246,65,445,101"/>
+<area shape="rect" href="class_cuboid_creater.html#aff776ce6ece9e1a932f22eeaa53514d7" title=" " alt="" coords="256,125,435,161"/>
+<area shape="rect" href="class_model_creater.html#aeb62b5cd76e68be311d2dc1f4abef4fe" title="为轮廓的LineRenderer添加顶点" alt="" coords="494,11,629,35"/>
+</map>
+</div>
 
 </div>
 </div>
-<a id="ae526ea96cbdc9c28bd744334bd11d6bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae526ea96cbdc9c28bd744334bd11d6bf">&#9670;&nbsp;</a></span>CreateContour()</h2>
+<a id="adfdd2eaa1d4c814b6dc723cb042cef08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfdd2eaa1d4c814b6dc723cb042cef08">&#9670;&nbsp;</a></span>CreateContour()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -200,8 +244,18 @@ Public 成员函数</h2></td></tr>
           <td class="memname">override void CuboidCreater.CreateContour </td>
           <td>(</td>
           <td class="paramtype">Vector3&#160;</td>
-          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">Vector3&#160;</td>
+          <td class="paramname"><em>planeNormal</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -213,14 +267,27 @@ Public 成员函数</h2></td></tr>
 
 <p>创建底面轮廓 </p>
 
-<p>实现了 <a class="el" href="class_model_creater.html#aea7f934ddcb21731c179ff5bf705b22f">ModelCreater</a>.</p>
+<p>实现了 <a class="el" href="class_model_creater.html#a09719d6f89417bcb6992b59ec2401496">ModelCreater</a>.</p>
 
-<p class="definition">在文件 <a class="el" href="_cuboid_creater_8cs_source.html">CuboidCreater.cs</a> 第 <a class="el" href="_cuboid_creater_8cs_source.html#l00008">8</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_cuboid_creater_8cs_source.html">CuboidCreater.cs</a> 第 <a class="el" href="_cuboid_creater_8cs_source.html#l00035">35</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_cuboid_creater_adfdd2eaa1d4c814b6dc723cb042cef08_cgraph.png" border="0" usemap="#aclass_cuboid_creater_adfdd2eaa1d4c814b6dc723cb042cef08_cgraph" alt=""/></div>
+<map name="aclass_cuboid_creater_adfdd2eaa1d4c814b6dc723cb042cef08_cgraph" id="aclass_cuboid_creater_adfdd2eaa1d4c814b6dc723cb042cef08_cgraph">
+<area shape="rect" title="创建底面轮廓" alt="" coords="5,99,173,123"/>
+<area shape="rect" href="class_model_creater.html#a19ce9908c3ed992ef33e4b558072e64a" title="提取sgcore指针中的顶点数据，添加到LineRenderer中" alt="" coords="244,5,393,41"/>
+<area shape="rect" href="class_model_creater.html#a5d22ffab0ab76157bfa1f98b81d353b9" title="直接创建物体" alt="" coords="245,65,392,101"/>
+<area shape="rect" href="class_cuboid_creater.html#ad8108a574f8d123b75d69c2a697f13a5" title=" " alt="" coords="221,125,416,149"/>
+<area shape="rect" href="class_cuboid_creater.html#aff776ce6ece9e1a932f22eeaa53514d7" title=" " alt="" coords="229,174,408,210"/>
+<area shape="rect" href="class_model_creater.html#aeb62b5cd76e68be311d2dc1f4abef4fe" title="为轮廓的LineRenderer添加顶点" alt="" coords="465,11,599,35"/>
+</map>
+</div>
 
 </div>
 </div>
-<a id="ae522cf2c792fc7bed248dff40a24d7d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae522cf2c792fc7bed248dff40a24d7d4">&#9670;&nbsp;</a></span>Extrude()</h2>
+<a id="a93ed3453d103dbf61a26ab4847c2a0ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93ed3453d103dbf61a26ab4847c2a0ca">&#9670;&nbsp;</a></span>OnEnable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229,10 +296,39 @@ Public 成员函数</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override void CuboidCreater.Extrude </td>
+          <td class="memname">override void CuboidCreater.OnEnable </td>
           <td>(</td>
-          <td class="paramtype">Vector3&#160;</td>
-          <td class="paramname"><em>controllerVec</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>重载 <a class="el" href="class_model_creater.html#abded5ccfba15d0d3938c6948d3e6677e">ModelCreater</a> .</p>
+
+<p class="definition">在文件 <a class="el" href="_cuboid_creater_8cs_source.html">CuboidCreater.cs</a> 第 <a class="el" href="_cuboid_creater_8cs_source.html#l00029">29</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a2b49789daf15cfc295e35d9ddc257a8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b49789daf15cfc295e35d9ddc257a8b">&#9670;&nbsp;</a></span>ReBuildMeshAtPos()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">override IntPtr CuboidCreater.ReBuildMeshAtPos </td>
+          <td>(</td>
+          <td class="paramtype">Vector3Int&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -243,9 +339,297 @@ Public 成员函数</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>拉伸实体 </p>
+<p>实现了 <a class="el" href="class_model_creater.html#ac138c5e6bd0c32c707c88fe09e53ae3a">ModelCreater</a>.</p>
 
-<p>实现了 <a class="el" href="class_model_creater.html#a00493148d8c852fa3ef1e5f34a7ddfcd">ModelCreater</a>.</p>
+<p class="definition">在文件 <a class="el" href="_cuboid_creater_8cs_source.html">CuboidCreater.cs</a> 第 <a class="el" href="_cuboid_creater_8cs_source.html#l00107">107</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_cuboid_creater_a2b49789daf15cfc295e35d9ddc257a8b_cgraph.png" border="0" usemap="#aclass_cuboid_creater_a2b49789daf15cfc295e35d9ddc257a8b_cgraph" alt=""/></div>
+<map name="aclass_cuboid_creater_a2b49789daf15cfc295e35d9ddc257a8b_cgraph" id="aclass_cuboid_creater_a2b49789daf15cfc295e35d9ddc257a8b_cgraph">
+<area shape="rect" title=" " alt="" coords="6,27,162,63"/>
+<area shape="rect" href="class_cuboid_creater.html#ad8108a574f8d123b75d69c2a697f13a5" title=" " alt="" coords="211,5,405,29"/>
+<area shape="rect" href="class_model_creater.html#ad60e8085c0d66d030e5f84f1fa8bd6ca" title=" " alt="" coords="224,54,392,90"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aad9ac9a1e380bb562e544fb2f35f0906"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad9ac9a1e380bb562e544fb2f35f0906">&#9670;&nbsp;</a></span>sguChangeRectangleParameters()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static IntPtr CuboidCreater.sguChangeRectangleParameters </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>objPtr</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>c_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>c_y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>c_z</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n_y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n_z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_cuboid_creater_aad9ac9a1e380bb562e544fb2f35f0906_icgraph.png" border="0" usemap="#aclass_cuboid_creater_aad9ac9a1e380bb562e544fb2f35f0906_icgraph" alt=""/></div>
+<map name="aclass_cuboid_creater_aad9ac9a1e380bb562e544fb2f35f0906_icgraph" id="aclass_cuboid_creater_aad9ac9a1e380bb562e544fb2f35f0906_icgraph">
+<area shape="rect" title=" " alt="" coords="246,5,445,41"/>
+<area shape="rect" href="class_cuboid_creater.html#ae307c1685dca498e4f17489e0ab82934" title="根据手柄拉伸出模型实体" alt="" coords="6,11,197,35"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ad8108a574f8d123b75d69c2a697f13a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8108a574f8d123b75d69c2a697f13a5">&#9670;&nbsp;</a></span>sguCreateRectangle()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static IntPtr CuboidCreater.sguCreateRectangle </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>c_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>c_y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>c_z</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n_y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n_z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_cuboid_creater_ad8108a574f8d123b75d69c2a697f13a5_icgraph.png" border="0" usemap="#aclass_cuboid_creater_ad8108a574f8d123b75d69c2a697f13a5_icgraph" alt=""/></div>
+<map name="aclass_cuboid_creater_ad8108a574f8d123b75d69c2a697f13a5_icgraph" id="aclass_cuboid_creater_ad8108a574f8d123b75d69c2a697f13a5_icgraph">
+<area shape="rect" title=" " alt="" coords="221,33,416,57"/>
+<area shape="rect" href="class_cuboid_creater.html#adfdd2eaa1d4c814b6dc723cb042cef08" title="创建底面轮廓" alt="" coords="5,5,173,29"/>
+<area shape="rect" href="class_cuboid_creater.html#a2b49789daf15cfc295e35d9ddc257a8b" title=" " alt="" coords="11,54,167,90"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="aff776ce6ece9e1a932f22eeaa53514d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff776ce6ece9e1a932f22eeaa53514d7">&#9670;&nbsp;</a></span>sguGetRectangleVertexes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static IntPtr CuboidCreater.sguGetRectangleVertexes </td>
+          <td>(</td>
+          <td class="paramtype">IntPtr&#160;</td>
+          <td class="paramname"><em>objPtr</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_cuboid_creater_aff776ce6ece9e1a932f22eeaa53514d7_icgraph.png" border="0" usemap="#aclass_cuboid_creater_aff776ce6ece9e1a932f22eeaa53514d7_icgraph" alt=""/></div>
+<map name="aclass_cuboid_creater_aff776ce6ece9e1a932f22eeaa53514d7_icgraph" id="aclass_cuboid_creater_aff776ce6ece9e1a932f22eeaa53514d7_icgraph">
+<area shape="rect" title=" " alt="" coords="245,23,424,59"/>
+<area shape="rect" href="class_cuboid_creater.html#ae307c1685dca498e4f17489e0ab82934" title="根据手柄拉伸出模型实体" alt="" coords="6,5,197,29"/>
+<area shape="rect" href="class_cuboid_creater.html#adfdd2eaa1d4c814b6dc723cb042cef08" title="创建底面轮廓" alt="" coords="17,53,185,77"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">类成员变量说明</h2>
+<a id="a92822acbdd2eb83fa303b2a80c4f353e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92822acbdd2eb83fa303b2a80c4f353e">&#9670;&nbsp;</a></span>modelCnt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CuboidCreater.modelCnt = 1</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>模型计数 </p>
+
+<p class="definition">在文件 <a class="el" href="_cuboid_creater_8cs_source.html">CuboidCreater.cs</a> 第 <a class="el" href="_cuboid_creater_8cs_source.html#l00022">22</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ad4b57cab05704f9dc544dcb3d3e26d4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4b57cab05704f9dc544dcb3d3e26d4e">&#9670;&nbsp;</a></span>sg_length</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CuboidCreater.sg_length</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_cuboid_creater_8cs_source.html">CuboidCreater.cs</a> 第 <a class="el" href="_cuboid_creater_8cs_source.html#l00017">17</a> 行定义.</p>
+
+</div>
+</div>
+<a id="ae14f1d1418eaa381085c49bbcea5e2ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae14f1d1418eaa381085c49bbcea5e2ee">&#9670;&nbsp;</a></span>sg_width</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CuboidCreater.sg_width</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 <p class="definition">在文件 <a class="el" href="_cuboid_creater_8cs_source.html">CuboidCreater.cs</a> 第 <a class="el" href="_cuboid_creater_8cs_source.html#l00018">18</a> 行定义.</p>
 

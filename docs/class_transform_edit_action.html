@@ -43,6 +43,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-attribs">Public 属性</a> &#124;
 <a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#properties">属性</a> &#124;
 <a href="#pri-methods">Private 成员函数</a> &#124;
 <a href="#pri-attribs">Private 属性</a> &#124;
 <a href="class_transform_edit_action-members.html">所有成员列表</a>  </div>
@@ -55,9 +56,9 @@ $(function() {
 <div class="dyncontent">
 <div class="center"><img src="class_transform_edit_action__inherit__graph.png" border="0" usemap="#a_transform_edit_action_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_transform_edit_action_inherit__map" id="a_transform_edit_action_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,289,155,490"/>
-<area shape="rect" href="class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,123,155,240"/>
-<area shape="rect" title=" " alt="" coords="32,5,128,75"/>
+<area shape="rect" title=" " alt="" coords="17,313,167,562"/>
+<area shape="rect" href="class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,123,179,264"/>
+<area shape="rect" title=" " alt="" coords="44,5,140,75"/>
 </map>
 </div>
 <div class="dynheader">
@@ -65,9 +66,9 @@ TransformEditAction 的协作图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_transform_edit_action__coll__graph.png" border="0" usemap="#a_transform_edit_action_coll__map" alt="Collaboration graph"/></div>
 <map name="a_transform_edit_action_coll__map" id="a_transform_edit_action_coll__map">
-<area shape="rect" title=" " alt="" coords="5,289,155,490"/>
-<area shape="rect" href="class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,123,155,240"/>
-<area shape="rect" title=" " alt="" coords="32,5,128,75"/>
+<area shape="rect" title=" " alt="" coords="17,313,167,562"/>
+<area shape="rect" href="class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,123,179,264"/>
+<area shape="rect" title=" " alt="" coords="44,5,140,75"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -75,12 +76,14 @@ TransformEditAction 的协作图:</div>
 Public 属性</h2></td></tr>
 <tr class="memitem:a54a63642ef44f3148d8875c99dfa3f0f"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transform_edit_action.html#a54a63642ef44f3148d8875c99dfa3f0f">rightControllerScriptAlias</a></td></tr>
 <tr class="separator:a54a63642ef44f3148d8875c99dfa3f0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3284448b48eda8b0643b865c9d75e710"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transform_edit_action.html#a3284448b48eda8b0643b865c9d75e710">obj</a></td></tr>
-<tr class="separator:a3284448b48eda8b0643b865c9d75e710"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a387109eeaf0ec459f9aa64640eb77924"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transform_edit_action.html#a387109eeaf0ec459f9aa64640eb77924">scaleDeltaDiv</a></td></tr>
 <tr class="separator:a387109eeaf0ec459f9aa64640eb77924"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf31784e5a1b6929fd5d2fb3df3d684f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transform_edit_action.html#acf31784e5a1b6929fd5d2fb3df3d684f">rotateDeltaDiv</a></td></tr>
 <tr class="separator:acf31784e5a1b6929fd5d2fb3df3d684f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1c4c990fcd7dc1e4fd4248c71748517"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transform_edit_action.html#ab1c4c990fcd7dc1e4fd4248c71748517">axisForwardDis</a></td></tr>
+<tr class="separator:ab1c4c990fcd7dc1e4fd4248c71748517"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5322dbccf6fe55f57a3085fd3f938d4d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transform_edit_action.html#a5322dbccf6fe55f57a3085fd3f938d4d">axisUpDis</a></td></tr>
+<tr class="separator:a5322dbccf6fe55f57a3085fd3f938d4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected 成员函数</h2></td></tr>
@@ -95,9 +98,16 @@ Protected 成员函数</h2></td></tr>
 <tr class="memitem:acb0c2fdfd641ce634839e6ce52deddea inherit pro_methods_class_controller_action"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">OnControllerActionEnd</a> (EventArgs e)</td></tr>
 <tr class="memdesc:acb0c2fdfd641ce634839e6ce52deddea inherit pro_methods_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">功能结束的事件触发函数  <a href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">更多...</a><br /></td></tr>
 <tr class="separator:acb0c2fdfd641ce634839e6ce52deddea inherit pro_methods_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2b53d381e193da9d894b2955ec8b657 inherit pro_methods_class_controller_action"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#ad2b53d381e193da9d894b2955ec8b657">OnControllerActionEndButtonClicked</a> ()</td></tr>
+<tr class="separator:ad2b53d381e193da9d894b2955ec8b657 inherit pro_methods_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a10a69ea705c34bbce1654efe1dfa43 inherit pro_methods_class_controller_action"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_controller_action.html#a0a10a69ea705c34bbce1654efe1dfa43">DoButtonTwoPressed</a> (object sender, ControllerInteractionEventArgs e)</td></tr>
 <tr class="memdesc:a0a10a69ea705c34bbce1654efe1dfa43 inherit pro_methods_class_controller_action"><td class="mdescLeft">&#160;</td><td class="mdescRight">手柄Menu按钮点击事件回调函数  <a href="class_controller_action.html#a0a10a69ea705c34bbce1654efe1dfa43">更多...</a><br /></td></tr>
 <tr class="separator:a0a10a69ea705c34bbce1654efe1dfa43 inherit pro_methods_class_controller_action"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="properties"></a>
+属性</h2></td></tr>
+<tr class="memitem:a8ec60082343f2f7a2c766d412f8d5b3f"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transform_edit_action.html#a8ec60082343f2f7a2c766d412f8d5b3f">Obj</a><code> [set, private get]</code></td></tr>
+<tr class="separator:a8ec60082343f2f7a2c766d412f8d5b3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private 成员函数</h2></td></tr>
@@ -118,6 +128,10 @@ Private 属性</h2></td></tr>
 <tr class="separator:adeb6a1d6f34d2591e28d69a73333a77c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add8279ec1171c892880ab0c046216aac"><td class="memItemLeft" align="right" valign="top">VRTK_ControllerEvents&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transform_edit_action.html#add8279ec1171c892880ab0c046216aac">rightConEvt</a></td></tr>
 <tr class="separator:add8279ec1171c892880ab0c046216aac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32f2a736d4de160a7a49c4640e9ac2a8"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transform_edit_action.html#a32f2a736d4de160a7a49c4640e9ac2a8">axisPosition</a></td></tr>
+<tr class="separator:a32f2a736d4de160a7a49c4640e9ac2a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a443bab10b895392eaf7e0b98677b533b"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_transform_edit_action.html#a443bab10b895392eaf7e0b98677b533b">sphere</a></td></tr>
+<tr class="separator:a443bab10b895392eaf7e0b98677b533b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 额外继承的成员函数</h2></td></tr>
@@ -177,7 +191,7 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_transform_edit_action_8cs_source.html">TransformEditAction.cs</a> 第 <a class="el" href="_transform_edit_action_8cs_source.html#l00134">134</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_transform_edit_action_8cs_source.html">TransformEditAction.cs</a> 第 <a class="el" href="_transform_edit_action_8cs_source.html#l00152">152</a> 行定义.</p>
 <div class="dynheader">
 这是这个函数的调用关系图:</div>
 <div class="dyncontent">
@@ -225,7 +239,7 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_transform_edit_action_8cs_source.html">TransformEditAction.cs</a> 第 <a class="el" href="_transform_edit_action_8cs_source.html#l00104">104</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_transform_edit_action_8cs_source.html">TransformEditAction.cs</a> 第 <a class="el" href="_transform_edit_action_8cs_source.html#l00120">120</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
@@ -272,7 +286,7 @@ Private 属性</h2></td></tr>
 
 <p>重载 <a class="el" href="class_controller_action.html#ae307971a4af89d4ccb7074bfe643d7d4">ControllerAction</a> .</p>
 
-<p class="definition">在文件 <a class="el" href="_transform_edit_action_8cs_source.html">TransformEditAction.cs</a> 第 <a class="el" href="_transform_edit_action_8cs_source.html#l00042">42</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_transform_edit_action_8cs_source.html">TransformEditAction.cs</a> 第 <a class="el" href="_transform_edit_action_8cs_source.html#l00055">55</a> 行定义.</p>
 
 </div>
 </div>
@@ -301,7 +315,7 @@ Private 属性</h2></td></tr>
 
 <p>重载 <a class="el" href="class_controller_action.html#aa49bbe868d24d10ac2d3f0df2c615bc7">ControllerAction</a> .</p>
 
-<p class="definition">在文件 <a class="el" href="_transform_edit_action_8cs_source.html">TransformEditAction.cs</a> 第 <a class="el" href="_transform_edit_action_8cs_source.html#l00024">24</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_transform_edit_action_8cs_source.html">TransformEditAction.cs</a> 第 <a class="el" href="_transform_edit_action_8cs_source.html#l00032">32</a> 行定义.</p>
 
 </div>
 </div>
@@ -328,7 +342,7 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_transform_edit_action_8cs_source.html">TransformEditAction.cs</a> 第 <a class="el" href="_transform_edit_action_8cs_source.html#l00059">59</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_transform_edit_action_8cs_source.html">TransformEditAction.cs</a> 第 <a class="el" href="_transform_edit_action_8cs_source.html#l00072">72</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
@@ -343,6 +357,62 @@ Private 属性</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">类成员变量说明</h2>
+<a id="ab1c4c990fcd7dc1e4fd4248c71748517"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1c4c990fcd7dc1e4fd4248c71748517">&#9670;&nbsp;</a></span>axisForwardDis</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TransformEditAction.axisForwardDis</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_transform_edit_action_8cs_source.html">TransformEditAction.cs</a> 第 <a class="el" href="_transform_edit_action_8cs_source.html#l00026">26</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a32f2a736d4de160a7a49c4640e9ac2a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32f2a736d4de160a7a49c4640e9ac2a8">&#9670;&nbsp;</a></span>axisPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 TransformEditAction.axisPosition</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_transform_edit_action_8cs_source.html">TransformEditAction.cs</a> 第 <a class="el" href="_transform_edit_action_8cs_source.html#l00020">20</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a5322dbccf6fe55f57a3085fd3f938d4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5322dbccf6fe55f57a3085fd3f938d4d">&#9670;&nbsp;</a></span>axisUpDis</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int TransformEditAction.axisUpDis</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_transform_edit_action_8cs_source.html">TransformEditAction.cs</a> 第 <a class="el" href="_transform_edit_action_8cs_source.html#l00027">27</a> 行定义.</p>
+
+</div>
+</div>
 <a id="acfebd7329109a83f33e78826516e1363"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acfebd7329109a83f33e78826516e1363">&#9670;&nbsp;</a></span>lastControllerDis</h2>
 
@@ -415,22 +485,6 @@ Private 属性</h2></td></tr>
 
 </div>
 </div>
-<a id="a3284448b48eda8b0643b865c9d75e710"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3284448b48eda8b0643b865c9d75e710">&#9670;&nbsp;</a></span>obj</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">GameObject TransformEditAction.obj</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="definition">在文件 <a class="el" href="_transform_edit_action_8cs_source.html">TransformEditAction.cs</a> 第 <a class="el" href="_transform_edit_action_8cs_source.html#l00018">18</a> 行定义.</p>
-
-</div>
-</div>
 <a id="add8279ec1171c892880ab0c046216aac"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#add8279ec1171c892880ab0c046216aac">&#9670;&nbsp;</a></span>rightConEvt</h2>
 
@@ -483,7 +537,7 @@ Private 属性</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_transform_edit_action_8cs_source.html">TransformEditAction.cs</a> 第 <a class="el" href="_transform_edit_action_8cs_source.html#l00021">21</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_transform_edit_action_8cs_source.html">TransformEditAction.cs</a> 第 <a class="el" href="_transform_edit_action_8cs_source.html#l00024">24</a> 行定义.</p>
 
 </div>
 </div>
@@ -499,7 +553,56 @@ Private 属性</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_transform_edit_action_8cs_source.html">TransformEditAction.cs</a> 第 <a class="el" href="_transform_edit_action_8cs_source.html#l00020">20</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_transform_edit_action_8cs_source.html">TransformEditAction.cs</a> 第 <a class="el" href="_transform_edit_action_8cs_source.html#l00023">23</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a443bab10b895392eaf7e0b98677b533b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a443bab10b895392eaf7e0b98677b533b">&#9670;&nbsp;</a></span>sphere</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject TransformEditAction.sphere</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_transform_edit_action_8cs_source.html">TransformEditAction.cs</a> 第 <a class="el" href="_transform_edit_action_8cs_source.html#l00021">21</a> 行定义.</p>
+
+</div>
+</div>
+<h2 class="groupheader">属性说明</h2>
+<a id="a8ec60082343f2f7a2c766d412f8d5b3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ec60082343f2f7a2c766d412f8d5b3f">&#9670;&nbsp;</a></span>Obj</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject TransformEditAction.Obj</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">set</span><span class="mlabel">private get</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_transform_edit_action_8cs_source.html">TransformEditAction.cs</a> 第 <a class="el" href="_transform_edit_action_8cs_source.html#l00029">29</a> 行定义.</p>
 
 </div>
 </div>

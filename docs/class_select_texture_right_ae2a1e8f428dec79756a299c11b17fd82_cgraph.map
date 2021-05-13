@@ -1,5 +1,0 @@
-<map id="SelectTextureRight.DoUIPointerElementEnter" name="SelectTextureRight.DoUIPointerElementEnter">
-<area shape="rect" id="node1" title="UI指针指向元素时触发的回调函数" alt="" coords="5,5,181,41"/>
-<area shape="rect" id="node2" href="$class_select_texture.html#a7019ef9a67a0e4ab1161fa2782557427" title="供右手使用的静态函数，选取一个texture" alt="" coords="229,11,397,35"/>
-<area shape="rect" id="node3" href="$class_select_texture.html#a477957a51f31d576ea16f9d128c3f18b" title="切换选取的图片以及选取框位置" alt="" coords="445,5,605,41"/>
-</map>

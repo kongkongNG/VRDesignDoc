@@ -1,6 +1,5 @@
 <map id="ModelCreater.ChangePos" name="ModelCreater.ChangePos">
-<area shape="rect" id="node1" title=" " alt="" coords="406,41,551,65"/>
-<area shape="rect" id="node2" href="$class_create_model_action.html#a1629116a8182e656cf9b464ce21fd55b" title="调整位置" alt="" coords="205,5,357,41"/>
-<area shape="rect" id="node4" href="$class_create_model_action.html#a8b2d987b6b865fb84e1d1a633577bf37" title=" " alt="" coords="205,65,357,101"/>
-<area shape="rect" id="node3" href="$class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="5,41,157,65"/>
+<area shape="rect" id="node1" title="改变位置" alt="" coords="406,11,551,35"/>
+<area shape="rect" id="node2" href="$class_create_model_action.html#a8b2d987b6b865fb84e1d1a633577bf37" title=" " alt="" coords="205,5,357,41"/>
+<area shape="rect" id="node3" href="$class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="5,11,157,35"/>
 </map>

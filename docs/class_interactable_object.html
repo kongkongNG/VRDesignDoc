@@ -41,8 +41,10 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public 成员函数</a> &#124;
 <a href="#pub-attribs">Public 属性</a> &#124;
+<a href="#pro-methods">Protected 成员函数</a> &#124;
+<a href="#pri-methods">Private 成员函数</a> &#124;
+<a href="#pri-attribs">Private 属性</a> &#124;
 <a href="class_interactable_object-members.html">所有成员列表</a>  </div>
   <div class="headertitle">
 <div class="title">InteractableObject类 参考</div>  </div>
@@ -53,7 +55,7 @@ $(function() {
 <div class="dyncontent">
 <div class="center"><img src="class_interactable_object__inherit__graph.png" border="0" usemap="#a_interactable_object_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_interactable_object_inherit__map" id="a_interactable_object_inherit__map">
-<area shape="rect" title=" " alt="" coords="21,123,133,205"/>
+<area shape="rect" title=" " alt="" coords="9,123,145,253"/>
 <area shape="rect" title=" " alt="" coords="5,5,149,75"/>
 </map>
 </div>
@@ -62,64 +64,217 @@ InteractableObject 的协作图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_interactable_object__coll__graph.png" border="0" usemap="#a_interactable_object_coll__map" alt="Collaboration graph"/></div>
 <map name="a_interactable_object_coll__map" id="a_interactable_object_coll__map">
-<area shape="rect" title=" " alt="" coords="21,123,133,205"/>
+<area shape="rect" title=" " alt="" coords="9,123,145,253"/>
 <area shape="rect" title=" " alt="" coords="5,5,149,75"/>
 </map>
 </div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
-Public 成员函数</h2></td></tr>
-<tr class="memitem:a386480e71c2b0edacc2c7c3dcd216a38"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interactable_object.html#a386480e71c2b0edacc2c7c3dcd216a38">StartTouching</a> (VRTK_InteractTouch currentTouchingObject=null)</td></tr>
-<tr class="separator:a386480e71c2b0edacc2c7c3dcd216a38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcfa1780ac11ffe9c54f5ca62b2daf04"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interactable_object.html#abcfa1780ac11ffe9c54f5ca62b2daf04">StopTouching</a> (VRTK_InteractTouch previousTouchingObject=null)</td></tr>
-<tr class="separator:abcfa1780ac11ffe9c54f5ca62b2daf04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public 属性</h2></td></tr>
 <tr class="memitem:a8e35ab1fd914137b268bfacc3170d38b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interactable_object.html#a8e35ab1fd914137b268bfacc3170d38b">isSelected</a></td></tr>
 <tr class="separator:a8e35ab1fd914137b268bfacc3170d38b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
+Protected 成员函数</h2></td></tr>
+<tr class="memitem:a1e05494582fcc6a697c86f10d00073dc"><td class="memItemLeft" align="right" valign="top">override void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interactable_object.html#a1e05494582fcc6a697c86f10d00073dc">Awake</a> ()</td></tr>
+<tr class="separator:a1e05494582fcc6a697c86f10d00073dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
+Private 成员函数</h2></td></tr>
+<tr class="memitem:ab7e09ddd6cd669dfd0ed6dfa03642df8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interactable_object.html#ab7e09ddd6cd669dfd0ed6dfa03642df8">DoObjectTouched</a> (object sender, InteractableObjectEventArgs e)</td></tr>
+<tr class="separator:ab7e09ddd6cd669dfd0ed6dfa03642df8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2821882a6b5145695da575ea76d6d945"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interactable_object.html#a2821882a6b5145695da575ea76d6d945">DoObjectUnTouched</a> (object sender, InteractableObjectEventArgs e)</td></tr>
+<tr class="separator:a2821882a6b5145695da575ea76d6d945"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0f28851463460f6c8e1d42c8f618f6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interactable_object.html#ab0f28851463460f6c8e1d42c8f618f6d">DoObjectUngrabbed</a> (object sender, InteractableObjectEventArgs e)</td></tr>
+<tr class="separator:ab0f28851463460f6c8e1d42c8f618f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private 属性</h2></td></tr>
+<tr class="memitem:a596ce9db3fffeffe3817841272e70794"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interactable_object.html#a596ce9db3fffeffe3817841272e70794">originPos</a></td></tr>
+<tr class="separator:a596ce9db3fffeffe3817841272e70794"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa802d991ec1ba23ecdea7e0c347d211d"><td class="memItemLeft" align="right" valign="top">Quaternion&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interactable_object.html#aa802d991ec1ba23ecdea7e0c347d211d">originRotation</a></td></tr>
+<tr class="separator:aa802d991ec1ba23ecdea7e0c347d211d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
 <div class="textblock">
 <p class="definition">在文件 <a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a> 第 <a class="el" href="_interactable_object_8cs_source.html#l00006">6</a> 行定义.</p>
 </div><h2 class="groupheader">成员函数说明</h2>
-<a id="a386480e71c2b0edacc2c7c3dcd216a38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a386480e71c2b0edacc2c7c3dcd216a38">&#9670;&nbsp;</a></span>StartTouching()</h2>
+<a id="a1e05494582fcc6a697c86f10d00073dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e05494582fcc6a697c86f10d00073dc">&#9670;&nbsp;</a></span>Awake()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override void InteractableObject.StartTouching </td>
+          <td class="memname">override void InteractableObject.Awake </td>
           <td>(</td>
-          <td class="paramtype">VRTK_InteractTouch&#160;</td>
-          <td class="paramname"><em>currentTouchingObject</em> = <code>null</code></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a> 第 <a class="el" href="_interactable_object_8cs_source.html#l00011">11</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a> 第 <a class="el" href="_interactable_object_8cs_source.html#l00013">13</a> 行定义.</p>
+<div class="dynheader">
+函数调用图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_interactable_object_a1e05494582fcc6a697c86f10d00073dc_cgraph.png" border="0" usemap="#aclass_interactable_object_a1e05494582fcc6a697c86f10d00073dc_cgraph" alt=""/></div>
+<map name="aclass_interactable_object_a1e05494582fcc6a697c86f10d00073dc_cgraph" id="aclass_interactable_object_a1e05494582fcc6a697c86f10d00073dc_cgraph">
+<area shape="rect" title=" " alt="" coords="5,71,155,95"/>
+<area shape="rect" href="class_interactable_object.html#ab7e09ddd6cd669dfd0ed6dfa03642df8" title=" " alt="" coords="203,5,365,41"/>
+<area shape="rect" href="class_interactable_object.html#ab0f28851463460f6c8e1d42c8f618f6d" title=" " alt="" coords="203,65,365,101"/>
+<area shape="rect" href="class_interactable_object.html#a2821882a6b5145695da575ea76d6d945" title=" " alt="" coords="203,125,365,161"/>
+</map>
+</div>
 
 </div>
 </div>
-<a id="abcfa1780ac11ffe9c54f5ca62b2daf04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcfa1780ac11ffe9c54f5ca62b2daf04">&#9670;&nbsp;</a></span>StopTouching()</h2>
+<a id="ab7e09ddd6cd669dfd0ed6dfa03642df8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7e09ddd6cd669dfd0ed6dfa03642df8">&#9670;&nbsp;</a></span>DoObjectTouched()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">override void InteractableObject.StopTouching </td>
+          <td class="memname">void InteractableObject.DoObjectTouched </td>
           <td>(</td>
-          <td class="paramtype">VRTK_InteractTouch&#160;</td>
-          <td class="paramname"><em>previousTouchingObject</em> = <code>null</code></td><td>)</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>sender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">InteractableObjectEventArgs&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 <p class="definition">在文件 <a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a> 第 <a class="el" href="_interactable_object_8cs_source.html#l00023">23</a> 行定义.</p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_interactable_object_ab7e09ddd6cd669dfd0ed6dfa03642df8_icgraph.png" border="0" usemap="#aclass_interactable_object_ab7e09ddd6cd669dfd0ed6dfa03642df8_icgraph" alt=""/></div>
+<map name="aclass_interactable_object_ab7e09ddd6cd669dfd0ed6dfa03642df8_icgraph" id="aclass_interactable_object_ab7e09ddd6cd669dfd0ed6dfa03642df8_icgraph">
+<area shape="rect" title=" " alt="" coords="203,5,365,41"/>
+<area shape="rect" href="class_interactable_object.html#a1e05494582fcc6a697c86f10d00073dc" title=" " alt="" coords="5,11,155,35"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="ab0f28851463460f6c8e1d42c8f618f6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0f28851463460f6c8e1d42c8f618f6d">&#9670;&nbsp;</a></span>DoObjectUngrabbed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InteractableObject.DoObjectUngrabbed </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>sender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InteractableObjectEventArgs&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a> 第 <a class="el" href="_interactable_object_8cs_source.html#l00049">49</a> 行定义.</p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_interactable_object_ab0f28851463460f6c8e1d42c8f618f6d_icgraph.png" border="0" usemap="#aclass_interactable_object_ab0f28851463460f6c8e1d42c8f618f6d_icgraph" alt=""/></div>
+<map name="aclass_interactable_object_ab0f28851463460f6c8e1d42c8f618f6d_icgraph" id="aclass_interactable_object_ab0f28851463460f6c8e1d42c8f618f6d_icgraph">
+<area shape="rect" title=" " alt="" coords="203,5,365,41"/>
+<area shape="rect" href="class_interactable_object.html#a1e05494582fcc6a697c86f10d00073dc" title=" " alt="" coords="5,11,155,35"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a2821882a6b5145695da575ea76d6d945"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2821882a6b5145695da575ea76d6d945">&#9670;&nbsp;</a></span>DoObjectUnTouched()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void InteractableObject.DoObjectUnTouched </td>
+          <td>(</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>sender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InteractableObjectEventArgs&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a> 第 <a class="el" href="_interactable_object_8cs_source.html#l00035">35</a> 行定义.</p>
+<div class="dynheader">
+这是这个函数的调用关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_interactable_object_a2821882a6b5145695da575ea76d6d945_icgraph.png" border="0" usemap="#aclass_interactable_object_a2821882a6b5145695da575ea76d6d945_icgraph" alt=""/></div>
+<map name="aclass_interactable_object_a2821882a6b5145695da575ea76d6d945_icgraph" id="aclass_interactable_object_a2821882a6b5145695da575ea76d6d945_icgraph">
+<area shape="rect" title=" " alt="" coords="203,5,365,41"/>
+<area shape="rect" href="class_interactable_object.html#a1e05494582fcc6a697c86f10d00073dc" title=" " alt="" coords="5,11,155,35"/>
+</map>
+</div>
 
 </div>
 </div>
@@ -137,6 +292,54 @@ Public 属性</h2></td></tr>
 </div><div class="memdoc">
 
 <p class="definition">在文件 <a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a> 第 <a class="el" href="_interactable_object_8cs_source.html#l00008">8</a> 行定义.</p>
+
+</div>
+</div>
+<a id="a596ce9db3fffeffe3817841272e70794"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a596ce9db3fffeffe3817841272e70794">&#9670;&nbsp;</a></span>originPos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Vector3 InteractableObject.originPos</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a> 第 <a class="el" href="_interactable_object_8cs_source.html#l00009">9</a> 行定义.</p>
+
+</div>
+</div>
+<a id="aa802d991ec1ba23ecdea7e0c347d211d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa802d991ec1ba23ecdea7e0c347d211d">&#9670;&nbsp;</a></span>originRotation</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Quaternion InteractableObject.originRotation</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">在文件 <a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a> 第 <a class="el" href="_interactable_object_8cs_source.html#l00010">10</a> 行定义.</p>
 
 </div>
 </div>

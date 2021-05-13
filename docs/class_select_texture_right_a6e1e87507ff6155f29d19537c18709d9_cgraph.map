@@ -1,6 +1,6 @@
 <map id="SelectTextureRight.OnDisable" name="SelectTextureRight.OnDisable">
-<area shape="rect" id="node1" title=" " alt="" coords="6,11,173,35"/>
-<area shape="rect" id="node2" href="$class_select_texture_right.html#ae2a1e8f428dec79756a299c11b17fd82" title="UI指针指向元素时触发的回调函数" alt="" coords="221,5,397,41"/>
-<area shape="rect" id="node3" href="$class_select_texture.html#a7019ef9a67a0e4ab1161fa2782557427" title="供右手使用的静态函数，选取一个texture" alt="" coords="445,11,613,35"/>
-<area shape="rect" id="node4" href="$class_select_texture.html#a477957a51f31d576ea16f9d128c3f18b" title="切换选取的图片以及选取框位置" alt="" coords="661,5,821,41"/>
+<area shape="rect" id="node1" title=" " alt="" coords="6,41,173,65"/>
+<area shape="rect" id="node2" href="$class_select_texture_right.html#aa888aa8850d9a7d366ded44e6cb37bd3" title="手柄UI射线按钮激活时的行为" alt="" coords="221,5,400,41"/>
+<area shape="rect" id="node4" href="$class_select_texture_right.html#ad3bc7ffc0326366024e6921d0a238768" title="手柄UI射线按钮松开时的行为" alt="" coords="221,65,400,101"/>
+<area shape="rect" id="node3" href="$class_select_texture_right.html#aacbe3929cf0b8c668be37d3154caca92" title="UI指针指向元素时触发的回调函数" alt="" coords="448,35,611,71"/>
 </map>

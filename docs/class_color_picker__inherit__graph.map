@@ -1,5 +1,5 @@
 <map id="ColorPicker" name="ColorPicker">
-<area shape="rect" id="node1" title="手柄色盘颜色选取类" alt="" coords="5,289,165,562"/>
-<area shape="rect" id="node2" href="$class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="10,123,160,240"/>
-<area shape="rect" id="node3" title=" " alt="" coords="37,5,133,75"/>
+<area shape="rect" id="node1" title="手柄色盘颜色选取类" alt="" coords="12,313,172,586"/>
+<area shape="rect" id="node2" href="$class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,123,179,264"/>
+<area shape="rect" id="node3" title=" " alt="" coords="44,5,140,75"/>
 </map>

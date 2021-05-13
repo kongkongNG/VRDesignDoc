@@ -1,5 +1,6 @@
 <map id="ControllerAction.OnDisable" name="ControllerAction.OnDisable">
 <area shape="rect" id="node1" title=" " alt="" coords="6,11,157,35"/>
 <area shape="rect" id="node2" href="$class_controller_action.html#a0a10a69ea705c34bbce1654efe1dfa43" title="手柄Menu按钮点击事件回调函数" alt="" coords="206,5,354,41"/>
-<area shape="rect" id="node3" href="$class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea" title="功能结束的事件触发函数" alt="" coords="403,5,567,41"/>
+<area shape="rect" id="node3" href="$class_controller_action.html#ad2b53d381e193da9d894b2955ec8b657" title=" " alt="" coords="403,5,567,41"/>
+<area shape="rect" id="node4" href="$class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea" title="功能结束的事件触发函数" alt="" coords="617,5,781,41"/>
 </map>

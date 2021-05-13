@@ -1,0 +1,13 @@
+<map id="ModelCreater.Extrude" name="ModelCreater.Extrude">
+<area shape="rect" id="node1" title=" " alt="" coords="6,75,135,99"/>
+<area shape="rect" id="node2" href="$class_model_creater.html#a377501afba1778934b2749513fc0e8bf" title="拉伸出实体，一次执行" alt="" coords="185,75,314,99"/>
+<area shape="rect" id="node3" href="$class_s_g_model.html#ab48c0cb9b6cdfc58e0fb07da7ab85e3f" title=" " alt="" coords="405,20,488,44"/>
+<area shape="rect" id="node4" href="$class_model_creater.html#ad60e8085c0d66d030e5f84f1fa8bd6ca" title=" " alt="" coords="363,69,531,105"/>
+<area shape="rect" id="node5" href="$class_s_g_model.html#a5c56b6c2dc1252b0190af0780db20bc0" title="生成模型物体的所有面" alt="" coords="386,129,507,153"/>
+<area shape="rect" id="node6" href="$class_s_g_model.html#aaa49ec0fbd1e661ccc21599b5294c003" title=" " alt="" coords="589,5,752,29"/>
+<area shape="rect" id="node7" href="$class_s_g_model.html#a439f56b890255a9641758b3cf8a8c6e7" title=" " alt="" coords="579,53,762,77"/>
+<area shape="rect" id="node8" href="$class_s_g_model.html#a5e0faf8bacf280c25a02d3d5bdaa4ae4" title=" " alt="" coords="599,101,742,125"/>
+<area shape="rect" id="node9" href="$class_s_g_model.html#ab490f88e0a99e2155fe0331b4a52a387" title=" " alt="" coords="593,150,749,186"/>
+<area shape="rect" id="node10" href="$class_s_g_model.html#a0f7178f2f9f0410b40ba18f2c0b4a2cd" title=" " alt="" coords="587,211,754,235"/>
+<area shape="rect" id="node11" href="$class_s_g_model.html#a6b5890bdbb54b02f9d20176e2cfac610" title=" " alt="" coords="581,259,760,283"/>
+</map>

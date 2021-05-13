@@ -1,0 +1,5 @@
+<map id="ModelCreater.ChangeContourSize" name="ModelCreater.ChangeContourSize">
+<area shape="rect" id="node1" title="根据手柄拉伸出模型实体" alt="" coords="405,11,592,35"/>
+<area shape="rect" id="node2" href="$class_create_model_action.html#a988e97773595065c762c92a32ddb30bf" title="调整底部" alt="" coords="205,5,357,41"/>
+<area shape="rect" id="node3" href="$class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="5,11,157,35"/>
+</map>

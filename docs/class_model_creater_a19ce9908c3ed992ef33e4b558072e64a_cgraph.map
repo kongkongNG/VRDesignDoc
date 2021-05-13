@@ -1,0 +1,4 @@
+<map id="ModelCreater.ExtractDataAndDraw" name="ModelCreater.ExtractDataAndDraw">
+<area shape="rect" id="node1" title="提取sgcore指针中的顶点数据，添加到LineRenderer中" alt="" coords="5,5,155,41"/>
+<area shape="rect" id="node2" href="$class_model_creater.html#aeb62b5cd76e68be311d2dc1f4abef4fe" title="为轮廓的LineRenderer添加顶点" alt="" coords="203,11,338,35"/>
+</map>

@@ -1,6 +1,0 @@
-<map id="ModelCreater.CreateDirectly" name="ModelCreater.CreateDirectly">
-<area shape="rect" id="node1" title="直接创建物体" alt="" coords="5,53,165,77"/>
-<area shape="rect" id="node2" href="$class_model_creater.html#ae400d7acfc5ad422eaf12e14edb53ea7" title="合并所有面，形成一个物体，保留原有的面但不显示" alt="" coords="215,5,375,29"/>
-<area shape="rect" id="node3" href="$class_model_creater.html#aea7f934ddcb21731c179ff5bf705b22f" title="创建底面轮廓" alt="" coords="213,53,376,77"/>
-<area shape="rect" id="node4" href="$class_model_creater.html#a00493148d8c852fa3ef1e5f34a7ddfcd" title="拉伸实体" alt="" coords="230,101,359,125"/>
-</map>

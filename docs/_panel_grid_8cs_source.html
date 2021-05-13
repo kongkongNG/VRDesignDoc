@@ -1,0 +1,360 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>VR Sketch Design: Y:/Coding/Unity/VRDesignProject/Assets/Scripts/UI/PanelGrid.cs 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">VR Sketch Design
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">VR Project</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.1 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_b93ca4f67e5c4f3d8967bcc66a8efe61.html">Y:</a></li><li class="navelem"><a class="el" href="dir_657949dcc09204b591ba08b2dd60005a.html">Coding</a></li><li class="navelem"><a class="el" href="dir_9e3bf1a2f1e8bb1f1076cb3a500c0924.html">Unity</a></li><li class="navelem"><a class="el" href="dir_d92c12ce3d70d23921038a5d2ecff28d.html">VRDesignProject</a></li><li class="navelem"><a class="el" href="dir_bbf63476caace77856cc7cbaedc98ba5.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a6ab9145be13875259d1d9e44e1e8835.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_a9ea13586de174068c7b23ebe5da8dd2.html">UI</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">PanelGrid.cs</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_panel_grid_8cs.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">using</span> System.Collections;</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">using</span> System.Collections.Generic;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">using</span> UnityEngine;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">using</span> UnityEngine.UI;</div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">using</span> VRTK;</div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160; </div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="class_panel_grid.html">    7</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="class_panel_grid.html">PanelGrid</a> : MonoBehaviour</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
+<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a5502555402ebe15273aefe1349da2c0b">   10</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">enum</span> <a class="code" href="class_panel_grid.html#a5502555402ebe15273aefe1349da2c0b">TouchPadPosition</a></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    {</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        Top, Bottom, Left, Right, None</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;    }</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
+<div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a8cbbe6fb216cbe915f576f71ada6bed1">   16</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">enum</span> <a class="code" href="class_panel_grid.html#a8cbbe6fb216cbe915f576f71ada6bed1">SwipeDirection</a></div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    {</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        SwipeTop, SwipeBottom, SwipeLeft, SwipeRight, None</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    }</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
+<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a60560d3947d49a105acbcc816e9b4896">   21</a></span>&#160;    <span class="keyword">public</span> Image <a class="code" href="class_panel_grid.html#a60560d3947d49a105acbcc816e9b4896">selectSquare</a>;       </div>
+<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a0ee26b909e6b0df4be43e0b182ac3798">   22</a></span>&#160;    <span class="keyword">private</span> VRTK_ControllerEvents <a class="code" href="class_panel_grid.html#a0ee26b909e6b0df4be43e0b182ac3798">conEvt</a>;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160; </div>
+<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a0c41946573d7d6d2e382b284ada545e3">   24</a></span>&#160;    <span class="keyword">private</span> <span class="keywordtype">int</span> <a class="code" href="class_panel_grid.html#a0c41946573d7d6d2e382b284ada545e3">curPageIdx</a>;      </div>
+<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a9dc8ecaa7147b1b6976605c91998ee33">   25</a></span>&#160;    <span class="keyword">private</span> <span class="keywordtype">int</span> <a class="code" href="class_panel_grid.html#a9dc8ecaa7147b1b6976605c91998ee33">curItemIdx</a>;        </div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_panel_grid.html#ade582d71e2baf7906b28ba305af57d94">   26</a></span>&#160;    [HideInInspector] <span class="keyword">public</span> GameObject[] <a class="code" href="class_panel_grid.html#ade582d71e2baf7906b28ba305af57d94">gridPages</a>; </div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    <span class="comment">//private GameObject[][] itemsGameObj; ///&lt; 第一维为所在页数，第二维为在该页上的下标</span></div>
+<div class="line"><a name="l00028"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a637ceebc50b6416ad24a3874d6829ce4">   28</a></span>&#160;    <span class="keyword">public</span> Text <a class="code" href="class_panel_grid.html#a637ceebc50b6416ad24a3874d6829ce4">pageNumText</a>;       </div>
+<div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a5b31887648322a6a295eceecc6d9fdc9">   29</a></span>&#160;    <span class="keyword">private</span> <span class="keywordtype">int</span> <a class="code" href="class_panel_grid.html#a5b31887648322a6a295eceecc6d9fdc9">itemNum</a>;</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
+<div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a70933bad8f2c58d30ab4794d6bee7e61">   31</a></span>&#160;    <span class="keyword">private</span> Vector2 <a class="code" href="class_panel_grid.html#a70933bad8f2c58d30ab4794d6bee7e61">touchStartPosition</a>;     </div>
+<div class="line"><a name="l00032"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a2f4c9201650451834ab1e54299862167">   32</a></span>&#160;    <span class="keyword">private</span> Vector2 <a class="code" href="class_panel_grid.html#a2f4c9201650451834ab1e54299862167">touchEndPosition</a>;       </div>
+<div class="line"><a name="l00033"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a3aa76e96f741b6ca41991bf6340d27db">   33</a></span>&#160;    <span class="keyword">private</span> <span class="keywordtype">float</span> <a class="code" href="class_panel_grid.html#a3aa76e96f741b6ca41991bf6340d27db">touchStartTime</a>;           </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00035"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a19f81acdda2b8acb8109de636ea620ff">   35</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="class_panel_grid.html#a19f81acdda2b8acb8109de636ea620ff">ItemNumPerGridPage</a> = 6;  </div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a761b43f08189739bba2a6ec3b5af7485">   36</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="class_panel_grid.html#a761b43f08189739bba2a6ec3b5af7485">ItemNumPerRow</a> = 3;       </div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    <span class="comment">// Swipe sensitivity / detection.</span></div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="comment">// copy from VRTK_PanelMenuController</span></div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="class_panel_grid.html#aff1821bd4c1c4943408323d5f7d83074">   39</a></span>&#160;    <span class="keyword">private</span> <span class="keyword">const</span> <span class="keywordtype">float</span> <a class="code" href="class_panel_grid.html#aff1821bd4c1c4943408323d5f7d83074">AngleTolerance</a> = 30f;   </div>
+<div class="line"><a name="l00040"></a><span class="lineno"><a class="line" href="class_panel_grid.html#ad89c60181cd9a1fbaf90aa87f203ca9c">   40</a></span>&#160;    <span class="keyword">private</span> <span class="keyword">const</span> <span class="keywordtype">float</span> <a class="code" href="class_panel_grid.html#ad89c60181cd9a1fbaf90aa87f203ca9c">SwipeMinDist</a> = 0.2f;    </div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    <span class="comment">//private const float SwipeMinVelocity = 4.0f;</span></div>
+<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a2a6d6fccce6b2a07b2b7ce29fa39d363">   42</a></span>&#160;    <span class="keyword">private</span> <span class="keyword">const</span> <span class="keywordtype">float</span> <a class="code" href="class_panel_grid.html#a2a6d6fccce6b2a07b2b7ce29fa39d363">SwipeMinDeltaTime</a> = 0.14f;  </div>
+<div class="line"><a name="l00043"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a6ffda00f6126a6d6c4e058d7d6cffdc0">   43</a></span>&#160;    <span class="keyword">protected</span> readonly Vector2 <a class="code" href="class_panel_grid.html#a6ffda00f6126a6d6c4e058d7d6cffdc0">touchpadXaxis</a> = <span class="keyword">new</span> Vector2(1, 0);   </div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="class_panel_grid.html#aeef83fb0c786a84c062ffab51a77279f">   44</a></span>&#160;    <span class="keyword">protected</span> readonly Vector2 <a class="code" href="class_panel_grid.html#aeef83fb0c786a84c062ffab51a77279f">touchpadYaxis</a> = <span class="keyword">new</span> Vector2(0, 1);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160; </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a0e8256d34c3afde6b8690620f1e8fc68">   48</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code" href="class_panel_grid.html#a0e8256d34c3afde6b8690620f1e8fc68">InitPanelGrid</a>(<span class="keywordtype">int</span> _itemNum)</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;    {</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="comment">// 根据图片数创建网格，一个grid为一页</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <a class="code" href="class_panel_grid.html#a5b31887648322a6a295eceecc6d9fdc9">itemNum</a> = _itemNum;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        GameObject primitiveGrid = gameObject.transform.GetChild(0).gameObject;      <span class="comment">// GridLayout必须放在第一个子元素</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <a class="code" href="class_panel_grid.html#ade582d71e2baf7906b28ba305af57d94">gridPages</a> = <span class="keyword">new</span> GameObject[(int)Mathf.Ceil((<span class="keywordtype">float</span>)<a class="code" href="class_panel_grid.html#a5b31887648322a6a295eceecc6d9fdc9">itemNum</a> / <a class="code" href="class_panel_grid.html#a19f81acdda2b8acb8109de636ea620ff">ItemNumPerGridPage</a>)];</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <a class="code" href="class_panel_grid.html#ade582d71e2baf7906b28ba305af57d94">gridPages</a>[0] = primitiveGrid;</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="class_panel_grid.html#ade582d71e2baf7906b28ba305af57d94">gridPages</a>.Length &gt; 1)   <span class="comment">// 大于1页</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        {</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;            <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt; <a class="code" href="class_panel_grid.html#ade582d71e2baf7906b28ba305af57d94">gridPages</a>.Length; i++)</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;            {</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                <a class="code" href="class_panel_grid.html#ade582d71e2baf7906b28ba305af57d94">gridPages</a>[i] = GameObject.Instantiate(primitiveGrid, transform);    <span class="comment">// 拷贝初始页</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                <a class="code" href="class_panel_grid.html#ade582d71e2baf7906b28ba305af57d94">gridPages</a>[i].SetActive(<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            }</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        }</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160; </div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="comment">// 显示第一页</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;        <a class="code" href="class_panel_grid.html#a0c41946573d7d6d2e382b284ada545e3">curPageIdx</a> = 0;</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <a class="code" href="class_panel_grid.html#a9dc8ecaa7147b1b6976605c91998ee33">curItemIdx</a> = 0;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <a class="code" href="class_panel_grid.html#ade582d71e2baf7906b28ba305af57d94">gridPages</a>[<a class="code" href="class_panel_grid.html#a0c41946573d7d6d2e382b284ada545e3">curPageIdx</a>].SetActive(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="comment">//Canvas.ForceUpdateCanvases();</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="comment">// 设置页码</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="comment">//pageNumText = GetComponentInChildren&lt;Text&gt;();</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <a class="code" href="class_panel_grid.html#a637ceebc50b6416ad24a3874d6829ce4">pageNumText</a>.text = (<a class="code" href="class_panel_grid.html#a0c41946573d7d6d2e382b284ada545e3">curPageIdx</a> + 1) + <span class="stringliteral">&quot; / &quot;</span> + <a class="code" href="class_panel_grid.html#ade582d71e2baf7906b28ba305af57d94">gridPages</a>.Length;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;    }</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160; </div>
+<div class="line"><a name="l00077"></a><span class="lineno"><a class="line" href="class_panel_grid.html#aa7503de0f14fbbc4dd183a48a869c46e">   77</a></span>&#160;    <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code" href="class_panel_grid.html#aa7503de0f14fbbc4dd183a48a869c46e">OnEnable</a>()</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    {</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;      </div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;        <span class="comment">// 打开UI面板</span></div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        <span class="comment">//selectSquare = transform.Find(&quot;TexSelectSquare&quot;).GetComponent&lt;Image&gt;();</span></div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160; </div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        <span class="comment">// 设置手柄监听事件</span></div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <a class="code" href="class_panel_grid.html#a0ee26b909e6b0df4be43e0b182ac3798">conEvt</a> = GameObject.Find(<span class="stringliteral">&quot;LeftControllerScriptAlias&quot;</span>).GetComponent&lt;VRTK_ControllerEvents&gt;();</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <a class="code" href="class_panel_grid.html#a0ee26b909e6b0df4be43e0b182ac3798">conEvt</a>.TouchpadPressed += <a class="code" href="class_panel_grid.html#a8cac4745f23e4719d85388116cf94e06">DoTouchpadPressed</a>;</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <a class="code" href="class_panel_grid.html#a0ee26b909e6b0df4be43e0b182ac3798">conEvt</a>.TouchpadTouchStart += <a class="code" href="class_panel_grid.html#adb4ca1a60c70bf56b03e06fbcec83f11">DoTouchpadTouched</a>;</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <a class="code" href="class_panel_grid.html#a0ee26b909e6b0df4be43e0b182ac3798">conEvt</a>.TouchpadAxisChanged += <a class="code" href="class_panel_grid.html#ae8cf0d1dadc07cf6a98c93b336f9c5b3">DoTouchpadAxisChange</a>;</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;        <a class="code" href="class_panel_grid.html#a0ee26b909e6b0df4be43e0b182ac3798">conEvt</a>.TouchpadTouchEnd += <a class="code" href="class_panel_grid.html#a1c85f5bd8498cb44c9bce6aaf50761aa">DoTouchpadUntouched</a>;</div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="comment">//conEvt.TriggerClicked += DoTriggerClicked;</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;    }</div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160; </div>
+<div class="line"><a name="l00092"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a56093db16b4f4d38b2c2d37ee570e433">   92</a></span>&#160;    <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code" href="class_panel_grid.html#a56093db16b4f4d38b2c2d37ee570e433">OnDisable</a>()</div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;    {</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160; </div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="comment">// 设置手柄监听事件</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <a class="code" href="class_panel_grid.html#a0ee26b909e6b0df4be43e0b182ac3798">conEvt</a>.TouchpadPressed -= <a class="code" href="class_panel_grid.html#a8cac4745f23e4719d85388116cf94e06">DoTouchpadPressed</a>;</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;        <a class="code" href="class_panel_grid.html#a0ee26b909e6b0df4be43e0b182ac3798">conEvt</a>.TouchpadTouchStart -= <a class="code" href="class_panel_grid.html#adb4ca1a60c70bf56b03e06fbcec83f11">DoTouchpadTouched</a>;</div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <a class="code" href="class_panel_grid.html#a0ee26b909e6b0df4be43e0b182ac3798">conEvt</a>.TouchpadAxisChanged -= <a class="code" href="class_panel_grid.html#ae8cf0d1dadc07cf6a98c93b336f9c5b3">DoTouchpadAxisChange</a>;</div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;        <a class="code" href="class_panel_grid.html#a0ee26b909e6b0df4be43e0b182ac3798">conEvt</a>.TouchpadTouchEnd -= <a class="code" href="class_panel_grid.html#a1c85f5bd8498cb44c9bce6aaf50761aa">DoTouchpadUntouched</a>;</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;        <span class="comment">//conEvt.TriggerClicked -= DoTriggerClicked;</span></div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;    }</div>
+<div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160; </div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160; </div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160; </div>
+<div class="line"><a name="l00108"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a8cac4745f23e4719d85388116cf94e06">  108</a></span>&#160;    <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code" href="class_panel_grid.html#a8cac4745f23e4719d85388116cf94e06">DoTouchpadPressed</a>(<span class="keywordtype">object</span> sender, ControllerInteractionEventArgs e)</div>
+<div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    {</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;        <span class="comment">// 监听手柄的touchpad左右进行翻页</span></div>
+<div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;        <a class="code" href="class_panel_grid.html#a5502555402ebe15273aefe1349da2c0b">TouchPadPosition</a> touchPos = <a class="code" href="class_panel_grid.html#a92639c2494012341cbe01005920014d0">CalcTouchPosition</a>(e.touchpadAngle);</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;        <span class="keywordtype">int</span> newPageIdx = <a class="code" href="class_panel_grid.html#a0c41946573d7d6d2e382b284ada545e3">curPageIdx</a>;</div>
+<div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;        <span class="keywordflow">switch</span> (touchPos)</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;        {</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="class_panel_grid.html#a5502555402ebe15273aefe1349da2c0b">TouchPadPosition</a>.Left:</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;                <span class="keywordflow">if</span> (newPageIdx &gt; 0)</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;                    newPageIdx--;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="class_panel_grid.html#a5502555402ebe15273aefe1349da2c0b">TouchPadPosition</a>.Right:</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;                <span class="keywordflow">if</span> (newPageIdx &lt; <a class="code" href="class_panel_grid.html#ade582d71e2baf7906b28ba305af57d94">gridPages</a>.Length - 1)</div>
+<div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;                    newPageIdx++;</div>
+<div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;            <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;        }</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160; </div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        <span class="keywordflow">if</span> (newPageIdx != <a class="code" href="class_panel_grid.html#a0c41946573d7d6d2e382b284ada545e3">curPageIdx</a>)</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;        {</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;            <a class="code" href="class_panel_grid.html#a27cb550cfcd55a8e6ad9d7fb6ec7ea16">ChangeGridPage</a>(newPageIdx);</div>
+<div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        }</div>
+<div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;    }</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160; </div>
+<div class="line"><a name="l00142"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a92639c2494012341cbe01005920014d0">  142</a></span>&#160;    <span class="keyword">private</span> <a class="code" href="class_panel_grid.html#a5502555402ebe15273aefe1349da2c0b">TouchPadPosition</a> <a class="code" href="class_panel_grid.html#a92639c2494012341cbe01005920014d0">CalcTouchPosition</a>(<span class="keywordtype">float</span> angle)</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;    {</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;        <span class="keywordflow">if</span> (angle &gt;= 45.0f &amp;&amp; angle &lt; 135.0f)</div>
+<div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_panel_grid.html#a5502555402ebe15273aefe1349da2c0b">TouchPadPosition</a>.Right;</div>
+<div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (angle &gt;= 135.0f &amp;&amp; angle &lt; 225.0f)</div>
+<div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_panel_grid.html#a5502555402ebe15273aefe1349da2c0b">TouchPadPosition</a>.Bottom;</div>
+<div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (angle &gt;= 225.0f &amp;&amp; angle &lt; 315.0f)</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_panel_grid.html#a5502555402ebe15273aefe1349da2c0b">TouchPadPosition</a>.Left;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;            <span class="keywordflow">return</span> <a class="code" href="class_panel_grid.html#a5502555402ebe15273aefe1349da2c0b">TouchPadPosition</a>.Top;</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    }</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160; </div>
+<div class="line"><a name="l00158"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a27cb550cfcd55a8e6ad9d7fb6ec7ea16">  158</a></span>&#160;    <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code" href="class_panel_grid.html#a27cb550cfcd55a8e6ad9d7fb6ec7ea16">ChangeGridPage</a>(<span class="keywordtype">int</span> newPageIdx)</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    {</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="comment">// 图片下标改变</span></div>
+<div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;        <a class="code" href="class_panel_grid.html#a5946fbb7fee904069fba56aa16758c72">ChangeCurItemIdxAndSelectSquare</a>(0);</div>
+<div class="line"><a name="l00162"></a><span class="lineno">  162</span>&#160; </div>
+<div class="line"><a name="l00163"></a><span class="lineno">  163</span>&#160;        <span class="comment">// 切换页面</span></div>
+<div class="line"><a name="l00164"></a><span class="lineno">  164</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="class_panel_grid.html#a0c41946573d7d6d2e382b284ada545e3">curPageIdx</a> &gt;= 0 &amp;&amp; <a class="code" href="class_panel_grid.html#a0c41946573d7d6d2e382b284ada545e3">curPageIdx</a> &lt;= <a class="code" href="class_panel_grid.html#ade582d71e2baf7906b28ba305af57d94">gridPages</a>.Length - 1)</div>
+<div class="line"><a name="l00165"></a><span class="lineno">  165</span>&#160;            <a class="code" href="class_panel_grid.html#ade582d71e2baf7906b28ba305af57d94">gridPages</a>[<a class="code" href="class_panel_grid.html#a0c41946573d7d6d2e382b284ada545e3">curPageIdx</a>].SetActive(<span class="keyword">false</span>);</div>
+<div class="line"><a name="l00166"></a><span class="lineno">  166</span>&#160;        <a class="code" href="class_panel_grid.html#a0c41946573d7d6d2e382b284ada545e3">curPageIdx</a> = newPageIdx;</div>
+<div class="line"><a name="l00167"></a><span class="lineno">  167</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="class_panel_grid.html#a0c41946573d7d6d2e382b284ada545e3">curPageIdx</a> &gt;= 0 &amp;&amp; <a class="code" href="class_panel_grid.html#a0c41946573d7d6d2e382b284ada545e3">curPageIdx</a> &lt;= <a class="code" href="class_panel_grid.html#ade582d71e2baf7906b28ba305af57d94">gridPages</a>.Length - 1)</div>
+<div class="line"><a name="l00168"></a><span class="lineno">  168</span>&#160;            <a class="code" href="class_panel_grid.html#ade582d71e2baf7906b28ba305af57d94">gridPages</a>[<a class="code" href="class_panel_grid.html#a0c41946573d7d6d2e382b284ada545e3">curPageIdx</a>].SetActive(<span class="keyword">true</span>);</div>
+<div class="line"><a name="l00169"></a><span class="lineno">  169</span>&#160; </div>
+<div class="line"><a name="l00170"></a><span class="lineno">  170</span>&#160;        <span class="comment">// 改变页码</span></div>
+<div class="line"><a name="l00171"></a><span class="lineno">  171</span>&#160;        <a class="code" href="class_panel_grid.html#a637ceebc50b6416ad24a3874d6829ce4">pageNumText</a>.text = (<a class="code" href="class_panel_grid.html#a0c41946573d7d6d2e382b284ada545e3">curPageIdx</a> + 1) + <span class="stringliteral">&quot; / &quot;</span> + <a class="code" href="class_panel_grid.html#ade582d71e2baf7906b28ba305af57d94">gridPages</a>.Length;</div>
+<div class="line"><a name="l00172"></a><span class="lineno">  172</span>&#160;    }</div>
+<div class="line"><a name="l00173"></a><span class="lineno">  173</span>&#160; </div>
+<div class="line"><a name="l00174"></a><span class="lineno">  174</span>&#160; </div>
+<div class="line"><a name="l00178"></a><span class="lineno"><a class="line" href="class_panel_grid.html#adb4ca1a60c70bf56b03e06fbcec83f11">  178</a></span>&#160;    <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code" href="class_panel_grid.html#adb4ca1a60c70bf56b03e06fbcec83f11">DoTouchpadTouched</a>(<span class="keywordtype">object</span> sender, ControllerInteractionEventArgs e)</div>
+<div class="line"><a name="l00179"></a><span class="lineno">  179</span>&#160;    {</div>
+<div class="line"><a name="l00180"></a><span class="lineno">  180</span>&#160;        <a class="code" href="class_panel_grid.html#a70933bad8f2c58d30ab4794d6bee7e61">touchStartPosition</a> = <span class="keyword">new</span> Vector2(e.touchpadAxis.x, e.touchpadAxis.y);</div>
+<div class="line"><a name="l00181"></a><span class="lineno">  181</span>&#160;        <a class="code" href="class_panel_grid.html#a3aa76e96f741b6ca41991bf6340d27db">touchStartTime</a> = Time.time;</div>
+<div class="line"><a name="l00182"></a><span class="lineno">  182</span>&#160;    }</div>
+<div class="line"><a name="l00183"></a><span class="lineno">  183</span>&#160; </div>
+<div class="line"><a name="l00187"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a1c85f5bd8498cb44c9bce6aaf50761aa">  187</a></span>&#160;    <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code" href="class_panel_grid.html#a1c85f5bd8498cb44c9bce6aaf50761aa">DoTouchpadUntouched</a>(<span class="keywordtype">object</span> sender, ControllerInteractionEventArgs e)</div>
+<div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    {</div>
+<div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;        <a class="code" href="class_panel_grid.html#a2f4c9201650451834ab1e54299862167">touchEndPosition</a> = <span class="keyword">new</span> Vector2(<a class="code" href="class_panel_grid.html#a2f4c9201650451834ab1e54299862167">touchEndPosition</a>.x, <a class="code" href="class_panel_grid.html#a2f4c9201650451834ab1e54299862167">touchEndPosition</a>.y);</div>
+<div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;        <span class="comment">// 计算swipe方向</span></div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;        <a class="code" href="class_panel_grid.html#a8cbbe6fb216cbe915f576f71ada6bed1">SwipeDirection</a> swipeDir = <a class="code" href="class_panel_grid.html#af98f2a16f6a7267a526e912f255628f0">CalculateSwipeAction</a>();</div>
+<div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;        <span class="comment">// 根据方向计算新的index</span></div>
+<div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160;        <span class="comment">// 若index有变化，更新选取框位置</span></div>
+<div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;        <span class="keywordtype">int</span> newImageIdx = <a class="code" href="class_panel_grid.html#aafe9bac37d4f1b2c02526192403485fd">CalcNewImageIndex</a>(swipeDir);</div>
+<div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;        <a class="code" href="class_panel_grid.html#a5946fbb7fee904069fba56aa16758c72">ChangeCurItemIdxAndSelectSquare</a>(newImageIdx);</div>
+<div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;        <span class="comment">//Debug.Log(&quot;[DEBUG]: curIdx&quot; + curImageIdx);</span></div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    }</div>
+<div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160; </div>
+<div class="line"><a name="l00202"></a><span class="lineno"><a class="line" href="class_panel_grid.html#ae8cf0d1dadc07cf6a98c93b336f9c5b3">  202</a></span>&#160;    <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code" href="class_panel_grid.html#ae8cf0d1dadc07cf6a98c93b336f9c5b3">DoTouchpadAxisChange</a>(<span class="keywordtype">object</span> sender, ControllerInteractionEventArgs e)</div>
+<div class="line"><a name="l00203"></a><span class="lineno">  203</span>&#160;    {</div>
+<div class="line"><a name="l00204"></a><span class="lineno">  204</span>&#160;        <span class="comment">// 记录触碰位置</span></div>
+<div class="line"><a name="l00205"></a><span class="lineno">  205</span>&#160;        <a class="code" href="class_panel_grid.html#a2f4c9201650451834ab1e54299862167">touchEndPosition</a> = e.touchpadAxis;</div>
+<div class="line"><a name="l00206"></a><span class="lineno">  206</span>&#160;    }</div>
+<div class="line"><a name="l00207"></a><span class="lineno">  207</span>&#160; </div>
+<div class="line"><a name="l00213"></a><span class="lineno"><a class="line" href="class_panel_grid.html#aafe9bac37d4f1b2c02526192403485fd">  213</a></span>&#160;    <span class="keyword">private</span> <span class="keywordtype">int</span> <a class="code" href="class_panel_grid.html#aafe9bac37d4f1b2c02526192403485fd">CalcNewImageIndex</a>(<a class="code" href="class_panel_grid.html#a8cbbe6fb216cbe915f576f71ada6bed1">SwipeDirection</a> swipeDir)</div>
+<div class="line"><a name="l00214"></a><span class="lineno">  214</span>&#160;    {</div>
+<div class="line"><a name="l00215"></a><span class="lineno">  215</span>&#160;        <span class="keywordtype">int</span> newImageIdx = <a class="code" href="class_panel_grid.html#a9dc8ecaa7147b1b6976605c91998ee33">curItemIdx</a>;</div>
+<div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;        <span class="keywordflow">switch</span> (swipeDir)</div>
+<div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;        {</div>
+<div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="class_panel_grid.html#a8cbbe6fb216cbe915f576f71ada6bed1">SwipeDirection</a>.SwipeLeft:</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;                newImageIdx -= 1;</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="class_panel_grid.html#a8cbbe6fb216cbe915f576f71ada6bed1">SwipeDirection</a>.SwipeRight:</div>
+<div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;                newImageIdx += 1;</div>
+<div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="class_panel_grid.html#a8cbbe6fb216cbe915f576f71ada6bed1">SwipeDirection</a>.SwipeTop:</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;                newImageIdx -= <a class="code" href="class_panel_grid.html#a761b43f08189739bba2a6ec3b5af7485">ItemNumPerRow</a>;</div>
+<div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160;            <span class="keywordflow">case</span> <a class="code" href="class_panel_grid.html#a8cbbe6fb216cbe915f576f71ada6bed1">SwipeDirection</a>.SwipeBottom:</div>
+<div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;                newImageIdx += <a class="code" href="class_panel_grid.html#a761b43f08189739bba2a6ec3b5af7485">ItemNumPerRow</a>;</div>
+<div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;            <span class="keywordflow">default</span>:</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;                <span class="keywordflow">break</span>;</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;        }</div>
+<div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;        <span class="keywordflow">return</span> newImageIdx;</div>
+<div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;    }</div>
+<div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160; </div>
+<div class="line"><a name="l00245"></a><span class="lineno"><a class="line" href="class_panel_grid.html#af98f2a16f6a7267a526e912f255628f0">  245</a></span>&#160;    <span class="keyword">private</span> <a class="code" href="class_panel_grid.html#a8cbbe6fb216cbe915f576f71ada6bed1">SwipeDirection</a> <a class="code" href="class_panel_grid.html#af98f2a16f6a7267a526e912f255628f0">CalculateSwipeAction</a>()</div>
+<div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    {</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160; </div>
+<div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;        <span class="keywordtype">float</span> deltaTime = Time.time - <a class="code" href="class_panel_grid.html#a3aa76e96f741b6ca41991bf6340d27db">touchStartTime</a>;</div>
+<div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160; </div>
+<div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;        Vector2 swipeVector = <a class="code" href="class_panel_grid.html#a2f4c9201650451834ab1e54299862167">touchEndPosition</a> - <a class="code" href="class_panel_grid.html#a70933bad8f2c58d30ab4794d6bee7e61">touchStartPosition</a>;</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;        <span class="comment">//float velocity = swipeVector.magnitude / deltaTime;</span></div>
+<div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160; </div>
+<div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;        <span class="comment">//Debug.Log(&quot;[DEBUG] delta time: &quot; + deltaTime);</span></div>
+<div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;        <span class="comment">//Debug.Log(&quot;[DEBUG] touchStartPosition: &quot; + touchStartPosition);</span></div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;        <span class="comment">//Debug.Log(&quot;[DEBUG] touchEndPosition: &quot; + touchEndPosition);</span></div>
+<div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;        <span class="comment">//Debug.Log(&quot;[DEBUG] swipeVector.magnitude: &quot; + swipeVector.magnitude);</span></div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160; </div>
+<div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;        <span class="comment">// 达到一定的速度和长度阈值，则确定为swipe行为</span></div>
+<div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;        <span class="keywordflow">if</span> ((deltaTime &gt; <a class="code" href="class_panel_grid.html#a2a6d6fccce6b2a07b2b7ce29fa39d363">SwipeMinDeltaTime</a>) &amp;&amp; (swipeVector.magnitude &gt; <a class="code" href="class_panel_grid.html#ad89c60181cd9a1fbaf90aa87f203ca9c">SwipeMinDist</a>))</div>
+<div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;        {</div>
+<div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;            swipeVector.Normalize();</div>
+<div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;            <span class="comment">// 计算方向向量与touchpad的x轴夹角</span></div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;            <span class="keywordtype">float</span> angleOfSwipe = Vector2.Dot(swipeVector, <a class="code" href="class_panel_grid.html#a6ffda00f6126a6d6c4e058d7d6cffdc0">touchpadXaxis</a>);</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;            angleOfSwipe = Mathf.Acos(angleOfSwipe) * Mathf.Rad2Deg;</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160; </div>
+<div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;            <span class="comment">// Left / right</span></div>
+<div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;            <span class="keywordflow">if</span> (angleOfSwipe &lt; <a class="code" href="class_panel_grid.html#aff1821bd4c1c4943408323d5f7d83074">AngleTolerance</a>)</div>
+<div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;            {</div>
+<div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="class_panel_grid.html#a8cbbe6fb216cbe915f576f71ada6bed1">SwipeDirection</a>.SwipeRight;</div>
+<div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;            }</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;            <span class="keywordflow">else</span> <span class="keywordflow">if</span> ((180.0f - angleOfSwipe) &lt; <a class="code" href="class_panel_grid.html#aff1821bd4c1c4943408323d5f7d83074">AngleTolerance</a>)</div>
+<div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;            {</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;                <span class="keywordflow">return</span> <a class="code" href="class_panel_grid.html#a8cbbe6fb216cbe915f576f71ada6bed1">SwipeDirection</a>.SwipeLeft;</div>
+<div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;            }</div>
+<div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;            {</div>
+<div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;                <span class="comment">// 计算方向向量与touchpad的y轴夹角</span></div>
+<div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;                angleOfSwipe = Vector2.Dot(swipeVector, <a class="code" href="class_panel_grid.html#aeef83fb0c786a84c062ffab51a77279f">touchpadYaxis</a>);</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;                angleOfSwipe = Mathf.Acos(angleOfSwipe) * Mathf.Rad2Deg;</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;                <span class="comment">// Top / bottom</span></div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;                <span class="keywordflow">if</span> (angleOfSwipe &lt; <a class="code" href="class_panel_grid.html#aff1821bd4c1c4943408323d5f7d83074">AngleTolerance</a>)</div>
+<div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;                {</div>
+<div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;                    <span class="keywordflow">return</span> <a class="code" href="class_panel_grid.html#a8cbbe6fb216cbe915f576f71ada6bed1">SwipeDirection</a>.SwipeTop;</div>
+<div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;                }</div>
+<div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;                <span class="keywordflow">else</span> <span class="keywordflow">if</span> ((180.0f - angleOfSwipe) &lt; <a class="code" href="class_panel_grid.html#aff1821bd4c1c4943408323d5f7d83074">AngleTolerance</a>)</div>
+<div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;                {</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;                    <span class="keywordflow">return</span> <a class="code" href="class_panel_grid.html#a8cbbe6fb216cbe915f576f71ada6bed1">SwipeDirection</a>.SwipeBottom;</div>
+<div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;                }</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;            }</div>
+<div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;        }</div>
+<div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160; </div>
+<div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_panel_grid.html#a8cbbe6fb216cbe915f576f71ada6bed1">SwipeDirection</a>.None;</div>
+<div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;    }</div>
+<div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160; </div>
+<div class="line"><a name="l00299"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a5946fbb7fee904069fba56aa16758c72">  299</a></span>&#160;    <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code" href="class_panel_grid.html#a5946fbb7fee904069fba56aa16758c72">ChangeCurItemIdxAndSelectSquare</a>(<span class="keywordtype">int</span> newIdx)</div>
+<div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;    {</div>
+<div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;        <span class="comment">// 不超过一页的数且不超过总item数</span></div>
+<div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;        <span class="keywordflow">if</span> (newIdx != <a class="code" href="class_panel_grid.html#a9dc8ecaa7147b1b6976605c91998ee33">curItemIdx</a> &amp;&amp; newIdx &gt;= 0 &amp;&amp; newIdx &lt; <a class="code" href="class_panel_grid.html#a19f81acdda2b8acb8109de636ea620ff">ItemNumPerGridPage</a> </div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;            &amp;&amp; <a class="code" href="class_panel_grid.html#a0c41946573d7d6d2e382b284ada545e3">curPageIdx</a> * <a class="code" href="class_panel_grid.html#a19f81acdda2b8acb8109de636ea620ff">ItemNumPerGridPage</a> + newIdx &lt; <a class="code" href="class_panel_grid.html#a5b31887648322a6a295eceecc6d9fdc9">itemNum</a>)</div>
+<div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;        {</div>
+<div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;            <a class="code" href="class_panel_grid.html#a9dc8ecaa7147b1b6976605c91998ee33">curItemIdx</a> = newIdx;</div>
+<div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;            GameObject curItem = <a class="code" href="class_panel_grid.html#ade582d71e2baf7906b28ba305af57d94">gridPages</a>[<a class="code" href="class_panel_grid.html#a0c41946573d7d6d2e382b284ada545e3">curPageIdx</a>].transform.GetChild(newIdx).gameObject;</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;            <a class="code" href="class_panel_grid.html#a60560d3947d49a105acbcc816e9b4896">selectSquare</a>.rectTransform.anchoredPosition = curItem.GetComponent&lt;RectTransform&gt;().anchoredPosition;</div>
+<div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;            <span class="comment">//Debug.Log(&quot;select id: &quot; + curImageIdx + &quot; &quot; + &quot;select pos: &quot; + selectSquare.rectTransform.anchoredPosition);</span></div>
+<div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        }</div>
+<div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;    }</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160; </div>
+<div class="line"><a name="l00312"></a><span class="lineno"><a class="line" href="class_panel_grid.html#a3a0d199e71a91078cbb7e6de72e62059">  312</a></span>&#160;    <span class="keyword">public</span> <span class="keywordtype">int</span> <a class="code" href="class_panel_grid.html#a3a0d199e71a91078cbb7e6de72e62059">GetItemIdx</a>()</div>
+<div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;    {</div>
+<div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;        <span class="keywordflow">return</span> <a class="code" href="class_panel_grid.html#a0c41946573d7d6d2e382b284ada545e3">curPageIdx</a> * <a class="code" href="class_panel_grid.html#a19f81acdda2b8acb8109de636ea620ff">ItemNumPerGridPage</a> + <a class="code" href="class_panel_grid.html#a9dc8ecaa7147b1b6976605c91998ee33">curItemIdx</a>;</div>
+<div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160;    }</div>
+<div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;}</div>
+<div class="ttc" id="aclass_panel_grid_html"><div class="ttname"><a href="class_panel_grid.html">PanelGrid</a></div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00007">PanelGrid.cs:8</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a0c41946573d7d6d2e382b284ada545e3"><div class="ttname"><a href="class_panel_grid.html#a0c41946573d7d6d2e382b284ada545e3">PanelGrid.curPageIdx</a></div><div class="ttdeci">int curPageIdx</div><div class="ttdoc">当前页索引</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00024">PanelGrid.cs:24</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a0e8256d34c3afde6b8690620f1e8fc68"><div class="ttname"><a href="class_panel_grid.html#a0e8256d34c3afde6b8690620f1e8fc68">PanelGrid.InitPanelGrid</a></div><div class="ttdeci">void InitPanelGrid(int _itemNum)</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00048">PanelGrid.cs:48</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a0ee26b909e6b0df4be43e0b182ac3798"><div class="ttname"><a href="class_panel_grid.html#a0ee26b909e6b0df4be43e0b182ac3798">PanelGrid.conEvt</a></div><div class="ttdeci">VRTK_ControllerEvents conEvt</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00022">PanelGrid.cs:22</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a19f81acdda2b8acb8109de636ea620ff"><div class="ttname"><a href="class_panel_grid.html#a19f81acdda2b8acb8109de636ea620ff">PanelGrid.ItemNumPerGridPage</a></div><div class="ttdeci">int ItemNumPerGridPage</div><div class="ttdoc">面板上一页的图片数</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00035">PanelGrid.cs:35</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a1c85f5bd8498cb44c9bce6aaf50761aa"><div class="ttname"><a href="class_panel_grid.html#a1c85f5bd8498cb44c9bce6aaf50761aa">PanelGrid.DoTouchpadUntouched</a></div><div class="ttdeci">void DoTouchpadUntouched(object sender, ControllerInteractionEventArgs e)</div><div class="ttdoc">手柄Touchpad Untouched事件回调函数</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00187">PanelGrid.cs:187</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a27cb550cfcd55a8e6ad9d7fb6ec7ea16"><div class="ttname"><a href="class_panel_grid.html#a27cb550cfcd55a8e6ad9d7fb6ec7ea16">PanelGrid.ChangeGridPage</a></div><div class="ttdeci">void ChangeGridPage(int newPageIdx)</div><div class="ttdoc">切换一页</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00158">PanelGrid.cs:158</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a2a6d6fccce6b2a07b2b7ce29fa39d363"><div class="ttname"><a href="class_panel_grid.html#a2a6d6fccce6b2a07b2b7ce29fa39d363">PanelGrid.SwipeMinDeltaTime</a></div><div class="ttdeci">const float SwipeMinDeltaTime</div><div class="ttdoc">认定为Swipe动作的最小持续时间</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00042">PanelGrid.cs:42</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a2f4c9201650451834ab1e54299862167"><div class="ttname"><a href="class_panel_grid.html#a2f4c9201650451834ab1e54299862167">PanelGrid.touchEndPosition</a></div><div class="ttdeci">Vector2 touchEndPosition</div><div class="ttdoc">手指在Touchpad上触碰的终点位置</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00032">PanelGrid.cs:32</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a3a0d199e71a91078cbb7e6de72e62059"><div class="ttname"><a href="class_panel_grid.html#a3a0d199e71a91078cbb7e6de72e62059">PanelGrid.GetItemIdx</a></div><div class="ttdeci">int GetItemIdx()</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00312">PanelGrid.cs:312</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a3aa76e96f741b6ca41991bf6340d27db"><div class="ttname"><a href="class_panel_grid.html#a3aa76e96f741b6ca41991bf6340d27db">PanelGrid.touchStartTime</a></div><div class="ttdeci">float touchStartTime</div><div class="ttdoc">手指在Touchpad上触碰的起始时间</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00033">PanelGrid.cs:33</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a5502555402ebe15273aefe1349da2c0b"><div class="ttname"><a href="class_panel_grid.html#a5502555402ebe15273aefe1349da2c0b">PanelGrid.TouchPadPosition</a></div><div class="ttdeci">TouchPadPosition</div><div class="ttdoc">手指在Touchpad上的位置</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00010">PanelGrid.cs:11</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a56093db16b4f4d38b2c2d37ee570e433"><div class="ttname"><a href="class_panel_grid.html#a56093db16b4f4d38b2c2d37ee570e433">PanelGrid.OnDisable</a></div><div class="ttdeci">void OnDisable()</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00092">PanelGrid.cs:92</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a5946fbb7fee904069fba56aa16758c72"><div class="ttname"><a href="class_panel_grid.html#a5946fbb7fee904069fba56aa16758c72">PanelGrid.ChangeCurItemIdxAndSelectSquare</a></div><div class="ttdeci">void ChangeCurItemIdxAndSelectSquare(int newIdx)</div><div class="ttdoc">切换选取的图片以及选取框位置</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00299">PanelGrid.cs:299</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a5b31887648322a6a295eceecc6d9fdc9"><div class="ttname"><a href="class_panel_grid.html#a5b31887648322a6a295eceecc6d9fdc9">PanelGrid.itemNum</a></div><div class="ttdeci">int itemNum</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00029">PanelGrid.cs:29</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a60560d3947d49a105acbcc816e9b4896"><div class="ttname"><a href="class_panel_grid.html#a60560d3947d49a105acbcc816e9b4896">PanelGrid.selectSquare</a></div><div class="ttdeci">Image selectSquare</div><div class="ttdoc">贴图选取框</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00021">PanelGrid.cs:21</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a637ceebc50b6416ad24a3874d6829ce4"><div class="ttname"><a href="class_panel_grid.html#a637ceebc50b6416ad24a3874d6829ce4">PanelGrid.pageNumText</a></div><div class="ttdeci">Text pageNumText</div><div class="ttdoc">面板上的页码文本</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00028">PanelGrid.cs:28</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a6ffda00f6126a6d6c4e058d7d6cffdc0"><div class="ttname"><a href="class_panel_grid.html#a6ffda00f6126a6d6c4e058d7d6cffdc0">PanelGrid.touchpadXaxis</a></div><div class="ttdeci">readonly Vector2 touchpadXaxis</div><div class="ttdoc">Touchpad二维坐标的x轴</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00043">PanelGrid.cs:43</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a70933bad8f2c58d30ab4794d6bee7e61"><div class="ttname"><a href="class_panel_grid.html#a70933bad8f2c58d30ab4794d6bee7e61">PanelGrid.touchStartPosition</a></div><div class="ttdeci">Vector2 touchStartPosition</div><div class="ttdoc">手指在Touchpad上触碰的起始位置</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00031">PanelGrid.cs:31</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a761b43f08189739bba2a6ec3b5af7485"><div class="ttname"><a href="class_panel_grid.html#a761b43f08189739bba2a6ec3b5af7485">PanelGrid.ItemNumPerRow</a></div><div class="ttdeci">int ItemNumPerRow</div><div class="ttdoc">一行的图片数</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00036">PanelGrid.cs:36</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a8cac4745f23e4719d85388116cf94e06"><div class="ttname"><a href="class_panel_grid.html#a8cac4745f23e4719d85388116cf94e06">PanelGrid.DoTouchpadPressed</a></div><div class="ttdeci">void DoTouchpadPressed(object sender, ControllerInteractionEventArgs e)</div><div class="ttdoc">手柄Touchpad Pressed事件回调函数</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00108">PanelGrid.cs:108</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a8cbbe6fb216cbe915f576f71ada6bed1"><div class="ttname"><a href="class_panel_grid.html#a8cbbe6fb216cbe915f576f71ada6bed1">PanelGrid.SwipeDirection</a></div><div class="ttdeci">SwipeDirection</div><div class="ttdoc">手指Swipe操作的方向</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00016">PanelGrid.cs:17</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a92639c2494012341cbe01005920014d0"><div class="ttname"><a href="class_panel_grid.html#a92639c2494012341cbe01005920014d0">PanelGrid.CalcTouchPosition</a></div><div class="ttdeci">TouchPadPosition CalcTouchPosition(float angle)</div><div class="ttdoc">计算手指在Touchpad上的位置</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00142">PanelGrid.cs:142</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_a9dc8ecaa7147b1b6976605c91998ee33"><div class="ttname"><a href="class_panel_grid.html#a9dc8ecaa7147b1b6976605c91998ee33">PanelGrid.curItemIdx</a></div><div class="ttdeci">int curItemIdx</div><div class="ttdoc">页内下标索引，而非整个texImages的下标</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00025">PanelGrid.cs:25</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_aa7503de0f14fbbc4dd183a48a869c46e"><div class="ttname"><a href="class_panel_grid.html#aa7503de0f14fbbc4dd183a48a869c46e">PanelGrid.OnEnable</a></div><div class="ttdeci">void OnEnable()</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00077">PanelGrid.cs:77</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_aafe9bac37d4f1b2c02526192403485fd"><div class="ttname"><a href="class_panel_grid.html#aafe9bac37d4f1b2c02526192403485fd">PanelGrid.CalcNewImageIndex</a></div><div class="ttdeci">int CalcNewImageIndex(SwipeDirection swipeDir)</div><div class="ttdoc">根据Swipe方向计算新的图片下标索引</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00213">PanelGrid.cs:213</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_ad89c60181cd9a1fbaf90aa87f203ca9c"><div class="ttname"><a href="class_panel_grid.html#ad89c60181cd9a1fbaf90aa87f203ca9c">PanelGrid.SwipeMinDist</a></div><div class="ttdeci">const float SwipeMinDist</div><div class="ttdoc">认定为Swipe动作的最小距离</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00040">PanelGrid.cs:40</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_adb4ca1a60c70bf56b03e06fbcec83f11"><div class="ttname"><a href="class_panel_grid.html#adb4ca1a60c70bf56b03e06fbcec83f11">PanelGrid.DoTouchpadTouched</a></div><div class="ttdeci">void DoTouchpadTouched(object sender, ControllerInteractionEventArgs e)</div><div class="ttdoc">手柄Touchpad Touched事件回调函数</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00178">PanelGrid.cs:178</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_ade582d71e2baf7906b28ba305af57d94"><div class="ttname"><a href="class_panel_grid.html#ade582d71e2baf7906b28ba305af57d94">PanelGrid.gridPages</a></div><div class="ttdeci">GameObject[] gridPages</div><div class="ttdoc">面板上的所有页</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00026">PanelGrid.cs:26</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_ae8cf0d1dadc07cf6a98c93b336f9c5b3"><div class="ttname"><a href="class_panel_grid.html#ae8cf0d1dadc07cf6a98c93b336f9c5b3">PanelGrid.DoTouchpadAxisChange</a></div><div class="ttdeci">void DoTouchpadAxisChange(object sender, ControllerInteractionEventArgs e)</div><div class="ttdoc">手柄Touchpad Axis Change事件回调函数</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00202">PanelGrid.cs:202</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_aeef83fb0c786a84c062ffab51a77279f"><div class="ttname"><a href="class_panel_grid.html#aeef83fb0c786a84c062ffab51a77279f">PanelGrid.touchpadYaxis</a></div><div class="ttdeci">readonly Vector2 touchpadYaxis</div><div class="ttdoc">Touchpad二维坐标的y轴</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00044">PanelGrid.cs:44</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_af98f2a16f6a7267a526e912f255628f0"><div class="ttname"><a href="class_panel_grid.html#af98f2a16f6a7267a526e912f255628f0">PanelGrid.CalculateSwipeAction</a></div><div class="ttdeci">SwipeDirection CalculateSwipeAction()</div><div class="ttdoc">判定Swipe行为并计算Swipe方向</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00245">PanelGrid.cs:245</a></div></div>
+<div class="ttc" id="aclass_panel_grid_html_aff1821bd4c1c4943408323d5f7d83074"><div class="ttname"><a href="class_panel_grid.html#aff1821bd4c1c4943408323d5f7d83074">PanelGrid.AngleTolerance</a></div><div class="ttdeci">const float AngleTolerance</div><div class="ttdoc">判断Swipe（手指在Touchpad上滑动）方向的误差角度</div><div class="ttdef"><b>Definition:</b> <a href="_panel_grid_8cs_source.html#l00039">PanelGrid.cs:39</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

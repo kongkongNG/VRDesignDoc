@@ -1,6 +1,6 @@
 <map id="ModelCreater" name="ModelCreater">
-<area shape="rect" id="node1" title="模型创建器的父类（抽象类） 定义模型创建器的行为" alt="" coords="53,123,219,432"/>
-<area shape="rect" id="node3" href="$class_cuboid_creater.html" title=" " alt="" coords="5,535,117,628"/>
-<area shape="rect" id="node4" href="$class_cylinder_creater.html" title="圆柱体创建器 继承了创建器父类" alt="" coords="143,481,281,682"/>
-<area shape="rect" id="node2" title=" " alt="" coords="88,5,184,75"/>
+<area shape="rect" id="node1" title="模型创建器的父类（抽象类） 定义模型创建器的行为" alt="" coords="127,123,284,552"/>
+<area shape="rect" id="node3" href="$class_cuboid_creater.html" title=" " alt="" coords="5,600,203,765"/>
+<area shape="rect" id="node4" href="$class_cylinder_creater.html" title="圆柱体创建器 继承了创建器父类" alt="" coords="227,600,385,765"/>
+<area shape="rect" id="node2" title=" " alt="" coords="157,5,253,75"/>
 </map>

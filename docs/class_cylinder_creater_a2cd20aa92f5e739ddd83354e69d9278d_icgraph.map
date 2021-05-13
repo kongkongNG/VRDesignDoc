@@ -1,5 +1,0 @@
-<map id="CylinderCreater.ExtractDataAndDraw" name="CylinderCreater.ExtractDataAndDraw">
-<area shape="rect" id="node1" title="提取sgcore指针中的顶点数据，添加到LineRenderer中" alt="" coords="229,23,389,59"/>
-<area shape="rect" id="node2" href="$class_cylinder_creater.html#a42537840234063d6dfaf77ea407dce4e" title="根据手柄改变圆形轮廓" alt="" coords="14,5,173,29"/>
-<area shape="rect" id="node3" href="$class_cylinder_creater.html#a3cc7d39215a6dd0aac0ccd22b913bc6a" title="创建圆形轮廓" alt="" coords="6,53,181,77"/>
-</map>

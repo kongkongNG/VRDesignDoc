@@ -1,0 +1,5 @@
+<map id="ModelCreater.Extrude" name="ModelCreater.Extrude">
+<area shape="rect" id="node1" title="拉伸出实体，一次执行" alt="" coords="385,5,514,29"/>
+<area shape="rect" id="node2" href="$class_model_creater.html#a7422ed67f3c5487cd6ece5fda2c992b2" title=" " alt="" coords="206,5,335,29"/>
+<area shape="rect" id="node3" href="$class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="5,5,157,29"/>
+</map>

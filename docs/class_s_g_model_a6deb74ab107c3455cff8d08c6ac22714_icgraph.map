@@ -1,0 +1,12 @@
+<map id="SGModel.sguGetSolidModel" name="SGModel.sguGetSolidModel">
+<area shape="rect" id="node1" title=" " alt="" coords="1017,101,1167,125"/>
+<area shape="rect" id="node2" href="$class_s_g_model.html#a9c830bd9d862926e4afba281bb9907db" title="根据op_mesh直接生成实体" alt="" coords="817,101,967,125"/>
+<area shape="rect" id="node3" href="$class_s_g_model.html#a4a89743e49ca63738504dfc074aa7143" title="物体模型创建完成后，添加必要的脚本或属性，只在最初创建时使用" alt="" coords="638,101,767,125"/>
+<area shape="rect" id="node4" href="$class_c_s_g_action.html#a11058e1b35a63714a0175c176b0f09a0" title=" " alt="" coords="411,77,589,101"/>
+<area shape="rect" id="node10" href="$class_model_creater.html#aea3b5c7bc8c08da5f231314bdada531a" title=" " alt="" coords="423,125,577,149"/>
+<area shape="rect" id="node5" href="$class_c_s_g_action.html#acc1987c34c0fa972d136392636007776" title=" " alt="" coords="206,29,362,53"/>
+<area shape="rect" id="node8" href="$class_create_model_action.html#a39cda7da56c8e258bcbeb871d124b9b5" title=" " alt="" coords="210,77,358,101"/>
+<area shape="rect" id="node6" href="$class_c_s_g_action.html#a2aa9c4008276ab1def9c8610b29fd04d" title=" " alt="" coords="19,5,143,29"/>
+<area shape="rect" id="node7" href="$class_c_s_g_action.html#aa1740f63137b627c081c43467cfcb20e" title=" " alt="" coords="20,53,143,77"/>
+<area shape="rect" id="node9" href="$class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="5,101,157,125"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="InteractableObject.Awake" name="InteractableObject.Awake">
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,155,95"/>
+<area shape="rect" id="node2" href="$class_interactable_object.html#ab7e09ddd6cd669dfd0ed6dfa03642df8" title=" " alt="" coords="203,5,365,41"/>
+<area shape="rect" id="node3" href="$class_interactable_object.html#ab0f28851463460f6c8e1d42c8f618f6d" title=" " alt="" coords="203,65,365,101"/>
+<area shape="rect" id="node4" href="$class_interactable_object.html#a2821882a6b5145695da575ea76d6d945" title=" " alt="" coords="203,125,365,161"/>
+</map>

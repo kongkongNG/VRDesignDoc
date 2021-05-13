@@ -1,5 +1,6 @@
 <map id="MeshEditAction.OnEnable" name="MeshEditAction.OnEnable">
-<area shape="rect" id="node1" title=" " alt="" coords="6,41,151,65"/>
-<area shape="rect" id="node2" href="$class_mesh_edit_action.html#ac73969388263bc75047409df10812435" title="手柄Touchpad Axis Changed事件回调函数" alt="" coords="201,5,359,41"/>
-<area shape="rect" id="node3" href="$class_mesh_edit_action.html#ab6363180eeedc0593c6324ccd571a43b" title="手柄Touchpad Touch End事件回调函数" alt="" coords="201,65,359,101"/>
+<area shape="rect" id="node1" title=" " alt="" coords="6,60,151,84"/>
+<area shape="rect" id="node2" href="$class_mesh_edit_action.html#ae8e5c63126e8ab937ca3ead4cd7fdedc" title=" " alt="" coords="201,5,375,29"/>
+<area shape="rect" id="node3" href="$class_mesh_edit_action.html#ac73969388263bc75047409df10812435" title="手柄Touchpad Axis Changed事件回调函数" alt="" coords="209,54,367,90"/>
+<area shape="rect" id="node4" href="$class_mesh_edit_action.html#ab6363180eeedc0593c6324ccd571a43b" title="手柄Touchpad Touch End事件回调函数" alt="" coords="209,114,367,150"/>
 </map>

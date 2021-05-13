@@ -1,0 +1,6 @@
+<map id="PanelGrid.CalcNewImageIndex" name="PanelGrid.CalcNewImageIndex">
+<area shape="rect" id="node1" title="根据Swipe方向计算新的图片下标索引" alt="" coords="405,29,576,53"/>
+<area shape="rect" id="node2" href="$class_panel_grid.html#a1c85f5bd8498cb44c9bce6aaf50761aa" title="手柄Touchpad Untouched事件回调函数" alt="" coords="174,29,357,53"/>
+<area shape="rect" id="node3" href="$class_panel_grid.html#a56093db16b4f4d38b2c2d37ee570e433" title=" " alt="" coords="6,5,125,29"/>
+<area shape="rect" id="node4" href="$class_panel_grid.html#aa7503de0f14fbbc4dd183a48a869c46e" title=" " alt="" coords="7,53,124,77"/>
+</map>

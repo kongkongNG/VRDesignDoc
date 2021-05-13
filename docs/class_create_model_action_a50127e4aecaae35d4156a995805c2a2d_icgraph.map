@@ -1,5 +1,7 @@
 <map id="CreateModelAction.DoTriggerClicked" name="CreateModelAction.DoTriggerClicked">
-<area shape="rect" id="node1" title="Trigger Clicked事件回调函数" alt="" coords="219,23,383,59"/>
-<area shape="rect" id="node2" href="$class_create_model_action.html#af588cf389fd962aae2db0c32e4a0bd12" title=" " alt="" coords="5,5,171,29"/>
-<area shape="rect" id="node3" href="$class_create_model_action.html#ac42a81c6fbd87c5e7762707e981619f0" title=" " alt="" coords="7,53,169,77"/>
+<area shape="rect" id="node1" title="Trigger Clicked事件回调函数" alt="" coords="617,23,781,59"/>
+<area shape="rect" id="node2" href="$class_create_model_action.html#af588cf389fd962aae2db0c32e4a0bd12" title=" " alt="" coords="403,5,568,29"/>
+<area shape="rect" id="node5" href="$class_create_model_action.html#ac42a81c6fbd87c5e7762707e981619f0" title=" " alt="" coords="404,53,567,77"/>
+<area shape="rect" id="node3" href="$class_create_model_action.html#a39cda7da56c8e258bcbeb871d124b9b5" title=" " alt="" coords="206,5,354,29"/>
+<area shape="rect" id="node4" href="$class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="5,5,157,29"/>
 </map>

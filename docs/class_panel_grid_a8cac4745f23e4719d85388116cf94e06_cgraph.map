@@ -1,0 +1,6 @@
+<map id="PanelGrid.DoTouchpadPressed" name="PanelGrid.DoTouchpadPressed">
+<area shape="rect" id="node1" title="手柄Touchpad Pressed事件回调函数" alt="" coords="6,29,175,53"/>
+<area shape="rect" id="node2" href="$class_panel_grid.html#a92639c2494012341cbe01005920014d0" title="计算手指在Touchpad上的位置" alt="" coords="224,5,381,29"/>
+<area shape="rect" id="node3" href="$class_panel_grid.html#a27cb550cfcd55a8e6ad9d7fb6ec7ea16" title="切换一页" alt="" coords="227,53,378,77"/>
+<area shape="rect" id="node4" href="$class_panel_grid.html#a5946fbb7fee904069fba56aa16758c72" title="切换选取的图片以及选取框位置" alt="" coords="429,47,592,83"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="PanelGrid.ChangeGridPage" name="PanelGrid.ChangeGridPage">
+<area shape="rect" id="node1" title="切换一页" alt="" coords="6,11,157,35"/>
+<area shape="rect" id="node2" href="$class_panel_grid.html#a5946fbb7fee904069fba56aa16758c72" title="切换选取的图片以及选取框位置" alt="" coords="205,5,368,41"/>
+</map>

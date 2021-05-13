@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.9.1"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>VR Sketch Design: Y:/Coding/Unity/VRDesignProject/Assets/Scripts/UI/ModelNeededButton.cs 源文件</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">VR Sketch Design
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">VR Project</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.9.1 -->
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',false,false,'search.php','搜索');
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_b93ca4f67e5c4f3d8967bcc66a8efe61.html">Y:</a></li><li class="navelem"><a class="el" href="dir_657949dcc09204b591ba08b2dd60005a.html">Coding</a></li><li class="navelem"><a class="el" href="dir_9e3bf1a2f1e8bb1f1076cb3a500c0924.html">Unity</a></li><li class="navelem"><a class="el" href="dir_d92c12ce3d70d23921038a5d2ecff28d.html">VRDesignProject</a></li><li class="navelem"><a class="el" href="dir_bbf63476caace77856cc7cbaedc98ba5.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a6ab9145be13875259d1d9e44e1e8835.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_a9ea13586de174068c7b23ebe5da8dd2.html">UI</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">ModelNeededButton.cs</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_model_needed_button_8cs.html">浏览该文件的文档.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="keyword">using</span> System.Collections;</div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">using</span> System.Collections.Generic;</div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">using</span> UnityEngine;</div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
+<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="class_model_needed_button.html">    5</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="class_model_needed_button.html">ModelNeededButton</a> : <a class="code" href="class_object_needed_button.html">ObjectNeededButton</a></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
+<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="class_model_needed_button.html#a0b124d274a022be69c88aa8390e2252b">    7</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">override</span> <span class="keywordtype">bool</span> <a class="code" href="class_model_needed_button.html#a0b124d274a022be69c88aa8390e2252b">Check</a>()</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    {</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="keywordflow">if</span> (!base.Check())</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keywordflow">return</span> (<a class="code" href="class_select_object_by_controller.html">SelectObjectByController</a>.<a class="code" href="class_select_object_by_controller.html#a1f891591a70ab63513331d88c930f219">selectedObject</a>.GetComponent&lt;<a class="code" href="class_s_g_model.html">SGModel</a>&gt;() != <span class="keyword">null</span>);</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    }</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;}</div>
+<div class="ttc" id="aclass_model_needed_button_html"><div class="ttname"><a href="class_model_needed_button.html">ModelNeededButton</a></div><div class="ttdef"><b>Definition:</b> <a href="_model_needed_button_8cs_source.html#l00005">ModelNeededButton.cs:6</a></div></div>
+<div class="ttc" id="aclass_model_needed_button_html_a0b124d274a022be69c88aa8390e2252b"><div class="ttname"><a href="class_model_needed_button.html#a0b124d274a022be69c88aa8390e2252b">ModelNeededButton.Check</a></div><div class="ttdeci">override bool Check()</div><div class="ttdef"><b>Definition:</b> <a href="_model_needed_button_8cs_source.html#l00007">ModelNeededButton.cs:7</a></div></div>
+<div class="ttc" id="aclass_object_needed_button_html"><div class="ttname"><a href="class_object_needed_button.html">ObjectNeededButton</a></div><div class="ttdef"><b>Definition:</b> <a href="_object_needed_button_8cs_source.html#l00006">ObjectNeededButton.cs:7</a></div></div>
+<div class="ttc" id="aclass_s_g_model_html"><div class="ttname"><a href="class_s_g_model.html">SGModel</a></div><div class="ttdef"><b>Definition:</b> <a href="_s_g_model_8cs_source.html#l00009">SGModel.cs:10</a></div></div>
+<div class="ttc" id="aclass_select_object_by_controller_html"><div class="ttname"><a href="class_select_object_by_controller.html">SelectObjectByController</a></div><div class="ttdef"><b>Definition:</b> <a href="_select_object_by_controller_8cs_source.html#l00008">SelectObjectByController.cs:9</a></div></div>
+<div class="ttc" id="aclass_select_object_by_controller_html_a1f891591a70ab63513331d88c930f219"><div class="ttname"><a href="class_select_object_by_controller.html#a1f891591a70ab63513331d88c930f219">SelectObjectByController.selectedObject</a></div><div class="ttdeci">static GameObject selectedObject</div><div class="ttdef"><b>Definition:</b> <a href="_select_object_by_controller_8cs_source.html#l00013">SelectObjectByController.cs:13</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1
+</small></address>
+</body>
+</html>

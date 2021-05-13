@@ -1,4 +1,0 @@
-<map id="SelectTexture.ChangeTexture" name="SelectTexture.ChangeTexture">
-<area shape="rect" id="node1" title="供右手使用的静态函数，选取一个texture" alt="" coords="5,11,173,35"/>
-<area shape="rect" id="node2" href="$class_select_texture.html#a477957a51f31d576ea16f9d128c3f18b" title="切换选取的图片以及选取框位置" alt="" coords="221,5,381,41"/>
-</map>

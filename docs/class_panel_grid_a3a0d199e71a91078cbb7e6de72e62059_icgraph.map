@@ -1,0 +1,15 @@
+<map id="PanelGrid.GetItemIdx" name="PanelGrid.GetItemIdx">
+<area shape="rect" id="node1" title=" " alt="" coords="417,175,543,199"/>
+<area shape="rect" id="node2" href="$class_drilling_action.html#a1db8c15f46eef695c297184d66581216" title=" " alt="" coords="214,47,349,83"/>
+<area shape="rect" id="node5" href="$class_select_icon.html#aa220f1b488fe0984db1148f293a58854" title="手柄Trigger Clicked事件回调函数" alt="" coords="203,147,359,171"/>
+<area shape="rect" id="node8" href="$class_select_material.html#aad6be47de30b6a38ef05a7be78188e0d" title="手柄Trigger Clicked事件回调函数" alt="" coords="211,195,351,231"/>
+<area shape="rect" id="node11" href="$class_select_texture.html#a155c149e32fcc8180900b6dba5b04855" title="手柄Trigger Clicked事件回调函数" alt="" coords="195,293,368,317"/>
+<area shape="rect" id="node3" href="$class_drilling_action.html#ab23ed768f2ba3234d3346c1e7ed3e8a7" title=" " alt="" coords="9,5,143,29"/>
+<area shape="rect" id="node4" href="$class_drilling_action.html#ad947b47bcb3554140cb358ae7263517a" title=" " alt="" coords="9,53,143,77"/>
+<area shape="rect" id="node6" href="$class_select_icon.html#ae6d6928ad1e83e780ec35975476aea28" title=" " alt="" coords="14,101,138,125"/>
+<area shape="rect" id="node7" href="$class_select_icon.html#aa54eda202f3185eece19479080c1c570" title=" " alt="" coords="15,149,137,173"/>
+<area shape="rect" id="node9" href="$class_select_material.html#a8de012be0c45148e4b467c65a28235cb" title=" " alt="" coords="5,197,147,221"/>
+<area shape="rect" id="node10" href="$class_select_material.html#ad27bfc691139baa3a990fbf2b4268daa" title=" " alt="" coords="7,245,145,269"/>
+<area shape="rect" id="node12" href="$class_select_texture.html#afd8d21a087579023dde79cd392241005" title=" " alt="" coords="5,293,147,317"/>
+<area shape="rect" id="node13" href="$class_select_texture.html#a385e76c091974a280ab65cd770dde226" title=" " alt="" coords="7,341,145,365"/>
+</map>

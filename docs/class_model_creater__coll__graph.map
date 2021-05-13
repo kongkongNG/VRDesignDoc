@@ -1,4 +1,5 @@
 <map id="ModelCreater" name="ModelCreater">
-<area shape="rect" id="node1" title="模型创建器的父类（抽象类） 定义模型创建器的行为" alt="" coords="5,123,171,432"/>
-<area shape="rect" id="node2" title=" " alt="" coords="40,5,136,75"/>
+<area shape="rect" id="node1" title="模型创建器的父类（抽象类） 定义模型创建器的行为" alt="" coords="5,654,163,1071"/>
+<area shape="rect" id="node2" title=" " alt="" coords="53,5,149,75"/>
+<area shape="rect" id="node3" href="$class_s_g_model.html" title=" " alt="" coords="100,126,271,591"/>
 </map>

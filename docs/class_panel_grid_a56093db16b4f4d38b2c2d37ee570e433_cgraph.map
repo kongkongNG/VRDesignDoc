@@ -1,0 +1,12 @@
+<map id="PanelGrid.OnDisable" name="PanelGrid.OnDisable">
+<area shape="rect" id="node1" title=" " alt="" coords="6,89,125,113"/>
+<area shape="rect" id="node2" href="$class_panel_grid.html#ae8cf0d1dadc07cf6a98c93b336f9c5b3" title="手柄Touchpad Axis Change事件回调函数" alt="" coords="190,5,341,41"/>
+<area shape="rect" id="node3" href="$class_panel_grid.html#a8cac4745f23e4719d85388116cf94e06" title="手柄Touchpad Pressed事件回调函数" alt="" coords="181,65,350,89"/>
+<area shape="rect" id="node7" href="$class_panel_grid.html#adb4ca1a60c70bf56b03e06fbcec83f11" title="手柄Touchpad Touched事件回调函数" alt="" coords="179,113,351,137"/>
+<area shape="rect" id="node8" href="$class_panel_grid.html#a1c85f5bd8498cb44c9bce6aaf50761aa" title="手柄Touchpad Untouched事件回调函数" alt="" coords="174,163,357,187"/>
+<area shape="rect" id="node4" href="$class_panel_grid.html#a92639c2494012341cbe01005920014d0" title="计算手指在Touchpad上的位置" alt="" coords="412,17,569,41"/>
+<area shape="rect" id="node5" href="$class_panel_grid.html#a27cb550cfcd55a8e6ad9d7fb6ec7ea16" title="切换一页" alt="" coords="415,65,566,89"/>
+<area shape="rect" id="node6" href="$class_panel_grid.html#a5946fbb7fee904069fba56aa16758c72" title="切换选取的图片以及选取框位置" alt="" coords="624,85,787,121"/>
+<area shape="rect" id="node9" href="$class_panel_grid.html#aafe9bac37d4f1b2c02526192403485fd" title="根据Swipe方向计算新的图片下标索引" alt="" coords="405,164,576,188"/>
+<area shape="rect" id="node10" href="$class_panel_grid.html#af98f2a16f6a7267a526e912f255628f0" title="判定Swipe行为并计算Swipe方向" alt="" coords="419,213,562,249"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="SGModel.SetAreaObjectSelectable" name="SGModel.SetAreaObjectSelectable">
+<area shape="rect" id="node1" title="添加必要的脚本使物体可以被选取" alt="" coords="824,5,1011,29"/>
+<area shape="rect" id="node2" href="$class_s_g_model.html#a3a9030f819ba6524b4f7f73417223357" title=" " alt="" coords="616,5,776,29"/>
+<area shape="rect" id="node3" href="$class_create_model_action.html#af588cf389fd962aae2db0c32e4a0bd12" title=" " alt="" coords="403,5,568,29"/>
+<area shape="rect" id="node4" href="$class_create_model_action.html#a39cda7da56c8e258bcbeb871d124b9b5" title=" " alt="" coords="206,5,354,29"/>
+<area shape="rect" id="node5" href="$class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="5,5,157,29"/>
+</map>
