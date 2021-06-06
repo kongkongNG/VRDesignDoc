@@ -1,6 +1,6 @@
 <map id="MenuPanelManager.SetUpPanels" name="MenuPanelManager.SetUpPanels">
-<area shape="rect" id="node1" title=" " alt="" coords="6,29,186,53"/>
-<area shape="rect" id="node2" href="$class_panel.html#a836de50740722241fad8715d5d6bf219" title=" " alt="" coords="235,5,357,29"/>
-<area shape="rect" id="node4" href="$class_panel.html#a61ea3982c985c70ba0cc490bb9b248e3" title=" " alt="" coords="257,53,335,77"/>
-<area shape="rect" id="node3" href="$class_panel.html#a29023453cffe158ff6d100c8a9d16d55" title=" " alt="" coords="406,5,479,29"/>
+<area shape="rect" id="node1" title="初始化所有面板" alt="" coords="6,29,186,53"/>
+<area shape="rect" id="node2" href="$class_panel.html#a836de50740722241fad8715d5d6bf219" title="为面板设置管理器，同时初始化" alt="" coords="235,5,357,29"/>
+<area shape="rect" id="node4" href="$class_panel.html#a61ea3982c985c70ba0cc490bb9b248e3" title="显示面板" alt="" coords="257,53,335,77"/>
+<area shape="rect" id="node3" href="$class_panel.html#a29023453cffe158ff6d100c8a9d16d55" title="隐藏面板" alt="" coords="406,5,479,29"/>
 </map>

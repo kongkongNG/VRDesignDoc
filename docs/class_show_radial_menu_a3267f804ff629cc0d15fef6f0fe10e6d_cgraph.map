@@ -1,4 +1,6 @@
 <map id="ShowRadialMenu.Start" name="ShowRadialMenu.Start">
-<area shape="rect" id="node1" title=" " alt="" coords="5,11,136,35"/>
-<area shape="rect" id="node2" href="$class_show_radial_menu.html#a20efd2b30e66878d924282b3465ff5c8" title=" " alt="" coords="185,5,357,41"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,29,136,53"/>
+<area shape="rect" id="node2" href="$class_show_radial_menu.html#a20efd2b30e66878d924282b3465ff5c8" title="手柄Menu Pressed事件回调函数" alt="" coords="185,23,357,59"/>
+<area shape="rect" id="node3" href="$class_show_radial_menu.html#a0f4688cf7c1acc0a7b42fdeedf103ebf" title="隐藏菜单" alt="" coords="408,5,536,29"/>
+<area shape="rect" id="node4" href="$class_show_radial_menu.html#a7af35d67e9e5e4c6d902b0d1f0cb6206" title="显示菜单" alt="" coords="405,53,539,77"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="ShowRadialMenu" name="ShowRadialMenu">
-<area shape="rect" id="node1" title=" " alt="" coords="5,123,149,205"/>
+<area shape="rect" id="node1" title="径向菜单显示控制类" alt="" coords="5,123,149,240"/>
 <area shape="rect" id="node2" title=" " alt="" coords="29,5,125,75"/>
 </map>

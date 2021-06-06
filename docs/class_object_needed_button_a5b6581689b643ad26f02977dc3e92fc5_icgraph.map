@@ -1,4 +1,4 @@
 <map id="ObjectNeededButton.Check" name="ObjectNeededButton.Check">
-<area shape="rect" id="node1" title=" " alt="" coords="217,5,373,29"/>
+<area shape="rect" id="node1" title="约束检测" alt="" coords="217,5,373,29"/>
 <area shape="rect" id="node2" href="$class_object_needed_button.html#a64fc24082eedcfac63bf258a3638e15b" title=" " alt="" coords="5,5,168,29"/>
 </map>

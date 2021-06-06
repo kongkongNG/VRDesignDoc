@@ -1,4 +1,5 @@
 <map id="CreateModelAction.UpdateBottom" name="CreateModelAction.UpdateBottom">
-<area shape="rect" id="node1" title="调整底部" alt="" coords="5,5,157,41"/>
-<area shape="rect" id="node2" href="$class_model_creater.html#a899bed3e1e1438d6f93256a5560aa303" title="根据手柄拉伸出模型实体" alt="" coords="205,11,392,35"/>
+<area shape="rect" id="node1" title="调整底部" alt="" coords="5,23,157,59"/>
+<area shape="rect" id="node2" href="$class_model_creater.html#a899bed3e1e1438d6f93256a5560aa303" title="手柄拉伸调整底面大小" alt="" coords="205,5,392,29"/>
+<area shape="rect" id="node3" href="$class_model_creater.html#aa5914bf533ff378cf5a04e387298daf3" title="改变位置" alt="" coords="226,53,371,77"/>
 </map>

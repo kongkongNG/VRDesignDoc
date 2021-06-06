@@ -1,5 +1,0 @@
-<map id="DropObject.GetDropSprite" name="DropObject.GetDropSprite">
-<area shape="rect" id="node1" title=" " alt="" coords="208,29,357,53"/>
-<area shape="rect" id="node2" href="$class_drop_object.html#a012e111063f7334d976765fa05db56ff" title=" " alt="" coords="23,5,142,29"/>
-<area shape="rect" id="node3" href="$class_drop_object.html#a29a328bfb5380d23a468b778c4490ea2" title=" " alt="" coords="5,53,160,77"/>
-</map>

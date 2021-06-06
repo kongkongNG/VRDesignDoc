@@ -1,0 +1,8 @@
+<map id="CSGAction.PerformCSGCalculate" name="CSGAction.PerformCSGCalculate">
+<area shape="rect" id="node1" title="执行布尔运算" alt="" coords="411,77,589,101"/>
+<area shape="rect" id="node2" href="$class_c_s_g_action.html#acc1987c34c0fa972d136392636007776" title="手柄Trigger Clicked事件回调函数" alt="" coords="206,53,362,77"/>
+<area shape="rect" id="node5" href="$class_create_model_action.html#a39cda7da56c8e258bcbeb871d124b9b5" title="打孔操作" alt="" coords="210,101,358,125"/>
+<area shape="rect" id="node3" href="$class_c_s_g_action.html#a2aa9c4008276ab1def9c8610b29fd04d" title=" " alt="" coords="19,5,143,29"/>
+<area shape="rect" id="node4" href="$class_c_s_g_action.html#aa1740f63137b627c081c43467cfcb20e" title=" " alt="" coords="20,53,143,77"/>
+<area shape="rect" id="node6" href="$class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="5,101,157,125"/>
+</map>

@@ -1,7 +1,7 @@
 <map id="ModelCreater.ExtractDataAndDraw" name="ModelCreater.ExtractDataAndDraw">
 <area shape="rect" id="node1" title="提取sgcore指针中的顶点数据，添加到LineRenderer中" alt="" coords="251,71,400,107"/>
-<area shape="rect" id="node2" href="$class_cuboid_creater.html#ae307c1685dca498e4f17489e0ab82934" title="根据手柄拉伸出模型实体" alt="" coords="9,5,199,29"/>
-<area shape="rect" id="node3" href="$class_cylinder_creater.html#a44c077adeee0675cc318ab384a018ecb" title="根据手柄改变圆形轮廓" alt="" coords="5,53,203,77"/>
+<area shape="rect" id="node2" href="$class_cuboid_creater.html#ae307c1685dca498e4f17489e0ab82934" title="手柄拉伸调整底面大小" alt="" coords="9,5,199,29"/>
+<area shape="rect" id="node3" href="$class_cylinder_creater.html#a44c077adeee0675cc318ab384a018ecb" title="手柄拉伸调整底面大小" alt="" coords="5,53,203,77"/>
 <area shape="rect" id="node4" href="$class_cuboid_creater.html#adfdd2eaa1d4c814b6dc723cb042cef08" title="创建底面轮廓" alt="" coords="20,101,188,125"/>
-<area shape="rect" id="node5" href="$class_cylinder_creater.html#a8c264bb4c59067914432a4df7dcbe59e" title="创建圆形轮廓" alt="" coords="17,149,191,173"/>
+<area shape="rect" id="node5" href="$class_cylinder_creater.html#a8c264bb4c59067914432a4df7dcbe59e" title="创建底面轮廓" alt="" coords="17,149,191,173"/>
 </map>

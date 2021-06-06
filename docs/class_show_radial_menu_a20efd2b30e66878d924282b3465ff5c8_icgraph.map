@@ -1,4 +1,4 @@
 <map id="ShowRadialMenu.DoButtonTwoPressed" name="ShowRadialMenu.DoButtonTwoPressed">
-<area shape="rect" id="node1" title=" " alt="" coords="185,5,357,41"/>
+<area shape="rect" id="node1" title="手柄Menu Pressed事件回调函数" alt="" coords="185,5,357,41"/>
 <area shape="rect" id="node2" href="$class_show_radial_menu.html#a3267f804ff629cc0d15fef6f0fe10e6d" title=" " alt="" coords="5,11,136,35"/>
 </map>

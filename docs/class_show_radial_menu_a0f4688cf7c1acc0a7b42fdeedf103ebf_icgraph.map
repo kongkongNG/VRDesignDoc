@@ -1,0 +1,26 @@
+<map id="ShowRadialMenu.Hide" name="ShowRadialMenu.Hide">
+<area shape="rect" id="node1" title="隐藏菜单" alt="" coords="869,251,997,275"/>
+<area shape="rect" id="node2" href="$class_show_radial_menu.html#a20efd2b30e66878d924282b3465ff5c8" title="手柄Menu Pressed事件回调函数" alt="" coords="649,141,821,177"/>
+<area shape="rect" id="node4" href="$class_select_object_by_controller.html#a1517b942928804ab85585f9f3d4f471d" title="物体取消选取时触发的函数" alt="" coords="661,209,808,245"/>
+<area shape="rect" id="node10" href="$class_controller_action.html#ad2b53d381e193da9d894b2955ec8b657" title="径向菜单功能结束按钮触发函数" alt="" coords="653,366,817,402"/>
+<area shape="rect" id="node11" href="$class_controller_action.html#a6555650db283b88f214b210a80783818" title="功能开始的事件触发函数" alt="" coords="435,426,599,462"/>
+<area shape="rect" id="node3" href="$class_show_radial_menu.html#a3267f804ff629cc0d15fef6f0fe10e6d" title=" " alt="" coords="452,25,583,49"/>
+<area shape="rect" id="node5" href="$class_select_object_by_controller.html#a4a33661c5ea7c7c42c505a07ce903830" title="手柄Trigger Clicked事件回调函数" alt="" coords="444,74,591,110"/>
+<area shape="rect" id="node6" href="$class_select_object_by_controller.html#aa0c691276dfb85a267be8c345a8b748f" title="手柄触摸事件回调函数" alt="" coords="220,6,367,42"/>
+<area shape="rect" id="node9" href="$class_select_object_by_controller.html#acc2248d69ac9606f7cee8f294c33bf06" title="手柄停止触摸事件回调函数" alt="" coords="220,66,367,102"/>
+<area shape="rect" id="node7" href="$class_select_object_by_controller.html#a4b4d8d7b2ece909c5700a69e6f0ab311" title=" " alt="" coords="5,6,152,42"/>
+<area shape="rect" id="node8" href="$class_select_object_by_controller.html#a29d5ffc91f28ab6c0f8177a68b5050ca" title=" " alt="" coords="5,66,152,102"/>
+<area shape="rect" id="node12" href="$class_color_picker.html#a7e8dd2a238ad6d02f0b85bff012b2a2e" title="按钮点击时触发，打开功能" alt="" coords="209,486,377,522"/>
+<area shape="rect" id="node13" href="$class_controller_draw_line.html#a61a0ff9d059b941b39901a1b16967a17" title="按钮点击时触发，打开功能" alt="" coords="204,546,383,582"/>
+<area shape="rect" id="node14" href="$class_create_model_action.html#ae855ce467b70f9fd64de18c192c2e2aa" title="创建长方体按钮点击函数" alt="" coords="211,606,375,642"/>
+<area shape="rect" id="node15" href="$class_create_model_action.html#ae6a84e5902715eb09df448c5eb3d8ce5" title="创建圆柱按钮点击函数" alt="" coords="211,666,375,702"/>
+<area shape="rect" id="node16" href="$class_c_s_g_action.html#aed106894d2aea303afa18a91ec69f1a0" title="布尔求交按钮点击触发函数" alt="" coords="216,726,371,762"/>
+<area shape="rect" id="node17" href="$class_c_s_g_action.html#ac26efaa8fcf28440cbc648e3943a7f13" title="布尔求差按钮点击触发函数" alt="" coords="202,786,385,822"/>
+<area shape="rect" id="node18" href="$class_c_s_g_action.html#af3bd8171b2cc5f72487fb8639feeb4b6" title="布尔求并按钮点击触发函数" alt="" coords="209,846,378,882"/>
+<area shape="rect" id="node19" href="$class_drilling_action.html#a36f53c47b80b81c6c57c1c87c1dc224c" title="打孔按钮点击触发函数" alt="" coords="227,126,359,162"/>
+<area shape="rect" id="node20" href="$class_fillet_edge_action.html#a57749822b1af7481c42879835d1e3f0b" title="圆角操作按钮点击触发函数" alt="" coords="223,186,364,222"/>
+<area shape="rect" id="node21" href="$class_select_icon.html#a9ee672538b710c7612acbb95c75aa894" title="纹理贴图按钮点击时的触发函数" alt="" coords="207,246,379,282"/>
+<area shape="rect" id="node22" href="$class_select_material.html#aa57cdb9474bc1da5b23d9696173d760f" title="纹理贴图按钮点击时的触发函数" alt="" coords="206,306,381,342"/>
+<area shape="rect" id="node23" href="$class_select_texture.html#a7d7b163eac110101208b91d843958822" title="纹理贴图按钮点击时的触发函数" alt="" coords="206,366,381,402"/>
+<area shape="rect" id="node24" href="$class_transform_edit_action.html#a7156ebf0ee866f4d07fd5c2bec305f40" title="按钮点击触发函数" alt="" coords="200,426,387,462"/>
+</map>

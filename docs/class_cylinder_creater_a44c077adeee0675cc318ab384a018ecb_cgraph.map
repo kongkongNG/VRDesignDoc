@@ -1,5 +1,5 @@
 <map id="CylinderCreater.ChangeContourSize" name="CylinderCreater.ChangeContourSize">
-<area shape="rect" id="node1" title="根据手柄改变圆形轮廓" alt="" coords="5,101,203,125"/>
+<area shape="rect" id="node1" title="手柄拉伸调整底面大小" alt="" coords="5,101,203,125"/>
 <area shape="rect" id="node2" href="$class_model_creater.html#a19ce9908c3ed992ef33e4b558072e64a" title="提取sgcore指针中的顶点数据，添加到LineRenderer中" alt="" coords="257,5,407,41"/>
 <area shape="rect" id="node4" href="$class_cylinder_creater.html#a29ea131bd522b7433eae158e0847976b" title=" " alt="" coords="254,65,410,101"/>
 <area shape="rect" id="node5" href="$class_cylinder_creater.html#affefd9a7c3bfb13a5f7479ca291e42a8" title=" " alt="" coords="251,125,413,161"/>

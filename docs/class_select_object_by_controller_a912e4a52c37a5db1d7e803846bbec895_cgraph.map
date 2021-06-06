@@ -1,0 +1,4 @@
+<map id="SelectObjectByController.HasObjectSelected" name="SelectObjectByController.HasObjectSelected">
+<area shape="rect" id="node1" title="有物体被选取时触发的函数" alt="" coords="5,5,152,41"/>
+<area shape="rect" id="node2" href="$class_show_radial_menu.html#a7af35d67e9e5e4c6d902b0d1f0cb6206" title="显示菜单" alt="" coords="200,11,333,35"/>
+</map>

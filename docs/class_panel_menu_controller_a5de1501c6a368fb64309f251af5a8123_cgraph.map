@@ -1,8 +1,0 @@
-<map id="PanelMenuController.DoTouchpadPress" name="PanelMenuController.DoTouchpadPress">
-<area shape="rect" id="node1" title=" " alt="" coords="6,23,191,59"/>
-<area shape="rect" id="node2" href="$class_panel_menu_controller.html#a10c3beabee8f61691b11b59273f946a5" title=" " alt="" coords="241,23,421,59"/>
-<area shape="rect" id="node3" href="$class_panel_menu_controller.html#a289ebce78a04bcf83f5a6cedc6542ae9" title="The HideMenu method is used to hide the menu." alt="" coords="473,5,645,29"/>
-<area shape="rect" id="node6" href="$class_panel_menu_controller.html#ab8fd549a3cb569ca4c970d6abfbb33bd" title="The ShowMenu method is used to show the menu." alt="" coords="470,53,647,77"/>
-<area shape="rect" id="node4" href="$class_panel_menu_controller.html#a21e3e5580b4f87d2e4213b54b6334260" title=" " alt="" coords="696,23,837,59"/>
-<area shape="rect" id="node5" href="$class_panel_menu_controller.html#a8f4101f95393f2ad29844619e5de1847" title=" " alt="" coords="885,23,1043,59"/>
-</map>

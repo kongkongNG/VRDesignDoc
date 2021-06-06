@@ -1,4 +1,4 @@
 <map id="ControllerActionManager" name="ControllerActionManager">
-<area shape="rect" id="node1" title="功能脚本管理器类 管理所有活动的脚本，并为它们挂载事件处理函数" alt="" coords="5,123,181,373"/>
+<area shape="rect" id="node1" title="功能脚本管理器类 管理所有活动的脚本，并为它们挂载事件处理函数" alt="" coords="5,123,181,384"/>
 <area shape="rect" id="node2" title=" " alt="" coords="45,5,141,75"/>
 </map>

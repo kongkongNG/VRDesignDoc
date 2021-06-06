@@ -1,0 +1,6 @@
+<map id="FilletEdgeAction" name="FilletEdgeAction">
+<area shape="rect" id="node1" title="边圆角类" alt="" coords="73,688,228,853"/>
+<area shape="rect" id="node2" href="$class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,305,179,447"/>
+<area shape="rect" id="node3" title=" " alt="" coords="160,5,256,75"/>
+<area shape="rect" id="node4" href="$class_s_g_model.html" title="模型类" alt="" coords="204,125,367,627"/>
+</map>

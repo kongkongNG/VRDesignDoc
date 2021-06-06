@@ -1,5 +1,0 @@
-<map id="SelectTextureRight" name="SelectTextureRight">
-<area shape="rect" id="node1" title="手柄射线选取材质类 挂载再右手柄" alt="" coords="5,313,179,442"/>
-<area shape="rect" id="node2" href="$class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,123,179,264"/>
-<area shape="rect" id="node3" title=" " alt="" coords="44,5,140,75"/>
-</map>

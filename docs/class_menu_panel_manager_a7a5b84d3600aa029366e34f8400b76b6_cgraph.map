@@ -1,5 +1,5 @@
 <map id="MenuPanelManager.SetAsCurrent" name="MenuPanelManager.SetAsCurrent">
-<area shape="rect" id="node1" title=" " alt="" coords="6,29,191,53"/>
-<area shape="rect" id="node2" href="$class_panel.html#a29023453cffe158ff6d100c8a9d16d55" title=" " alt="" coords="243,5,317,29"/>
-<area shape="rect" id="node3" href="$class_panel.html#a61ea3982c985c70ba0cc490bb9b248e3" title=" " alt="" coords="241,53,319,77"/>
+<area shape="rect" id="node1" title="将输入面板设置为当前活跃面板" alt="" coords="6,29,191,53"/>
+<area shape="rect" id="node2" href="$class_panel.html#a29023453cffe158ff6d100c8a9d16d55" title="隐藏面板" alt="" coords="243,5,317,29"/>
+<area shape="rect" id="node3" href="$class_panel.html#a61ea3982c985c70ba0cc490bb9b248e3" title="显示面板" alt="" coords="241,53,319,77"/>
 </map>

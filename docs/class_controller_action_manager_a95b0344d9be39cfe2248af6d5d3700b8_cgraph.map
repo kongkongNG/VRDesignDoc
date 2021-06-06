@@ -1,5 +1,5 @@
 <map id="ControllerActionManager.Start" name="ControllerActionManager.Start">
-<area shape="rect" id="node1" title=" " alt="" coords="6,189,151,225"/>
+<area shape="rect" id="node1" title="计算功能运行的平均fps" alt="" coords="6,189,151,225"/>
 <area shape="rect" id="node2" href="$class_controller_action_manager.html#a29bdb190834ae7e9315e549c6ae10a70" title="功能脚本关闭事件回调" alt="" coords="203,103,349,139"/>
 <area shape="rect" id="node9" href="$class_controller_action_manager.html#aa7303af3ef40bdf06c6e12cc6eca8bbe" title="功能脚本启动事件回调" alt="" coords="203,189,349,225"/>
 <area shape="rect" id="node11" href="$class_controller_action_manager.html#af6b9807b2f013180d1e1c9ad455cf016" title="建立两只手柄间的ControllerAction类型映射" alt="" coords="200,249,352,285"/>

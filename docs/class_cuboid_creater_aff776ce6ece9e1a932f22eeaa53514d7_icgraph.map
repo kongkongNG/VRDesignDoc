@@ -1,5 +1,5 @@
 <map id="CuboidCreater.sguGetRectangleVertexes" name="CuboidCreater.sguGetRectangleVertexes">
 <area shape="rect" id="node1" title=" " alt="" coords="245,23,424,59"/>
-<area shape="rect" id="node2" href="$class_cuboid_creater.html#ae307c1685dca498e4f17489e0ab82934" title="根据手柄拉伸出模型实体" alt="" coords="6,5,197,29"/>
+<area shape="rect" id="node2" href="$class_cuboid_creater.html#ae307c1685dca498e4f17489e0ab82934" title="手柄拉伸调整底面大小" alt="" coords="6,5,197,29"/>
 <area shape="rect" id="node3" href="$class_cuboid_creater.html#adfdd2eaa1d4c814b6dc723cb042cef08" title="创建底面轮廓" alt="" coords="17,53,185,77"/>
 </map>

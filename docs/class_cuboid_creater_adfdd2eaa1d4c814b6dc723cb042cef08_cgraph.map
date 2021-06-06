@@ -1,7 +1,7 @@
 <map id="CuboidCreater.CreateContour" name="CuboidCreater.CreateContour">
 <area shape="rect" id="node1" title="创建底面轮廓" alt="" coords="5,99,173,123"/>
 <area shape="rect" id="node2" href="$class_model_creater.html#a19ce9908c3ed992ef33e4b558072e64a" title="提取sgcore指针中的顶点数据，添加到LineRenderer中" alt="" coords="244,5,393,41"/>
-<area shape="rect" id="node4" href="$class_model_creater.html#a5d22ffab0ab76157bfa1f98b81d353b9" title="直接创建物体" alt="" coords="245,65,392,101"/>
+<area shape="rect" id="node4" href="$class_model_creater.html#a5d22ffab0ab76157bfa1f98b81d353b9" title="初始化底面轮廓物体" alt="" coords="245,65,392,101"/>
 <area shape="rect" id="node5" href="$class_cuboid_creater.html#ad8108a574f8d123b75d69c2a697f13a5" title=" " alt="" coords="221,125,416,149"/>
 <area shape="rect" id="node6" href="$class_cuboid_creater.html#aff776ce6ece9e1a932f22eeaa53514d7" title=" " alt="" coords="229,174,408,210"/>
 <area shape="rect" id="node3" href="$class_model_creater.html#aeb62b5cd76e68be311d2dc1f4abef4fe" title="为轮廓的LineRenderer添加顶点" alt="" coords="465,11,599,35"/>

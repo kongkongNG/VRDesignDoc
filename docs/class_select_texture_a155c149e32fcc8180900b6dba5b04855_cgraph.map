@@ -1,4 +1,4 @@
 <map id="SelectTexture.DoTriggerClicked" name="SelectTexture.DoTriggerClicked">
 <area shape="rect" id="node1" title="手柄Trigger Clicked事件回调函数" alt="" coords="5,5,179,29"/>
-<area shape="rect" id="node2" href="$class_panel_grid.html#a3a0d199e71a91078cbb7e6de72e62059" title=" " alt="" coords="227,5,354,29"/>
+<area shape="rect" id="node2" href="$class_panel_grid.html#a3a0d199e71a91078cbb7e6de72e62059" title="获取条目下标" alt="" coords="227,5,354,29"/>
 </map>

@@ -1,5 +1,5 @@
 <map id="ModelCreater.ExtrudeFrame" name="ModelCreater.ExtrudeFrame">
-<area shape="rect" id="node1" title=" " alt="" coords="406,11,565,35"/>
+<area shape="rect" id="node1" title="拉伸模型框架" alt="" coords="406,11,565,35"/>
 <area shape="rect" id="node2" href="$class_create_model_action.html#ad50d0d25201b149744b45f526134a155" title="调整高度" alt="" coords="205,5,357,41"/>
 <area shape="rect" id="node3" href="$class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="5,11,157,35"/>
 </map>

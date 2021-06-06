@@ -1,4 +1,0 @@
-<map id="SelectTextureRight.DoActivationButtonReleased" name="SelectTextureRight.DoActivationButtonReleased">
-<area shape="rect" id="node1" title="手柄UI射线按钮松开时的行为" alt="" coords="5,5,184,41"/>
-<area shape="rect" id="node2" href="$class_select_texture_right.html#aacbe3929cf0b8c668be37d3154caca92" title="UI指针指向元素时触发的回调函数" alt="" coords="232,5,395,41"/>
-</map>

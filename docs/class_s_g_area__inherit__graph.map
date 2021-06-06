@@ -1,4 +1,4 @@
 <map id="SGArea" name="SGArea">
-<area shape="rect" id="node1" title=" " alt="" coords="5,123,104,216"/>
-<area shape="rect" id="node2" title=" " alt="" coords="7,5,103,75"/>
+<area shape="rect" id="node1" title="平面类 可以是场景平面或模型面" alt="" coords="5,123,128,240"/>
+<area shape="rect" id="node2" title=" " alt="" coords="19,5,115,75"/>
 </map>

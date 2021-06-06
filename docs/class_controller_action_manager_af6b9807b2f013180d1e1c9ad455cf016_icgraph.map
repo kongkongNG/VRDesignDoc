@@ -1,4 +1,4 @@
 <map id="ControllerActionManager.MapCorrespondActionType" name="ControllerActionManager.MapCorrespondActionType">
 <area shape="rect" id="node1" title="建立两只手柄间的ControllerAction类型映射" alt="" coords="200,5,352,41"/>
-<area shape="rect" id="node2" href="$class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title=" " alt="" coords="6,5,151,41"/>
+<area shape="rect" id="node2" href="$class_controller_action_manager.html#a95b0344d9be39cfe2248af6d5d3700b8" title="计算功能运行的平均fps" alt="" coords="6,5,151,41"/>
 </map>

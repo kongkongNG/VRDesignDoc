@@ -42,20 +42,24 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public 成员函数</a> &#124;
-<a href="#pri-methods">Private 成员函数</a> &#124;
+<a href="#pub-attribs">Public 属性</a> &#124;
+<a href="#pub-static-attribs">静态 Public 属性</a> &#124;
 <a href="#pri-attribs">Private 属性</a> &#124;
 <a href="class_s_g_u_edge-members.html">所有成员列表</a>  </div>
   <div class="headertitle">
 <div class="title">SGUEdge类 参考</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>模型边类  
+ <a href="class_s_g_u_edge.html#details">更多...</a></p>
 <div class="dynheader">
 类 SGUEdge 继承关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_s_g_u_edge__inherit__graph.png" border="0" usemap="#a_s_g_u_edge_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_s_g_u_edge_inherit__map" id="a_s_g_u_edge_inherit__map">
-<area shape="rect" title=" " alt="" coords="5,123,120,288"/>
-<area shape="rect" title=" " alt="" coords="15,5,111,75"/>
+<area shape="rect" title="模型边类" alt="" coords="5,123,123,301"/>
+<area shape="rect" title=" " alt="" coords="16,5,112,75"/>
 </map>
 </div>
 <div class="dynheader">
@@ -63,46 +67,62 @@ SGUEdge 的协作图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_s_g_u_edge__coll__graph.png" border="0" usemap="#a_s_g_u_edge_coll__map" alt="Collaboration graph"/></div>
 <map name="a_s_g_u_edge_coll__map" id="a_s_g_u_edge_coll__map">
-<area shape="rect" title=" " alt="" coords="5,123,120,288"/>
-<area shape="rect" title=" " alt="" coords="15,5,111,75"/>
+<area shape="rect" title="模型边类" alt="" coords="5,688,123,853"/>
+<area shape="rect" title=" " alt="" coords="32,5,128,75"/>
+<area shape="rect" href="class_s_g_model.html" title="模型类" alt="" coords="80,125,243,627"/>
 </map>
 </div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public 成员函数</h2></td></tr>
-<tr class="memitem:ad8f4e688b1c849814d033e98121d0b85"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_g_u_edge.html#ad8f4e688b1c849814d033e98121d0b85">Init</a> (Vector3 v_1, Vector3 v_2, int r_A, int r_B, int idx, double r)</td></tr>
-<tr class="separator:ad8f4e688b1c849814d033e98121d0b85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9bb4bffd9ee6484fd351c25b4b2471f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_g_u_edge.html#ac9bb4bffd9ee6484fd351c25b4b2471f">Init</a> (<a class="el" href="class_s_g_model.html">SGModel</a> model, Vector3 v_1, Vector3 v_2, int r_A, int r_B, int idx, double r)</td></tr>
+<tr class="memdesc:ac9bb4bffd9ee6484fd351c25b4b2471f"><td class="mdescLeft">&#160;</td><td class="mdescRight">初始化  <a href="class_s_g_u_edge.html#ac9bb4bffd9ee6484fd351c25b4b2471f">更多...</a><br /></td></tr>
+<tr class="separator:ac9bb4bffd9ee6484fd351c25b4b2471f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private 成员函数</h2></td></tr>
-<tr class="memitem:a05f9ea2b9759c461c102c07a22dcf3e7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_g_u_edge.html#a05f9ea2b9759c461c102c07a22dcf3e7">Start</a> ()</td></tr>
-<tr class="separator:a05f9ea2b9759c461c102c07a22dcf3e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bb5f59c32eb8731fd7e9d82b2183142"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_g_u_edge.html#a9bb5f59c32eb8731fd7e9d82b2183142">Update</a> ()</td></tr>
-<tr class="separator:a9bb5f59c32eb8731fd7e9d82b2183142"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public 属性</h2></td></tr>
+<tr class="memitem:aa40b7b359f1d5fa70f3d280c959b571e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_s_g_model.html">SGModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_g_u_edge.html#aa40b7b359f1d5fa70f3d280c959b571e">sgModel</a></td></tr>
+<tr class="memdesc:aa40b7b359f1d5fa70f3d280c959b571e"><td class="mdescLeft">&#160;</td><td class="mdescRight">边所属模型  <a href="class_s_g_u_edge.html#aa40b7b359f1d5fa70f3d280c959b571e">更多...</a><br /></td></tr>
+<tr class="separator:aa40b7b359f1d5fa70f3d280c959b571e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a007fd3c6e8eadba0e26e910c117c4dd7"><td class="memItemLeft" align="right" valign="top">LineRenderer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_g_u_edge.html#a007fd3c6e8eadba0e26e910c117c4dd7">line</a></td></tr>
+<tr class="memdesc:a007fd3c6e8eadba0e26e910c117c4dd7"><td class="mdescLeft">&#160;</td><td class="mdescRight">绘制边的渲染器  <a href="class_s_g_u_edge.html#a007fd3c6e8eadba0e26e910c117c4dd7">更多...</a><br /></td></tr>
+<tr class="separator:a007fd3c6e8eadba0e26e910c117c4dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90b020df2e0f106e3f0e5483f81877e7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_g_u_edge.html#a90b020df2e0f106e3f0e5483f81877e7">edge_max_radius</a></td></tr>
+<tr class="memdesc:a90b020df2e0f106e3f0e5483f81877e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">边最大圆度  <a href="class_s_g_u_edge.html#a90b020df2e0f106e3f0e5483f81877e7">更多...</a><br /></td></tr>
+<tr class="separator:a90b020df2e0f106e3f0e5483f81877e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d6808c841a4e91ad13c294878d1b7b2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_g_u_edge.html#a4d6808c841a4e91ad13c294878d1b7b2">edge_idx</a></td></tr>
+<tr class="memdesc:a4d6808c841a4e91ad13c294878d1b7b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">边id  <a href="class_s_g_u_edge.html#a4d6808c841a4e91ad13c294878d1b7b2">更多...</a><br /></td></tr>
+<tr class="separator:a4d6808c841a4e91ad13c294878d1b7b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaaa82214113a326cc08c1634ad762789"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_g_u_edge.html#aaaa82214113a326cc08c1634ad762789">edge_cur_radius</a></td></tr>
+<tr class="memdesc:aaaa82214113a326cc08c1634ad762789"><td class="mdescLeft">&#160;</td><td class="mdescRight">边当前圆度  <a href="class_s_g_u_edge.html#aaaa82214113a326cc08c1634ad762789">更多...</a><br /></td></tr>
+<tr class="separator:aaaa82214113a326cc08c1634ad762789"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+静态 Public 属性</h2></td></tr>
+<tr class="memitem:ab38f1ad329604cb7b4e3fb30d494fc3b"><td class="memItemLeft" align="right" valign="top">static Color&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_g_u_edge.html#ab38f1ad329604cb7b4e3fb30d494fc3b">DefaultColor</a> = Color.green</td></tr>
+<tr class="memdesc:ab38f1ad329604cb7b4e3fb30d494fc3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">边默认颜色  <a href="class_s_g_u_edge.html#ab38f1ad329604cb7b4e3fb30d494fc3b">更多...</a><br /></td></tr>
+<tr class="separator:ab38f1ad329604cb7b4e3fb30d494fc3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private 属性</h2></td></tr>
-<tr class="memitem:a007fd3c6e8eadba0e26e910c117c4dd7"><td class="memItemLeft" align="right" valign="top">LineRenderer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_g_u_edge.html#a007fd3c6e8eadba0e26e910c117c4dd7">line</a></td></tr>
-<tr class="separator:a007fd3c6e8eadba0e26e910c117c4dd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f79716afd881e283b0cf21b46c6fc28"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_g_u_edge.html#a9f79716afd881e283b0cf21b46c6fc28">v1</a></td></tr>
+<tr class="memdesc:a9f79716afd881e283b0cf21b46c6fc28"><td class="mdescLeft">&#160;</td><td class="mdescRight">边起点  <a href="class_s_g_u_edge.html#a9f79716afd881e283b0cf21b46c6fc28">更多...</a><br /></td></tr>
 <tr class="separator:a9f79716afd881e283b0cf21b46c6fc28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9163171d696a1a8bb41393aab3842a0f"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_g_u_edge.html#a9163171d696a1a8bb41393aab3842a0f">v2</a></td></tr>
+<tr class="memdesc:a9163171d696a1a8bb41393aab3842a0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">边终点  <a href="class_s_g_u_edge.html#a9163171d696a1a8bb41393aab3842a0f">更多...</a><br /></td></tr>
 <tr class="separator:a9163171d696a1a8bb41393aab3842a0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90b020df2e0f106e3f0e5483f81877e7"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_g_u_edge.html#a90b020df2e0f106e3f0e5483f81877e7">edge_max_radius</a></td></tr>
-<tr class="separator:a90b020df2e0f106e3f0e5483f81877e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a258dc20354d813a9bd83bf740bdba819"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_g_u_edge.html#a258dc20354d813a9bd83bf740bdba819">region_mark_A</a></td></tr>
 <tr class="separator:a258dc20354d813a9bd83bf740bdba819"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac81050b4054abc3ad6b00aeb887a4198"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_g_u_edge.html#ac81050b4054abc3ad6b00aeb887a4198">region_mark_B</a></td></tr>
 <tr class="separator:ac81050b4054abc3ad6b00aeb887a4198"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d6808c841a4e91ad13c294878d1b7b2"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_s_g_u_edge.html#a4d6808c841a4e91ad13c294878d1b7b2">edge_idx</a></td></tr>
-<tr class="separator:a4d6808c841a4e91ad13c294878d1b7b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
-<div class="textblock">
-<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00006">6</a> 行定义.</p>
+<div class="textblock"><p>模型边类 </p>
+
+<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00009">9</a> 行定义.</p>
 </div><h2 class="groupheader">成员函数说明</h2>
-<a id="ad8f4e688b1c849814d033e98121d0b85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8f4e688b1c849814d033e98121d0b85">&#9670;&nbsp;</a></span>Init()</h2>
+<a id="ac9bb4bffd9ee6484fd351c25b4b2471f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9bb4bffd9ee6484fd351c25b4b2471f">&#9670;&nbsp;</a></span>Init()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -110,6 +130,12 @@ Private 属性</h2></td></tr>
         <tr>
           <td class="memname">void SGUEdge.Init </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="class_s_g_model.html">SGModel</a>&#160;</td>
+          <td class="paramname"><em>model</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">Vector3&#160;</td>
           <td class="paramname"><em>v_1</em>, </td>
         </tr>
@@ -151,86 +177,73 @@ Private 属性</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00019">19</a> 行定义.</p>
+<p>初始化 </p>
+<p>初始化一些参数并添加必要脚本 </p>
 
-</div>
-</div>
-<a id="a05f9ea2b9759c461c102c07a22dcf3e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05f9ea2b9759c461c102c07a22dcf3e7">&#9670;&nbsp;</a></span>Start()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SGUEdge.Start </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00035">35</a> 行定义.</p>
-
-</div>
-</div>
-<a id="a9bb5f59c32eb8731fd7e9d82b2183142"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bb5f59c32eb8731fd7e9d82b2183142">&#9670;&nbsp;</a></span>Update()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SGUEdge.Update </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00041">41</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00032">32</a> 行定义.</p>
 
 </div>
 </div>
 <h2 class="groupheader">类成员变量说明</h2>
+<a id="ab38f1ad329604cb7b4e3fb30d494fc3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab38f1ad329604cb7b4e3fb30d494fc3b">&#9670;&nbsp;</a></span>DefaultColor</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Color SGUEdge.DefaultColor = Color.green</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>边默认颜色 </p>
+
+<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00026">26</a> 行定义.</p>
+
+</div>
+</div>
+<a id="aaaa82214113a326cc08c1634ad762789"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaa82214113a326cc08c1634ad762789">&#9670;&nbsp;</a></span>edge_cur_radius</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float SGUEdge.edge_cur_radius</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>边当前圆度 </p>
+
+<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00024">24</a> 行定义.</p>
+
+</div>
+</div>
 <a id="a4d6808c841a4e91ad13c294878d1b7b2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4d6808c841a4e91ad13c294878d1b7b2">&#9670;&nbsp;</a></span>edge_idx</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">int SGUEdge.edge_idx</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00017">17</a> 行定义.</p>
+<p>边id </p>
+
+<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00022">22</a> 行定义.</p>
 
 </div>
 </div>
@@ -239,22 +252,16 @@ Private 属性</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">double SGUEdge.edge_max_radius</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00012">12</a> 行定义.</p>
+<p>边最大圆度 </p>
+
+<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00017">17</a> 行定义.</p>
 
 </div>
 </div>
@@ -263,22 +270,16 @@ Private 属性</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">LineRenderer SGUEdge.line</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00008">8</a> 行定义.</p>
+<p>绘制边的渲染器 </p>
+
+<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00013">13</a> 行定义.</p>
 
 </div>
 </div>
@@ -302,7 +303,7 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00014">14</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00019">19</a> 行定义.</p>
 
 </div>
 </div>
@@ -326,7 +327,25 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00015">15</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00020">20</a> 行定义.</p>
+
+</div>
+</div>
+<a id="aa40b7b359f1d5fa70f3d280c959b571e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa40b7b359f1d5fa70f3d280c959b571e">&#9670;&nbsp;</a></span>sgModel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_s_g_model.html">SGModel</a> SGUEdge.sgModel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>边所属模型 </p>
+
+<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00011">11</a> 行定义.</p>
 
 </div>
 </div>
@@ -350,7 +369,9 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00009">9</a> 行定义.</p>
+<p>边起点 </p>
+
+<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00014">14</a> 行定义.</p>
 
 </div>
 </div>
@@ -374,12 +395,14 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00010">10</a> 行定义.</p>
+<p>边终点 </p>
+
+<p class="definition">在文件 <a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a> 第 <a class="el" href="_s_g_u_edge_8cs_source.html#l00015">15</a> 行定义.</p>
 
 </div>
 </div>
 <hr/>该类的文档由以下文件生成:<ul>
-<li>Y:/Coding/Unity/VRDesignProject/Assets/Scripts/<a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a></li>
+<li>Y:/Coding/Unity/VRDesignProject/Assets/Scripts/Control/<a class="el" href="_s_g_u_edge_8cs_source.html">SGUEdge.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

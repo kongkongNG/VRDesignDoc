@@ -1,4 +1,0 @@
-<map id="MeshEditAction.CreateEditPoint" name="MeshEditAction.CreateEditPoint">
-<area shape="rect" id="node1" title="创建所有控制点" alt="" coords="211,5,362,41"/>
-<area shape="rect" id="node2" href="$class_mesh_edit_action.html#aa6761f81869958909e49a9b1fc19f2cd" title="网格编辑按钮点击时触发的函数" alt="" coords="6,5,162,41"/>
-</map>

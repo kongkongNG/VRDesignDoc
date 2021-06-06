@@ -1,7 +1,8 @@
 <map id="CuboidCreater.ChangeContourSize" name="CuboidCreater.ChangeContourSize">
-<area shape="rect" id="node1" title="根据手柄拉伸出模型实体" alt="" coords="6,71,197,95"/>
+<area shape="rect" id="node1" title="手柄拉伸调整底面大小" alt="" coords="6,93,197,117"/>
 <area shape="rect" id="node2" href="$class_model_creater.html#a19ce9908c3ed992ef33e4b558072e64a" title="提取sgcore指针中的顶点数据，添加到LineRenderer中" alt="" coords="271,5,420,41"/>
-<area shape="rect" id="node4" href="$class_cuboid_creater.html#aad9ac9a1e380bb562e544fb2f35f0906" title=" " alt="" coords="246,65,445,101"/>
-<area shape="rect" id="node5" href="$class_cuboid_creater.html#aff776ce6ece9e1a932f22eeaa53514d7" title=" " alt="" coords="256,125,435,161"/>
+<area shape="rect" id="node4" href="$class_s_g_area.html#a8a34ddb34f3a1e07a54054a7a571302d" title="获取平面的x、y轴" alt="" coords="273,65,418,89"/>
+<area shape="rect" id="node5" href="$class_cuboid_creater.html#aad9ac9a1e380bb562e544fb2f35f0906" title=" " alt="" coords="246,114,445,150"/>
+<area shape="rect" id="node6" href="$class_cuboid_creater.html#aff776ce6ece9e1a932f22eeaa53514d7" title=" " alt="" coords="256,174,435,210"/>
 <area shape="rect" id="node3" href="$class_model_creater.html#aeb62b5cd76e68be311d2dc1f4abef4fe" title="为轮廓的LineRenderer添加顶点" alt="" coords="494,11,629,35"/>
 </map>

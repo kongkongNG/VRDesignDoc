@@ -1,5 +1,5 @@
 <map id="DrillingAction.OnDisable" name="DrillingAction.OnDisable">
 <area shape="rect" id="node1" title=" " alt="" coords="6,11,141,35"/>
-<area shape="rect" id="node2" href="$class_drilling_action.html#a1db8c15f46eef695c297184d66581216" title=" " alt="" coords="190,5,325,41"/>
-<area shape="rect" id="node3" href="$class_panel_grid.html#a3a0d199e71a91078cbb7e6de72e62059" title=" " alt="" coords="374,11,501,35"/>
+<area shape="rect" id="node2" href="$class_drilling_action.html#a1db8c15f46eef695c297184d66581216" title="手柄Trigger Clicked事件回调函数" alt="" coords="190,5,325,41"/>
+<area shape="rect" id="node3" href="$class_panel_grid.html#a3a0d199e71a91078cbb7e6de72e62059" title="获取条目下标" alt="" coords="374,11,501,35"/>
 </map>

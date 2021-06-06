@@ -1,0 +1,33 @@
+<map id="CSGAction.PerformCSGCalculate" name="CSGAction.PerformCSGCalculate">
+<area shape="rect" id="node1" title="执行布尔运算" alt="" coords="5,463,184,487"/>
+<area shape="rect" id="node2" href="$class_s_g_model.html#ab48c0cb9b6cdfc58e0fb07da7ab85e3f" title="初始化" alt="" coords="523,156,605,180"/>
+<area shape="rect" id="node11" href="$class_s_g_model.html#a4a89743e49ca63738504dfc074aa7143" title="后创建" alt="" coords="263,343,393,367"/>
+<area shape="rect" id="node12" href="$class_s_g_model.html#a3a9030f819ba6524b4f7f73417223357" title="设置模型面可被选取" alt="" coords="248,391,408,415"/>
+<area shape="rect" id="node13" href="$class_c_s_g_action.html#a658ebde1b12c12bfa3b6f93448c1af8f" title=" " alt="" coords="243,439,413,463"/>
+<area shape="rect" id="node14" href="$class_c_s_g_action.html#ad2e4f420bc6302f0c3fa0c40d65b1e22" title=" " alt="" coords="232,487,424,511"/>
+<area shape="rect" id="node15" href="$class_c_s_g_action.html#abb1cf110a390f44322a3a742732d4d65" title=" " alt="" coords="253,535,403,559"/>
+<area shape="rect" id="node16" href="$class_c_s_g_action.html#a63eea03f167a5ad906b80d2a6f837cf1" title=" " alt="" coords="273,583,383,607"/>
+<area shape="rect" id="node17" href="$class_c_s_g_action.html#aa4c1351f357abccf40d4ab8d2fcdb606" title=" " alt="" coords="268,631,388,655"/>
+<area shape="rect" id="node18" href="$class_s_g_model.html#a5c56b6c2dc1252b0190af0780db20bc0" title="添加必要的脚本使物体可以被选取" alt="" coords="267,679,389,703"/>
+<area shape="rect" id="node25" href="$class_s_g_model.html#a3b378bbddf0da0b096cd511e03e1a0f2" title="生成边" alt="" coords="267,295,389,319"/>
+<area shape="rect" id="node3" href="$class_s_g_model.html#a3c72db799c02aa22203ce9ae11d882ad" title="根据输入生成模型整体网格" alt="" coords="705,156,855,180"/>
+<area shape="rect" id="node4" href="$class_s_g_model.html#a0b0bbacedd361329eb2e4b5cb7c190cb" title=" " alt="" coords="923,5,1056,29"/>
+<area shape="rect" id="node5" href="$class_s_g_model.html#af3e92ce70e1d2c6fb7e068f86df8636f" title=" " alt="" coords="911,53,1068,77"/>
+<area shape="rect" id="node6" href="$class_s_g_model.html#af3facf26d447eec8fca2be6c6e1bfebd" title=" " alt="" coords="907,101,1072,125"/>
+<area shape="rect" id="node7" href="$class_s_g_model.html#a4af667d1987ec93968887932e3e82403" title=" " alt="" coords="904,150,1075,186"/>
+<area shape="rect" id="node8" href="$class_s_g_model.html#ad838e6b15c572ccf8e3e21c8f6e5129b" title=" " alt="" coords="917,211,1062,235"/>
+<area shape="rect" id="node9" href="$class_s_g_model.html#aecefb0b61a3bedb496f7734df203396b" title=" " alt="" coords="904,259,1075,283"/>
+<area shape="rect" id="node10" href="$class_s_g_model.html#a6deb74ab107c3455cff8d08c6ac22714" title=" " alt="" coords="914,307,1065,331"/>
+<area shape="rect" id="node19" href="$class_s_g_model.html#aaa49ec0fbd1e661ccc21599b5294c003" title=" " alt="" coords="483,540,645,564"/>
+<area shape="rect" id="node20" href="$class_s_g_model.html#a439f56b890255a9641758b3cf8a8c6e7" title=" " alt="" coords="473,588,655,612"/>
+<area shape="rect" id="node21" href="$class_s_g_model.html#a5e0faf8bacf280c25a02d3d5bdaa4ae4" title=" " alt="" coords="493,636,635,660"/>
+<area shape="rect" id="node22" href="$class_s_g_model.html#ab490f88e0a99e2155fe0331b4a52a387" title=" " alt="" coords="486,685,642,721"/>
+<area shape="rect" id="node23" href="$class_s_g_model.html#a0f7178f2f9f0410b40ba18f2c0b4a2cd" title=" " alt="" coords="481,745,647,769"/>
+<area shape="rect" id="node24" href="$class_s_g_model.html#a6b5890bdbb54b02f9d20176e2cfac610" title=" " alt="" coords="475,793,653,817"/>
+<area shape="rect" id="node26" href="$class_s_g_model.html#ab34f08f5b565b36f0798ebb1c062cf07" title=" " alt="" coords="475,204,653,228"/>
+<area shape="rect" id="node27" href="$class_s_g_model.html#a9177d97615b955b278dca48606bc3a71" title=" " alt="" coords="485,253,643,289"/>
+<area shape="rect" id="node28" href="$class_s_g_model.html#ae14a7b14c2844a4343b9821f86fd0704" title=" " alt="" coords="485,313,643,349"/>
+<area shape="rect" id="node29" href="$class_s_g_model.html#a9772af8964a1f8013f345a75008372d3" title=" " alt="" coords="480,373,648,397"/>
+<area shape="rect" id="node30" href="$class_s_g_model.html#a1b121c44eaa95fed659355b5fb31469b" title=" " alt="" coords="475,421,653,445"/>
+<area shape="rect" id="node31" href="$class_s_g_model.html#ad9c224ddcd0c2bbc8676d3caa3a67e59" title=" " alt="" coords="486,469,642,493"/>
+</map>

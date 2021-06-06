@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>VR Sketch Design: Y:/Coding/Unity/VRDesignProject/Assets/Scripts/SGArea.cs 源文件</title>
+<title>VR Sketch Design: Y:/Coding/Unity/VRDesignProject/Assets/Scripts/Control/SGArea.cs 源文件</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -40,7 +40,7 @@ $(function() {
 <div id="main-nav"></div>
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_b93ca4f67e5c4f3d8967bcc66a8efe61.html">Y:</a></li><li class="navelem"><a class="el" href="dir_657949dcc09204b591ba08b2dd60005a.html">Coding</a></li><li class="navelem"><a class="el" href="dir_9e3bf1a2f1e8bb1f1076cb3a500c0924.html">Unity</a></li><li class="navelem"><a class="el" href="dir_d92c12ce3d70d23921038a5d2ecff28d.html">VRDesignProject</a></li><li class="navelem"><a class="el" href="dir_bbf63476caace77856cc7cbaedc98ba5.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a6ab9145be13875259d1d9e44e1e8835.html">Scripts</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_b93ca4f67e5c4f3d8967bcc66a8efe61.html">Y:</a></li><li class="navelem"><a class="el" href="dir_657949dcc09204b591ba08b2dd60005a.html">Coding</a></li><li class="navelem"><a class="el" href="dir_9e3bf1a2f1e8bb1f1076cb3a500c0924.html">Unity</a></li><li class="navelem"><a class="el" href="dir_d92c12ce3d70d23921038a5d2ecff28d.html">VRDesignProject</a></li><li class="navelem"><a class="el" href="dir_bbf63476caace77856cc7cbaedc98ba5.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a6ab9145be13875259d1d9e44e1e8835.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_278302981ccdedd8a25e4ab094a830f6.html">Control</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -52,46 +52,84 @@ $(function() {
 <div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="keyword">using</span> System.Collections.Generic;</div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="keyword">using</span> UnityEngine;</div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160; </div>
-<div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="class_s_g_area.html">    5</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="class_s_g_area.html">SGArea</a> : MonoBehaviour</div>
-<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
-<div class="line"><a name="l00007"></a><span class="lineno"><a class="line" href="class_s_g_area.html#a7faf9f17d6aa8aad75c97289d77e37bd">    7</a></span>&#160;    <span class="keyword">public</span> Vector3 <a class="code" href="class_s_g_area.html#a7faf9f17d6aa8aad75c97289d77e37bd">normal</a>;</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;    <span class="comment">//public ModelCreater modelRootCreater;</span></div>
-<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="class_s_g_area.html#aaf00e3b14ce704c842fec3dbb4d546c3">    9</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="class_s_g_model.html">SGModel</a> <a class="code" href="class_s_g_area.html#aaf00e3b14ce704c842fec3dbb4d546c3">sgModel</a>;</div>
-<div class="line"><a name="l00010"></a><span class="lineno"><a class="line" href="class_s_g_area.html#a793f10f903c3a3787ae69405be4fa1f0">   10</a></span>&#160;    <span class="keyword">public</span> Vector3 <a class="code" href="class_s_g_area.html#a793f10f903c3a3787ae69405be4fa1f0">actualPosition</a> </div>
-<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;    { </div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keyword">get</span> </div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;        {</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="class_s_g_area.html#aaf00e3b14ce704c842fec3dbb4d546c3">sgModel</a> == <span class="keyword">null</span>)</div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                <span class="keywordflow">return</span> transform.position + GetComponent&lt;MeshFilter&gt;().mesh.bounds.center;  <span class="comment">// mesh的位置</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;            <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keywordflow">return</span> transform.position + <a class="code" href="class_s_g_area.html#aaf00e3b14ce704c842fec3dbb4d546c3">sgModel</a>.transform.rotation * GetComponent&lt;MeshFilter&gt;().mesh.bounds.center; <span class="comment">// 经过旋转后的位置</span></div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        }</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    }</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160; </div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_s_g_area.html#af8723084b836a38f7b9db21b075e29b1">   21</a></span>&#160;    <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code" href="class_s_g_area.html#af8723084b836a38f7b9db21b075e29b1">Start</a>()</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    {</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <span class="comment">//actualPosition = transform.position + GetComponent&lt;MeshFilter&gt;().mesh.bounds.center;</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="comment">//Debug.Log(GetComponent&lt;MeshFilter&gt;().mesh.normals.Length);</span></div>
-<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="comment">//Debug.Log(GetComponent&lt;MeshFilter&gt;().mesh.normals[0]);</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno"><a class="line" href="class_s_g_area.html">    9</a></span>&#160;<span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="class_s_g_area.html">SGArea</a> : MonoBehaviour</div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;{</div>
+<div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_s_g_area.html#a7faf9f17d6aa8aad75c97289d77e37bd">   11</a></span>&#160;    <span class="keyword">public</span> Vector3 <a class="code" href="class_s_g_area.html#a7faf9f17d6aa8aad75c97289d77e37bd">normal</a>;  </div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="line" href="class_s_g_area.html#aaf00e3b14ce704c842fec3dbb4d546c3">   12</a></span>&#160;    <span class="keyword">public</span> <a class="code" href="class_s_g_model.html">SGModel</a> <a class="code" href="class_s_g_area.html#aaf00e3b14ce704c842fec3dbb4d546c3">sgModel</a>;     </div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160; </div>
+<div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="class_s_g_area.html#a061519374e5113a5b0dd1886f8df1e51">   14</a></span>&#160;    <span class="keyword">public</span> Vector3 <a class="code" href="class_s_g_area.html#a061519374e5113a5b0dd1886f8df1e51">settedPosition</a>;  </div>
+<div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="class_s_g_area.html#a793f10f903c3a3787ae69405be4fa1f0">   15</a></span>&#160;    <span class="keyword">public</span> Vector3 <a class="code" href="class_s_g_area.html#a793f10f903c3a3787ae69405be4fa1f0">actualPosition</a>   </div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;    { </div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        <span class="keyword">get</span> </div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        {</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            <span class="keywordflow">if</span> (<a class="code" href="class_s_g_area.html#aaf00e3b14ce704c842fec3dbb4d546c3">sgModel</a> == <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                <span class="keywordflow">return</span> transform.parent.transform.TransformPoint(<a class="code" href="class_s_g_area.html#a061519374e5113a5b0dd1886f8df1e51">settedPosition</a>); </div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;            <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordflow">return</span> transform.position + <a class="code" href="class_s_g_area.html#aaf00e3b14ce704c842fec3dbb4d546c3">sgModel</a>.transform.rotation * GetComponent&lt;MeshFilter&gt;().mesh.bounds.center; <span class="comment">// 经过旋转后的位置</span></div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        }</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="comment">//set { ActualPosition = value; }</span></div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    }</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="class_s_g_area.html#a7faf9f17d6aa8aad75c97289d77e37bd">normal</a> == Vector3.zero)</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        {</div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;            <span class="comment">//normal = Vector3Int.RoundToInt(GetComponent&lt;MeshFilter&gt;().mesh.normals[0]);</span></div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <a class="code" href="class_s_g_area.html#a7faf9f17d6aa8aad75c97289d77e37bd">normal</a> = -Vector3.forward;</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            Vector3 newVec = Quaternion.AngleAxis(transform.eulerAngles.x, transform.right) * <a class="code" href="class_s_g_area.html#a7faf9f17d6aa8aad75c97289d77e37bd">normal</a>;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            newVec = Quaternion.AngleAxis(transform.eulerAngles.y, transform.up) * newVec;</div>
-<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            newVec = Quaternion.AngleAxis(transform.eulerAngles.z, transform.forward) * newVec;</div>
-<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            <a class="code" href="class_s_g_area.html#a7faf9f17d6aa8aad75c97289d77e37bd">normal</a> = newVec;</div>
-<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;        }  </div>
-<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    }</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;}</div>
-<div class="ttc" id="aclass_s_g_area_html"><div class="ttname"><a href="class_s_g_area.html">SGArea</a></div><div class="ttdef"><b>Definition:</b> <a href="_s_g_area_8cs_source.html#l00005">SGArea.cs:6</a></div></div>
-<div class="ttc" id="aclass_s_g_area_html_a793f10f903c3a3787ae69405be4fa1f0"><div class="ttname"><a href="class_s_g_area.html#a793f10f903c3a3787ae69405be4fa1f0">SGArea.actualPosition</a></div><div class="ttdeci">Vector3 actualPosition</div><div class="ttdef"><b>Definition:</b> <a href="_s_g_area_8cs_source.html#l00010">SGArea.cs:11</a></div></div>
-<div class="ttc" id="aclass_s_g_area_html_a7faf9f17d6aa8aad75c97289d77e37bd"><div class="ttname"><a href="class_s_g_area.html#a7faf9f17d6aa8aad75c97289d77e37bd">SGArea.normal</a></div><div class="ttdeci">Vector3 normal</div><div class="ttdef"><b>Definition:</b> <a href="_s_g_area_8cs_source.html#l00007">SGArea.cs:7</a></div></div>
-<div class="ttc" id="aclass_s_g_area_html_aaf00e3b14ce704c842fec3dbb4d546c3"><div class="ttname"><a href="class_s_g_area.html#aaf00e3b14ce704c842fec3dbb4d546c3">SGArea.sgModel</a></div><div class="ttdeci">SGModel sgModel</div><div class="ttdef"><b>Definition:</b> <a href="_s_g_area_8cs_source.html#l00009">SGArea.cs:9</a></div></div>
-<div class="ttc" id="aclass_s_g_area_html_af8723084b836a38f7b9db21b075e29b1"><div class="ttname"><a href="class_s_g_area.html#af8723084b836a38f7b9db21b075e29b1">SGArea.Start</a></div><div class="ttdeci">void Start()</div><div class="ttdef"><b>Definition:</b> <a href="_s_g_area_8cs_source.html#l00021">SGArea.cs:21</a></div></div>
-<div class="ttc" id="aclass_s_g_model_html"><div class="ttname"><a href="class_s_g_model.html">SGModel</a></div><div class="ttdef"><b>Definition:</b> <a href="_s_g_model_8cs_source.html#l00009">SGModel.cs:10</a></div></div>
+<div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="class_s_g_area.html#af8723084b836a38f7b9db21b075e29b1">   27</a></span>&#160;    <span class="keyword">private</span> <span class="keywordtype">void</span> <a class="code" href="class_s_g_area.html#af8723084b836a38f7b9db21b075e29b1">Start</a>()</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;    {</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="comment">// 如果面没有法向量（比如为场景中的平面添加该脚本），则计算一个法向量</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <span class="keywordflow">if</span> (<a class="code" href="class_s_g_area.html#a7faf9f17d6aa8aad75c97289d77e37bd">normal</a> == Vector3.zero)</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;        {</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <span class="comment">//normal = Vector3Int.RoundToInt(GetComponent&lt;MeshFilter&gt;().mesh.normals[0]);</span></div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;            <a class="code" href="class_s_g_area.html#a7faf9f17d6aa8aad75c97289d77e37bd">normal</a> = -Vector3.forward;</div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160;            Vector3 newVec = Quaternion.AngleAxis(transform.eulerAngles.x, transform.right) * <a class="code" href="class_s_g_area.html#a7faf9f17d6aa8aad75c97289d77e37bd">normal</a>;</div>
+<div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;            newVec = Quaternion.AngleAxis(transform.eulerAngles.y, transform.up) * newVec;</div>
+<div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            newVec = Quaternion.AngleAxis(transform.eulerAngles.z, transform.forward) * newVec;</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;            <a class="code" href="class_s_g_area.html#a7faf9f17d6aa8aad75c97289d77e37bd">normal</a> = newVec;</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        }  </div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;    }</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160; </div>
+<div class="line"><a name="l00044"></a><span class="lineno"><a class="line" href="class_s_g_area.html#a8a34ddb34f3a1e07a54054a7a571302d">   44</a></span>&#160;    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> <a class="code" href="class_s_g_area.html#a8a34ddb34f3a1e07a54054a7a571302d">GetZYaxisOfArea</a>(Vector3 <a class="code" href="class_s_g_area.html#a7faf9f17d6aa8aad75c97289d77e37bd">normal</a>, out Vector3 xAxis, out Vector3 zAxis)</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    {</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="comment">// 法1 只能获取与坐标平面平行的平面xy轴</span></div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="comment">// 1. 面法线作y轴</span></div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="comment">// 2. 面法线与y轴叉乘，得到x轴</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="comment">//Vector3 newX;</span></div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        <span class="comment">//Vector3 newZ;</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        <span class="comment">//if (normal == Vector3.up)</span></div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="comment">//{</span></div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        <span class="comment">//    newX = Vector3.right; newZ = Vector3.forward;</span></div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;        <span class="comment">//}</span></div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        <span class="comment">//else if (normal == -Vector3.up)</span></div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        <span class="comment">//{</span></div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        <span class="comment">//    newX = -Vector3.right; newZ = -Vector3.forward;</span></div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="comment">//}</span></div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        <span class="comment">//else</span></div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <span class="comment">//{</span></div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="comment">//    newX = Vector3.Cross(normal, Vector3.up).normalized;</span></div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        <span class="comment">//    newZ = Vector3.Cross(newX, normal).normalized;</span></div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        <span class="comment">//}</span></div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        <span class="comment">//xAxis = newX;</span></div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;        <span class="comment">//zAxis = newZ;</span></div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        <span class="comment">//Vector3 axis = Vector3.Cross(Vector3.up, normal);</span></div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        <span class="comment">//float angle = Vector3.Angle(Vector3.up, normal);</span></div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;        <span class="comment">//Quaternion rot = Quaternion.AngleAxis(angle, axis);</span></div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160; </div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="comment">//xAxis = rot * Vector3.right;</span></div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="comment">//zAxis = rot * Vector3.forward;</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="comment">// 法2 根据头显朝向计算近似轴</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        Vector3 headSetRight = VRTK.VRTK_DeviceFinder.HeadsetCamera().right;</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        <span class="comment">//Transform headset = VRTK.VRTK_DeviceFinder.HeadsetCamera();</span></div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        xAxis = Vector3.ProjectOnPlane(headSetRight, <a class="code" href="class_s_g_area.html#a7faf9f17d6aa8aad75c97289d77e37bd">normal</a>);       <span class="comment">// 头显的右向量投影到平面</span></div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        zAxis = Vector3.Cross(xAxis, <a class="code" href="class_s_g_area.html#a7faf9f17d6aa8aad75c97289d77e37bd">normal</a>);       <span class="comment">// 叉乘得到z</span></div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;    }</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160; </div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;}</div>
+<div class="ttc" id="aclass_s_g_area_html"><div class="ttname"><a href="class_s_g_area.html">SGArea</a></div><div class="ttdoc">平面类 可以是场景平面或模型面</div><div class="ttdef"><b>Definition:</b> <a href="_s_g_area_8cs_source.html#l00009">SGArea.cs:10</a></div></div>
+<div class="ttc" id="aclass_s_g_area_html_a061519374e5113a5b0dd1886f8df1e51"><div class="ttname"><a href="class_s_g_area.html#a061519374e5113a5b0dd1886f8df1e51">SGArea.settedPosition</a></div><div class="ttdeci">Vector3 settedPosition</div><div class="ttdoc">设定的平面中心世界坐标</div><div class="ttdef"><b>Definition:</b> <a href="_s_g_area_8cs_source.html#l00014">SGArea.cs:14</a></div></div>
+<div class="ttc" id="aclass_s_g_area_html_a793f10f903c3a3787ae69405be4fa1f0"><div class="ttname"><a href="class_s_g_area.html#a793f10f903c3a3787ae69405be4fa1f0">SGArea.actualPosition</a></div><div class="ttdeci">Vector3 actualPosition</div><div class="ttdoc">&lt; 实际的平面中心位置</div><div class="ttdef"><b>Definition:</b> <a href="_s_g_area_8cs_source.html#l00015">SGArea.cs:16</a></div></div>
+<div class="ttc" id="aclass_s_g_area_html_a7faf9f17d6aa8aad75c97289d77e37bd"><div class="ttname"><a href="class_s_g_area.html#a7faf9f17d6aa8aad75c97289d77e37bd">SGArea.normal</a></div><div class="ttdeci">Vector3 normal</div><div class="ttdoc">面法向量</div><div class="ttdef"><b>Definition:</b> <a href="_s_g_area_8cs_source.html#l00011">SGArea.cs:11</a></div></div>
+<div class="ttc" id="aclass_s_g_area_html_a8a34ddb34f3a1e07a54054a7a571302d"><div class="ttname"><a href="class_s_g_area.html#a8a34ddb34f3a1e07a54054a7a571302d">SGArea.GetZYaxisOfArea</a></div><div class="ttdeci">static void GetZYaxisOfArea(Vector3 normal, out Vector3 xAxis, out Vector3 zAxis)</div><div class="ttdoc">获取平面的x、y轴</div><div class="ttdef"><b>Definition:</b> <a href="_s_g_area_8cs_source.html#l00044">SGArea.cs:44</a></div></div>
+<div class="ttc" id="aclass_s_g_area_html_aaf00e3b14ce704c842fec3dbb4d546c3"><div class="ttname"><a href="class_s_g_area.html#aaf00e3b14ce704c842fec3dbb4d546c3">SGArea.sgModel</a></div><div class="ttdeci">SGModel sgModel</div><div class="ttdoc">面对应的模型</div><div class="ttdef"><b>Definition:</b> <a href="_s_g_area_8cs_source.html#l00012">SGArea.cs:12</a></div></div>
+<div class="ttc" id="aclass_s_g_area_html_af8723084b836a38f7b9db21b075e29b1"><div class="ttname"><a href="class_s_g_area.html#af8723084b836a38f7b9db21b075e29b1">SGArea.Start</a></div><div class="ttdeci">void Start()</div><div class="ttdef"><b>Definition:</b> <a href="_s_g_area_8cs_source.html#l00027">SGArea.cs:27</a></div></div>
+<div class="ttc" id="aclass_s_g_model_html"><div class="ttname"><a href="class_s_g_model.html">SGModel</a></div><div class="ttdoc">模型类</div><div class="ttdef"><b>Definition:</b> <a href="_s_g_model_8cs_source.html#l00012">SGModel.cs:13</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

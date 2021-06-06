@@ -1,0 +1,6 @@
+<map id="ControllerAction.OnControllerAtionStart" name="ControllerAction.OnControllerAtionStart">
+<area shape="rect" id="node1" title="功能开始的事件触发函数" alt="" coords="6,26,170,62"/>
+<area shape="rect" id="node2" href="$class_show_radial_menu.html#a0f4688cf7c1acc0a7b42fdeedf103ebf" title="隐藏菜单" alt="" coords="451,5,579,29"/>
+<area shape="rect" id="node3" href="$class_controller_action.html#ad2b53d381e193da9d894b2955ec8b657" title="径向菜单功能结束按钮触发函数" alt="" coords="219,54,383,90"/>
+<area shape="rect" id="node4" href="$class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea" title="功能结束的事件触发函数" alt="" coords="433,54,597,90"/>
+</map>

@@ -1,6 +1,8 @@
 <map id="SelectObjectByController.DoControllerUnTouch" name="SelectObjectByController.DoControllerUnTouch">
-<area shape="rect" id="node1" title=" " alt="" coords="5,35,152,71"/>
-<area shape="rect" id="node2" href="$class_select_object_by_controller.html#a4a33661c5ea7c7c42c505a07ce903830" title=" " alt="" coords="200,35,347,71"/>
+<area shape="rect" id="node1" title="手柄停止触摸事件回调函数" alt="" coords="5,35,152,71"/>
+<area shape="rect" id="node2" href="$class_select_object_by_controller.html#a4a33661c5ea7c7c42c505a07ce903830" title="手柄Trigger Clicked事件回调函数" alt="" coords="200,35,347,71"/>
 <area shape="rect" id="node3" href="$class_select_object_by_controller.html#a912e4a52c37a5db1d7e803846bbec895" title="有物体被选取时触发的函数" alt="" coords="395,5,541,41"/>
-<area shape="rect" id="node4" href="$class_select_object_by_controller.html#a1517b942928804ab85585f9f3d4f471d" title="物体取消选取时触发的函数" alt="" coords="395,65,541,101"/>
+<area shape="rect" id="node5" href="$class_select_object_by_controller.html#a1517b942928804ab85585f9f3d4f471d" title="物体取消选取时触发的函数" alt="" coords="395,65,541,101"/>
+<area shape="rect" id="node4" href="$class_show_radial_menu.html#a7af35d67e9e5e4c6d902b0d1f0cb6206" title="显示菜单" alt="" coords="589,11,723,35"/>
+<area shape="rect" id="node6" href="$class_show_radial_menu.html#a0f4688cf7c1acc0a7b42fdeedf103ebf" title="隐藏菜单" alt="" coords="592,71,720,95"/>
 </map>

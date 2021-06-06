@@ -1,7 +1,7 @@
 <map id="CylinderCreater.CreateContour" name="CylinderCreater.CreateContour">
-<area shape="rect" id="node1" title="创建圆形轮廓" alt="" coords="6,131,181,155"/>
+<area shape="rect" id="node1" title="创建底面轮廓" alt="" coords="6,131,181,155"/>
 <area shape="rect" id="node2" href="$class_model_creater.html#a19ce9908c3ed992ef33e4b558072e64a" title="提取sgcore指针中的顶点数据，添加到LineRenderer中" alt="" coords="236,5,385,41"/>
-<area shape="rect" id="node4" href="$class_model_creater.html#a5d22ffab0ab76157bfa1f98b81d353b9" title="直接创建物体" alt="" coords="237,65,384,101"/>
+<area shape="rect" id="node4" href="$class_model_creater.html#a5d22ffab0ab76157bfa1f98b81d353b9" title="初始化底面轮廓物体" alt="" coords="237,65,384,101"/>
 <area shape="rect" id="node5" href="$class_cylinder_creater.html#a120176d87489af9b3077bbbc97016f3a" title=" " alt="" coords="235,125,387,161"/>
 <area shape="rect" id="node6" href="$class_cylinder_creater.html#affefd9a7c3bfb13a5f7479ca291e42a8" title=" " alt="" coords="229,185,392,221"/>
 <area shape="rect" id="node7" href="$class_cylinder_creater.html#ad3e5b5b1d1722e408d73a9a4879c527c" title=" " alt="" coords="229,245,392,281"/>

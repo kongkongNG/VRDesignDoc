@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>VR Sketch Design: Y:/Coding/Unity/VRDesignProject/Assets/Scripts/ControllerActions/ControllerAction.cs 源文件</title>
+<title>VR Sketch Design: Y:/Coding/Unity/VRDesignProject/Assets/Scripts/Control/ControllerAction.cs 源文件</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -40,7 +40,7 @@ $(function() {
 <div id="main-nav"></div>
 <div id="nav-path" class="navpath">
   <ul>
-<li class="navelem"><a class="el" href="dir_b93ca4f67e5c4f3d8967bcc66a8efe61.html">Y:</a></li><li class="navelem"><a class="el" href="dir_657949dcc09204b591ba08b2dd60005a.html">Coding</a></li><li class="navelem"><a class="el" href="dir_9e3bf1a2f1e8bb1f1076cb3a500c0924.html">Unity</a></li><li class="navelem"><a class="el" href="dir_d92c12ce3d70d23921038a5d2ecff28d.html">VRDesignProject</a></li><li class="navelem"><a class="el" href="dir_bbf63476caace77856cc7cbaedc98ba5.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a6ab9145be13875259d1d9e44e1e8835.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_9eb04459ffa80765a164874b47dfec96.html">ControllerActions</a></li>  </ul>
+<li class="navelem"><a class="el" href="dir_b93ca4f67e5c4f3d8967bcc66a8efe61.html">Y:</a></li><li class="navelem"><a class="el" href="dir_657949dcc09204b591ba08b2dd60005a.html">Coding</a></li><li class="navelem"><a class="el" href="dir_9e3bf1a2f1e8bb1f1076cb3a500c0924.html">Unity</a></li><li class="navelem"><a class="el" href="dir_d92c12ce3d70d23921038a5d2ecff28d.html">VRDesignProject</a></li><li class="navelem"><a class="el" href="dir_bbf63476caace77856cc7cbaedc98ba5.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a6ab9145be13875259d1d9e44e1e8835.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_278302981ccdedd8a25e4ab094a830f6.html">Control</a></li>  </ul>
 </div>
 </div><!-- top -->
 <div class="header">
@@ -61,74 +61,90 @@ $(function() {
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; </div>
 <div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="class_controller_action.html#af0986b059f6087f0232a6079d016ddfc">   15</a></span>&#160;    <span class="keyword">protected</span> VRTK_ControllerEvents <a class="code" href="class_controller_action.html#af0986b059f6087f0232a6079d016ddfc">conEvt</a>;     </div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160; </div>
-<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_controller_action.html#aa49bbe868d24d10ac2d3f0df2c615bc7">   17</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_controller_action.html#aa49bbe868d24d10ac2d3f0df2c615bc7">OnEnable</a>()</div>
-<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;    {</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        Debug.Log(<span class="stringliteral">&quot;[Debug] &quot;</span> + gameObject.name + <span class="stringliteral">&quot; &quot;</span> + <span class="keyword">this</span>.GetType() + <span class="stringliteral">&quot; Action Start!&quot;</span>);</div>
-<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="comment">// 统一注册Menu按钮事件</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <a class="code" href="class_controller_action.html#af0986b059f6087f0232a6079d016ddfc">conEvt</a> = GetComponent&lt;VRTK_ControllerEvents&gt;();</div>
-<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="class_controller_action.html#af0986b059f6087f0232a6079d016ddfc">conEvt</a>.ButtonTwoPressed += <a class="code" href="class_controller_action.html#a0a10a69ea705c34bbce1654efe1dfa43">DoButtonTwoPressed</a>;</div>
-<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    }</div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
-<div class="line"><a name="l00025"></a><span class="lineno"><a class="line" href="class_controller_action.html#ae307971a4af89d4ccb7074bfe643d7d4">   25</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_controller_action.html#ae307971a4af89d4ccb7074bfe643d7d4">OnDisable</a>()</div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;    {</div>
-<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        Debug.Log(<span class="stringliteral">&quot;[Debug] &quot;</span> + gameObject.name + <span class="stringliteral">&quot; &quot;</span> + <span class="keyword">this</span>.GetType() + <span class="stringliteral">&quot; Action End!&quot;</span>);</div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        <span class="comment">// 统一注销Menu按钮事件</span></div>
-<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <a class="code" href="class_controller_action.html#af0986b059f6087f0232a6079d016ddfc">conEvt</a>.ButtonTwoPressed -= <a class="code" href="class_controller_action.html#a0a10a69ea705c34bbce1654efe1dfa43">DoButtonTwoPressed</a>;</div>
-<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;    }</div>
-<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160; </div>
-<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="class_controller_action.html#a6555650db283b88f214b210a80783818">   36</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_controller_action.html#a6555650db283b88f214b210a80783818">OnControllerAtionStart</a>(EventArgs e)</div>
-<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;    {</div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;        EventHandler handler = <a class="code" href="class_controller_action.html#ae44944045c9edca97a20c1b80869e37b">ControllerActionStart</a>;</div>
-<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        <span class="keywordflow">if</span> (handler != <span class="keyword">null</span>)</div>
-<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        {</div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;            handler(<span class="keyword">this</span>, e);</div>
-<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        }</div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    }</div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00049"></a><span class="lineno"><a class="line" href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">   49</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">OnControllerActionEnd</a>(EventArgs e)</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;    {</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        EventHandler handler = <a class="code" href="class_controller_action.html#a335e9ec9715ce53dd2be91e02c3d8ec0">ControllerActionEnd</a>;</div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        <span class="keywordflow">if</span> (handler != <span class="keyword">null</span>)</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;        {</div>
-<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;            handler(<span class="keyword">this</span>, e);</div>
-<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        }</div>
-<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    }</div>
-<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160; </div>
-<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="class_controller_action.html#ad2b53d381e193da9d894b2955ec8b657">   58</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_controller_action.html#ad2b53d381e193da9d894b2955ec8b657">OnControllerActionEndButtonClicked</a>()</div>
+<div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160; </div>
+<div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_controller_action.html#aa49bbe868d24d10ac2d3f0df2c615bc7">   18</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_controller_action.html#aa49bbe868d24d10ac2d3f0df2c615bc7">OnEnable</a>()</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    {</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        Debug.Log(<span class="stringliteral">&quot;[Debug] &quot;</span> + gameObject.name + <span class="stringliteral">&quot; &quot;</span> + <span class="keyword">this</span>.GetType() + <span class="stringliteral">&quot; Action Start!&quot;</span>);</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;        <span class="comment">// 统一注册Menu按钮事件</span></div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;        <a class="code" href="class_controller_action.html#af0986b059f6087f0232a6079d016ddfc">conEvt</a> = GetComponent&lt;VRTK_ControllerEvents&gt;();</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="class_controller_action.html#af0986b059f6087f0232a6079d016ddfc">conEvt</a>.ButtonTwoPressed += <a class="code" href="class_controller_action.html#a0a10a69ea705c34bbce1654efe1dfa43">DoButtonTwoPressed</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;}</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160; </div>
+<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="class_controller_action.html#ae307971a4af89d4ccb7074bfe643d7d4">   26</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_controller_action.html#ae307971a4af89d4ccb7074bfe643d7d4">OnDisable</a>()</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;    {   </div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;        Debug.Log(<span class="stringliteral">&quot;[Debug] &quot;</span> + gameObject.name + <span class="stringliteral">&quot; &quot;</span> + <span class="keyword">this</span>.GetType() + <span class="stringliteral">&quot; Action End!&quot;</span>);</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="comment">// 统一注销Menu按钮事件</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;        <a class="code" href="class_controller_action.html#af0986b059f6087f0232a6079d016ddfc">conEvt</a>.ButtonTwoPressed -= <a class="code" href="class_controller_action.html#a0a10a69ea705c34bbce1654efe1dfa43">DoButtonTwoPressed</a>;</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;    }</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160; </div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160; </div>
+<div class="line"><a name="l00034"></a><span class="lineno">   34</span>&#160; </div>
+<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="class_controller_action.html#a6555650db283b88f214b210a80783818">   39</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_controller_action.html#a6555650db283b88f214b210a80783818">OnControllerAtionStart</a>(EventArgs e)</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    {</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        EventHandler handler = <a class="code" href="class_controller_action.html#ae44944045c9edca97a20c1b80869e37b">ControllerActionStart</a>;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <span class="keywordflow">if</span> (handler != <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        {</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;            handler(<span class="keyword">this</span>, e);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <a class="code" href="class_show_radial_menu.html">ShowRadialMenu</a> radialMenu = GameObject.Find(<span class="stringliteral">&quot;LeftRadialMenu&quot;</span>).GetComponent&lt;<a class="code" href="class_show_radial_menu.html">ShowRadialMenu</a>&gt;();</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160; </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        <span class="comment">//VRTK_RadialMenu menu = GameObject.Find(&quot;RadialMenuPanel&quot;).GetComponent&lt;VRTK_RadialMenu&gt;();</span></div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        radialMenu.<a class="code" href="class_show_radial_menu.html#af36d2d7f608b9d76044f7c7a800433bc">menu</a>.GetButton(2).OnHoverExit.RemoveAllListeners();</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        radialMenu.<a class="code" href="class_show_radial_menu.html#af36d2d7f608b9d76044f7c7a800433bc">menu</a>.GetButton(2).OnHoverExit.AddListener(<a class="code" href="class_controller_action.html#ad2b53d381e193da9d894b2955ec8b657">OnControllerActionEndButtonClicked</a>);      <span class="comment">// 装上相应功能的结束按钮监听事件</span></div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;        radialMenu.<a class="code" href="class_show_radial_menu.html#a0f4688cf7c1acc0a7b42fdeedf103ebf">Hide</a>();</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    }</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
+<div class="line"><a name="l00058"></a><span class="lineno"><a class="line" href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">   58</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">OnControllerActionEnd</a>(EventArgs e)</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    {</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        <a class="code" href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">OnControllerActionEnd</a>(EventArgs.Empty);</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        GameObject radialMenuRoot = GameObject.Find(<span class="stringliteral">&quot;LeftControllerScriptAlias&quot;</span>).transform.GetChild(0).gameObject;</div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160; </div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;        radialMenuRoot.SetActive(<span class="keyword">false</span>);</div>
-<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;    }</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160; </div>
-<div class="line"><a name="l00069"></a><span class="lineno"><a class="line" href="class_controller_action.html#a0a10a69ea705c34bbce1654efe1dfa43">   69</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_controller_action.html#a0a10a69ea705c34bbce1654efe1dfa43">DoButtonTwoPressed</a>(<span class="keywordtype">object</span> sender, ControllerInteractionEventArgs e)</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;    {</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;        <span class="comment">// 关闭功能</span></div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="comment">//OnControllerActionEnd(EventArgs.Empty);</span></div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        GameObject radialMenuRoot = GameObject.Find(<span class="stringliteral">&quot;LeftControllerScriptAlias&quot;</span>).transform.GetChild(0).gameObject;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160; </div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        radialMenuRoot.SetActive(radialMenuRoot.activeSelf);</div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        <span class="keywordflow">if</span> (radialMenuRoot.activeSelf)</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;        {</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160; </div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;            VRTK_RadialMenu menuPanel = radialMenuRoot.transform.GetChild(0).GetChild(0).gameObject.GetComponent&lt;VRTK_RadialMenu&gt;();</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;            menuPanel.GetButton(2).OnHoverExit.RemoveAllListeners();</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;            menuPanel.GetButton(2).OnHoverExit.AddListener(<a class="code" href="class_controller_action.html#ad2b53d381e193da9d894b2955ec8b657">OnControllerActionEndButtonClicked</a>);</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;        }</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;    }</div>
-<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;}</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;        EventHandler handler = <a class="code" href="class_controller_action.html#a335e9ec9715ce53dd2be91e02c3d8ec0">ControllerActionEnd</a>;</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;        <span class="keywordflow">if</span> (handler != <span class="keyword">null</span>)</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;        {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;            handler(<span class="keyword">this</span>, e);</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;        }</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;    }</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160; </div>
+<div class="line"><a name="l00070"></a><span class="lineno"><a class="line" href="class_controller_action.html#ad2b53d381e193da9d894b2955ec8b657">   70</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_controller_action.html#ad2b53d381e193da9d894b2955ec8b657">OnControllerActionEndButtonClicked</a>()</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;    {</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;        <span class="comment">// 结束功能</span></div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;        <a class="code" href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">OnControllerActionEnd</a>(EventArgs.Empty);</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;        <span class="comment">// 隐藏菜单</span></div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;        <a class="code" href="class_show_radial_menu.html">ShowRadialMenu</a> radialMenu = GameObject.Find(<span class="stringliteral">&quot;LeftRadialMenu&quot;</span>).GetComponent&lt;<a class="code" href="class_show_radial_menu.html">ShowRadialMenu</a>&gt;();</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        radialMenu.<a class="code" href="class_show_radial_menu.html#a0f4688cf7c1acc0a7b42fdeedf103ebf">Hide</a>();</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;    }</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160; </div>
+<div class="line"><a name="l00082"></a><span class="lineno"><a class="line" href="class_controller_action.html#a0a10a69ea705c34bbce1654efe1dfa43">   82</a></span>&#160;    <span class="keyword">protected</span> <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="class_controller_action.html#a0a10a69ea705c34bbce1654efe1dfa43">DoButtonTwoPressed</a>(<span class="keywordtype">object</span> sender, ControllerInteractionEventArgs e)</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;    {</div>
+<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="comment">// 关闭功能</span></div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;        <span class="comment">//OnControllerActionEnd(EventArgs.Empty);</span></div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160; </div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;        <span class="comment">//GameObject radialMenuRoot = GameObject.Find(&quot;LeftControllerScriptAlias&quot;).transform.GetChild(0).gameObject;</span></div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160; </div>
+<div class="line"><a name="l00089"></a><span class="lineno">   89</span>&#160;        <span class="comment">//radialMenuRoot.SetActive(radialMenuRoot.activeSelf);</span></div>
+<div class="line"><a name="l00090"></a><span class="lineno">   90</span>&#160;        <span class="comment">//if (radialMenuRoot.activeSelf)</span></div>
+<div class="line"><a name="l00091"></a><span class="lineno">   91</span>&#160;        <span class="comment">//{</span></div>
+<div class="line"><a name="l00092"></a><span class="lineno">   92</span>&#160; </div>
+<div class="line"><a name="l00093"></a><span class="lineno">   93</span>&#160;        <span class="comment">//    VRTK_RadialMenu menuPanel = radialMenuRoot.transform.GetChild(0).GetChild(0).gameObject.GetComponent&lt;VRTK_RadialMenu&gt;();</span></div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;        <span class="comment">//    menuPanel.GetButton(2).OnHoverExit.RemoveAllListeners();</span></div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="comment">//    menuPanel.GetButton(2).OnHoverExit.AddListener(OnControllerActionEndButtonClicked);</span></div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;        <span class="comment">//}</span></div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160; </div>
+<div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;        <span class="comment">//menu.ShowMenu();</span></div>
+<div class="line"><a name="l00099"></a><span class="lineno">   99</span>&#160;    }</div>
+<div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;}</div>
 <div class="ttc" id="aclass_controller_action_html"><div class="ttname"><a href="class_controller_action.html">ControllerAction</a></div><div class="ttdoc">功能脚本抽象类，定义功能启动和关闭事件，用于统一管理</div><div class="ttdef"><b>Definition:</b> <a href="_controller_action_8cs_source.html#l00010">ControllerAction.cs:11</a></div></div>
-<div class="ttc" id="aclass_controller_action_html_a0a10a69ea705c34bbce1654efe1dfa43"><div class="ttname"><a href="class_controller_action.html#a0a10a69ea705c34bbce1654efe1dfa43">ControllerAction.DoButtonTwoPressed</a></div><div class="ttdeci">virtual void DoButtonTwoPressed(object sender, ControllerInteractionEventArgs e)</div><div class="ttdoc">手柄Menu按钮点击事件回调函数</div><div class="ttdef"><b>Definition:</b> <a href="_controller_action_8cs_source.html#l00069">ControllerAction.cs:69</a></div></div>
+<div class="ttc" id="aclass_controller_action_html_a0a10a69ea705c34bbce1654efe1dfa43"><div class="ttname"><a href="class_controller_action.html#a0a10a69ea705c34bbce1654efe1dfa43">ControllerAction.DoButtonTwoPressed</a></div><div class="ttdeci">virtual void DoButtonTwoPressed(object sender, ControllerInteractionEventArgs e)</div><div class="ttdoc">手柄Menu按钮点击事件回调函数</div><div class="ttdef"><b>Definition:</b> <a href="_controller_action_8cs_source.html#l00082">ControllerAction.cs:82</a></div></div>
 <div class="ttc" id="aclass_controller_action_html_a335e9ec9715ce53dd2be91e02c3d8ec0"><div class="ttname"><a href="class_controller_action.html#a335e9ec9715ce53dd2be91e02c3d8ec0">ControllerAction.ControllerActionEnd</a></div><div class="ttdeci">EventHandler ControllerActionEnd</div><div class="ttdoc">功能关闭事件</div><div class="ttdef"><b>Definition:</b> <a href="_controller_action_8cs_source.html#l00013">ControllerAction.cs:13</a></div></div>
-<div class="ttc" id="aclass_controller_action_html_a6555650db283b88f214b210a80783818"><div class="ttname"><a href="class_controller_action.html#a6555650db283b88f214b210a80783818">ControllerAction.OnControllerAtionStart</a></div><div class="ttdeci">virtual void OnControllerAtionStart(EventArgs e)</div><div class="ttdoc">功能开始的事件触发函数</div><div class="ttdef"><b>Definition:</b> <a href="_controller_action_8cs_source.html#l00036">ControllerAction.cs:36</a></div></div>
-<div class="ttc" id="aclass_controller_action_html_aa49bbe868d24d10ac2d3f0df2c615bc7"><div class="ttname"><a href="class_controller_action.html#aa49bbe868d24d10ac2d3f0df2c615bc7">ControllerAction.OnEnable</a></div><div class="ttdeci">virtual void OnEnable()</div><div class="ttdef"><b>Definition:</b> <a href="_controller_action_8cs_source.html#l00017">ControllerAction.cs:17</a></div></div>
-<div class="ttc" id="aclass_controller_action_html_acb0c2fdfd641ce634839e6ce52deddea"><div class="ttname"><a href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">ControllerAction.OnControllerActionEnd</a></div><div class="ttdeci">virtual void OnControllerActionEnd(EventArgs e)</div><div class="ttdoc">功能结束的事件触发函数</div><div class="ttdef"><b>Definition:</b> <a href="_controller_action_8cs_source.html#l00049">ControllerAction.cs:49</a></div></div>
-<div class="ttc" id="aclass_controller_action_html_ad2b53d381e193da9d894b2955ec8b657"><div class="ttname"><a href="class_controller_action.html#ad2b53d381e193da9d894b2955ec8b657">ControllerAction.OnControllerActionEndButtonClicked</a></div><div class="ttdeci">virtual void OnControllerActionEndButtonClicked()</div><div class="ttdef"><b>Definition:</b> <a href="_controller_action_8cs_source.html#l00058">ControllerAction.cs:58</a></div></div>
-<div class="ttc" id="aclass_controller_action_html_ae307971a4af89d4ccb7074bfe643d7d4"><div class="ttname"><a href="class_controller_action.html#ae307971a4af89d4ccb7074bfe643d7d4">ControllerAction.OnDisable</a></div><div class="ttdeci">virtual void OnDisable()</div><div class="ttdef"><b>Definition:</b> <a href="_controller_action_8cs_source.html#l00025">ControllerAction.cs:25</a></div></div>
+<div class="ttc" id="aclass_controller_action_html_a6555650db283b88f214b210a80783818"><div class="ttname"><a href="class_controller_action.html#a6555650db283b88f214b210a80783818">ControllerAction.OnControllerAtionStart</a></div><div class="ttdeci">virtual void OnControllerAtionStart(EventArgs e)</div><div class="ttdoc">功能开始的事件触发函数</div><div class="ttdef"><b>Definition:</b> <a href="_controller_action_8cs_source.html#l00039">ControllerAction.cs:39</a></div></div>
+<div class="ttc" id="aclass_controller_action_html_aa49bbe868d24d10ac2d3f0df2c615bc7"><div class="ttname"><a href="class_controller_action.html#aa49bbe868d24d10ac2d3f0df2c615bc7">ControllerAction.OnEnable</a></div><div class="ttdeci">virtual void OnEnable()</div><div class="ttdef"><b>Definition:</b> <a href="_controller_action_8cs_source.html#l00018">ControllerAction.cs:18</a></div></div>
+<div class="ttc" id="aclass_controller_action_html_acb0c2fdfd641ce634839e6ce52deddea"><div class="ttname"><a href="class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea">ControllerAction.OnControllerActionEnd</a></div><div class="ttdeci">virtual void OnControllerActionEnd(EventArgs e)</div><div class="ttdoc">功能结束的事件触发函数</div><div class="ttdef"><b>Definition:</b> <a href="_controller_action_8cs_source.html#l00058">ControllerAction.cs:58</a></div></div>
+<div class="ttc" id="aclass_controller_action_html_ad2b53d381e193da9d894b2955ec8b657"><div class="ttname"><a href="class_controller_action.html#ad2b53d381e193da9d894b2955ec8b657">ControllerAction.OnControllerActionEndButtonClicked</a></div><div class="ttdeci">virtual void OnControllerActionEndButtonClicked()</div><div class="ttdoc">径向菜单功能结束按钮触发函数</div><div class="ttdef"><b>Definition:</b> <a href="_controller_action_8cs_source.html#l00070">ControllerAction.cs:70</a></div></div>
+<div class="ttc" id="aclass_controller_action_html_ae307971a4af89d4ccb7074bfe643d7d4"><div class="ttname"><a href="class_controller_action.html#ae307971a4af89d4ccb7074bfe643d7d4">ControllerAction.OnDisable</a></div><div class="ttdeci">virtual void OnDisable()</div><div class="ttdef"><b>Definition:</b> <a href="_controller_action_8cs_source.html#l00026">ControllerAction.cs:26</a></div></div>
 <div class="ttc" id="aclass_controller_action_html_ae44944045c9edca97a20c1b80869e37b"><div class="ttname"><a href="class_controller_action.html#ae44944045c9edca97a20c1b80869e37b">ControllerAction.ControllerActionStart</a></div><div class="ttdeci">EventHandler ControllerActionStart</div><div class="ttdoc">功能启动事件</div><div class="ttdef"><b>Definition:</b> <a href="_controller_action_8cs_source.html#l00012">ControllerAction.cs:12</a></div></div>
 <div class="ttc" id="aclass_controller_action_html_af0986b059f6087f0232a6079d016ddfc"><div class="ttname"><a href="class_controller_action.html#af0986b059f6087f0232a6079d016ddfc">ControllerAction.conEvt</a></div><div class="ttdeci">VRTK_ControllerEvents conEvt</div><div class="ttdoc">手柄控制事件</div><div class="ttdef"><b>Definition:</b> <a href="_controller_action_8cs_source.html#l00015">ControllerAction.cs:15</a></div></div>
+<div class="ttc" id="aclass_show_radial_menu_html"><div class="ttname"><a href="class_show_radial_menu.html">ShowRadialMenu</a></div><div class="ttdoc">径向菜单显示控制类</div><div class="ttdef"><b>Definition:</b> <a href="_show_radial_menu_8cs_source.html#l00009">ShowRadialMenu.cs:10</a></div></div>
+<div class="ttc" id="aclass_show_radial_menu_html_a0f4688cf7c1acc0a7b42fdeedf103ebf"><div class="ttname"><a href="class_show_radial_menu.html#a0f4688cf7c1acc0a7b42fdeedf103ebf">ShowRadialMenu.Hide</a></div><div class="ttdeci">void Hide()</div><div class="ttdoc">隐藏菜单</div><div class="ttdef"><b>Definition:</b> <a href="_show_radial_menu_8cs_source.html#l00044">ShowRadialMenu.cs:44</a></div></div>
+<div class="ttc" id="aclass_show_radial_menu_html_af36d2d7f608b9d76044f7c7a800433bc"><div class="ttname"><a href="class_show_radial_menu.html#af36d2d7f608b9d76044f7c7a800433bc">ShowRadialMenu.menu</a></div><div class="ttdeci">VRTK_RadialMenu menu</div><div class="ttdoc">径向菜单</div><div class="ttdef"><b>Definition:</b> <a href="_show_radial_menu_8cs_source.html#l00012">ShowRadialMenu.cs:12</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>

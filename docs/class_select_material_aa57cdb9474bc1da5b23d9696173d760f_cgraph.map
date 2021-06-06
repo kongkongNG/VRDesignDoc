@@ -1,4 +1,7 @@
 <map id="SelectMaterial.OnSelectMaterialButtonClick" name="SelectMaterial.OnSelectMaterialButtonClick">
-<area shape="rect" id="node1" title="纹理贴图按钮点击时的触发函数" alt="" coords="6,5,181,41"/>
-<area shape="rect" id="node2" href="$class_controller_action.html#a6555650db283b88f214b210a80783818" title="功能开始的事件触发函数" alt="" coords="230,5,394,41"/>
+<area shape="rect" id="node1" title="纹理贴图按钮点击时的触发函数" alt="" coords="6,26,181,62"/>
+<area shape="rect" id="node2" href="$class_controller_action.html#a6555650db283b88f214b210a80783818" title="功能开始的事件触发函数" alt="" coords="230,26,394,62"/>
+<area shape="rect" id="node3" href="$class_show_radial_menu.html#a0f4688cf7c1acc0a7b42fdeedf103ebf" title="隐藏菜单" alt="" coords="675,5,803,29"/>
+<area shape="rect" id="node4" href="$class_controller_action.html#ad2b53d381e193da9d894b2955ec8b657" title="径向菜单功能结束按钮触发函数" alt="" coords="443,54,607,90"/>
+<area shape="rect" id="node5" href="$class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea" title="功能结束的事件触发函数" alt="" coords="657,54,821,90"/>
 </map>

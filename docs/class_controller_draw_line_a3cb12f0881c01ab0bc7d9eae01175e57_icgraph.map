@@ -1,5 +1,5 @@
 <map id="ControllerDrawLine.DoTriggerTouchEnd" name="ControllerDrawLine.DoTriggerTouchEnd">
-<area shape="rect" id="node1" title=" " alt="" coords="219,23,383,59"/>
+<area shape="rect" id="node1" title="手柄Trigger Touch End事件回调函数" alt="" coords="219,23,383,59"/>
 <area shape="rect" id="node2" href="$class_controller_draw_line.html#a84738834235bfc75c47213295a6499ba" title=" " alt="" coords="5,5,171,29"/>
 <area shape="rect" id="node3" href="$class_controller_draw_line.html#a87416fae37322e70e85ad6314dc252e2" title=" " alt="" coords="7,53,169,77"/>
 </map>

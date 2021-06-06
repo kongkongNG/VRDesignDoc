@@ -1,0 +1,6 @@
+<map id="SGArea.GetZYaxisOfArea" name="SGArea.GetZYaxisOfArea">
+<area shape="rect" id="node1" title="获取平面的x、y轴" alt="" coords="446,33,591,57"/>
+<area shape="rect" id="node2" href="$class_cuboid_creater.html#ae307c1685dca498e4f17489e0ab82934" title="手柄拉伸调整底面大小" alt="" coords="206,5,397,29"/>
+<area shape="rect" id="node3" href="$class_create_model_action.html#ac20b843fb2603c257c80e437fcd62240" title="调整中心位置" alt="" coords="225,54,377,90"/>
+<area shape="rect" id="node4" href="$class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="5,60,157,84"/>
+</map>

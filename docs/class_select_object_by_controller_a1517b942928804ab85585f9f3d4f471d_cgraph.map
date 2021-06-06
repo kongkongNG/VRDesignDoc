@@ -1,0 +1,4 @@
+<map id="SelectObjectByController.HasObjectUnSelected" name="SelectObjectByController.HasObjectUnSelected">
+<area shape="rect" id="node1" title="物体取消选取时触发的函数" alt="" coords="5,5,152,41"/>
+<area shape="rect" id="node2" href="$class_show_radial_menu.html#a0f4688cf7c1acc0a7b42fdeedf103ebf" title="隐藏菜单" alt="" coords="200,11,328,35"/>
+</map>

@@ -1,5 +1,5 @@
 <map id="Panel" name="Panel">
-<area shape="rect" id="node1" title=" " alt="" coords="20,126,132,231"/>
-<area shape="rect" id="node3" href="$class_menu_panel_manager.html" title=" " alt="" coords="42,293,157,387"/>
+<area shape="rect" id="node1" title="功能菜单的面板类" alt="" coords="20,125,132,243"/>
+<area shape="rect" id="node3" href="$class_menu_panel_manager.html" title="手柄功能菜单管理类" alt="" coords="42,304,157,397"/>
 <area shape="rect" id="node2" title=" " alt="" coords="89,5,185,75"/>
 </map>

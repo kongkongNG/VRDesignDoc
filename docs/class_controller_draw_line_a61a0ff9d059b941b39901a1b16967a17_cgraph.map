@@ -1,4 +1,7 @@
 <map id="ControllerDrawLine.OnControllerDrawLineButtonClick" name="ControllerDrawLine.OnControllerDrawLineButtonClick">
-<area shape="rect" id="node1" title="按钮点击时触发，打开功能" alt="" coords="5,5,184,41"/>
-<area shape="rect" id="node2" href="$class_controller_action.html#a6555650db283b88f214b210a80783818" title="功能开始的事件触发函数" alt="" coords="233,5,397,41"/>
+<area shape="rect" id="node1" title="按钮点击时触发，打开功能" alt="" coords="5,26,184,62"/>
+<area shape="rect" id="node2" href="$class_controller_action.html#a6555650db283b88f214b210a80783818" title="功能开始的事件触发函数" alt="" coords="233,26,397,62"/>
+<area shape="rect" id="node3" href="$class_show_radial_menu.html#a0f4688cf7c1acc0a7b42fdeedf103ebf" title="隐藏菜单" alt="" coords="677,5,805,29"/>
+<area shape="rect" id="node4" href="$class_controller_action.html#ad2b53d381e193da9d894b2955ec8b657" title="径向菜单功能结束按钮触发函数" alt="" coords="446,54,610,90"/>
+<area shape="rect" id="node5" href="$class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea" title="功能结束的事件触发函数" alt="" coords="659,54,823,90"/>
 </map>

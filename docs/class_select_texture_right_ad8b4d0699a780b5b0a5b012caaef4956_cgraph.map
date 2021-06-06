@@ -1,6 +1,0 @@
-<map id="SelectTextureRight.OnEnable" name="SelectTextureRight.OnEnable">
-<area shape="rect" id="node1" title=" " alt="" coords="6,41,170,65"/>
-<area shape="rect" id="node2" href="$class_select_texture_right.html#aa888aa8850d9a7d366ded44e6cb37bd3" title="手柄UI射线按钮激活时的行为" alt="" coords="219,5,397,41"/>
-<area shape="rect" id="node4" href="$class_select_texture_right.html#ad3bc7ffc0326366024e6921d0a238768" title="手柄UI射线按钮松开时的行为" alt="" coords="219,65,397,101"/>
-<area shape="rect" id="node3" href="$class_select_texture_right.html#aacbe3929cf0b8c668be37d3154caca92" title="UI指针指向元素时触发的回调函数" alt="" coords="445,35,608,71"/>
-</map>

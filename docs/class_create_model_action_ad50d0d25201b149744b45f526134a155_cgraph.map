@@ -1,5 +1,5 @@
 <map id="CreateModelAction.UpdateHeight" name="CreateModelAction.UpdateHeight">
 <area shape="rect" id="node1" title="调整高度" alt="" coords="5,5,157,41"/>
-<area shape="rect" id="node2" href="$class_model_creater.html#a476834cafa26340df374a4f9fc907ee0" title=" " alt="" coords="206,11,365,35"/>
-<area shape="rect" id="node3" href="$class_model_creater.html#ae44228eb795d65a3edb301b8148c5a43" title=" " alt="" coords="413,5,576,41"/>
+<area shape="rect" id="node2" href="$class_model_creater.html#a476834cafa26340df374a4f9fc907ee0" title="拉伸模型框架" alt="" coords="206,11,365,35"/>
+<area shape="rect" id="node3" href="$class_model_creater.html#ae44228eb795d65a3edb301b8148c5a43" title="创建用于展示实体拉伸的模型框架" alt="" coords="413,5,576,41"/>
 </map>

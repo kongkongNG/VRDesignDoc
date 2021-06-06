@@ -1,11 +1,11 @@
 <map id="ColorPicker.OnDisable" name="ColorPicker.OnDisable">
 <area shape="rect" id="node1" title=" " alt="" coords="6,132,133,156"/>
-<area shape="rect" id="node2" href="$class_color_picker.html#a3c30f1e9b59c992eb9def8cb7d6d8e30" title="手柄Trigger Clicked事件回调函数" alt="" coords="195,47,354,83"/>
+<area shape="rect" id="node2" href="$class_color_picker.html#a3c30f1e9b59c992eb9def8cb7d6d8e30" title="手柄Touchpad Axis Changed事件回调函数" alt="" coords="195,47,354,83"/>
 <area shape="rect" id="node6" href="$class_color_picker.html#ad0290ea768d7b2783fda9ea7b00487f5" title="手柄Touchpad Press事件回调函数" alt="" coords="186,108,363,132"/>
 <area shape="rect" id="node7" href="$class_color_picker.html#aabe23c4372050d404a0b02c6bd77e973" title="手柄Touchpad Touch End事件回调函数" alt="" coords="181,156,368,180"/>
 <area shape="rect" id="node9" href="$class_color_picker.html#aee45e04430985d01bc54eff4db959979" title="手柄Touchpad Touch Start事件回调函数" alt="" coords="191,205,359,241"/>
 <area shape="rect" id="node3" href="$class_color_picker.html#afd3471da1bf105145548a9cc84d9a4a1" title="根据axis和angle调整Hue和Saturation" alt="" coords="417,5,602,29"/>
 <area shape="rect" id="node4" href="$class_color_picker.html#a7f2142ba8812308106ed12b4ff33f2c6" title="将手指在Touchpad上的坐标映射为Value" alt="" coords="438,53,581,77"/>
-<area shape="rect" id="node5" href="$class_color_picker.html#a10c70ed140f4018ce89910aa064bb5aa" title="更新色盘颜色" alt="" coords="425,101,594,125"/>
+<area shape="rect" id="node5" href="$class_color_picker.html#a10c70ed140f4018ce89910aa064bb5aa" title="更新选取色图片的颜色" alt="" coords="425,101,594,125"/>
 <area shape="rect" id="node8" href="$class_color_picker.html#a87fdac0b22f6937a5ad8a4dbf2558a07" title="更新物体颜色" alt="" coords="431,156,587,180"/>
 </map>

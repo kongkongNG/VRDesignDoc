@@ -1,5 +1,5 @@
 <map id="SGModel.ShowAreas" name="SGModel.ShowAreas">
-<area shape="rect" id="node1" title="生成模型物体的所有面" alt="" coords="6,129,127,153"/>
+<area shape="rect" id="node1" title="添加必要的脚本使物体可以被选取" alt="" coords="6,129,127,153"/>
 <area shape="rect" id="node2" href="$class_s_g_model.html#aaa49ec0fbd1e661ccc21599b5294c003" title=" " alt="" coords="187,5,349,29"/>
 <area shape="rect" id="node3" href="$class_s_g_model.html#a439f56b890255a9641758b3cf8a8c6e7" title=" " alt="" coords="177,53,359,77"/>
 <area shape="rect" id="node4" href="$class_s_g_model.html#a5e0faf8bacf280c25a02d3d5bdaa4ae4" title=" " alt="" coords="197,101,339,125"/>

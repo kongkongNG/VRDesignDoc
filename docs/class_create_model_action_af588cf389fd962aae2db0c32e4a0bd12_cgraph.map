@@ -1,7 +1,6 @@
 <map id="CreateModelAction.OnDisable" name="CreateModelAction.OnDisable">
-<area shape="rect" id="node1" title=" " alt="" coords="5,39,171,63"/>
-<area shape="rect" id="node2" href="$class_create_model_action.html#a50127e4aecaae35d4156a995805c2a2d" title="Trigger Clicked事件回调函数" alt="" coords="219,5,383,41"/>
-<area shape="rect" id="node4" href="$class_s_g_model.html#a3a9030f819ba6524b4f7f73417223357" title=" " alt="" coords="221,65,381,89"/>
-<area shape="rect" id="node3" href="$class_model_creater.html#a09719d6f89417bcb6992b59ec2401496" title="创建底面轮廓" alt="" coords="444,11,607,35"/>
-<area shape="rect" id="node5" href="$class_s_g_model.html#aa7254edc8c125f3eabd35dfdd61f8a62" title="添加必要的脚本使物体可以被选取" alt="" coords="432,65,619,89"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,71,171,95"/>
+<area shape="rect" id="node2" href="$class_create_model_action.html#ad65b7144a3b66b7f7061e457bab4f6a0" title="手柄Grip Unclicked事件" alt="" coords="227,5,376,41"/>
+<area shape="rect" id="node3" href="$class_create_model_action.html#a50127e4aecaae35d4156a995805c2a2d" title="Trigger Clicked事件回调函数" alt="" coords="219,65,383,101"/>
+<area shape="rect" id="node4" href="$class_s_g_model.html#a3a9030f819ba6524b4f7f73417223357" title="设置模型面可被选取" alt="" coords="221,125,381,149"/>
 </map>

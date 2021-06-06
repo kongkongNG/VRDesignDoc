@@ -1,4 +1,4 @@
 <map id="CuboidCreater.sguChangeRectangleParameters" name="CuboidCreater.sguChangeRectangleParameters">
 <area shape="rect" id="node1" title=" " alt="" coords="246,5,445,41"/>
-<area shape="rect" id="node2" href="$class_cuboid_creater.html#ae307c1685dca498e4f17489e0ab82934" title="根据手柄拉伸出模型实体" alt="" coords="6,11,197,35"/>
+<area shape="rect" id="node2" href="$class_cuboid_creater.html#ae307c1685dca498e4f17489e0ab82934" title="手柄拉伸调整底面大小" alt="" coords="6,11,197,35"/>
 </map>

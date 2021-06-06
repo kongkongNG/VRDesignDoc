@@ -1,12 +1,15 @@
 <map id="SGModel.sguGetEdgeRegionMarkB" name="SGModel.sguGetEdgeRegionMarkB">
-<area shape="rect" id="node1" title=" " alt="" coords="987,97,1146,133"/>
-<area shape="rect" id="node2" href="$class_s_g_model.html#a3b378bbddf0da0b096cd511e03e1a0f2" title="绘制边" alt="" coords="816,103,939,127"/>
-<area shape="rect" id="node3" href="$class_c_s_g_action.html#a11058e1b35a63714a0175c176b0f09a0" title=" " alt="" coords="411,77,589,101"/>
-<area shape="rect" id="node9" href="$class_s_g_model.html#a4a89743e49ca63738504dfc074aa7143" title="物体模型创建完成后，添加必要的脚本或属性，只在最初创建时使用" alt="" coords="638,127,767,151"/>
-<area shape="rect" id="node4" href="$class_c_s_g_action.html#acc1987c34c0fa972d136392636007776" title=" " alt="" coords="206,29,362,53"/>
-<area shape="rect" id="node7" href="$class_create_model_action.html#a39cda7da56c8e258bcbeb871d124b9b5" title=" " alt="" coords="210,77,358,101"/>
-<area shape="rect" id="node5" href="$class_c_s_g_action.html#a2aa9c4008276ab1def9c8610b29fd04d" title=" " alt="" coords="19,5,143,29"/>
-<area shape="rect" id="node6" href="$class_c_s_g_action.html#aa1740f63137b627c081c43467cfcb20e" title=" " alt="" coords="20,53,143,77"/>
-<area shape="rect" id="node8" href="$class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="5,101,157,125"/>
-<area shape="rect" id="node10" href="$class_model_creater.html#aea3b5c7bc8c08da5f231314bdada531a" title=" " alt="" coords="423,127,577,151"/>
+<area shape="rect" id="node1" title=" " alt="" coords="809,95,967,131"/>
+<area shape="rect" id="node2" href="$class_s_g_model.html#a3b378bbddf0da0b096cd511e03e1a0f2" title="生成边" alt="" coords="637,101,760,125"/>
+<area shape="rect" id="node3" href="$class_fillet_edge_action.html#a71c8e038e22ab022e734ca8f8f3497d7" title="手柄Grip Released事件回调函数" alt="" coords="411,53,589,77"/>
+<area shape="rect" id="node6" href="$class_model_creater.html#a377501afba1778934b2749513fc0e8bf" title="根据确定的实体高度拉伸出实体" alt="" coords="435,101,565,125"/>
+<area shape="rect" id="node9" href="$class_c_s_g_action.html#a2a3cf3c3481f922326f96aac0a970c4c" title="执行布尔运算" alt="" coords="411,149,589,173"/>
+<area shape="rect" id="node4" href="$class_fillet_edge_action.html#a5a3b22988088d8394540c2df66438d2b" title=" " alt="" coords="209,5,359,29"/>
+<area shape="rect" id="node5" href="$class_fillet_edge_action.html#a78dd18ec2e607db891ba20f4f8fc591a" title=" " alt="" coords="210,53,358,77"/>
+<area shape="rect" id="node7" href="$class_model_creater.html#a7422ed67f3c5487cd6ece5fda2c992b2" title="根据向量拉伸实体高度" alt="" coords="219,101,349,125"/>
+<area shape="rect" id="node8" href="$class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="5,113,157,137"/>
+<area shape="rect" id="node10" href="$class_c_s_g_action.html#acc1987c34c0fa972d136392636007776" title="手柄Trigger Clicked事件回调函数" alt="" coords="206,197,362,221"/>
+<area shape="rect" id="node13" href="$class_create_model_action.html#a39cda7da56c8e258bcbeb871d124b9b5" title="打孔操作" alt="" coords="210,149,358,173"/>
+<area shape="rect" id="node11" href="$class_c_s_g_action.html#a2aa9c4008276ab1def9c8610b29fd04d" title=" " alt="" coords="19,173,143,197"/>
+<area shape="rect" id="node12" href="$class_c_s_g_action.html#aa1740f63137b627c081c43467cfcb20e" title=" " alt="" coords="20,221,143,245"/>
 </map>

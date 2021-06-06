@@ -1,0 +1,4 @@
+<map id="CreateModelAction.UpdateContourCenter" name="CreateModelAction.UpdateContourCenter">
+<area shape="rect" id="node1" title="调整中心位置" alt="" coords="5,5,157,41"/>
+<area shape="rect" id="node2" href="$class_s_g_area.html#a8a34ddb34f3a1e07a54054a7a571302d" title="获取平面的x、y轴" alt="" coords="206,11,351,35"/>
+</map>

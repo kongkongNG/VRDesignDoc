@@ -1,10 +1,18 @@
 <map id="SGModel.ShowEdges" name="SGModel.ShowEdges">
-<area shape="rect" id="node1" title="绘制边" alt="" coords="5,168,128,192"/>
-<area shape="rect" id="node2" href="$class_s_g_model.html#ab48c0cb9b6cdfc58e0fb07da7ab85e3f" title=" " alt="" coords="224,5,307,29"/>
-<area shape="rect" id="node3" href="$class_s_g_model.html#ab34f08f5b565b36f0798ebb1c062cf07" title=" " alt="" coords="177,53,354,77"/>
-<area shape="rect" id="node4" href="$class_s_g_model.html#a9177d97615b955b278dca48606bc3a71" title=" " alt="" coords="186,102,345,138"/>
-<area shape="rect" id="node5" href="$class_s_g_model.html#ae14a7b14c2844a4343b9821f86fd0704" title=" " alt="" coords="186,162,345,198"/>
-<area shape="rect" id="node6" href="$class_s_g_model.html#a9772af8964a1f8013f345a75008372d3" title=" " alt="" coords="181,223,349,247"/>
-<area shape="rect" id="node7" href="$class_s_g_model.html#a1b121c44eaa95fed659355b5fb31469b" title=" " alt="" coords="176,271,355,295"/>
-<area shape="rect" id="node8" href="$class_s_g_model.html#ad9c224ddcd0c2bbc8676d3caa3a67e59" title=" " alt="" coords="187,319,343,343"/>
+<area shape="rect" id="node1" title="生成边" alt="" coords="5,319,128,343"/>
+<area shape="rect" id="node2" href="$class_s_g_model.html#ab48c0cb9b6cdfc58e0fb07da7ab85e3f" title="初始化" alt="" coords="224,156,307,180"/>
+<area shape="rect" id="node11" href="$class_s_g_model.html#ab34f08f5b565b36f0798ebb1c062cf07" title=" " alt="" coords="177,204,354,228"/>
+<area shape="rect" id="node12" href="$class_s_g_model.html#a9177d97615b955b278dca48606bc3a71" title=" " alt="" coords="186,253,345,289"/>
+<area shape="rect" id="node13" href="$class_s_g_model.html#ae14a7b14c2844a4343b9821f86fd0704" title=" " alt="" coords="186,313,345,349"/>
+<area shape="rect" id="node14" href="$class_s_g_model.html#a9772af8964a1f8013f345a75008372d3" title=" " alt="" coords="181,373,349,397"/>
+<area shape="rect" id="node15" href="$class_s_g_model.html#a1b121c44eaa95fed659355b5fb31469b" title=" " alt="" coords="176,421,355,445"/>
+<area shape="rect" id="node16" href="$class_s_g_model.html#ad9c224ddcd0c2bbc8676d3caa3a67e59" title=" " alt="" coords="187,469,343,493"/>
+<area shape="rect" id="node3" href="$class_s_g_model.html#a3c72db799c02aa22203ce9ae11d882ad" title="根据输入生成模型整体网格" alt="" coords="403,156,554,180"/>
+<area shape="rect" id="node4" href="$class_s_g_model.html#a0b0bbacedd361329eb2e4b5cb7c190cb" title=" " alt="" coords="621,5,755,29"/>
+<area shape="rect" id="node5" href="$class_s_g_model.html#af3e92ce70e1d2c6fb7e068f86df8636f" title=" " alt="" coords="609,53,767,77"/>
+<area shape="rect" id="node6" href="$class_s_g_model.html#af3facf26d447eec8fca2be6c6e1bfebd" title=" " alt="" coords="605,101,771,125"/>
+<area shape="rect" id="node7" href="$class_s_g_model.html#a4af667d1987ec93968887932e3e82403" title=" " alt="" coords="603,150,773,186"/>
+<area shape="rect" id="node8" href="$class_s_g_model.html#ad838e6b15c572ccf8e3e21c8f6e5129b" title=" " alt="" coords="615,211,761,235"/>
+<area shape="rect" id="node9" href="$class_s_g_model.html#aecefb0b61a3bedb496f7734df203396b" title=" " alt="" coords="603,259,773,283"/>
+<area shape="rect" id="node10" href="$class_s_g_model.html#a6deb74ab107c3455cff8d08c6ac22714" title=" " alt="" coords="613,307,763,331"/>
 </map>

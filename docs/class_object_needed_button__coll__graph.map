@@ -1,4 +1,4 @@
 <map id="ObjectNeededButton" name="ObjectNeededButton">
-<area shape="rect" id="node1" title=" " alt="" coords="5,123,128,216"/>
+<area shape="rect" id="node1" title="需要选取操作对象的按钮约束类 选取操作对象才能使用按钮" alt="" coords="5,123,128,216"/>
 <area shape="rect" id="node2" title=" " alt="" coords="19,5,115,75"/>
 </map>

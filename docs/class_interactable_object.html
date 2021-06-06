@@ -44,18 +44,20 @@ $(function() {
 <a href="#pub-attribs">Public 属性</a> &#124;
 <a href="#pro-methods">Protected 成员函数</a> &#124;
 <a href="#pri-methods">Private 成员函数</a> &#124;
-<a href="#pri-attribs">Private 属性</a> &#124;
 <a href="class_interactable_object-members.html">所有成员列表</a>  </div>
   <div class="headertitle">
 <div class="title">InteractableObject类 参考</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>可交互物体类 继承VRTK_InteractableObject  
+ <a href="class_interactable_object.html#details">更多...</a></p>
 <div class="dynheader">
 类 InteractableObject 继承关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_interactable_object__inherit__graph.png" border="0" usemap="#a_interactable_object_inherit__map" alt="Inheritance graph"/></div>
 <map name="a_interactable_object_inherit__map" id="a_interactable_object_inherit__map">
-<area shape="rect" title=" " alt="" coords="9,123,145,253"/>
+<area shape="rect" title="可交互物体类 继承VRTK_InteractableObject" alt="" coords="9,123,145,216"/>
 <area shape="rect" title=" " alt="" coords="5,5,149,75"/>
 </map>
 </div>
@@ -64,7 +66,7 @@ InteractableObject 的协作图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_interactable_object__coll__graph.png" border="0" usemap="#a_interactable_object_coll__map" alt="Collaboration graph"/></div>
 <map name="a_interactable_object_coll__map" id="a_interactable_object_coll__map">
-<area shape="rect" title=" " alt="" coords="9,123,145,253"/>
+<area shape="rect" title="可交互物体类 继承VRTK_InteractableObject" alt="" coords="9,123,145,216"/>
 <area shape="rect" title=" " alt="" coords="5,5,149,75"/>
 </map>
 </div>
@@ -72,6 +74,7 @@ InteractableObject 的协作图:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public 属性</h2></td></tr>
 <tr class="memitem:a8e35ab1fd914137b268bfacc3170d38b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interactable_object.html#a8e35ab1fd914137b268bfacc3170d38b">isSelected</a></td></tr>
+<tr class="memdesc:a8e35ab1fd914137b268bfacc3170d38b"><td class="mdescLeft">&#160;</td><td class="mdescRight">是否被选取  <a href="class_interactable_object.html#a8e35ab1fd914137b268bfacc3170d38b">更多...</a><br /></td></tr>
 <tr class="separator:a8e35ab1fd914137b268bfacc3170d38b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
@@ -82,22 +85,16 @@ Protected 成员函数</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private 成员函数</h2></td></tr>
 <tr class="memitem:ab7e09ddd6cd669dfd0ed6dfa03642df8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interactable_object.html#ab7e09ddd6cd669dfd0ed6dfa03642df8">DoObjectTouched</a> (object sender, InteractableObjectEventArgs e)</td></tr>
+<tr class="memdesc:ab7e09ddd6cd669dfd0ed6dfa03642df8"><td class="mdescLeft">&#160;</td><td class="mdescRight">物体被手柄触碰事件回调函数  <a href="class_interactable_object.html#ab7e09ddd6cd669dfd0ed6dfa03642df8">更多...</a><br /></td></tr>
 <tr class="separator:ab7e09ddd6cd669dfd0ed6dfa03642df8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2821882a6b5145695da575ea76d6d945"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interactable_object.html#a2821882a6b5145695da575ea76d6d945">DoObjectUnTouched</a> (object sender, InteractableObjectEventArgs e)</td></tr>
+<tr class="memdesc:a2821882a6b5145695da575ea76d6d945"><td class="mdescLeft">&#160;</td><td class="mdescRight">手柄离开物体事件回调函数  <a href="class_interactable_object.html#a2821882a6b5145695da575ea76d6d945">更多...</a><br /></td></tr>
 <tr class="separator:a2821882a6b5145695da575ea76d6d945"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0f28851463460f6c8e1d42c8f618f6d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interactable_object.html#ab0f28851463460f6c8e1d42c8f618f6d">DoObjectUngrabbed</a> (object sender, InteractableObjectEventArgs e)</td></tr>
-<tr class="separator:ab0f28851463460f6c8e1d42c8f618f6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private 属性</h2></td></tr>
-<tr class="memitem:a596ce9db3fffeffe3817841272e70794"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interactable_object.html#a596ce9db3fffeffe3817841272e70794">originPos</a></td></tr>
-<tr class="separator:a596ce9db3fffeffe3817841272e70794"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa802d991ec1ba23ecdea7e0c347d211d"><td class="memItemLeft" align="right" valign="top">Quaternion&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_interactable_object.html#aa802d991ec1ba23ecdea7e0c347d211d">originRotation</a></td></tr>
-<tr class="separator:aa802d991ec1ba23ecdea7e0c347d211d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
-<div class="textblock">
-<p class="definition">在文件 <a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a> 第 <a class="el" href="_interactable_object_8cs_source.html#l00006">6</a> 行定义.</p>
+<div class="textblock"><p>可交互物体类 继承VRTK_InteractableObject </p>
+
+<p class="definition">在文件 <a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a> 第 <a class="el" href="_interactable_object_8cs_source.html#l00010">10</a> 行定义.</p>
 </div><h2 class="groupheader">成员函数说明</h2>
 <a id="a1e05494582fcc6a697c86f10d00073dc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1e05494582fcc6a697c86f10d00073dc">&#9670;&nbsp;</a></span>Awake()</h2>
@@ -122,16 +119,15 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a> 第 <a class="el" href="_interactable_object_8cs_source.html#l00013">13</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a> 第 <a class="el" href="_interactable_object_8cs_source.html#l00014">14</a> 行定义.</p>
 <div class="dynheader">
 函数调用图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_interactable_object_a1e05494582fcc6a697c86f10d00073dc_cgraph.png" border="0" usemap="#aclass_interactable_object_a1e05494582fcc6a697c86f10d00073dc_cgraph" alt=""/></div>
 <map name="aclass_interactable_object_a1e05494582fcc6a697c86f10d00073dc_cgraph" id="aclass_interactable_object_a1e05494582fcc6a697c86f10d00073dc_cgraph">
-<area shape="rect" title=" " alt="" coords="5,71,155,95"/>
-<area shape="rect" href="class_interactable_object.html#ab7e09ddd6cd669dfd0ed6dfa03642df8" title=" " alt="" coords="203,5,365,41"/>
-<area shape="rect" href="class_interactable_object.html#ab0f28851463460f6c8e1d42c8f618f6d" title=" " alt="" coords="203,65,365,101"/>
-<area shape="rect" href="class_interactable_object.html#a2821882a6b5145695da575ea76d6d945" title=" " alt="" coords="203,125,365,161"/>
+<area shape="rect" title=" " alt="" coords="5,41,155,65"/>
+<area shape="rect" href="class_interactable_object.html#ab7e09ddd6cd669dfd0ed6dfa03642df8" title="物体被手柄触碰事件回调函数" alt="" coords="203,5,365,41"/>
+<area shape="rect" href="class_interactable_object.html#a2821882a6b5145695da575ea76d6d945" title="手柄离开物体事件回调函数" alt="" coords="203,65,365,101"/>
 </map>
 </div>
 
@@ -171,60 +167,16 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a> 第 <a class="el" href="_interactable_object_8cs_source.html#l00023">23</a> 行定义.</p>
+<p>物体被手柄触碰事件回调函数 </p>
+<p>高亮触碰的模型/面/边 </p>
+
+<p class="definition">在文件 <a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a> 第 <a class="el" href="_interactable_object_8cs_source.html#l00025">25</a> 行定义.</p>
 <div class="dynheader">
 这是这个函数的调用关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_interactable_object_ab7e09ddd6cd669dfd0ed6dfa03642df8_icgraph.png" border="0" usemap="#aclass_interactable_object_ab7e09ddd6cd669dfd0ed6dfa03642df8_icgraph" alt=""/></div>
 <map name="aclass_interactable_object_ab7e09ddd6cd669dfd0ed6dfa03642df8_icgraph" id="aclass_interactable_object_ab7e09ddd6cd669dfd0ed6dfa03642df8_icgraph">
-<area shape="rect" title=" " alt="" coords="203,5,365,41"/>
-<area shape="rect" href="class_interactable_object.html#a1e05494582fcc6a697c86f10d00073dc" title=" " alt="" coords="5,11,155,35"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="ab0f28851463460f6c8e1d42c8f618f6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0f28851463460f6c8e1d42c8f618f6d">&#9670;&nbsp;</a></span>DoObjectUngrabbed()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void InteractableObject.DoObjectUngrabbed </td>
-          <td>(</td>
-          <td class="paramtype">object&#160;</td>
-          <td class="paramname"><em>sender</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">InteractableObjectEventArgs&#160;</td>
-          <td class="paramname"><em>e</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">在文件 <a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a> 第 <a class="el" href="_interactable_object_8cs_source.html#l00049">49</a> 行定义.</p>
-<div class="dynheader">
-这是这个函数的调用关系图:</div>
-<div class="dyncontent">
-<div class="center"><img src="class_interactable_object_ab0f28851463460f6c8e1d42c8f618f6d_icgraph.png" border="0" usemap="#aclass_interactable_object_ab0f28851463460f6c8e1d42c8f618f6d_icgraph" alt=""/></div>
-<map name="aclass_interactable_object_ab0f28851463460f6c8e1d42c8f618f6d_icgraph" id="aclass_interactable_object_ab0f28851463460f6c8e1d42c8f618f6d_icgraph">
-<area shape="rect" title=" " alt="" coords="203,5,365,41"/>
+<area shape="rect" title="物体被手柄触碰事件回调函数" alt="" coords="203,5,365,41"/>
 <area shape="rect" href="class_interactable_object.html#a1e05494582fcc6a697c86f10d00073dc" title=" " alt="" coords="5,11,155,35"/>
 </map>
 </div>
@@ -265,13 +217,16 @@ Private 属性</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a> 第 <a class="el" href="_interactable_object_8cs_source.html#l00035">35</a> 行定义.</p>
+<p>手柄离开物体事件回调函数 </p>
+<p>将未被选择的对象取消高亮 </p>
+
+<p class="definition">在文件 <a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a> 第 <a class="el" href="_interactable_object_8cs_source.html#l00049">49</a> 行定义.</p>
 <div class="dynheader">
 这是这个函数的调用关系图:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_interactable_object_a2821882a6b5145695da575ea76d6d945_icgraph.png" border="0" usemap="#aclass_interactable_object_a2821882a6b5145695da575ea76d6d945_icgraph" alt=""/></div>
 <map name="aclass_interactable_object_a2821882a6b5145695da575ea76d6d945_icgraph" id="aclass_interactable_object_a2821882a6b5145695da575ea76d6d945_icgraph">
-<area shape="rect" title=" " alt="" coords="203,5,365,41"/>
+<area shape="rect" title="手柄离开物体事件回调函数" alt="" coords="203,5,365,41"/>
 <area shape="rect" href="class_interactable_object.html#a1e05494582fcc6a697c86f10d00073dc" title=" " alt="" coords="5,11,155,35"/>
 </map>
 </div>
@@ -291,60 +246,14 @@ Private 属性</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">在文件 <a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a> 第 <a class="el" href="_interactable_object_8cs_source.html#l00008">8</a> 行定义.</p>
+<p>是否被选取 </p>
 
-</div>
-</div>
-<a id="a596ce9db3fffeffe3817841272e70794"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a596ce9db3fffeffe3817841272e70794">&#9670;&nbsp;</a></span>originPos</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vector3 InteractableObject.originPos</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">在文件 <a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a> 第 <a class="el" href="_interactable_object_8cs_source.html#l00009">9</a> 行定义.</p>
-
-</div>
-</div>
-<a id="aa802d991ec1ba23ecdea7e0c347d211d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa802d991ec1ba23ecdea7e0c347d211d">&#9670;&nbsp;</a></span>originRotation</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Quaternion InteractableObject.originRotation</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">在文件 <a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a> 第 <a class="el" href="_interactable_object_8cs_source.html#l00010">10</a> 行定义.</p>
+<p class="definition">在文件 <a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a> 第 <a class="el" href="_interactable_object_8cs_source.html#l00012">12</a> 行定义.</p>
 
 </div>
 </div>
 <hr/>该类的文档由以下文件生成:<ul>
-<li>Y:/Coding/Unity/VRDesignProject/Assets/Scripts/Interaction/<a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a></li>
+<li>Y:/Coding/Unity/VRDesignProject/Assets/Scripts/Control/<a class="el" href="_interactable_object_8cs_source.html">InteractableObject.cs</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

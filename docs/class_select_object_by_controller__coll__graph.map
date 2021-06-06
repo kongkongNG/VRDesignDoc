@@ -1,6 +1,6 @@
 <map id="SelectObjectByController" name="SelectObjectByController">
-<area shape="rect" id="node1" title=" " alt="" coords="27,629,201,843"/>
+<area shape="rect" id="node1" title="模型选取类" alt="" coords="58,329,237,554"/>
 <area shape="rect" id="node2" href="$class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,125,179,267"/>
-<area shape="rect" id="node4" href="$class_transform_edit_action.html" title=" " alt="" coords="114,318,264,567"/>
-<area shape="rect" id="node3" title=" " alt="" coords="44,5,140,75"/>
+<area shape="rect" id="node3" title=" " alt="" coords="153,5,249,75"/>
+<area shape="rect" id="node4" href="$class_show_radial_menu.html" title="径向菜单显示控制类" alt="" coords="204,137,348,255"/>
 </map>

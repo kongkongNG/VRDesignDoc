@@ -1,0 +1,4 @@
+<map id="SGModel.HideAreasOutline" name="SGModel.HideAreasOutline">
+<area shape="rect" id="node1" title="隐藏模型面的边框高亮" alt="" coords="203,5,354,29"/>
+<area shape="rect" id="node2" href="$class_fillet_edge_action.html#a78dd18ec2e607db891ba20f4f8fc591a" title=" " alt="" coords="6,5,154,29"/>
+</map>

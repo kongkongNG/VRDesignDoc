@@ -1,6 +1,6 @@
 <map id="PanelGrid.GetItemIdx" name="PanelGrid.GetItemIdx">
-<area shape="rect" id="node1" title=" " alt="" coords="417,175,543,199"/>
-<area shape="rect" id="node2" href="$class_drilling_action.html#a1db8c15f46eef695c297184d66581216" title=" " alt="" coords="214,47,349,83"/>
+<area shape="rect" id="node1" title="获取条目下标" alt="" coords="417,175,543,199"/>
+<area shape="rect" id="node2" href="$class_drilling_action.html#a1db8c15f46eef695c297184d66581216" title="手柄Trigger Clicked事件回调函数" alt="" coords="214,47,349,83"/>
 <area shape="rect" id="node5" href="$class_select_icon.html#aa220f1b488fe0984db1148f293a58854" title="手柄Trigger Clicked事件回调函数" alt="" coords="203,147,359,171"/>
 <area shape="rect" id="node8" href="$class_select_material.html#aad6be47de30b6a38ef05a7be78188e0d" title="手柄Trigger Clicked事件回调函数" alt="" coords="211,195,351,231"/>
 <area shape="rect" id="node11" href="$class_select_texture.html#a155c149e32fcc8180900b6dba5b04855" title="手柄Trigger Clicked事件回调函数" alt="" coords="195,293,368,317"/>

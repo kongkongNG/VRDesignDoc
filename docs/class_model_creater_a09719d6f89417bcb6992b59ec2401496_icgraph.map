@@ -1,8 +1,5 @@
 <map id="ModelCreater.CreateContour" name="ModelCreater.CreateContour">
-<area shape="rect" id="node1" title="创建底面轮廓" alt="" coords="829,29,992,53"/>
-<area shape="rect" id="node2" href="$class_create_model_action.html#a50127e4aecaae35d4156a995805c2a2d" title="Trigger Clicked事件回调函数" alt="" coords="617,23,781,59"/>
-<area shape="rect" id="node3" href="$class_create_model_action.html#af588cf389fd962aae2db0c32e4a0bd12" title=" " alt="" coords="403,5,568,29"/>
-<area shape="rect" id="node6" href="$class_create_model_action.html#ac42a81c6fbd87c5e7762707e981619f0" title=" " alt="" coords="404,53,567,77"/>
-<area shape="rect" id="node4" href="$class_create_model_action.html#a39cda7da56c8e258bcbeb871d124b9b5" title=" " alt="" coords="206,5,354,29"/>
-<area shape="rect" id="node5" href="$class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="5,5,157,29"/>
+<area shape="rect" id="node1" title="创建底面轮廓" alt="" coords="421,5,584,29"/>
+<area shape="rect" id="node2" href="$class_create_model_action.html#acfff511a5314778412e6bb1d0891a78b" title="预创建" alt="" coords="206,5,373,29"/>
+<area shape="rect" id="node3" href="$class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="5,5,157,29"/>
 </map>

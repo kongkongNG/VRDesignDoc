@@ -1,6 +1,6 @@
 <map id="ControllerDrawLine.SetLinePos" name="ControllerDrawLine.SetLinePos">
 <area shape="rect" id="node1" title="为当前线条添加顶点" alt="" coords="433,57,602,81"/>
-<area shape="rect" id="node2" href="$class_controller_draw_line.html#a084ef0336d8540b12872409a7c79d6a7" title=" " alt="" coords="219,23,383,59"/>
+<area shape="rect" id="node2" href="$class_controller_draw_line.html#a084ef0336d8540b12872409a7c79d6a7" title="手柄Trigger Touch Start事件回调函数" alt="" coords="219,23,383,59"/>
 <area shape="rect" id="node5" href="$class_controller_draw_line.html#adcfe08cf57fdbec57629e14781d06a08" title=" " alt="" coords="225,84,377,108"/>
 <area shape="rect" id="node3" href="$class_controller_draw_line.html#a84738834235bfc75c47213295a6499ba" title=" " alt="" coords="5,5,171,29"/>
 <area shape="rect" id="node4" href="$class_controller_draw_line.html#a87416fae37322e70e85ad6314dc252e2" title=" " alt="" coords="7,53,169,77"/>

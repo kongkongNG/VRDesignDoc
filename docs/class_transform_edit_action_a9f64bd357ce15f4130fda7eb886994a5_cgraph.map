@@ -1,5 +1,5 @@
 <map id="TransformEditAction.Update" name="TransformEditAction.Update">
 <area shape="rect" id="node1" title=" " alt="" coords="6,11,165,35"/>
-<area shape="rect" id="node2" href="$class_transform_edit_action.html#a29d8c394d7f83e118f5ebbe6cea2092d" title=" " alt="" coords="214,5,357,41"/>
-<area shape="rect" id="node3" href="$class_transform_edit_action.html#a6f404fbbe5772dc44521deb6dd11990a" title=" " alt="" coords="406,5,549,41"/>
+<area shape="rect" id="node2" href="$class_transform_edit_action.html#a29d8c394d7f83e118f5ebbe6cea2092d" title="计算旋转" alt="" coords="214,5,357,41"/>
+<area shape="rect" id="node3" href="$class_transform_edit_action.html#a6f404fbbe5772dc44521deb6dd11990a" title="计算手柄的移动投影到平面上的变化角度" alt="" coords="406,5,549,41"/>
 </map>

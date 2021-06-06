@@ -1,7 +1,7 @@
 <map id="SelectIcon.OnEnable" name="SelectIcon.OnEnable">
 <area shape="rect" id="node1" title=" " alt="" coords="5,29,128,53"/>
-<area shape="rect" id="node2" href="$class_select_icon.html#a4a08d9f26ad30b016367448b5f347151" title=" " alt="" coords="179,5,331,29"/>
+<area shape="rect" id="node2" href="$class_select_icon.html#a4a08d9f26ad30b016367448b5f347151" title="手柄Grip Unclicked事件回调函数" alt="" coords="179,5,331,29"/>
 <area shape="rect" id="node3" href="$class_select_icon.html#aa220f1b488fe0984db1148f293a58854" title="手柄Trigger Clicked事件回调函数" alt="" coords="177,53,333,77"/>
-<area shape="rect" id="node4" href="$class_select_icon.html#a0fad9cb131ca87fb88d3c8c0b8c2f6d1" title=" " alt="" coords="382,29,519,53"/>
-<area shape="rect" id="node5" href="$class_panel_grid.html#a3a0d199e71a91078cbb7e6de72e62059" title=" " alt="" coords="387,77,514,101"/>
+<area shape="rect" id="node4" href="$class_select_icon.html#a0fad9cb131ca87fb88d3c8c0b8c2f6d1" title="计算从起始法线到目标法线的旋转变换" alt="" coords="382,29,519,53"/>
+<area shape="rect" id="node5" href="$class_panel_grid.html#a3a0d199e71a91078cbb7e6de72e62059" title="获取条目下标" alt="" coords="387,77,514,101"/>
 </map>

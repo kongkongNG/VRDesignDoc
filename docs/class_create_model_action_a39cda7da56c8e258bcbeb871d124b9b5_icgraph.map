@@ -1,4 +1,4 @@
 <map id="CreateModelAction.Drilling" name="CreateModelAction.Drilling">
-<area shape="rect" id="node1" title=" " alt="" coords="206,5,354,29"/>
+<area shape="rect" id="node1" title="打孔操作" alt="" coords="206,5,354,29"/>
 <area shape="rect" id="node2" href="$class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="5,5,157,29"/>
 </map>

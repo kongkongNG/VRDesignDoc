@@ -1,9 +1,8 @@
 <map id="SelectIcon" name="SelectIcon">
-<area shape="rect" id="node1" title=" " alt="" coords="163,936,321,1173"/>
-<area shape="rect" id="node2" href="$class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="350,627,524,768"/>
-<area shape="rect" id="node3" title=" " alt="" coords="203,5,299,75"/>
-<area shape="rect" id="node4" href="$class_panel_grid.html" title=" " alt="" coords="5,167,173,572"/>
-<area shape="rect" id="node6" href="$class_s_g_area.html" title=" " alt="" coords="193,793,292,874"/>
-<area shape="rect" id="node7" href="$class_s_g_model.html" title=" " alt="" coords="249,137,420,602"/>
-<area shape="rect" id="node5" title=" " alt="" coords="58,5,101,75"/>
+<area shape="rect" id="node1" title="非纹理型贴图选取功能" alt="" coords="182,1261,340,1499"/>
+<area shape="rect" id="node2" href="$class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,789,179,931"/>
+<area shape="rect" id="node3" title=" " alt="" coords="288,5,384,75"/>
+<area shape="rect" id="node4" href="$class_panel_grid.html" title="栅格菜单面板类" alt="" coords="186,651,355,1069"/>
+<area shape="rect" id="node5" href="$class_s_g_area.html" title="平面类 可以是场景平面或模型面" alt="" coords="323,1094,447,1199"/>
+<area shape="rect" id="node6" href="$class_s_g_model.html" title="模型类" alt="" coords="413,125,576,627"/>
 </map>

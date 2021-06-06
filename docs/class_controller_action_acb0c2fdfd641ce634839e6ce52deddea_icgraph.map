@@ -1,12 +1,22 @@
 <map id="ControllerAction.OnControllerActionEnd" name="ControllerAction.OnControllerActionEnd">
-<area shape="rect" id="node1" title="功能结束的事件触发函数" alt="" coords="617,130,781,166"/>
-<area shape="rect" id="node2" href="$class_c_s_g_action.html#acc1987c34c0fa972d136392636007776" title=" " alt="" coords="407,53,563,77"/>
-<area shape="rect" id="node5" href="$class_controller_action.html#ad2b53d381e193da9d894b2955ec8b657" title=" " alt="" coords="403,102,567,138"/>
-<area shape="rect" id="node9" href="$class_create_by_controller.html#a643e57173d235984b8d73f3c6c9766cb" title=" " alt="" coords="409,163,562,187"/>
-<area shape="rect" id="node10" href="$class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="409,211,561,235"/>
-<area shape="rect" id="node3" href="$class_c_s_g_action.html#a2aa9c4008276ab1def9c8610b29fd04d" title=" " alt="" coords="218,5,342,29"/>
-<area shape="rect" id="node4" href="$class_c_s_g_action.html#aa1740f63137b627c081c43467cfcb20e" title=" " alt="" coords="219,53,341,77"/>
-<area shape="rect" id="node6" href="$class_controller_action.html#a0a10a69ea705c34bbce1654efe1dfa43" title="手柄Menu按钮点击事件回调函数" alt="" coords="206,102,354,138"/>
-<area shape="rect" id="node7" href="$class_controller_action.html#ae307971a4af89d4ccb7074bfe643d7d4" title=" " alt="" coords="6,84,157,108"/>
-<area shape="rect" id="node8" href="$class_controller_action.html#aa49bbe868d24d10ac2d3f0df2c615bc7" title=" " alt="" coords="7,132,156,156"/>
+<area shape="rect" id="node1" title="功能结束的事件触发函数" alt="" coords="667,365,831,401"/>
+<area shape="rect" id="node2" href="$class_c_s_g_action.html#acc1987c34c0fa972d136392636007776" title="手柄Trigger Clicked事件回调函数" alt="" coords="458,316,614,340"/>
+<area shape="rect" id="node5" href="$class_controller_action.html#ad2b53d381e193da9d894b2955ec8b657" title="径向菜单功能结束按钮触发函数" alt="" coords="454,365,618,401"/>
+<area shape="rect" id="node20" href="$class_create_model_action.html#aa51f2552da82db37ce9402843caf8b74" title=" " alt="" coords="460,425,612,449"/>
+<area shape="rect" id="node3" href="$class_c_s_g_action.html#a2aa9c4008276ab1def9c8610b29fd04d" title=" " alt="" coords="261,268,385,292"/>
+<area shape="rect" id="node4" href="$class_c_s_g_action.html#aa1740f63137b627c081c43467cfcb20e" title=" " alt="" coords="261,316,384,340"/>
+<area shape="rect" id="node6" href="$class_controller_action.html#a6555650db283b88f214b210a80783818" title="功能开始的事件触发函数" alt="" coords="241,365,405,401"/>
+<area shape="rect" id="node7" href="$class_color_picker.html#a7e8dd2a238ad6d02f0b85bff012b2a2e" title="按钮点击时触发，打开功能" alt="" coords="15,5,183,41"/>
+<area shape="rect" id="node8" href="$class_controller_draw_line.html#a61a0ff9d059b941b39901a1b16967a17" title="按钮点击时触发，打开功能" alt="" coords="9,65,188,101"/>
+<area shape="rect" id="node9" href="$class_create_model_action.html#ae855ce467b70f9fd64de18c192c2e2aa" title="创建长方体按钮点击函数" alt="" coords="17,125,181,161"/>
+<area shape="rect" id="node10" href="$class_create_model_action.html#ae6a84e5902715eb09df448c5eb3d8ce5" title="创建圆柱按钮点击函数" alt="" coords="17,185,181,221"/>
+<area shape="rect" id="node11" href="$class_c_s_g_action.html#aed106894d2aea303afa18a91ec69f1a0" title="布尔求交按钮点击触发函数" alt="" coords="21,245,176,281"/>
+<area shape="rect" id="node12" href="$class_c_s_g_action.html#ac26efaa8fcf28440cbc648e3943a7f13" title="布尔求差按钮点击触发函数" alt="" coords="7,305,190,341"/>
+<area shape="rect" id="node13" href="$class_c_s_g_action.html#af3bd8171b2cc5f72487fb8639feeb4b6" title="布尔求并按钮点击触发函数" alt="" coords="14,365,183,401"/>
+<area shape="rect" id="node14" href="$class_drilling_action.html#a36f53c47b80b81c6c57c1c87c1dc224c" title="打孔按钮点击触发函数" alt="" coords="33,425,165,461"/>
+<area shape="rect" id="node15" href="$class_fillet_edge_action.html#a57749822b1af7481c42879835d1e3f0b" title="圆角操作按钮点击触发函数" alt="" coords="28,485,169,521"/>
+<area shape="rect" id="node16" href="$class_select_icon.html#a9ee672538b710c7612acbb95c75aa894" title="纹理贴图按钮点击时的触发函数" alt="" coords="13,545,185,581"/>
+<area shape="rect" id="node17" href="$class_select_material.html#aa57cdb9474bc1da5b23d9696173d760f" title="纹理贴图按钮点击时的触发函数" alt="" coords="11,605,186,641"/>
+<area shape="rect" id="node18" href="$class_select_texture.html#a7d7b163eac110101208b91d843958822" title="纹理贴图按钮点击时的触发函数" alt="" coords="11,665,186,701"/>
+<area shape="rect" id="node19" href="$class_transform_edit_action.html#a7156ebf0ee866f4d07fd5c2bec305f40" title="按钮点击触发函数" alt="" coords="5,725,192,761"/>
 </map>

@@ -1,8 +1,8 @@
 <map id="CreateModelAction" name="CreateModelAction">
-<area shape="rect" id="node1" title=" " alt="" coords="126,1261,289,1595"/>
-<area shape="rect" id="node2" href="$class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,616,179,757"/>
-<area shape="rect" id="node3" title=" " alt="" coords="191,5,287,75"/>
-<area shape="rect" id="node4" href="$class_model_creater.html" title="模型创建器的父类（抽象类） 定义模型创建器的行为" alt="" coords="129,782,287,1199"/>
-<area shape="rect" id="node5" href="$class_s_g_model.html" title=" " alt="" coords="237,126,408,591"/>
-<area shape="rect" id="node6" href="$class_s_g_area.html" title=" " alt="" coords="311,950,409,1031"/>
+<area shape="rect" id="node1" title="模型创建类 使用手柄拉伸创建模型" alt="" coords="116,1307,300,1688"/>
+<area shape="rect" id="node2" href="$class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,651,179,792"/>
+<area shape="rect" id="node3" title=" " alt="" coords="189,5,285,75"/>
+<area shape="rect" id="node4" href="$class_model_creater.html" title="模型创建器的父类（抽象类） 定义模型创建器的行为" alt="" coords="129,817,287,1234"/>
+<area shape="rect" id="node5" href="$class_s_g_model.html" title="模型类" alt="" coords="237,125,400,627"/>
+<area shape="rect" id="node6" href="$class_s_g_area.html" title="平面类 可以是场景平面或模型面" alt="" coords="311,973,435,1078"/>
 </map>

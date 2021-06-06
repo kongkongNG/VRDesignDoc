@@ -1,7 +1,0 @@
-<map id="ColorValuePicker.UpdateColor" name="ColorValuePicker.UpdateColor">
-<area shape="rect" id="node1" title="更新颜色，包括物体颜色和左右手色盘" alt="" coords="637,29,803,53"/>
-<area shape="rect" id="node2" href="$class_color_value_picker.html#a746790f72869d820574833ebac361b6c" title="将手指在Touchpad上的坐标映射为Value" alt="" coords="421,29,589,53"/>
-<area shape="rect" id="node3" href="$class_color_value_picker.html#ab133cf4d55d59dfe6b7ad882cde31328" title="手柄Trigger Clicked事件回调函数" alt="" coords="208,23,373,59"/>
-<area shape="rect" id="node4" href="$class_color_value_picker.html#ac617f2d7c1bc128ae1c0a68e6a2e08e5" title=" " alt="" coords="6,5,159,29"/>
-<area shape="rect" id="node5" href="$class_color_value_picker.html#ad4e81185783adb7d82c8d8a0d693c946" title=" " alt="" coords="7,53,158,77"/>
-</map>

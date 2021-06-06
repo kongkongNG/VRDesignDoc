@@ -1,5 +1,5 @@
 <map id="PanelGrid.InitPanelGrid" name="PanelGrid.InitPanelGrid">
-<area shape="rect" id="node1" title=" " alt="" coords="179,77,311,101"/>
+<area shape="rect" id="node1" title="初始化栅格面板" alt="" coords="179,77,311,101"/>
 <area shape="rect" id="node2" href="$class_drilling_action.html#aafba8d7203fc93951bbb425e8b2e8195" title=" " alt="" coords="9,5,127,29"/>
 <area shape="rect" id="node3" href="$class_select_icon.html#a52b77aa14a5c748dc79c6abc9caa277b" title=" " alt="" coords="14,53,122,77"/>
 <area shape="rect" id="node4" href="$class_select_material.html#ab188750325e0ee41b29952b5662b4f63" title=" " alt="" coords="5,101,131,125"/>

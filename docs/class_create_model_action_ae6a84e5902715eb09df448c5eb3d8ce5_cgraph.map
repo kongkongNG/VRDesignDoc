@@ -1,5 +1,8 @@
 <map id="CreateModelAction.OnCreateCylinderClicked" name="CreateModelAction.OnCreateCylinderClicked">
-<area shape="rect" id="node1" title="创建圆柱按钮点击事件" alt="" coords="6,35,170,71"/>
-<area shape="rect" id="node2" href="$class_create_model_action.html#a621c284c4cafadacbd648271495ee8ca" title=" " alt="" coords="219,5,391,41"/>
+<area shape="rect" id="node1" title="创建圆柱按钮点击函数" alt="" coords="6,35,170,71"/>
+<area shape="rect" id="node2" href="$class_create_model_action.html#a621c284c4cafadacbd648271495ee8ca" title="初始化圆柱创建器" alt="" coords="219,5,391,41"/>
 <area shape="rect" id="node3" href="$class_controller_action.html#a6555650db283b88f214b210a80783818" title="功能开始的事件触发函数" alt="" coords="223,65,387,101"/>
+<area shape="rect" id="node4" href="$class_show_radial_menu.html#a0f4688cf7c1acc0a7b42fdeedf103ebf" title="隐藏菜单" alt="" coords="672,44,800,68"/>
+<area shape="rect" id="node5" href="$class_controller_action.html#ad2b53d381e193da9d894b2955ec8b657" title="径向菜单功能结束按钮触发函数" alt="" coords="441,93,605,129"/>
+<area shape="rect" id="node6" href="$class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea" title="功能结束的事件触发函数" alt="" coords="654,93,818,129"/>
 </map>

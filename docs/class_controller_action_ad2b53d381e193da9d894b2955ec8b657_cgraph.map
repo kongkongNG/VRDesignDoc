@@ -1,4 +1,5 @@
 <map id="ControllerAction.OnControllerActionEndButtonClicked" name="ControllerAction.OnControllerActionEndButtonClicked">
-<area shape="rect" id="node1" title=" " alt="" coords="6,5,170,41"/>
-<area shape="rect" id="node2" href="$class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea" title="功能结束的事件触发函数" alt="" coords="219,5,383,41"/>
+<area shape="rect" id="node1" title="径向菜单功能结束按钮触发函数" alt="" coords="6,27,170,63"/>
+<area shape="rect" id="node2" href="$class_show_radial_menu.html#a0f4688cf7c1acc0a7b42fdeedf103ebf" title="隐藏菜单" alt="" coords="237,5,365,29"/>
+<area shape="rect" id="node3" href="$class_controller_action.html#acb0c2fdfd641ce634839e6ce52deddea" title="功能结束的事件触发函数" alt="" coords="219,54,383,90"/>
 </map>

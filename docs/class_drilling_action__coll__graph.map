@@ -1,7 +1,6 @@
 <map id="DrillingAction" name="DrillingAction">
-<area shape="rect" id="node1" title=" " alt="" coords="133,603,283,757"/>
-<area shape="rect" id="node2" href="$class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,268,179,409"/>
-<area shape="rect" id="node3" title=" " alt="" coords="105,5,201,75"/>
-<area shape="rect" id="node4" href="$class_panel_grid.html" title=" " alt="" coords="203,136,372,541"/>
-<area shape="rect" id="node5" title=" " alt="" coords="266,5,309,75"/>
+<area shape="rect" id="node1" title="模型打孔类" alt="" coords="75,606,225,759"/>
+<area shape="rect" id="node2" href="$class_controller_action.html" title="功能脚本抽象类，定义功能启动和关闭事件，用于统一管理" alt="" coords="5,264,179,405"/>
+<area shape="rect" id="node3" title=" " alt="" coords="161,5,257,75"/>
+<area shape="rect" id="node4" href="$class_panel_grid.html" title="栅格菜单面板类" alt="" coords="203,126,372,543"/>
 </map>

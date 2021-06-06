@@ -1,5 +1,5 @@
 <map id="Panel.SetUpManager" name="Panel.SetUpManager">
-<area shape="rect" id="node1" title=" " alt="" coords="427,5,549,29"/>
-<area shape="rect" id="node2" href="$class_menu_panel_manager.html#a6ff1cf978c4e85a91244946663ed5a1b" title=" " alt="" coords="198,5,378,29"/>
+<area shape="rect" id="node1" title="为面板设置管理器，同时初始化" alt="" coords="427,5,549,29"/>
+<area shape="rect" id="node2" href="$class_menu_panel_manager.html#a6ff1cf978c4e85a91244946663ed5a1b" title="初始化所有面板" alt="" coords="198,5,378,29"/>
 <area shape="rect" id="node3" href="$class_menu_panel_manager.html#a99f1175234fdfeb1b884845fffeb3f89" title=" " alt="" coords="5,5,149,29"/>
 </map>

@@ -1,5 +1,0 @@
-<map id="MeshEditAction.PointMove" name="MeshEditAction.PointMove">
-<area shape="rect" id="node1" title="移动网格中的顶点" alt="" coords="416,39,565,63"/>
-<area shape="rect" id="node2" href="$class_mesh_edit_action.html#aaafbc4d168c3d2f004ea62446848f086" title="捎带手柄周围顶点移动" alt="" coords="190,5,367,41"/>
-<area shape="rect" id="node3" href="$class_mesh_edit_action.html#a5008cf1b5f3c0cb0264ac2e12231e991" title=" " alt="" coords="6,39,141,63"/>
-</map>

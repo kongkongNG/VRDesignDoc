@@ -1,4 +1,4 @@
 <map id="Panel.SetUpManager" name="Panel.SetUpManager">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,128,29"/>
-<area shape="rect" id="node2" href="$class_panel.html#a29023453cffe158ff6d100c8a9d16d55" title=" " alt="" coords="177,5,250,29"/>
+<area shape="rect" id="node1" title="为面板设置管理器，同时初始化" alt="" coords="5,5,128,29"/>
+<area shape="rect" id="node2" href="$class_panel.html#a29023453cffe158ff6d100c8a9d16d55" title="隐藏面板" alt="" coords="177,5,250,29"/>
 </map>
